@@ -1,1 +1,58 @@
-#roadmap
+{
+  "id": "enterprise-roadmap",
+  "title": "EKOS Enterprise Learning Roadmap",
+  "description": "Complete learning journey for employees joining Jindal Stainless Limited through the EKOS Learning Platform.",
+  "version": "1.0.0",
+  "estimatedDuration": "40-60 Hours",
+  "mandatory": true,
+  "stages": [
+    {
+      "id": 1,
+      "title": "Company Orientation",
+      "status": "locked",
+      "description": "Learn about Jindal Stainless Limited, company history, products, values and manufacturing locations."
+    },
+    {
+      "id": 2,
+      "title": "Safety Training",
+      "status": "locked",
+      "description": "Industrial safety, PPE, emergency response and workplace safety."
+    },
+    {
+      "id": 3,
+      "title": "Manufacturing Learning",
+      "status": "locked",
+      "description": "Complete stainless steel manufacturing process from raw material to dispatch."
+    },
+    {
+      "id": 4,
+      "title": "Department Orientation",
+      "status": "locked",
+      "description": "Introduction to all plant departments and their responsibilities."
+    },
+    {
+      "id": 5,
+      "title": "SAP ERP Learning",
+      "status": "locked",
+      "description": "Learn SAP ERP modules used across JSL operations."
+    },
+    {
+      "id": 6,
+      "title": "Automation & Digital Manufacturing",
+      "status": "locked",
+      "description": "PLC, SCADA, AI, Industry 4.0 and Smart Manufacturing."
+    },
+    {
+      "id": 7,
+      "title": "Final Enterprise Assessment",
+      "status": "locked",
+      "description": "Final assessment covering all enterprise learning modules."
+    },
+    {
+      "id": 8,
+      "title": "Certification",
+      "status": "locked",
+      "description": "Receive EKOS Learning Completion Certificate."
+    }
+  ]
+}
