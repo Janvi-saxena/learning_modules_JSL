@@ -1,1 +1,15 @@
-#roadmap
+{
+  "id": "employee-onboarding",
+  "title": "Employee Onboarding Journey",
+  "description": "Mandatory learning journey for every new employee.",
+  "steps": [
+    "Welcome",
+    "Company Orientation",
+    "Safety Training",
+    "Manufacturing Basics",
+    "Department Orientation",
+    "SAP Basics",
+    "Assessment",
+    "Certification"
+  ]
+}
