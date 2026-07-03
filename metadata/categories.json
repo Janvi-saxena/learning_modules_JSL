@@ -1,1 +1,34 @@
-#abc
+{
+  "categories": [
+    {
+      "id": "company",
+      "name": "Company",
+      "description": "Company information and corporate orientation."
+    },
+    {
+      "id": "manufacturing",
+      "name": "Manufacturing",
+      "description": "Complete stainless steel manufacturing process."
+    },
+    {
+      "id": "sap",
+      "name": "SAP ERP",
+      "description": "Enterprise Resource Planning modules."
+    },
+    {
+      "id": "departments",
+      "name": "Departments",
+      "description": "Department-wise learning modules."
+    },
+    {
+      "id": "automation",
+      "name": "Automation",
+      "description": "Industrial automation and Industry 4.0."
+    },
+    {
+      "id": "safety",
+      "name": "Safety",
+      "description": "Industrial safety and compliance."
+    }
+  ]
+}
