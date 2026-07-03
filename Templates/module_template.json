@@ -1,1 +1,37 @@
-#abc
+{
+  "id": "",
+  "title": "",
+  "category": "",
+  "subCategory": "",
+  "difficulty": "Beginner",
+  "estimatedDuration": "",
+  "author": "JSL EKOS",
+  "version": "1.0.0",
+  "lastUpdated": "",
+  "description": "",
+  "learningObjectives": [],
+  "prerequisites": [],
+  "content": {
+    "introduction": "",
+    "overview": "",
+    "workingPrinciple": "",
+    "stepByStepProcess": [],
+    "equipment": [],
+    "advantages": [],
+    "limitations": [],
+    "applications": [],
+    "safetyPrecautions": [],
+    "bestPractices": [],
+    "commonProblems": [],
+    "summary": ""
+  },
+  "resources": {
+    "images": [],
+    "videos": [],
+    "documents": [],
+    "diagrams": []
+  },
+  "quiz": "",
+  "assessment": "",
+  "status": "Draft"
+}
