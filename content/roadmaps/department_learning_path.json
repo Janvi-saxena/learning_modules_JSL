@@ -1,1 +1,16 @@
-#roadmap
+{
+  "id": "department-learning-path",
+  "title": "Department Learning Path",
+  "description": "Learning sequence for all departments.",
+  "departments": [
+    "Production",
+    "Quality",
+    "Maintenance",
+    "Warehouse",
+    "Purchase",
+    "Sales",
+    "Finance",
+    "Human Resources",
+    "Information Technology"
+  ]
+}
