@@ -1,1 +1,27 @@
-#abc
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Roadmap",
+  "type": "object",
+  "required": [
+    "roadmapId",
+    "title",
+    "stages"
+  ],
+  "properties": {
+    "roadmapId": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "estimatedDuration": {
+      "type": "string"
+    },
+    "stages": {
+      "type": "array"
+    }
+  }
+}
