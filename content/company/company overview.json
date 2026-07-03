@@ -1,1 +1,61 @@
-#abc
+{
+  "id": "company-overview",
+  "title": "Company Overview",
+  "category": "Company",
+  "difficulty": "Beginner",
+  "estimatedDuration": "15 Minutes",
+  "author": "JSL EKOS",
+  "version": "1.0.0",
+  "description": "This module introduces employees to Jindal Stainless Limited, its history, values, products, manufacturing facilities, and global presence.",
+  "learningObjectives": [
+    "Understand the history of Jindal Stainless Limited.",
+    "Know the company's vision and mission.",
+    "Identify the major products manufactured by JSL.",
+    "Understand JSL's manufacturing footprint.",
+    "Learn about JSL's sustainability initiatives."
+  ],
+  "prerequisites": [],
+  "lessons": [
+    {
+      "lessonId": "company-history",
+      "title": "History of JSL"
+    },
+    {
+      "lessonId": "vision-mission",
+      "title": "Vision and Mission"
+    },
+    {
+      "lessonId": "manufacturing-locations",
+      "title": "Manufacturing Locations"
+    },
+    {
+      "lessonId": "product-portfolio",
+      "title": "Product Portfolio"
+    },
+    {
+      "lessonId": "global-presence",
+      "title": "Global Presence"
+    },
+    {
+      "lessonId": "sustainability",
+      "title": "Sustainability Initiatives"
+    }
+  ],
+  "resources": {
+    "images": [
+      "company_images/jsl_logo.png",
+      "company_images/factory.jpg",
+      "company_images/global_presence.png"
+    ],
+    "videos": [
+      "company_intro.mp4"
+    ],
+    "documents": [
+      "company_profile.pdf"
+    ]
+  },
+  "quiz": "company_overview_quiz",
+  "assessment": "company_assessment",
+  "certificateEligible": false,
+  "status": "Published"
+}
