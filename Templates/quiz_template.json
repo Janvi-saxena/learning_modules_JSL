@@ -1,1 +1,11 @@
-#abc
+{
+  "quizId": "",
+  "title": "",
+  "moduleId": "",
+  "description": "",
+  "duration": "10 Minutes",
+  "passingScore": 80,
+  "totalQuestions": 25,
+  "questions": [],
+  "status": "Locked"
+}
