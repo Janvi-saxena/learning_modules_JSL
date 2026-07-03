@@ -1,1 +1,23 @@
-#roadmap
+{
+  "id": "sap-roadmap",
+  "title": "SAP ERP Learning Roadmap",
+  "description": "Enterprise SAP learning journey.",
+  "estimatedDuration": "25 Hours",
+  "modules": [
+    "ERP Basics",
+    "SAP Navigation",
+    "SAP GUI",
+    "Master Data",
+    "Material Management",
+    "Production Planning",
+    "Quality Management",
+    "Plant Maintenance",
+    "Warehouse Management",
+    "Sales and Distribution",
+    "Finance",
+    "Controlling",
+    "Reports",
+    "T-Codes",
+    "Integration"
+  ]
+}
