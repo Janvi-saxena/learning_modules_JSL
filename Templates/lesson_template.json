@@ -1,1 +1,19 @@
-#abc
+{
+  "lessonId": "",
+  "lessonTitle": "",
+  "moduleId": "",
+  "lessonNumber": 1,
+  "duration": "",
+  "learningOutcome": "",
+  "topics": [],
+  "content": "",
+  "examples": [],
+  "keyPoints": [],
+  "didYouKnow": [],
+  "summary": "",
+  "resources": {
+    "images": [],
+    "videos": [],
+    "documents": []
+  }
+}
