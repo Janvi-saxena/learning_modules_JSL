@@ -1,1 +1,16 @@
-#abc
+{
+  "assessmentId": "",
+  "title": "",
+  "description": "",
+  "category": "",
+  "duration": "20 Minutes",
+  "passingScore": 80,
+  "totalQuestions": 25,
+  "questionPattern": {
+    "mcq": 15,
+    "shortAnswer": 10
+  },
+  "attemptsAllowed": 3,
+  "certificateEligible": true,
+  "status": "Locked"
+}
