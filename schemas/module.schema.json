@@ -1,1 +1,48 @@
-#abc
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Learning Module",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "category",
+    "difficulty",
+    "description",
+    "content"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "difficulty": {
+      "type": "string"
+    },
+    "estimatedDuration": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "learningObjectives": {
+      "type": "array"
+    },
+    "content": {
+      "type": "object"
+    },
+    "resources": {
+      "type": "object"
+    },
+    "quiz": {
+      "type": "string"
+    },
+    "assessment": {
+      "type": "string"
+    }
+  }
+}
