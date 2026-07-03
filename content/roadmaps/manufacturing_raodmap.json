@@ -1,1 +1,24 @@
-#roadmap
+{
+  "id": "manufacturing-roadmap",
+  "title": "Manufacturing Learning Roadmap",
+  "description": "Learning path for stainless steel manufacturing process.",
+  "estimatedDuration": "18-20 Hours",
+  "modules": [
+    "Manufacturing Overview",
+    "Raw Materials",
+    "Steel Making",
+    "Electric Arc Furnace",
+    "AOD",
+    "LRF",
+    "Continuous Casting Machine",
+    "Hot Rolling",
+    "Steckel Mill",
+    "Cold Rolling",
+    "Annealing",
+    "Pickling",
+    "Grinding",
+    "Quality",
+    "Warehouse",
+    "Dispatch"
+  ]
+}
