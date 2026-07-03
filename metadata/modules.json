@@ -1,1 +1,13 @@
-#abc
+{
+  "totalModules": 0,
+  "categories": [
+    "Company",
+    "Manufacturing",
+    "SAP",
+    "Departments",
+    "Safety",
+    "Automation"
+  ],
+  "status": "Content Under Development",
+  "version": "1.0.0"
+}
