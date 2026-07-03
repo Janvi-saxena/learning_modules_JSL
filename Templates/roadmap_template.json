@@ -1,1 +1,15 @@
-#abc
+{
+  "roadmapId": "",
+  "title": "",
+  "description": "",
+  "estimatedDuration": "",
+  "stages": [
+    {
+      "stageId": 1,
+      "title": "",
+      "description": "",
+      "mandatory": true,
+      "completed": false
+    }
+  ]
+}
