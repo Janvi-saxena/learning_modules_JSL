@@ -1,1 +1,19 @@
-#abc
+{
+  "levels": [
+    {
+      "id": 1,
+      "name": "Beginner",
+      "color": "#4CAF50"
+    },
+    {
+      "id": 2,
+      "name": "Intermediate",
+      "color": "#FFC107"
+    },
+    {
+      "id": 3,
+      "name": "Advanced",
+      "color": "#F44336"
+    }
+  ]
+}
