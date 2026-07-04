@@ -1,0 +1,123 @@
+{
+  "id": "electric-arc-furnace",
+  "title": "Electric Arc Furnace (EAF)",
+  "category": "Manufacturing",
+  "difficulty": "Intermediate",
+  "estimatedDuration": "25 Minutes",
+  "author": "JSL EKOS",
+  "version": "1.0.0",
+  "description": "This module explains the Electric Arc Furnace (EAF), the primary melting unit used in stainless steel manufacturing. It covers furnace construction, working principle, charging process, melting operations, tapping, safety measures, and quality control.",
+  "learningObjectives": [
+    "Understand the purpose of the Electric Arc Furnace.",
+    "Identify the major components of an EAF.",
+    "Learn the complete melting process.",
+    "Understand furnace operating parameters.",
+    "Recognize important safety practices during EAF operation."
+  ],
+  "prerequisites": [
+    "Manufacturing Overview",
+    "Raw Material Procurement",
+    "Scrap Yard",
+    "Steel Making"
+  ],
+  "content": {
+    "introduction": "The Electric Arc Furnace (EAF) is the first major production unit in stainless steel manufacturing. It melts scrap steel and alloy materials using electrical energy to produce molten steel for further refining.",
+    "purpose": "The EAF converts solid metallic raw materials into molten steel while achieving the required temperature for refining.",
+    "workingPrinciple": "Electric current passes through graphite electrodes to generate an electric arc. The intense heat produced by the arc melts the scrap and alloy materials inside the furnace.",
+    "majorComponents": [
+      "Furnace Shell",
+      "Graphite Electrodes",
+      "Roof",
+      "Electrode Arms",
+      "Transformer",
+      "Hydraulic Tilting System",
+      "Water Cooling System",
+      "Slag Door",
+      "Tap Hole",
+      "Fume Extraction System"
+    ],
+    "rawMaterialsCharged": [
+      "Stainless Steel Scrap",
+      "Carbon Steel Scrap",
+      "Ferro Chromium",
+      "Ferro Nickel",
+      "Lime",
+      "Dolomite",
+      "Carbon Additives"
+    ],
+    "processSteps": [
+      "Preparation of Furnace",
+      "Charging of Scrap and Alloys",
+      "Lowering Graphite Electrodes",
+      "Arc Formation",
+      "Melting of Scrap",
+      "Slag Formation",
+      "Temperature Monitoring",
+      "Chemical Composition Sampling",
+      "Tapping of Molten Steel",
+      "Transfer to AOD Converter"
+    ],
+    "importantParameters": [
+      "Melting Temperature",
+      "Electrical Power Input",
+      "Electrode Consumption",
+      "Melting Time",
+      "Slag Chemistry",
+      "Energy Consumption"
+    ],
+    "advantages": [
+      "High productivity",
+      "Efficient recycling of scrap",
+      "Lower environmental impact compared to blast furnaces",
+      "Flexible production",
+      "Fast melting process"
+    ],
+    "qualityChecks": [
+      "Temperature Measurement",
+      "Chemical Analysis",
+      "Slag Inspection",
+      "Molten Steel Sampling",
+      "Power Consumption Monitoring"
+    ],
+    "safetyPrecautions": [
+      "Wear complete PPE.",
+      "Maintain safe distance from molten metal.",
+      "Never stand near the tapping area during tapping.",
+      "Inspect electrodes before operation.",
+      "Ensure cooling water system is functioning properly.",
+      "Follow Lock-Out Tag-Out (LOTO) procedures during maintenance."
+    ],
+    "commonProblems": [
+      "Electrode Breakage",
+      "Power Fluctuation",
+      "Incomplete Melting",
+      "Slag Overflow",
+      "Excessive Electrode Consumption",
+      "Temperature Variations"
+    ],
+    "summary": "The Electric Arc Furnace is the heart of stainless steel melting operations. Proper control of melting parameters, power input, raw material quality, and safety practices ensures efficient production of high-quality molten steel."
+  },
+  "resources": {
+    "images": [
+      "manufacturing/eaf/eaf_overview.jpg",
+      "manufacturing/eaf/eaf_components.png",
+      "manufacturing/eaf/eaf_charging.jpg",
+      "manufacturing/eaf/electric_arc.jpg",
+      "manufacturing/eaf/molten_steel.jpg"
+    ],
+    "videos": [
+      "eaf_process.mp4",
+      "electric_arc_furnace_working.mp4"
+    ],
+    "documents": [
+      "electric_arc_furnace_manual.pdf"
+    ],
+    "diagrams": [
+      "eaf_working_diagram.svg",
+      "eaf_process_flow.svg"
+    ]
+  },
+  "quiz": "eaf-quiz",
+  "assessment": "manufacturing-assessment",
+  "status": "Published"
+}
