@@ -1,1 +1,85 @@
-#abc
+{
+  "id": "steel-making",
+  "title": "Steel Making",
+  "category": "Manufacturing",
+  "difficulty": "Intermediate",
+  "estimatedDuration": "20 Minutes",
+  "author": "JSL EKOS",
+  "version": "1.0.0",
+  "description": "This module introduces the steel making process in stainless steel manufacturing. It explains how raw materials are converted into molten stainless steel using electric furnaces and refining processes before casting.",
+  "learningObjectives": [
+    "Understand the complete steel making process.",
+    "Identify the major stages of steel production.",
+    "Learn the role of each furnace used in steel making.",
+    "Understand quality control during steel production.",
+    "Recognize the importance of process monitoring."
+  ],
+  "prerequisites": [
+    "Manufacturing Overview",
+    "Raw Material Procurement",
+    "Scrap Yard"
+  ],
+  "content": {
+    "introduction": "Steel making is the core manufacturing process where stainless steel is produced by melting raw materials and refining the molten metal to achieve the required chemical composition and quality standards.",
+    "overview": "The steel making shop converts scrap and alloy materials into molten stainless steel through a sequence of melting, refining, composition adjustment, and casting operations.",
+    "processFlow": [
+      "Raw Material Charging",
+      "Electric Arc Furnace (EAF)",
+      "Argon Oxygen Decarburization (AOD)",
+      "Ladle Refining Furnace (LRF)",
+      "Continuous Casting Machine (CCM)"
+    ],
+    "majorEquipment": [
+      "Charging Crane",
+      "Electric Arc Furnace",
+      "AOD Converter",
+      "Ladle Refining Furnace",
+      "Continuous Casting Machine",
+      "Overhead Cranes",
+      "Molten Steel Ladles"
+    ],
+    "qualityControl": [
+      "Chemical composition analysis",
+      "Temperature monitoring",
+      "Slag inspection",
+      "Sample testing",
+      "Process parameter monitoring"
+    ],
+    "keyObjectives": [
+      "Produce high-quality stainless steel.",
+      "Achieve required chemical composition.",
+      "Reduce impurities.",
+      "Improve productivity.",
+      "Ensure safe operations."
+    ],
+    "safetyPrecautions": [
+      "Wear complete PPE.",
+      "Maintain safe distance from molten steel.",
+      "Follow furnace operating procedures.",
+      "Inspect lifting equipment before use.",
+      "Follow emergency response procedures."
+    ],
+    "summary": "Steel making is a controlled manufacturing process where molten stainless steel is produced through melting, refining, alloy adjustment, and quality control before it is sent for continuous casting."
+  },
+  "resources": {
+    "images": [
+      "manufacturing/steel_making_process.png",
+      "manufacturing/steel_melting.jpg",
+      "manufacturing/molten_steel.jpg",
+      "manufacturing/steel_shop.jpg"
+    ],
+    "videos": [
+      "steel_making_overview.mp4",
+      "steel_plant_process.mp4"
+    ],
+    "documents": [
+      "steel_making_manual.pdf"
+    ],
+    "diagrams": [
+      "steel_making_flowchart.svg"
+    ]
+  },
+  "quiz": "steel-making-quiz",
+  "assessment": "manufacturing-assessment",
+  "status": "Published"
+}
