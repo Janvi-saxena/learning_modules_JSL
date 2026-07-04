@@ -1,1 +1,107 @@
-#abc
+{
+  "id": "cold-rolling",
+  "title": "Cold Rolling",
+  "category": "Manufacturing",
+  "difficulty": "Intermediate",
+  "estimatedDuration": "25 Minutes",
+  "author": "JSL EKOS",
+  "version": "1.0.0",
+  "description": "This module explains the Cold Rolling process used to improve dimensional accuracy, surface finish, and mechanical properties of hot rolled stainless steel coils.",
+  "learningObjectives": [
+    "Understand the purpose of Cold Rolling.",
+    "Learn the complete Cold Rolling process.",
+    "Identify major equipment used in a Cold Rolling Mill.",
+    "Understand process parameters affecting product quality.",
+    "Recognize quality inspection and safety practices."
+  ],
+  "prerequisites": [
+    "Manufacturing Overview",
+    "Hot Rolling"
+  ],
+  "content": {
+    "introduction": "Cold Rolling is performed after Hot Rolling to further reduce the thickness of stainless steel at room temperature. It provides improved dimensional accuracy, superior surface finish, and enhanced mechanical properties.",
+    "purpose": "The primary objective of Cold Rolling is to produce stainless steel strips and coils with precise dimensions and excellent surface quality suitable for demanding industrial applications.",
+    "workingPrinciple": "Hot rolled coils are passed through a series of rollers at room temperature. Controlled rolling pressure reduces the thickness while increasing the material's strength and improving surface finish.",
+    "majorEquipment": [
+      "Pay-Off Reel",
+      "Entry Section",
+      "Rolling Mill Stands",
+      "Work Rolls",
+      "Backup Rolls",
+      "Automatic Gauge Control System",
+      "Tension Control System",
+      "Exit Reel",
+      "Coil Handling Equipment"
+    ],
+    "processSteps": [
+      "Receive hot rolled coils.",
+      "Prepare the coil for rolling.",
+      "Feed the strip into the rolling mill.",
+      "Reduce thickness through multiple rolling passes.",
+      "Monitor strip tension and thickness.",
+      "Inspect surface quality.",
+      "Wind finished strip into coils.",
+      "Transfer coils for Annealing and Pickling."
+    ],
+    "importantParameters": [
+      "Rolling Force",
+      "Rolling Speed",
+      "Strip Thickness",
+      "Strip Width",
+      "Tension Control",
+      "Roll Gap"
+    ],
+    "advantages": [
+      "Improved dimensional accuracy.",
+      "Excellent surface finish.",
+      "Higher mechanical strength.",
+      "Uniform thickness.",
+      "Better product appearance."
+    ],
+    "qualityChecks": [
+      "Thickness Measurement",
+      "Surface Finish Inspection",
+      "Width Measurement",
+      "Coil Identification",
+      "Edge Quality Inspection"
+    ],
+    "safetyPrecautions": [
+      "Wear complete PPE.",
+      "Keep hands away from moving rolls.",
+      "Follow Lock-Out Tag-Out (LOTO) procedures.",
+      "Ensure emergency stop systems are functional.",
+      "Follow safe coil handling practices."
+    ],
+    "commonProblems": [
+      "Surface Scratches",
+      "Edge Cracks",
+      "Thickness Variation",
+      "Coil Telescoping",
+      "Roll Marks",
+      "Shape Defects"
+    ],
+    "summary": "Cold Rolling is an important finishing process that produces stainless steel coils with excellent surface quality, precise dimensions, and improved mechanical properties required for various industrial applications."
+  },
+  "resources": {
+    "images": [
+      "manufacturing/cold_rolling/cold_rolling_mill.jpg",
+      "manufacturing/cold_rolling/rolling_stands.jpg",
+      "manufacturing/cold_rolling/work_rolls.jpg",
+      "manufacturing/cold_rolling/finished_coil.jpg"
+    ],
+    "videos": [
+      "cold_rolling_process.mp4",
+      "cold_rolling_operations.mp4"
+    ],
+    "documents": [
+      "cold_rolling_manual.pdf"
+    ],
+    "diagrams": [
+      "cold_rolling_process_flow.svg",
+      "cold_rolling_layout.svg"
+    ]
+  },
+  "quiz": "cold-rolling-quiz",
+  "assessment": "manufacturing-assessment",
+  "status": "Published"
+}
