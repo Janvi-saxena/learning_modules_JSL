@@ -1,0 +1,303 @@
+{
+  "assessmentId": "company-overview-set-1",
+  "title": "Company Overview Assessment - Set 1",
+  "description": "Evaluates understanding of Jindal Stainless Limited's company profile, history, values, manufacturing locations, leadership, certifications, product portfolio, and basic workplace safety.",
+  "duration": "20 Minutes",
+  "passingScore": 80,
+  "totalQuestions": 25,
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "What is the primary business of Jindal Stainless Limited?",
+      "options": [
+        "Automobile Manufacturing",
+        "Stainless Steel Manufacturing",
+        "Power Generation",
+        "Cement Manufacturing"
+      ],
+      "correctAnswer": "Stainless Steel Manufacturing",
+      "explanation": "JSL specializes in manufacturing stainless steel products."
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "Which of the following best describes JSL?",
+      "options": [
+        "Pharmaceutical Company",
+        "Information Technology Company",
+        "Stainless Steel Manufacturer",
+        "Construction Company"
+      ],
+      "correctAnswer": "Stainless Steel Manufacturer",
+      "explanation": "JSL is India's leading stainless steel manufacturer."
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "Which department is primarily responsible for producing stainless steel?",
+      "options": [
+        "Human Resources",
+        "Manufacturing",
+        "Finance",
+        "Marketing"
+      ],
+      "correctAnswer": "Manufacturing",
+      "explanation": "The Manufacturing department carries out steel production."
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "Which document helps employees understand company policies and procedures?",
+      "options": [
+        "Employee Handbook",
+        "Purchase Order",
+        "Invoice",
+        "Delivery Challan"
+      ],
+      "correctAnswer": "Employee Handbook",
+      "explanation": "The Employee Handbook provides company policies and guidelines."
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "Why are company values important?",
+      "options": [
+        "They increase machine speed.",
+        "They guide employee behaviour and decision making.",
+        "They reduce electricity consumption.",
+        "They replace safety procedures."
+      ],
+      "correctAnswer": "They guide employee behaviour and decision making.",
+      "explanation": "Company values define workplace culture and ethics."
+    },
+    {
+      "id": 6,
+      "type": "true_false",
+      "question": "Every employee is responsible for workplace safety.",
+      "correctAnswer": true,
+      "explanation": "Safety is a shared responsibility across the organization."
+    },
+    {
+      "id": 7,
+      "type": "true_false",
+      "question": "Quality inspection is only performed after dispatch.",
+      "correctAnswer": false,
+      "explanation": "Quality checks occur throughout the manufacturing process."
+    },
+    {
+      "id": 8,
+      "type": "true_false",
+      "question": "Following company policies helps maintain discipline and consistency.",
+      "correctAnswer": true,
+      "explanation": "Policies ensure standard practices across the organization."
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "Which of the following is an important objective of employee onboarding?",
+      "options": [
+        "Increase production immediately",
+        "Introduce employees to the company and workplace",
+        "Assign permanent leadership roles",
+        "Replace technical training"
+      ],
+      "correctAnswer": "Introduce employees to the company and workplace",
+      "explanation": "Onboarding familiarizes employees with the organization."
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "Which of the following best represents a professional workplace behaviour?",
+      "options": [
+        "Ignoring safety rules",
+        "Following company policies",
+        "Skipping documentation",
+        "Avoiding teamwork"
+      ],
+      "correctAnswer": "Following company policies",
+      "explanation": "Professional behaviour includes compliance with organizational rules."
+    },
+    {
+      "id": 11,
+      "type": "short_answer",
+      "question": "What is the primary business of JSL?",
+      "keywords": [
+        "stainless steel",
+        "manufacturer",
+        "manufacturing"
+      ],
+      "sampleAnswer": "JSL is a stainless steel manufacturing company."
+    },
+    {
+      "id": 12,
+      "type": "short_answer",
+      "question": "Name any two responsibilities of an employee regarding workplace safety.",
+      "keywords": [
+        "PPE",
+        "report hazards",
+        "follow SOP",
+        "safety"
+      ],
+      "sampleAnswer": "Wear PPE, follow safety procedures, report unsafe conditions."
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "Why are certifications important for a manufacturing company?",
+      "options": [
+        "They decorate office walls.",
+        "They demonstrate compliance with quality standards.",
+        "They reduce production time automatically.",
+        "They replace inspections."
+      ],
+      "correctAnswer": "They demonstrate compliance with quality standards.",
+      "explanation": "Certifications show adherence to recognized industry standards."
+    }
+    ,
+    {
+      "id": 14,
+      "type": "mcq",
+      "question": "Which department primarily manages employee recruitment and training?",
+      "options": [
+        "Finance",
+        "Human Resources",
+        "Quality",
+        "Production"
+      ],
+      "correctAnswer": "Human Resources",
+      "explanation": "The HR department manages recruitment, onboarding, training, and employee development."
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "Which of the following is NOT considered a core objective of JSL?",
+      "options": [
+        "Customer Satisfaction",
+        "Quality Excellence",
+        "Ignoring Safety",
+        "Continuous Improvement"
+      ],
+      "correctAnswer": "Ignoring Safety",
+      "explanation": "Safety is one of the highest priorities in manufacturing."
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "What is the purpose of employee onboarding?",
+      "options": [
+        "Assign salaries",
+        "Introduce employees to the organization and work culture",
+        "Replace technical training",
+        "Conduct annual performance reviews"
+      ],
+      "correctAnswer": "Introduce employees to the organization and work culture",
+      "explanation": "Onboarding familiarizes employees with the company, policies, and workplace."
+    },
+    {
+      "id": 17,
+      "type": "true_false",
+      "question": "Employees should report unsafe conditions immediately.",
+      "correctAnswer": true,
+      "explanation": "Reporting hazards helps prevent accidents."
+    },
+    {
+      "id": 18,
+      "type": "true_false",
+      "question": "Company values only apply to senior management.",
+      "correctAnswer": false,
+      "explanation": "Company values apply to every employee."
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "Why is teamwork important in an organization?",
+      "options": [
+        "It increases confusion.",
+        "It improves collaboration and productivity.",
+        "It replaces management.",
+        "It eliminates documentation."
+      ],
+      "correctAnswer": "It improves collaboration and productivity.",
+      "explanation": "Effective teamwork helps departments achieve common organizational goals."
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "Which document usually confirms that products meet required quality standards?",
+      "options": [
+        "Attendance Register",
+        "Quality Certificate",
+        "Salary Slip",
+        "Leave Form"
+      ],
+      "correctAnswer": "Quality Certificate",
+      "explanation": "Quality certificates verify that products meet specified standards."
+    },
+    {
+      "id": 21,
+      "type": "short_answer",
+      "question": "Why is workplace safety important?",
+      "keywords": [
+        "prevent accidents",
+        "protect employees",
+        "safe workplace",
+        "injuries"
+      ],
+      "sampleAnswer": "Workplace safety prevents accidents, protects employees, and ensures safe operations."
+    },
+    {
+      "id": 22,
+      "type": "short_answer",
+      "question": "What is the purpose of company values?",
+      "keywords": [
+        "ethics",
+        "culture",
+        "behaviour",
+        "decision making"
+      ],
+      "sampleAnswer": "Company values guide employee behaviour, ethics, and decision making."
+    },
+    {
+      "id": 23,
+      "type": "short_answer",
+      "question": "Name any two departments found in a manufacturing organization.",
+      "keywords": [
+        "HR",
+        "Finance",
+        "Manufacturing",
+        "Quality",
+        "IT",
+        "Maintenance",
+        "Procurement"
+      ],
+      "sampleAnswer": "Examples include Manufacturing, HR, Finance, Quality, IT, Maintenance, and Procurement."
+    },
+    {
+      "id": 24,
+      "type": "short_answer",
+      "question": "Why are quality standards important in manufacturing?",
+      "keywords": [
+        "customer satisfaction",
+        "quality",
+        "consistency",
+        "standards"
+      ],
+      "sampleAnswer": "Quality standards ensure products consistently meet customer and industry requirements."
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "Which statement best represents JSL's workplace culture?",
+      "options": [
+        "Safety can be ignored if production is high.",
+        "Quality, Safety, Integrity, and Continuous Improvement are important.",
+        "Documentation is optional.",
+        "Only managers are responsible for quality."
+      ],
+      "correctAnswer": "Quality, Safety, Integrity, and Continuous Improvement are important.",
+      "explanation": "JSL emphasizes quality, safety, ethics, teamwork, and continuous improvement."
+    }
+  ],
+  "status": "Published"
+}
