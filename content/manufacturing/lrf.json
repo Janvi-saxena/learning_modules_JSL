@@ -1,1 +1,108 @@
-#abc
+{
+  "id": "ladle-refining-furnace",
+  "title": "Ladle Refining Furnace (LRF)",
+  "category": "Manufacturing",
+  "difficulty": "Intermediate",
+  "estimatedDuration": "25 Minutes",
+  "author": "JSL EKOS",
+  "version": "1.0.0",
+  "description": "This module explains the Ladle Refining Furnace (LRF), an important secondary refining process used to improve molten steel quality before continuous casting.",
+  "learningObjectives": [
+    "Understand the purpose of the LRF process.",
+    "Learn how secondary refining improves steel quality.",
+    "Identify the major components of an LRF.",
+    "Understand alloy addition and temperature control.",
+    "Recognize quality and safety practices during refining."
+  ],
+  "prerequisites": [
+    "Manufacturing Overview",
+    "Steel Making",
+    "Electric Arc Furnace (EAF)",
+    "Argon Oxygen Decarburization (AOD)"
+  ],
+  "content": {
+    "introduction": "The Ladle Refining Furnace (LRF) is used after the AOD process to refine molten steel further. It helps achieve the desired chemical composition, temperature, and cleanliness before the steel is sent for continuous casting.",
+    "purpose": "The primary purpose of the LRF is to improve steel quality through temperature adjustment, alloy correction, desulphurization, inclusion control, and homogenization.",
+    "workingPrinciple": "Molten steel inside a ladle is heated using electric arcs while argon gas is injected from the bottom. This promotes uniform mixing, temperature control, and efficient refining.",
+    "majorComponents": [
+      "Ladle",
+      "Graphite Electrodes",
+      "Electrode Lifting Mechanism",
+      "Transformer",
+      "Argon Purging System",
+      "Alloy Addition System",
+      "Temperature Measurement System",
+      "Control Panel"
+    ],
+    "processSteps": [
+      "Receive molten steel from AOD.",
+      "Position ladle under electrodes.",
+      "Heat molten steel using electric arc.",
+      "Inject argon for stirring.",
+      "Add required alloys.",
+      "Adjust chemical composition.",
+      "Control steel temperature.",
+      "Take steel samples for analysis.",
+      "Transfer refined steel to Continuous Casting."
+    ],
+    "importantParameters": [
+      "Steel Temperature",
+      "Sulphur Content",
+      "Chemical Composition",
+      "Argon Flow Rate",
+      "Heating Time",
+      "Alloy Addition Quantity"
+    ],
+    "advantages": [
+      "Improved steel cleanliness.",
+      "Accurate chemical composition.",
+      "Better temperature control.",
+      "Reduced non-metallic inclusions.",
+      "Consistent product quality."
+    ],
+    "qualityChecks": [
+      "Chemical Analysis",
+      "Temperature Measurement",
+      "Steel Sampling",
+      "Inclusion Monitoring",
+      "Alloy Verification"
+    ],
+    "safetyPrecautions": [
+      "Wear complete PPE.",
+      "Maintain safe distance from molten steel.",
+      "Inspect electrodes before operation.",
+      "Monitor argon pressure continuously.",
+      "Follow hot metal handling procedures."
+    ],
+    "commonProblems": [
+      "Temperature Loss",
+      "Improper Alloy Addition",
+      "Poor Argon Stirring",
+      "Slag Contamination",
+      "Chemical Composition Deviation"
+    ],
+    "summary": "The Ladle Refining Furnace ensures that molten steel meets the required quality standards before casting. Proper refining improves cleanliness, composition accuracy, and casting performance."
+  },
+  "resources": {
+    "images": [
+      "manufacturing/lrf/lrf_overview.jpg",
+      "manufacturing/lrf/ladle.jpg",
+      "manufacturing/lrf/argon_stirring.png",
+      "manufacturing/lrf/alloy_addition.jpg"
+    ],
+    "videos": [
+      "lrf_process.mp4",
+      "secondary_refining.mp4"
+    ],
+    "documents": [
+      "lrf_manual.pdf"
+    ],
+    "diagrams": [
+      "lrf_process_flow.svg",
+      "lrf_components.svg"
+    ]
+  },
+  "quiz": "lrf-quiz",
+  "assessment": "manufacturing-assessment",
+  "status": "Published"
+}
