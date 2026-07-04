@@ -1,1 +1,301 @@
-
+{
+  "assessmentId": "company-overview-set-3",
+  "title": "Company Overview Assessment - Set 3",
+  "description": "Assessment covering JSL company profile, organizational culture, manufacturing facilities, certifications, workplace ethics, safety awareness, and employee responsibilities.",
+  "duration": "20 Minutes",
+  "passingScore": 80,
+  "totalQuestions": 25,
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "What is the main objective of JSL?",
+      "options": [
+        "Manufacture stainless steel products",
+        "Produce electrical equipment",
+        "Manufacture automobiles",
+        "Build residential buildings"
+      ],
+      "correctAnswer": "Manufacture stainless steel products",
+      "explanation": "JSL is one of India's leading stainless steel manufacturers."
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "Which department is responsible for ensuring product quality?",
+      "options": [
+        "Finance",
+        "Human Resources",
+        "Quality",
+        "Administration"
+      ],
+      "correctAnswer": "Quality",
+      "explanation": "The Quality department ensures products meet required specifications."
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "Which document provides employees with company policies and procedures?",
+      "options": [
+        "Employee Handbook",
+        "Invoice",
+        "Purchase Order",
+        "Salary Slip"
+      ],
+      "correctAnswer": "Employee Handbook",
+      "explanation": "The Employee Handbook contains company policies and workplace guidelines."
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "Which value encourages employees to act honestly and ethically?",
+      "options": [
+        "Integrity",
+        "Delay",
+        "Negligence",
+        "Competition"
+      ],
+      "correctAnswer": "Integrity",
+      "explanation": "Integrity promotes honesty, transparency, and ethical behaviour."
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "Why is continuous improvement important?",
+      "options": [
+        "It increases operational efficiency.",
+        "It eliminates teamwork.",
+        "It removes safety procedures.",
+        "It reduces communication."
+      ],
+      "correctAnswer": "It increases operational efficiency.",
+      "explanation": "Continuous improvement helps improve processes, products, and productivity."
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "Which activity should every employee participate in?",
+      "options": [
+        "Safety Training",
+        "Ignoring SOPs",
+        "Avoiding documentation",
+        "Skipping inspections"
+      ],
+      "correctAnswer": "Safety Training",
+      "explanation": "Safety training prepares employees to work safely."
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "Professional workplace behaviour includes:",
+      "options": [
+        "Following company policies",
+        "Ignoring supervisors",
+        "Skipping documentation",
+        "Avoiding teamwork"
+      ],
+      "correctAnswer": "Following company policies",
+      "explanation": "Professional employees follow workplace rules and standards."
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "Which factor improves customer trust?",
+      "options": [
+        "Consistent quality",
+        "Late deliveries",
+        "Poor communication",
+        "Ignoring complaints"
+      ],
+      "correctAnswer": "Consistent quality",
+      "explanation": "Reliable product quality builds customer confidence."
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "What is one purpose of company certifications?",
+      "options": [
+        "Show compliance with standards",
+        "Increase office decoration",
+        "Reduce meetings",
+        "Replace inspections"
+      ],
+      "correctAnswer": "Show compliance with standards",
+      "explanation": "Certifications demonstrate compliance with recognized quality standards."
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "Employees should report unsafe conditions to:",
+      "options": [
+        "Their supervisor",
+        "No one",
+        "Customers",
+        "Visitors"
+      ],
+      "correctAnswer": "Their supervisor",
+      "explanation": "Unsafe conditions should be reported immediately."
+    },
+    {
+      "id": 11,
+      "type": "true_false",
+      "question": "Safety is the responsibility of every employee.",
+      "correctAnswer": true,
+      "explanation": "Every employee contributes to workplace safety."
+    },
+    {
+      "id": 12,
+      "type": "true_false",
+      "question": "Quality checks are performed only after dispatch.",
+      "correctAnswer": false,
+      "explanation": "Quality inspections are carried out throughout production."
+    },
+    {
+      "id": 13,
+      "type": "true_false",
+      "question": "Following SOPs reduces operational errors.",
+      "correctAnswer": true,
+      "explanation": "Standard Operating Procedures improve consistency."
+    },
+    {
+      "id": 14,
+      "type": "true_false",
+      "question": "Employees may ignore PPE if they are experienced.",
+      "correctAnswer": false,
+      "explanation": "PPE is mandatory regardless of experience."
+    },
+    {
+      "id": 15,
+      "type": "true_false",
+      "question": "Customer satisfaction is important for business success.",
+      "correctAnswer": true,
+      "explanation": "Satisfied customers help maintain long-term business growth."
+    },
+    {
+      "id": 16,
+      "type": "short_answer",
+      "question": "What is the primary business of JSL?",
+      "keywords": [
+        "stainless steel",
+        "manufacturing",
+        "manufacturer"
+      ],
+      "sampleAnswer": "JSL manufactures stainless steel products."
+    },
+    {
+      "id": 17,
+      "type": "short_answer",
+      "question": "Why are Standard Operating Procedures important?",
+      "keywords": [
+        "consistency",
+        "quality",
+        "safety",
+        "procedure"
+      ],
+      "sampleAnswer": "SOPs ensure consistent, safe, and standardized work practices."
+    },
+    {
+      "id": 18,
+      "type": "short_answer",
+      "question": "Name any two employee responsibilities related to safety.",
+      "keywords": [
+        "PPE",
+        "report hazards",
+        "follow SOP",
+        "training"
+      ],
+      "sampleAnswer": "Wear PPE and report unsafe conditions."
+    },
+    {
+      "id": 19,
+      "type": "short_answer",
+      "question": "Why is teamwork important in manufacturing?",
+      "keywords": [
+        "coordination",
+        "communication",
+        "productivity",
+        "collaboration"
+      ],
+      "sampleAnswer": "Teamwork improves coordination, productivity, and communication."
+    },
+    {
+      "id": 20,
+      "type": "short_answer",
+      "question": "Name two departments commonly found in manufacturing companies.",
+      "keywords": [
+        "HR",
+        "Quality",
+        "Production",
+        "Finance",
+        "IT"
+      ],
+      "sampleAnswer": "Examples include Production, HR, Finance, Quality, and IT."
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "Which department generally manages employee training?",
+      "options": [
+        "HR",
+        "Warehouse",
+        "Dispatch",
+        "Production"
+      ],
+      "correctAnswer": "HR",
+      "explanation": "HR organizes employee development and training."
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "Which of the following improves workplace communication?",
+      "options": [
+        "Respectful collaboration",
+        "Ignoring team members",
+        "Skipping meetings",
+        "Poor documentation"
+      ],
+      "correctAnswer": "Respectful collaboration",
+      "explanation": "Good communication improves organizational performance."
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "Why should employees follow company policies?",
+      "options": [
+        "To maintain consistency and discipline",
+        "To reduce teamwork",
+        "To avoid communication",
+        "To eliminate documentation"
+      ],
+      "correctAnswer": "To maintain consistency and discipline",
+      "explanation": "Policies provide a common framework for all employees."
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "Which factor contributes to operational excellence?",
+      "options": [
+        "Continuous improvement",
+        "Ignoring feedback",
+        "Avoiding inspections",
+        "Breaking SOPs"
+      ],
+      "correctAnswer": "Continuous improvement",
+      "explanation": "Improvement initiatives increase efficiency and quality."
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "Which statement best represents JSL's workplace philosophy?",
+      "options": [
+        "Safety, Quality, Integrity and Continuous Improvement",
+        "Production over Safety",
+        "Documentation is optional",
+        "Only managers ensure quality"
+      ],
+      "correctAnswer": "Safety, Quality, Integrity and Continuous Improvement",
+      "explanation": "These principles represent a strong manufacturing culture."
+    }
+  ],
+  "status": "Published"
+}
