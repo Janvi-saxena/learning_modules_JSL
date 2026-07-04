@@ -1,1 +1,304 @@
-
+{
+  "assessmentId": "manufacturing-set-2",
+  "title": "Manufacturing Journey Assessment - Set 2",
+  "description": "Assessment covering the stainless steel manufacturing process from Raw Material Procurement to Dispatch.",
+  "duration": "30 Minutes",
+  "passingScore": 80,
+  "totalQuestions": 25,
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "Which raw material provides chromium in stainless steel production?",
+      "options": [
+        "Limestone",
+        "Ferro Chromium",
+        "Coal",
+        "Copper"
+      ],
+      "correctAnswer": "Ferro Chromium",
+      "explanation": "Ferro Chromium provides chromium, which gives stainless steel its corrosion resistance."
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "Which area receives, inspects and segregates scrap before melting?",
+      "options": [
+        "Warehouse",
+        "Scrap Yard",
+        "Dispatch",
+        "Cold Rolling Mill"
+      ],
+      "correctAnswer": "Scrap Yard",
+      "explanation": "The Scrap Yard prepares scrap before charging it into the EAF."
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "Which component produces the electric arc inside an Electric Arc Furnace?",
+      "options": [
+        "Copper Rod",
+        "Graphite Electrode",
+        "Cooling Pipe",
+        "Steel Plate"
+      ],
+      "correctAnswer": "Graphite Electrode",
+      "explanation": "Graphite electrodes generate the electric arc required for melting."
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "What gas is mainly mixed with oxygen during the AOD process?",
+      "options": [
+        "Nitrogen",
+        "Argon",
+        "Hydrogen",
+        "Helium"
+      ],
+      "correctAnswer": "Argon",
+      "explanation": "Argon helps reduce chromium oxidation during decarburization."
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "Which process immediately follows the AOD converter?",
+      "options": [
+        "Cold Rolling",
+        "LRF",
+        "Warehouse",
+        "Grinding"
+      ],
+      "correctAnswer": "LRF",
+      "explanation": "The molten steel is transferred to the Ladle Refining Furnace."
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "What is the purpose of the tundish in Continuous Casting?",
+      "options": [
+        "Store finished coils",
+        "Distribute molten steel to the mould",
+        "Cool slabs",
+        "Measure thickness"
+      ],
+      "correctAnswer": "Distribute molten steel to the mould",
+      "explanation": "The tundish acts as an intermediate reservoir before casting."
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "What is the first operation in Hot Rolling?",
+      "options": [
+        "Grinding",
+        "Reheating the slab",
+        "Packaging",
+        "Pickling"
+      ],
+      "correctAnswer": "Reheating the slab",
+      "explanation": "Slabs are reheated before entering the rolling mill."
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "Cold Rolling is normally carried out at:",
+      "options": [
+        "Room Temperature",
+        "1000°C",
+        "1500°C",
+        "800°C"
+      ],
+      "correctAnswer": "Room Temperature",
+      "explanation": "Cold Rolling is performed without reheating the material."
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "Which process restores ductility after Cold Rolling?",
+      "options": [
+        "Annealing",
+        "Grinding",
+        "Dispatch",
+        "Warehouse"
+      ],
+      "correctAnswer": "Annealing",
+      "explanation": "Annealing relieves internal stresses and restores ductility."
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "Which process improves corrosion resistance by removing oxide scale?",
+      "options": [
+        "Pickling",
+        "Warehouse",
+        "CCM",
+        "Scrap Yard"
+      ],
+      "correctAnswer": "Pickling",
+      "explanation": "Pickling removes oxide scales formed during heat treatment."
+    },
+    {
+      "id": 11,
+      "type": "true_false",
+      "question": "Molten steel is transferred from EAF directly to CCM.",
+      "correctAnswer": false,
+      "explanation": "It passes through AOD and LRF before Continuous Casting."
+    },
+    {
+      "id": 12,
+      "type": "true_false",
+      "question": "Warehouse operations include inventory management.",
+      "correctAnswer": true,
+      "explanation": "Inventory management is one of the warehouse's primary responsibilities."
+    },
+    {
+      "id": 13,
+      "type": "true_false",
+      "question": "Quality inspection takes place throughout manufacturing.",
+      "correctAnswer": true,
+      "explanation": "Quality checks are performed at every important stage."
+    }
+    ,
+    {
+      "id": 14,
+      "type": "true_false",
+      "question": "The LRF is used for secondary refining of molten steel.",
+      "correctAnswer": true,
+      "explanation": "The Ladle Refining Furnace performs secondary refining and temperature adjustment."
+    },
+    {
+      "id": 15,
+      "type": "true_false",
+      "question": "Dispatch takes place before Quality Inspection.",
+      "correctAnswer": false,
+      "explanation": "Finished products are inspected before they are dispatched."
+    },
+    {
+      "id": 16,
+      "type": "short_answer",
+      "question": "What is the main purpose of the Scrap Yard?",
+      "keywords": [
+        "segregation",
+        "inspection",
+        "scrap",
+        "storage",
+        "charging"
+      ],
+      "sampleAnswer": "The Scrap Yard receives, inspects, segregates and prepares scrap for charging into the Electric Arc Furnace."
+    },
+    {
+      "id": 17,
+      "type": "short_answer",
+      "question": "Why is Argon used in the AOD process?",
+      "keywords": [
+        "chromium",
+        "oxidation",
+        "refining",
+        "gas"
+      ],
+      "sampleAnswer": "Argon reduces chromium oxidation while helping remove carbon during refining."
+    },
+    {
+      "id": 18,
+      "type": "short_answer",
+      "question": "What is the function of the Ladle Refining Furnace (LRF)?",
+      "keywords": [
+        "secondary refining",
+        "temperature",
+        "alloy",
+        "composition"
+      ],
+      "sampleAnswer": "The LRF adjusts temperature, refines molten steel and corrects chemical composition."
+    },
+    {
+      "id": 19,
+      "type": "short_answer",
+      "question": "Why is Pickling performed after Annealing?",
+      "keywords": [
+        "oxide scale",
+        "acid",
+        "surface",
+        "corrosion resistance"
+      ],
+      "sampleAnswer": "Pickling removes oxide scale formed during annealing and restores a clean corrosion-resistant surface."
+    },
+    {
+      "id": 20,
+      "type": "short_answer",
+      "question": "Mention any two responsibilities of the Warehouse department.",
+      "keywords": [
+        "storage",
+        "inventory",
+        "material handling",
+        "dispatch"
+      ],
+      "sampleAnswer": "Warehouse stores materials safely, manages inventory, issues materials and prepares finished goods for dispatch."
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "Which equipment continuously withdraws the slab during Continuous Casting?",
+      "options": [
+        "Withdrawal Rollers",
+        "Grinding Wheel",
+        "Electrodes",
+        "Coiler"
+      ],
+      "correctAnswer": "Withdrawal Rollers",
+      "explanation": "Withdrawal rollers continuously pull the solidifying slab from the mould."
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "Which process is primarily responsible for improving surface finish and dimensional accuracy?",
+      "options": [
+        "Cold Rolling",
+        "Steel Making",
+        "Scrap Yard",
+        "Warehouse"
+      ],
+      "correctAnswer": "Cold Rolling",
+      "explanation": "Cold Rolling produces accurate thickness and an improved surface finish."
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "Which inspection is commonly performed after Grinding and Finishing?",
+      "options": [
+        "Surface Finish Inspection",
+        "Fuel Inspection",
+        "Payroll Verification",
+        "Attendance Check"
+      ],
+      "correctAnswer": "Surface Finish Inspection",
+      "explanation": "Grinding is followed by surface quality inspection."
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "Which document confirms that the finished product meets required specifications?",
+      "options": [
+        "Quality Certificate",
+        "Attendance Sheet",
+        "Leave Application",
+        "Purchase Order"
+      ],
+      "correctAnswer": "Quality Certificate",
+      "explanation": "The Quality Certificate confirms compliance with quality requirements."
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "Which sequence correctly represents the steelmaking stages before rolling?",
+      "options": [
+        "EAF → AOD → LRF → CCM",
+        "LRF → EAF → CCM → AOD",
+        "CCM → LRF → EAF → AOD",
+        "AOD → CCM → LRF → EAF"
+      ],
+      "correctAnswer": "EAF → AOD → LRF → CCM",
+      "explanation": "Molten steel is melted in the EAF, refined in the AOD and LRF, then cast in the CCM."
+    }
+  ],
+  "status": "Published"
+}
+    
