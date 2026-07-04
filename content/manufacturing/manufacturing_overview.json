@@ -1,1 +1,80 @@
-#abc
+{
+  "id": "manufacturing-overview",
+  "title": "Manufacturing Overview",
+  "category": "Manufacturing",
+  "difficulty": "Beginner",
+  "estimatedDuration": "20 Minutes",
+  "author": "JSL EKOS",
+  "version": "1.0.0",
+  "description": "This module introduces the complete stainless steel manufacturing process followed at Jindal Stainless Limited, from raw material procurement to finished product dispatch.",
+  "learningObjectives": [
+    "Understand the complete stainless steel manufacturing workflow.",
+    "Identify each major manufacturing process.",
+    "Understand how different manufacturing departments are connected.",
+    "Recognize the importance of quality at every stage.",
+    "Learn the overall production flow before studying individual processes."
+  ],
+  "prerequisites": [
+    "Company Overview",
+    "Company History",
+    "Vision and Mission",
+    "Manufacturing Locations"
+  ],
+  "content": {
+    "introduction": "Manufacturing at JSL is an integrated process where raw materials are transformed into high-quality stainless steel products through a series of controlled operations using advanced equipment, automation, and quality assurance systems.",
+    "overview": "Each manufacturing stage has a specific purpose. The output of one process becomes the input of the next process, ensuring continuous production and consistent product quality.",
+    "manufacturingFlow": [
+      "Raw Material Procurement",
+      "Scrap Yard",
+      "Electric Arc Furnace (EAF)",
+      "Argon Oxygen Decarburization (AOD)",
+      "Ladle Refining Furnace (LRF)",
+      "Continuous Casting Machine (CCM)",
+      "Hot Rolling",
+      "Cold Rolling",
+      "Annealing",
+      "Pickling",
+      "Grinding and Finishing",
+      "Quality Inspection",
+      "Warehouse",
+      "Dispatch"
+    ],
+    "keyObjectives": [
+      "Produce high-quality stainless steel.",
+      "Maintain process consistency.",
+      "Reduce production losses.",
+      "Ensure employee safety.",
+      "Meet customer specifications."
+    ],
+    "majorDepartments": [
+      "Raw Material",
+      "Steel Making",
+      "Rolling Mills",
+      "Quality Control",
+      "Warehouse",
+      "Dispatch",
+      "Maintenance",
+      "Utilities"
+    ],
+    "summary": "The manufacturing process at JSL is a continuous and integrated production system where every stage contributes to producing high-quality stainless steel products while maintaining safety, efficiency, and sustainability."
+  },
+  "resources": {
+    "images": [
+      "manufacturing/process_flow.png",
+      "manufacturing/plant_layout.jpg",
+      "manufacturing/manufacturing_cycle.png"
+    ],
+    "videos": [
+      "manufacturing_overview.mp4"
+    ],
+    "documents": [
+      "manufacturing_overview.pdf"
+    ],
+    "diagrams": [
+      "manufacturing_process_flow.svg"
+    ]
+  },
+  "quiz": "manufacturing-overview-quiz",
+  "assessment": "manufacturing-assessment",
+  "status": "Published"
+}
