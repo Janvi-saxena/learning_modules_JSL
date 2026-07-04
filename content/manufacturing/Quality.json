@@ -1,1 +1,107 @@
-#abc
+{
+  "id": "quality",
+  "title": "Quality Assurance and Quality Control",
+  "category": "Manufacturing",
+  "difficulty": "Intermediate",
+  "estimatedDuration": "20 Minutes",
+  "author": "JSL EKOS",
+  "version": "1.0.0",
+  "description": "This module explains the Quality Assurance (QA) and Quality Control (QC) practices followed throughout the stainless steel manufacturing process to ensure that every product meets customer specifications and industry standards.",
+  "learningObjectives": [
+    "Understand the importance of quality in stainless steel manufacturing.",
+    "Differentiate between Quality Assurance and Quality Control.",
+    "Identify quality checkpoints across the manufacturing process.",
+    "Learn common testing methods.",
+    "Understand defect identification and corrective actions."
+  ],
+  "prerequisites": [
+    "Manufacturing Overview",
+    "Steel Making",
+    "Hot Rolling",
+    "Cold Rolling",
+    "Annealing",
+    "Pickling",
+    "Grinding and Finishing"
+  ],
+  "content": {
+    "introduction": "Quality is maintained throughout the manufacturing process rather than being inspected only at the end. Every production stage contributes to producing stainless steel that meets customer and industry requirements.",
+    "purpose": "The objective of Quality Assurance and Quality Control is to ensure every stainless steel product satisfies chemical, mechanical, dimensional, and surface quality requirements.",
+    "qualityObjectives": [
+      "Meet customer specifications.",
+      "Ensure product consistency.",
+      "Reduce manufacturing defects.",
+      "Improve customer satisfaction.",
+      "Support continuous improvement."
+    ],
+    "qualityCheckpoints": [
+      "Raw Material Inspection",
+      "Scrap Inspection",
+      "Steel Making Analysis",
+      "Chemical Composition Testing",
+      "Continuous Casting Inspection",
+      "Hot Rolling Inspection",
+      "Cold Rolling Inspection",
+      "Annealing Inspection",
+      "Pickling Inspection",
+      "Grinding Inspection",
+      "Final Product Inspection"
+    ],
+    "inspectionMethods": [
+      "Visual Inspection",
+      "Dimensional Measurement",
+      "Chemical Analysis",
+      "Mechanical Testing",
+      "Surface Finish Inspection",
+      "Hardness Testing",
+      "Non-Destructive Testing (NDT)"
+    ],
+    "qualityTools": [
+      "Spectrometer",
+      "Hardness Tester",
+      "Thickness Gauge",
+      "Surface Roughness Tester",
+      "Micrometer",
+      "Vernier Caliper",
+      "Ultrasonic Testing Equipment"
+    ],
+    "commonDefects": [
+      "Surface Scratches",
+      "Cracks",
+      "Scale",
+      "Thickness Variation",
+      "Edge Defects",
+      "Surface Stains",
+      "Shape Defects"
+    ],
+    "correctiveActions": [
+      "Identify root cause.",
+      "Separate defective material.",
+      "Take corrective action.",
+      "Verify corrective action effectiveness.",
+      "Update process if necessary."
+    ],
+    "summary": "Quality Assurance and Quality Control ensure that every stainless steel product manufactured meets the required standards for safety, reliability, performance, and customer satisfaction."
+  },
+  "resources": {
+    "images": [
+      "manufacturing/quality/inspection_lab.jpg",
+      "manufacturing/quality/spectrometer.jpg",
+      "manufacturing/quality/surface_inspection.jpg",
+      "manufacturing/quality/testing_equipment.jpg"
+    ],
+    "videos": [
+      "quality_control_process.mp4",
+      "quality_testing.mp4"
+    ],
+    "documents": [
+      "quality_manual.pdf"
+    ],
+    "diagrams": [
+      "quality_process_flow.svg",
+      "inspection_workflow.svg"
+    ]
+  },
+  "quiz": "quality-quiz",
+  "assessment": "manufacturing-assessment",
+  "status": "Published"
+}
