@@ -1,1 +1,112 @@
-#abc
+{
+  "id": "continuous-casting-machine",
+  "title": "Continuous Casting Machine (CCM)",
+  "category": "Manufacturing",
+  "difficulty": "Intermediate",
+  "estimatedDuration": "25 Minutes",
+  "author": "JSL EKOS",
+  "version": "1.0.0",
+  "description": "This module explains the Continuous Casting Machine (CCM), where refined molten steel is transformed into semi-finished products such as slabs through a continuous and controlled solidification process.",
+  "learningObjectives": [
+    "Understand the purpose of Continuous Casting.",
+    "Learn how molten steel solidifies into slabs.",
+    "Identify the major components of a CCM.",
+    "Understand process control during casting.",
+    "Recognize quality and safety requirements."
+  ],
+  "prerequisites": [
+    "Manufacturing Overview",
+    "Steel Making",
+    "Electric Arc Furnace (EAF)",
+    "Argon Oxygen Decarburization (AOD)",
+    "Ladle Refining Furnace (LRF)"
+  ],
+  "content": {
+    "introduction": "Continuous Casting is the process of converting refined molten steel into semi-finished products such as slabs. Instead of pouring steel into individual molds, the molten steel solidifies continuously, improving productivity and product quality.",
+    "purpose": "The primary purpose of CCM is to continuously solidify molten steel into slabs with uniform dimensions and internal quality for further rolling operations.",
+    "workingPrinciple": "Molten steel flows from the ladle into the tundish and then into a water-cooled copper mold. As the steel moves downward, it solidifies while being continuously withdrawn by rollers and cooled using secondary water sprays.",
+    "majorComponents": [
+      "Ladle",
+      "Ladle Turret",
+      "Tundish",
+      "Submerged Entry Nozzle (SEN)",
+      "Copper Mold",
+      "Oscillation System",
+      "Secondary Cooling Zone",
+      "Guide Rollers",
+      "Withdrawal Rollers",
+      "Torch Cutting Machine"
+    ],
+    "processSteps": [
+      "Receive refined molten steel from LRF.",
+      "Transfer molten steel into the ladle.",
+      "Pour steel into the tundish.",
+      "Control steel flow through the submerged nozzle.",
+      "Solidify steel inside the copper mold.",
+      "Continue secondary water cooling.",
+      "Withdraw the continuously cast slab.",
+      "Cut slabs to required lengths.",
+      "Transfer slabs for hot rolling."
+    ],
+    "importantParameters": [
+      "Casting Speed",
+      "Steel Temperature",
+      "Mold Level",
+      "Water Cooling Rate",
+      "Slab Thickness",
+      "Withdrawal Speed"
+    ],
+    "advantages": [
+      "Continuous production.",
+      "Higher productivity.",
+      "Improved product quality.",
+      "Reduced material wastage.",
+      "Better dimensional accuracy."
+    ],
+    "qualityChecks": [
+      "Surface Crack Inspection",
+      "Internal Defect Inspection",
+      "Slab Dimension Verification",
+      "Temperature Monitoring",
+      "Casting Speed Monitoring"
+    ],
+    "safetyPrecautions": [
+      "Wear complete PPE.",
+      "Avoid contact with molten steel.",
+      "Monitor cooling water continuously.",
+      "Follow safe crane operating procedures.",
+      "Maintain clear communication during casting."
+    ],
+    "commonProblems": [
+      "Surface Cracks",
+      "Internal Cracks",
+      "Slab Breakout",
+      "Nozzle Clogging",
+      "Uneven Solidification"
+    ],
+    "summary": "The Continuous Casting Machine converts refined molten steel into high-quality slabs through controlled solidification. Proper process control ensures defect-free products and supports efficient downstream rolling operations."
+  },
+  "resources": {
+    "images": [
+      "manufacturing/ccm/ccm_overview.jpg",
+      "manufacturing/ccm/tundish.jpg",
+      "manufacturing/ccm/copper_mold.png",
+      "manufacturing/ccm/slab_casting.jpg",
+      "manufacturing/ccm/slab_cutting.jpg"
+    ],
+    "videos": [
+      "continuous_casting_process.mp4",
+      "ccm_operation.mp4"
+    ],
+    "documents": [
+      "ccm_manual.pdf"
+    ],
+    "diagrams": [
+      "ccm_process_flow.svg",
+      "continuous_casting_diagram.svg"
+    ]
+  },
+  "quiz": "ccm-quiz",
+  "assessment": "manufacturing-assessment",
+  "status": "Published"
+}
