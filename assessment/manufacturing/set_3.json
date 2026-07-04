@@ -1,1 +1,303 @@
-
+{
+  "assessmentId": "manufacturing-set-3",
+  "title": "Manufacturing Journey Assessment - Set 3",
+  "description": "Assessment covering the complete stainless steel manufacturing process from Raw Material Procurement to Dispatch.",
+  "duration": "30 Minutes",
+  "passingScore": 80,
+  "totalQuestions": 25,
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "Which alloying element gives stainless steel its corrosion resistance?",
+      "options": [
+        "Copper",
+        "Chromium",
+        "Aluminium",
+        "Lead"
+      ],
+      "correctAnswer": "Chromium",
+      "explanation": "Chromium forms a passive oxide layer that protects stainless steel from corrosion."
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "Before charging scrap into the EAF, it is prepared in the:",
+      "options": [
+        "Warehouse",
+        "Scrap Yard",
+        "Dispatch Section",
+        "Grinding Shop"
+      ],
+      "correctAnswer": "Scrap Yard",
+      "explanation": "The Scrap Yard prepares and segregates scrap before melting."
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "Which furnace performs the initial melting of scrap?",
+      "options": [
+        "Annealing Furnace",
+        "Electric Arc Furnace",
+        "Ladle Refining Furnace",
+        "Reheating Furnace"
+      ],
+      "correctAnswer": "Electric Arc Furnace",
+      "explanation": "The Electric Arc Furnace melts the scrap using electric arcs."
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "Which process is mainly responsible for reducing carbon content in molten steel?",
+      "options": [
+        "Grinding",
+        "AOD",
+        "Warehouse",
+        "Dispatch"
+      ],
+      "correctAnswer": "AOD",
+      "explanation": "The AOD process removes carbon while preserving chromium."
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "Which unit adjusts the final chemical composition before casting?",
+      "options": [
+        "LRF",
+        "Scrap Yard",
+        "Cold Rolling",
+        "Grinding"
+      ],
+      "correctAnswer": "LRF",
+      "explanation": "LRF performs secondary refining and composition adjustment."
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "The output of the Continuous Casting Machine is:",
+      "options": [
+        "Finished Sheets",
+        "Steel Slabs",
+        "Steel Pipes",
+        "Steel Powder"
+      ],
+      "correctAnswer": "Steel Slabs",
+      "explanation": "CCM continuously casts molten steel into slabs."
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "Which rolling process is performed first?",
+      "options": [
+        "Cold Rolling",
+        "Hot Rolling",
+        "Grinding",
+        "Pickling"
+      ],
+      "correctAnswer": "Hot Rolling",
+      "explanation": "Hot Rolling is performed before Cold Rolling."
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "Which process improves the dimensional accuracy of stainless steel?",
+      "options": [
+        "Cold Rolling",
+        "CCM",
+        "Warehouse",
+        "Scrap Yard"
+      ],
+      "correctAnswer": "Cold Rolling",
+      "explanation": "Cold Rolling provides better dimensional accuracy and surface finish."
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "Annealing mainly restores:",
+      "options": [
+        "Color",
+        "Ductility",
+        "Packaging",
+        "Weight"
+      ],
+      "correctAnswer": "Ductility",
+      "explanation": "Annealing restores ductility and relieves internal stress."
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "Which process prepares stainless steel for its final surface finish?",
+      "options": [
+        "Grinding",
+        "Scrap Yard",
+        "LRF",
+        "CCM"
+      ],
+      "correctAnswer": "Grinding",
+      "explanation": "Grinding removes imperfections and improves surface finish."
+    },
+    {
+      "id": 11,
+      "type": "true_false",
+      "question": "The Electric Arc Furnace uses graphite electrodes for melting.",
+      "correctAnswer": true,
+      "explanation": "Graphite electrodes generate electric arcs that melt the scrap."
+    },
+    {
+      "id": 12,
+      "type": "true_false",
+      "question": "Cold Rolling increases dimensional accuracy.",
+      "correctAnswer": true,
+      "explanation": "Cold Rolling improves both dimensional accuracy and surface finish."
+    },
+    {
+      "id": 13,
+      "type": "true_false",
+      "question": "Warehouse operations begin before steel making.",
+      "correctAnswer": false,
+      "explanation": "Warehouse activities mainly involve storing raw materials, semi-finished and finished products after manufacturing stages."
+    }
+    ,
+    {
+      "id": 14,
+      "type": "true_false",
+      "question": "Pickling removes oxide scale formed during heat treatment.",
+      "correctAnswer": true,
+      "explanation": "Pickling uses acid treatment to remove oxide scale and restore a clean surface."
+    },
+    {
+      "id": 15,
+      "type": "true_false",
+      "question": "Dispatch is responsible for transporting finished products to customers.",
+      "correctAnswer": true,
+      "explanation": "Dispatch is the final stage where finished goods are prepared and shipped."
+    },
+    {
+      "id": 16,
+      "type": "short_answer",
+      "question": "What is the purpose of the Electric Arc Furnace (EAF) in stainless steel manufacturing?",
+      "keywords": [
+        "melting",
+        "scrap",
+        "molten steel",
+        "electric arc"
+      ],
+      "sampleAnswer": "The Electric Arc Furnace melts stainless steel scrap and alloy materials to produce molten steel for further refining."
+    },
+    {
+      "id": 17,
+      "type": "short_answer",
+      "question": "Why is the Ladle Refining Furnace (LRF) important?",
+      "keywords": [
+        "secondary refining",
+        "temperature",
+        "composition",
+        "alloy"
+      ],
+      "sampleAnswer": "The LRF performs secondary refining, adjusts temperature, and achieves the required chemical composition."
+    },
+    {
+      "id": 18,
+      "type": "short_answer",
+      "question": "What is the purpose of Hot Rolling?",
+      "keywords": [
+        "reduce thickness",
+        "slab",
+        "coil",
+        "rolling"
+      ],
+      "sampleAnswer": "Hot Rolling reduces slab thickness and converts slabs into hot rolled coils or plates."
+    },
+    {
+      "id": 19,
+      "type": "short_answer",
+      "question": "Why is Grinding performed before final inspection?",
+      "keywords": [
+        "surface finish",
+        "defects",
+        "appearance",
+        "quality"
+      ],
+      "sampleAnswer": "Grinding removes surface defects and improves the surface finish before quality inspection."
+    },
+    {
+      "id": 20,
+      "type": "short_answer",
+      "question": "Mention any two documents commonly prepared during Dispatch.",
+      "keywords": [
+        "invoice",
+        "delivery challan",
+        "packing list",
+        "quality certificate",
+        "e-way bill"
+      ],
+      "sampleAnswer": "Examples include Invoice, Delivery Challan, Packing List, Quality Certificate, and E-Way Bill."
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "Which process directly follows Cold Rolling?",
+      "options": [
+        "Annealing",
+        "Dispatch",
+        "Warehouse",
+        "Scrap Yard"
+      ],
+      "correctAnswer": "Annealing",
+      "explanation": "Annealing is carried out after Cold Rolling to restore ductility."
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "Which department verifies the final product before it is released for dispatch?",
+      "options": [
+        "Quality",
+        "HR",
+        "Finance",
+        "Procurement"
+      ],
+      "correctAnswer": "Quality",
+      "explanation": "The Quality department performs the final inspection before dispatch."
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "Which equipment is commonly used to move heavy coils inside the warehouse?",
+      "options": [
+        "Forklift",
+        "Laptop",
+        "Micrometer",
+        "Spectrometer"
+      ],
+      "correctAnswer": "Forklift",
+      "explanation": "Forklifts are commonly used for safe material handling inside warehouses."
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "Which practice helps ensure accurate inventory management?",
+      "options": [
+        "FIFO",
+        "Skipping inspections",
+        "Ignoring labels",
+        "Random storage"
+      ],
+      "correctAnswer": "FIFO",
+      "explanation": "FIFO (First In, First Out) helps maintain inventory accuracy and reduces material aging."
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "Which manufacturing stage comes immediately before Dispatch?",
+      "options": [
+        "Warehouse",
+        "Cold Rolling",
+        "Electric Arc Furnace",
+        "Scrap Yard"
+      ],
+      "correctAnswer": "Warehouse",
+      "explanation": "After quality inspection, finished products are stored in the Warehouse before being dispatched to customers."
+    }
+  ],
+  "status": "Published"
+}
