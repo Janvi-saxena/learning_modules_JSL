@@ -1,0 +1,107 @@
+{
+  "id": "argon-oxygen-decarburization",
+  "title": "Argon Oxygen Decarburization (AOD)",
+  "category": "Manufacturing",
+  "difficulty": "Intermediate",
+  "estimatedDuration": "25 Minutes",
+  "author": "JSL EKOS",
+  "version": "1.0.0",
+  "description": "This module explains the Argon Oxygen Decarburization (AOD) process used in stainless steel manufacturing to reduce carbon content while preserving valuable alloying elements such as chromium.",
+  "learningObjectives": [
+    "Understand the purpose of the AOD process.",
+    "Learn the working principle of AOD.",
+    "Identify the major equipment used.",
+    "Understand decarburization and alloy adjustment.",
+    "Recognize safety precautions during AOD operations."
+  ],
+  "prerequisites": [
+    "Manufacturing Overview",
+    "Steel Making",
+    "Electric Arc Furnace (EAF)"
+  ],
+  "content": {
+    "introduction": "After melting in the Electric Arc Furnace, molten steel is transferred to the Argon Oxygen Decarburization (AOD) converter for refining. The AOD process removes excess carbon while maintaining the required chromium content, making it one of the most important processes in stainless steel production.",
+    "purpose": "The primary purpose of AOD is to refine molten steel by reducing carbon content, adjusting alloy composition, and improving overall steel quality.",
+    "workingPrinciple": "A controlled mixture of oxygen and argon is blown into the molten steel. Oxygen reacts with carbon to form carbon monoxide gas, while argon dilutes the oxygen, reducing chromium oxidation and improving refining efficiency.",
+    "majorComponents": [
+      "AOD Converter Vessel",
+      "Oxygen Lance",
+      "Argon Supply System",
+      "Bottom Tuyeres",
+      "Gas Control System",
+      "Tilting Mechanism",
+      "Control Panel",
+      "Temperature Measurement System"
+    ],
+    "processSteps": [
+      "Receive molten steel from EAF.",
+      "Transfer molten steel into the AOD converter.",
+      "Inject oxygen and argon mixture.",
+      "Reduce carbon content.",
+      "Add alloying elements.",
+      "Adjust chemical composition.",
+      "Measure temperature.",
+      "Collect steel samples.",
+      "Transfer refined steel to the Ladle Refining Furnace."
+    ],
+    "importantParameters": [
+      "Carbon Content",
+      "Chromium Recovery",
+      "Bath Temperature",
+      "Gas Flow Rate",
+      "Oxygen Consumption",
+      "Refining Time"
+    ],
+    "advantages": [
+      "Efficient carbon removal.",
+      "High chromium recovery.",
+      "Improved steel cleanliness.",
+      "Better alloy control.",
+      "Consistent stainless steel quality."
+    ],
+    "qualityChecks": [
+      "Chemical Composition Analysis",
+      "Carbon Content Verification",
+      "Temperature Measurement",
+      "Sample Testing",
+      "Slag Observation"
+    ],
+    "safetyPrecautions": [
+      "Wear complete PPE.",
+      "Maintain safe distance from molten steel.",
+      "Monitor gas pressure continuously.",
+      "Inspect oxygen and argon pipelines.",
+      "Follow emergency shutdown procedures."
+    ],
+    "commonProblems": [
+      "High Carbon Content",
+      "Chromium Loss",
+      "Gas Leakage",
+      "Temperature Fluctuation",
+      "Incomplete Refining"
+    ],
+    "summary": "The AOD process is essential for producing high-quality stainless steel. Proper control of gas injection, alloy additions, and process parameters ensures the required chemical composition while maximizing chromium recovery."
+  },
+  "resources": {
+    "images": [
+      "manufacturing/aod/aod_converter.jpg",
+      "manufacturing/aod/gas_injection.png",
+      "manufacturing/aod/aod_process.jpg",
+      "manufacturing/aod/control_room.jpg"
+    ],
+    "videos": [
+      "aod_process.mp4",
+      "aod_refining.mp4"
+    ],
+    "documents": [
+      "aod_manual.pdf"
+    ],
+    "diagrams": [
+      "aod_process_flow.svg",
+      "aod_converter_diagram.svg"
+    ]
+  },
+  "quiz": "aod-quiz",
+  "assessment": "manufacturing-assessment",
+  "status": "Published"
+}
