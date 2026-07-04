@@ -1,1 +1,118 @@
-#abc
+{
+  "id": "grinding",
+  "title": "Grinding and Finishing",
+  "category": "Manufacturing",
+  "difficulty": "Intermediate",
+  "estimatedDuration": "20 Minutes",
+  "author": "JSL EKOS",
+  "version": "1.0.0",
+  "description": "This module explains the Grinding and Finishing process used to improve the surface quality, dimensional accuracy, and appearance of stainless steel products before final inspection and dispatch.",
+  "learningObjectives": [
+    "Understand the purpose of Grinding and Finishing.",
+    "Learn the Grinding process flow.",
+    "Identify the equipment used during Grinding.",
+    "Understand surface finish requirements.",
+    "Recognize quality and safety practices."
+  ],
+  "prerequisites": [
+    "Manufacturing Overview",
+    "Cold Rolling",
+    "Annealing",
+    "Pickling"
+  ],
+  "content": {
+    "introduction": "Grinding and Finishing are the final surface improvement processes before quality inspection. These operations remove minor surface defects, improve appearance, and achieve the required surface finish according to customer specifications.",
+    "purpose": "The primary objective of Grinding is to remove surface imperfections and provide the required finish, smoothness, and dimensional accuracy.",
+    "workingPrinciple": "The stainless steel product passes through grinding machines equipped with abrasive belts or grinding wheels. Controlled material removal produces a smooth and uniform surface finish.",
+    "majorEquipment": [
+      "Grinding Machine",
+      "Abrasive Belt System",
+      "Grinding Wheels",
+      "Polishing Unit",
+      "Dust Collection System",
+      "Cooling System",
+      "Inspection Table",
+      "Coil Handling Equipment"
+    ],
+    "processSteps": [
+      "Receive pickled material.",
+      "Inspect surface condition.",
+      "Select appropriate grinding belt.",
+      "Perform grinding operation.",
+      "Polish the surface if required.",
+      "Inspect finished surface.",
+      "Transfer material for quality inspection."
+    ],
+    "importantParameters": [
+      "Grinding Speed",
+      "Feed Rate",
+      "Belt Grit Size",
+      "Surface Roughness",
+      "Cooling Rate",
+      "Material Removal Rate"
+    ],
+    "surfaceFinishes": [
+      "No. 1 Finish",
+      "2D Finish",
+      "2B Finish",
+      "BA (Bright Annealed)",
+      "No. 3 Finish",
+      "No. 4 Finish",
+      "Hairline Finish",
+      "Mirror Finish"
+    ],
+    "advantages": [
+      "Improved surface quality.",
+      "Enhanced product appearance.",
+      "Removal of minor surface defects.",
+      "Improved customer acceptance.",
+      "Higher product value."
+    ],
+    "qualityChecks": [
+      "Surface Roughness Measurement",
+      "Visual Surface Inspection",
+      "Scratch Inspection",
+      "Dimensional Verification",
+      "Finish Verification"
+    ],
+    "safetyPrecautions": [
+      "Wear safety glasses and face shield.",
+      "Use hearing protection where required.",
+      "Wear dust mask or respirator.",
+      "Inspect grinding belts before operation.",
+      "Keep hands away from moving belts.",
+      "Ensure dust extraction system is operating properly."
+    ],
+    "commonProblems": [
+      "Surface Scratches",
+      "Over Grinding",
+      "Uneven Finish",
+      "Burn Marks",
+      "Belt Wear",
+      "Surface Waviness"
+    ],
+    "summary": "Grinding and Finishing improve the appearance and quality of stainless steel products by removing surface imperfections and achieving the specified finish before final quality inspection."
+  },
+  "resources": {
+    "images": [
+      "manufacturing/grinding/grinding_machine.jpg",
+      "manufacturing/grinding/abrasive_belt.jpg",
+      "manufacturing/grinding/polishing_line.jpg",
+      "manufacturing/grinding/surface_finish_samples.jpg"
+    ],
+    "videos": [
+      "grinding_process.mp4",
+      "surface_finishing.mp4"
+    ],
+    "documents": [
+      "grinding_manual.pdf"
+    ],
+    "diagrams": [
+      "grinding_process_flow.svg",
+      "surface_finish_chart.svg"
+    ]
+  },
+  "quiz": "grinding-quiz",
+  "assessment": "manufacturing-assessment",
+  "status": "Published"
+}
