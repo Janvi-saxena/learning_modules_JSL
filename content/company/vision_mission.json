@@ -1,1 +1,70 @@
-#abc
+{
+  "id": "vision-mission",
+  "title": "Vision and Mission",
+  "category": "Company",
+  "difficulty": "Beginner",
+  "estimatedDuration": "8 Minutes",
+  "author": "JSL EKOS",
+  "version": "1.0.0",
+  "description": "This module explains the vision, mission, and core values that guide Jindal Stainless Limited in achieving business excellence, innovation, sustainability, and customer satisfaction.",
+  "learningObjectives": [
+    "Understand JSL's vision.",
+    "Understand JSL's mission.",
+    "Recognize the company's core values.",
+    "Learn how the vision and mission influence daily operations.",
+    "Understand the importance of sustainability and innovation."
+  ],
+  "prerequisites": [
+    "Company Overview",
+    "Company History"
+  ],
+  "content": {
+    "introduction": "Every successful organization operates with a clear vision and mission. They define the company's purpose, future direction, and the values that guide every employee's decisions.",
+    "vision": "To be a globally admired organization recognized for leadership in stainless steel, innovation, sustainability, customer satisfaction, and operational excellence.",
+    "mission": "To manufacture world-class stainless steel products through continuous improvement, advanced technology, responsible business practices, employee development, and customer-focused solutions.",
+    "coreValues": [
+      "Integrity",
+      "Innovation",
+      "Customer Focus",
+      "Excellence",
+      "Teamwork",
+      "Safety",
+      "Sustainability",
+      "Respect for People"
+    ],
+    "importance": [
+      "Provides a clear organizational direction.",
+      "Aligns employees with company goals.",
+      "Encourages continuous improvement.",
+      "Supports ethical business practices.",
+      "Promotes innovation and operational excellence."
+    ],
+    "employeeRole": [
+      "Follow company values in daily work.",
+      "Maintain high quality standards.",
+      "Prioritize workplace safety.",
+      "Support teamwork and collaboration.",
+      "Contribute towards continuous improvement."
+    ],
+    "summary": "The vision and mission of JSL guide every business decision and encourage employees to deliver safe, sustainable, innovative, and customer-focused solutions."
+  },
+  "resources": {
+    "images": [
+      "company/vision_board.png",
+      "company/core_values.png",
+      "company/mission_statement.jpg"
+    ],
+    "videos": [
+      "vision_and_mission.mp4"
+    ],
+    "documents": [
+      "vision_mission.pdf"
+    ],
+    "diagrams": [
+      "vision_to_execution_flow.svg"
+    ]
+  },
+  "quiz": "vision-mission-quiz",
+  "assessment": "company-assessment",
+  "status": "Published"
+}
