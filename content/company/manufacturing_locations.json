@@ -1,1 +1,84 @@
-#abc
+{
+  "id": "manufacturing-locations",
+  "title": "Manufacturing Locations",
+  "category": "Company",
+  "difficulty": "Beginner",
+  "estimatedDuration": "10 Minutes",
+  "author": "JSL EKOS",
+  "version": "1.0.0",
+  "description": "This module introduces employees to Jindal Stainless Limited's manufacturing facilities, their capabilities, and their importance in the company's integrated stainless steel production network.",
+  "learningObjectives": [
+    "Identify JSL manufacturing locations.",
+    "Understand the role of each manufacturing facility.",
+    "Learn about integrated manufacturing.",
+    "Recognize the importance of plant coordination.",
+    "Understand JSL's manufacturing strength."
+  ],
+  "prerequisites": [
+    "Company Overview",
+    "Company History",
+    "Vision and Mission"
+  ],
+  "content": {
+    "introduction": "Jindal Stainless Limited operates world-class manufacturing facilities equipped with modern technology for producing high-quality stainless steel products. These facilities work together to support efficient production, quality control, and timely customer delivery.",
+    "overview": "Each manufacturing location performs specific operations while remaining connected through integrated production planning and supply chain management.",
+    "majorLocations": [
+      {
+        "name": "Hisar Plant",
+        "description": "Integrated stainless steel manufacturing facility with advanced hot rolling, cold rolling, annealing, pickling, finishing, and dispatch operations."
+      },
+      {
+        "name": "Jajpur Plant",
+        "description": "Modern integrated stainless steel plant with steel melting, continuous casting, hot rolling, and downstream processing facilities."
+      }
+    ],
+    "manufacturingCapabilities": [
+      "Steel Making",
+      "Continuous Casting",
+      "Hot Rolling",
+      "Cold Rolling",
+      "Annealing",
+      "Pickling",
+      "Grinding and Finishing",
+      "Quality Inspection",
+      "Warehouse Operations",
+      "Dispatch"
+    ],
+    "whyMultiplePlants": [
+      "Increase production capacity.",
+      "Improve operational efficiency.",
+      "Serve customers faster.",
+      "Support product specialization.",
+      "Ensure business continuity."
+    ],
+    "keyHighlights": [
+      "Integrated manufacturing operations.",
+      "Advanced automation systems.",
+      "Strong quality management.",
+      "Modern logistics infrastructure.",
+      "Focus on sustainable manufacturing."
+    ],
+    "summary": "JSL's manufacturing facilities operate as an integrated network, ensuring efficient production, consistent quality, and reliable delivery of stainless steel products."
+  },
+  "resources": {
+    "images": [
+      "company/manufacturing_locations_map.png",
+      "company/hisar_plant.jpg",
+      "company/jajpur_plant.jpg",
+      "company/plant_aerial_view.jpg"
+    ],
+    "videos": [
+      "manufacturing_locations_overview.mp4",
+      "plant_virtual_tour.mp4"
+    ],
+    "documents": [
+      "manufacturing_locations.pdf"
+    ],
+    "diagrams": [
+      "manufacturing_network.svg"
+    ]
+  },
+  "quiz": "manufacturing-locations-quiz",
+  "assessment": "company-assessment",
+  "status": "Published"
+}
