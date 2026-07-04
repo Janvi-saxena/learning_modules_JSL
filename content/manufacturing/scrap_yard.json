@@ -1,1 +1,95 @@
-#scrap
+{
+  "id": "scrap-yard",
+  "title": "Scrap Yard",
+  "category": "Manufacturing",
+  "difficulty": "Beginner",
+  "estimatedDuration": "15 Minutes",
+  "author": "JSL EKOS",
+  "version": "1.0.0",
+  "description": "This module explains the purpose of the Scrap Yard, types of scrap used in stainless steel manufacturing, inspection procedures, segregation methods, storage practices, and charging preparation before steelmaking.",
+  "learningObjectives": [
+    "Understand the role of the Scrap Yard.",
+    "Identify different types of scrap used in stainless steel production.",
+    "Learn scrap inspection and segregation procedures.",
+    "Understand scrap storage and handling practices.",
+    "Recognize the importance of scrap quality in steelmaking."
+  ],
+  "prerequisites": [
+    "Manufacturing Overview",
+    "Raw Material Procurement"
+  ],
+  "content": {
+    "introduction": "The Scrap Yard is the starting point of stainless steel production. It receives, inspects, segregates, stores, and prepares scrap before it is charged into the Electric Arc Furnace (EAF). Proper scrap management improves productivity, reduces contamination, and ensures consistent steel quality.",
+    "overview": "Scrap received from different sources is inspected for quality, sorted according to grade, stored safely, and prepared according to production requirements before charging into the furnace.",
+    "functions": [
+      "Receiving scrap materials",
+      "Quality inspection",
+      "Grade-wise segregation",
+      "Storage management",
+      "Preparation of furnace charge",
+      "Inventory monitoring"
+    ],
+    "typesOfScrap": [
+      {
+        "name": "Home Scrap",
+        "description": "Scrap generated within the manufacturing plant."
+      },
+      {
+        "name": "Purchased Scrap",
+        "description": "Scrap procured from external suppliers."
+      },
+      {
+        "name": "Stainless Steel Scrap",
+        "description": "High-quality stainless steel scrap used as the primary metallic charge."
+      },
+      {
+        "name": "Return Scrap",
+        "description": "Rejected or unused material returned from production."
+      }
+    ],
+    "inspectionParameters": [
+      "Grade verification",
+      "Chemical composition",
+      "Visual inspection",
+      "Rust and contamination check",
+      "Presence of non-metallic materials",
+      "Moisture inspection"
+    ],
+    "storagePractices": [
+      "Store different grades separately.",
+      "Prevent cross contamination.",
+      "Maintain proper identification tags.",
+      "Protect from excessive moisture.",
+      "Follow safe material handling procedures."
+    ],
+    "importance": [
+      "Ensures consistent furnace charging.",
+      "Improves steel quality.",
+      "Reduces production losses.",
+      "Supports efficient inventory management.",
+      "Enhances workplace safety."
+    ],
+    "summary": "The Scrap Yard plays a vital role in stainless steel manufacturing by ensuring that only properly inspected, segregated, and prepared scrap is supplied for steelmaking, directly influencing production efficiency and product quality."
+  },
+  "resources": {
+    "images": [
+      "manufacturing/scrap_yard.jpg",
+      "manufacturing/scrap_sorting.jpg",
+      "manufacturing/scrap_storage.jpg",
+      "manufacturing/scrap_inspection.jpg"
+    ],
+    "videos": [
+      "scrap_yard_overview.mp4",
+      "scrap_handling_process.mp4"
+    ],
+    "documents": [
+      "scrap_yard_manual.pdf"
+    ],
+    "diagrams": [
+      "scrap_flow_diagram.svg"
+    ]
+  },
+  "quiz": "scrap-yard-quiz",
+  "assessment": "manufacturing-assessment",
+  "status": "Published"
+}
