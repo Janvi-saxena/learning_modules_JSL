@@ -1,1 +1,85 @@
-#abc
+{
+  "id": "industrial-safety",
+  "title": "Industrial Safety",
+  "category": "Safety",
+  "difficulty": "Beginner",
+  "estimatedDuration": "20 Minutes",
+  "author": "JSL EKOS",
+  "version": "1.0.0",
+  "description": "This module introduces employees to industrial safety practices followed at Jindal Stainless Limited. It covers workplace hazards, safe work practices, emergency procedures, and employee responsibilities.",
+  "learningObjectives": [
+    "Understand the importance of workplace safety.",
+    "Identify common industrial hazards.",
+    "Recognize employee safety responsibilities.",
+    "Learn safe working practices.",
+    "Understand emergency response procedures."
+  ],
+  "prerequisites": [],
+  "content": {
+    "introduction": "Safety is the highest priority in every manufacturing facility. Every employee is responsible for maintaining a safe workplace by following established safety procedures and reporting unsafe conditions.",
+    "purpose": "Industrial Safety aims to prevent accidents, protect employees, safeguard company assets, and ensure uninterrupted manufacturing operations.",
+    "safetyObjectives": [
+      "Prevent workplace accidents.",
+      "Protect employees from injuries.",
+      "Ensure compliance with safety regulations.",
+      "Promote a strong safety culture.",
+      "Reduce operational risks."
+    ],
+    "commonHazards": [
+      "Moving Machinery",
+      "Molten Metal",
+      "High Temperature Equipment",
+      "Electrical Systems",
+      "Chemical Exposure",
+      "Noise",
+      "Dust",
+      "Slippery Floors",
+      "Working at Heights",
+      "Confined Spaces"
+    ],
+    "employeeResponsibilities": [
+      "Follow all safety procedures.",
+      "Wear required PPE.",
+      "Report unsafe conditions.",
+      "Participate in safety training.",
+      "Immediately report accidents and near misses."
+    ],
+    "safeWorkPractices": [
+      "Follow Standard Operating Procedures (SOPs).",
+      "Use approved tools and equipment.",
+      "Maintain good housekeeping.",
+      "Follow permit-to-work procedures.",
+      "Never bypass safety devices."
+    ],
+    "emergencyResponse": [
+      "Raise the alarm.",
+      "Inform the supervisor.",
+      "Move to the designated assembly point.",
+      "Follow emergency response team instructions.",
+      "Do not panic."
+    ],
+    "summary": "Industrial Safety is everyone's responsibility. Following safety procedures, using PPE correctly, and reporting hazards help create a safe and productive workplace."
+  },
+  "resources": {
+    "images": [
+      "safety/workplace_safety.jpg",
+      "safety/hazard_identification.png",
+      "safety/safety_signs.jpg",
+      "safety/emergency_exit_map.png"
+    ],
+    "videos": [
+      "industrial_safety.mp4",
+      "workplace_safety_induction.mp4"
+    ],
+    "documents": [
+      "industrial_safety_manual.pdf"
+    ],
+    "diagrams": [
+      "hazard_identification_flow.svg",
+      "emergency_response_flow.svg"
+    ]
+  },
+  "quiz": "industrial-safety-quiz",
+  "assessment": "safety-assessment",
+  "status": "Published"
+}
