@@ -1,1 +1,61 @@
-#abc
+{
+  "id": "company-history",
+  "title": "Company History",
+  "category": "Company",
+  "difficulty": "Beginner",
+  "estimatedDuration": "10 Minutes",
+  "author": "JSL EKOS",
+  "version": "1.0.0",
+  "description": "Learn about the journey of Jindal Stainless Limited from its establishment to becoming one of India's leading stainless steel manufacturers.",
+  "learningObjectives": [
+    "Understand the origin of JSL.",
+    "Learn the major milestones in the company's growth.",
+    "Recognize JSL's contribution to the stainless steel industry.",
+    "Understand the evolution of the company's manufacturing capabilities."
+  ],
+  "prerequisites": [],
+  "content": {
+    "introduction": "Jindal Stainless Limited (JSL) is India's leading stainless steel manufacturer with decades of experience in producing world-class stainless steel products. The company has continuously expanded its manufacturing capabilities through innovation, technology, and sustainable practices.",
+    "overview": "JSL has developed integrated manufacturing facilities capable of producing a wide range of stainless steel products for domestic and international markets.",
+    "majorMilestones": [
+      "Establishment of the company",
+      "Expansion of manufacturing facilities",
+      "Introduction of advanced stainless steel technologies",
+      "Growth in domestic and international markets",
+      "Continuous focus on sustainability and innovation"
+    ],
+    "businessGrowth": [
+      "Expansion of production capacity",
+      "Development of integrated manufacturing plants",
+      "Adoption of modern technologies",
+      "Global customer base"
+    ],
+    "keyHighlights": [
+      "Integrated stainless steel manufacturing",
+      "Strong research and development",
+      "Global presence",
+      "Commitment to sustainability",
+      "Customer-focused operations"
+    ],
+    "summary": "JSL has grown into one of the world's leading stainless steel manufacturers through continuous innovation, investment in technology, and commitment to quality."
+  },
+  "resources": {
+    "images": [
+      "company/history_timeline.png",
+      "company/founders.jpg",
+      "company/manufacturing_growth.jpg"
+    ],
+    "videos": [
+      "company_history.mp4"
+    ],
+    "documents": [
+      "company_history.pdf"
+    ],
+    "diagrams": [
+      "history_timeline.svg"
+    ]
+  },
+  "quiz": "company-history-quiz",
+  "assessment": "company-assessment",
+  "status": "Published"
+}
