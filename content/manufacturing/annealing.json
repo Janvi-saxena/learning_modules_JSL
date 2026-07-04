@@ -1,1 +1,105 @@
-#abc
+{
+  "id": "annealing",
+  "title": "Annealing",
+  "category": "Manufacturing",
+  "difficulty": "Intermediate",
+  "estimatedDuration": "20 Minutes",
+  "author": "JSL EKOS",
+  "version": "1.0.0",
+  "description": "This module explains the Annealing process used in stainless steel manufacturing to restore ductility, relieve internal stresses, and improve the mechanical properties of cold rolled material.",
+  "learningObjectives": [
+    "Understand the purpose of Annealing.",
+    "Learn how Annealing improves stainless steel properties.",
+    "Identify the major equipment used during Annealing.",
+    "Understand the Annealing process flow.",
+    "Recognize quality and safety practices."
+  ],
+  "prerequisites": [
+    "Manufacturing Overview",
+    "Hot Rolling",
+    "Cold Rolling"
+  ],
+  "content": {
+    "introduction": "Cold Rolling increases the strength of stainless steel but also makes it harder and less ductile. Annealing is a heat treatment process that restores ductility, relieves internal stresses, and prepares the material for further processing.",
+    "purpose": "The primary objective of Annealing is to soften the material, improve its microstructure, restore formability, and prepare it for Pickling and finishing operations.",
+    "workingPrinciple": "The stainless steel strip passes through a controlled furnace where it is heated to a specific temperature, held for a predetermined time, and then cooled under controlled conditions to obtain the desired material properties.",
+    "majorEquipment": [
+      "Annealing Furnace",
+      "Heating Zone",
+      "Soaking Zone",
+      "Cooling Zone",
+      "Protective Atmosphere System",
+      "Temperature Control System",
+      "Entry and Exit Rollers",
+      "Coil Handling System"
+    ],
+    "processSteps": [
+      "Receive cold rolled coils.",
+      "Load material into the Annealing Line.",
+      "Heat material to Annealing temperature.",
+      "Maintain soaking time.",
+      "Cool material under controlled conditions.",
+      "Inspect strip quality.",
+      "Transfer material to Pickling."
+    ],
+    "importantParameters": [
+      "Heating Temperature",
+      "Soaking Time",
+      "Cooling Rate",
+      "Furnace Atmosphere",
+      "Strip Speed",
+      "Material Thickness"
+    ],
+    "advantages": [
+      "Restores ductility.",
+      "Reduces internal stresses.",
+      "Improves formability.",
+      "Enhances corrosion resistance.",
+      "Prepares material for Pickling."
+    ],
+    "qualityChecks": [
+      "Temperature Monitoring",
+      "Surface Inspection",
+      "Mechanical Property Testing",
+      "Hardness Testing",
+      "Strip Flatness Inspection"
+    ],
+    "safetyPrecautions": [
+      "Wear complete PPE.",
+      "Avoid contact with hot equipment.",
+      "Follow furnace safety procedures.",
+      "Inspect gas supply systems.",
+      "Maintain emergency shutdown readiness."
+    ],
+    "commonProblems": [
+      "Under Annealing",
+      "Over Annealing",
+      "Surface Oxidation",
+      "Uneven Heating",
+      "Temperature Variations"
+    ],
+    "summary": "Annealing restores the required mechanical properties of stainless steel after Cold Rolling. Proper temperature control and cooling ensure consistent quality and prepare the material for Pickling."
+  },
+  "resources": {
+    "images": [
+      "manufacturing/annealing/annealing_furnace.jpg",
+      "manufacturing/annealing/heating_zone.jpg",
+      "manufacturing/annealing/cooling_zone.jpg",
+      "manufacturing/annealing/process_line.jpg"
+    ],
+    "videos": [
+      "annealing_process.mp4",
+      "continuous_annealing.mp4"
+    ],
+    "documents": [
+      "annealing_manual.pdf"
+    ],
+    "diagrams": [
+      "annealing_process_flow.svg",
+      "annealing_furnace_layout.svg"
+    ]
+  },
+  "quiz": "annealing-quiz",
+  "assessment": "manufacturing-assessment",
+  "status": "Published"
+}
