@@ -1,1 +1,98 @@
-#abc
+{
+  "id": "raw-material",
+  "title": "Raw Material Procurement",
+  "category": "Manufacturing",
+  "difficulty": "Beginner",
+  "estimatedDuration": "15 Minutes",
+  "author": "JSL EKOS",
+  "version": "1.0.0",
+  "description": "This module explains the raw materials used in stainless steel manufacturing, their importance, procurement process, storage, inspection, and handling before steelmaking.",
+  "learningObjectives": [
+    "Identify the raw materials used in stainless steel manufacturing.",
+    "Understand the purpose of each raw material.",
+    "Learn the procurement and inspection process.",
+    "Understand raw material storage and handling.",
+    "Recognize the importance of raw material quality."
+  ],
+  "prerequisites": [
+    "Manufacturing Overview"
+  ],
+  "content": {
+    "introduction": "The quality of stainless steel begins with the quality of its raw materials. Proper selection, inspection, storage, and handling of raw materials ensure efficient steelmaking and consistent product quality.",
+    "overview": "Raw materials are procured from approved suppliers, inspected upon arrival, stored under controlled conditions, and supplied to the Scrap Yard and Steel Making Shop as per production requirements.",
+    "majorRawMaterials": [
+      {
+        "name": "Stainless Steel Scrap",
+        "purpose": "Primary metallic input used for melting."
+      },
+      {
+        "name": "Ferro Chromium",
+        "purpose": "Provides chromium for corrosion resistance."
+      },
+      {
+        "name": "Ferro Nickel",
+        "purpose": "Improves toughness and corrosion resistance."
+      },
+      {
+        "name": "Ferro Molybdenum",
+        "purpose": "Enhances strength and resistance to corrosion."
+      },
+      {
+        "name": "Lime",
+        "purpose": "Helps remove impurities during refining."
+      },
+      {
+        "name": "Dolomite",
+        "purpose": "Protects furnace lining and supports slag formation."
+      },
+      {
+        "name": "Carbon Additives",
+        "purpose": "Used to adjust carbon content during steelmaking."
+      }
+    ],
+    "procurementProcess": [
+      "Requirement Planning",
+      "Vendor Selection",
+      "Purchase Order Generation",
+      "Material Transportation",
+      "Receiving at Plant",
+      "Quality Inspection",
+      "Storage",
+      "Issue to Production"
+    ],
+    "qualityChecks": [
+      "Chemical composition verification",
+      "Physical condition inspection",
+      "Moisture content check",
+      "Contamination inspection",
+      "Supplier documentation verification"
+    ],
+    "storageGuidelines": [
+      "Store materials in designated areas.",
+      "Separate different alloy materials.",
+      "Prevent contamination.",
+      "Protect materials from moisture.",
+      "Follow FIFO where applicable."
+    ],
+    "summary": "High-quality raw materials are essential for producing premium stainless steel. Proper procurement, inspection, storage, and handling directly influence manufacturing efficiency and final product quality."
+  },
+  "resources": {
+    "images": [
+      "manufacturing/raw_materials.jpg",
+      "manufacturing/alloys.jpg",
+      "manufacturing/raw_material_storage.jpg"
+    ],
+    "videos": [
+      "raw_material_overview.mp4"
+    ],
+    "documents": [
+      "raw_material_handbook.pdf"
+    ],
+    "diagrams": [
+      "raw_material_flow.svg"
+    ]
+  },
+  "quiz": "raw-material-quiz",
+  "assessment": "manufacturing-assessment",
+  "status": "Published"
+}
