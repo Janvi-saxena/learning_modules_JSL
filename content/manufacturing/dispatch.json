@@ -1,1 +1,111 @@
-#abc
+{
+  "id": "dispatch",
+  "title": "Dispatch",
+  "category": "Manufacturing",
+  "difficulty": "Beginner",
+  "estimatedDuration": "15 Minutes",
+  "author": "JSL EKOS",
+  "version": "1.0.0",
+  "description": "This module explains the dispatch process in stainless steel manufacturing, including order verification, packaging, loading, documentation, transportation, and delivery to customers.",
+  "learningObjectives": [
+    "Understand the complete dispatch process.",
+    "Learn how finished products are prepared for shipment.",
+    "Identify the documents required for dispatch.",
+    "Understand loading and transportation procedures.",
+    "Recognize quality and safety practices during dispatch."
+  ],
+  "prerequisites": [
+    "Manufacturing Overview",
+    "Warehouse Management",
+    "Quality Assurance and Quality Control"
+  ],
+  "content": {
+    "introduction": "Dispatch is the final stage of the manufacturing process where finished products are verified, packed, documented, loaded, and transported to customers. Efficient dispatch operations ensure timely delivery and customer satisfaction.",
+    "purpose": "The primary objective of dispatch is to deliver the correct product, in the correct quantity and condition, to the customer while maintaining complete documentation and traceability.",
+    "dispatchWorkflow": [
+      "Receive Dispatch Order",
+      "Verify Customer Requirements",
+      "Retrieve Finished Goods from Warehouse",
+      "Final Quality Verification",
+      "Packaging and Labelling",
+      "Generate Dispatch Documents",
+      "Vehicle Inspection",
+      "Loading of Material",
+      "Dispatch Approval",
+      "Shipment to Customer"
+    ],
+    "majorActivities": [
+      "Order Verification",
+      "Product Identification",
+      "Packaging",
+      "Labelling",
+      "Weighing",
+      "Loading",
+      "Documentation",
+      "Transportation Coordination"
+    ],
+    "dispatchDocuments": [
+      "Delivery Challan",
+      "Invoice",
+      "Packing List",
+      "Quality Certificate",
+      "E-Way Bill (where applicable)",
+      "Transport Documents"
+    ],
+    "qualityChecks": [
+      "Product Grade Verification",
+      "Quantity Verification",
+      "Coil Identification",
+      "Packaging Inspection",
+      "Vehicle Condition Inspection",
+      "Document Verification"
+    ],
+    "safetyPrecautions": [
+      "Wear mandatory PPE.",
+      "Follow crane safety procedures.",
+      "Secure coils before transportation.",
+      "Do not exceed vehicle load limits.",
+      "Use approved lifting equipment.",
+      "Ensure safe loading and unloading practices."
+    ],
+    "commonProblems": [
+      "Incorrect Documentation",
+      "Wrong Product Dispatch",
+      "Packaging Damage",
+      "Loading Delays",
+      "Transportation Damage",
+      "Inventory Mismatch"
+    ],
+    "bestPractices": [
+      "Verify customer order before dispatch.",
+      "Ensure complete documentation.",
+      "Use proper packaging materials.",
+      "Maintain product traceability.",
+      "Coordinate effectively with logistics.",
+      "Perform final inspection before loading."
+    ],
+    "summary": "Dispatch is the final link between manufacturing and the customer. Proper planning, documentation, packaging, quality verification, and safe transportation ensure products reach customers accurately and on time."
+  },
+  "resources": {
+    "images": [
+      "manufacturing/dispatch/loading_coils.jpg",
+      "manufacturing/dispatch/packaging.jpg",
+      "manufacturing/dispatch/dispatch_area.jpg",
+      "manufacturing/dispatch/truck_loading.jpg"
+    ],
+    "videos": [
+      "dispatch_process.mp4",
+      "finished_goods_dispatch.mp4"
+    ],
+    "documents": [
+      "dispatch_manual.pdf"
+    ],
+    "diagrams": [
+      "dispatch_workflow.svg",
+      "order_to_delivery_flow.svg"
+    ]
+  },
+  "quiz": "dispatch-quiz",
+  "assessment": "manufacturing-assessment",
+  "status": "Published"
+}
