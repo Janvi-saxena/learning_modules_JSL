@@ -1,1 +1,111 @@
-#abc
+{
+  "id": "hot-rolling",
+  "title": "Hot Rolling",
+  "category": "Manufacturing",
+  "difficulty": "Intermediate",
+  "estimatedDuration": "25 Minutes",
+  "author": "JSL EKOS",
+  "version": "1.0.0",
+  "description": "This module explains the Hot Rolling process in stainless steel manufacturing, where continuously cast slabs are reheated and rolled into coils or plates with the required thickness and dimensions.",
+  "learningObjectives": [
+    "Understand the purpose of Hot Rolling.",
+    "Learn the Hot Rolling process flow.",
+    "Identify major equipment used in the Hot Rolling Mill.",
+    "Understand important rolling parameters.",
+    "Recognize quality and safety requirements."
+  ],
+  "prerequisites": [
+    "Manufacturing Overview",
+    "Steel Making",
+    "Continuous Casting Machine (CCM)"
+  ],
+  "content": {
+    "introduction": "Hot Rolling is the first rolling process after continuous casting. Steel slabs are reheated and passed through a series of rolling stands where their thickness is gradually reduced while maintaining the required mechanical properties.",
+    "purpose": "The purpose of Hot Rolling is to reduce slab thickness, improve workability, prepare material for downstream processing, and produce hot rolled coils or plates.",
+    "workingPrinciple": "Steel slabs are heated to rolling temperature inside a reheating furnace. The heated slab passes through multiple rolling stands where compressive forces reduce its thickness before coiling.",
+    "majorEquipment": [
+      "Slab Yard",
+      "Reheating Furnace",
+      "Descaling Unit",
+      "Roughing Mill",
+      "Finishing Mill",
+      "Run-Out Table",
+      "Cooling System",
+      "Down Coiler",
+      "Coil Handling System"
+    ],
+    "processSteps": [
+      "Receive slabs from CCM.",
+      "Store slabs in slab yard.",
+      "Heat slabs inside reheating furnace.",
+      "Remove scale using high-pressure water.",
+      "Pass slab through roughing mill.",
+      "Reduce thickness in finishing mill.",
+      "Cool strip on run-out table.",
+      "Coil the finished strip.",
+      "Transfer hot rolled coil for further processing."
+    ],
+    "importantParameters": [
+      "Slab Temperature",
+      "Rolling Speed",
+      "Reduction Ratio",
+      "Finishing Temperature",
+      "Coiling Temperature",
+      "Strip Thickness"
+    ],
+    "advantages": [
+      "High production rate.",
+      "Efficient thickness reduction.",
+      "Improved mechanical properties.",
+      "Suitable for large-scale production.",
+      "Prepares material for Cold Rolling."
+    ],
+    "qualityChecks": [
+      "Thickness Measurement",
+      "Width Measurement",
+      "Surface Inspection",
+      "Edge Condition",
+      "Temperature Monitoring",
+      "Coil Weight Verification"
+    ],
+    "safetyPrecautions": [
+      "Wear complete PPE.",
+      "Stay clear of moving rollers.",
+      "Maintain safe distance from hot slabs.",
+      "Follow Lock-Out Tag-Out (LOTO) during maintenance.",
+      "Observe crane and coil handling safety procedures."
+    ],
+    "commonProblems": [
+      "Surface Scale",
+      "Edge Cracks",
+      "Thickness Variation",
+      "Shape Defects",
+      "Improper Coiling",
+      "Roll Wear"
+    ],
+    "summary": "Hot Rolling transforms cast slabs into hot rolled coils through controlled heating and rolling operations. Proper process control ensures consistent dimensions, good surface quality, and prepares the material for further processing."
+  },
+  "resources": {
+    "images": [
+      "manufacturing/hot_rolling/reheating_furnace.jpg",
+      "manufacturing/hot_rolling/roughing_mill.jpg",
+      "manufacturing/hot_rolling/finishing_mill.jpg",
+      "manufacturing/hot_rolling/run_out_table.jpg",
+      "manufacturing/hot_rolling/hot_coil.jpg"
+    ],
+    "videos": [
+      "hot_rolling_process.mp4",
+      "rolling_mill_operation.mp4"
+    ],
+    "documents": [
+      "hot_rolling_manual.pdf"
+    ],
+    "diagrams": [
+      "hot_rolling_process_flow.svg",
+      "hot_rolling_line_layout.svg"
+    ]
+  },
+  "quiz": "hot-rolling-quiz",
+  "assessment": "manufacturing-assessment",
+  "status": "Published"
+}
