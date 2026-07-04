@@ -1,1 +1,113 @@
-#abc
+{
+  "id": "pickling",
+  "title": "Pickling",
+  "category": "Manufacturing",
+  "difficulty": "Intermediate",
+  "estimatedDuration": "20 Minutes",
+  "author": "JSL EKOS",
+  "version": "1.0.0",
+  "description": "This module explains the Pickling process used in stainless steel manufacturing to remove oxide scale and surface impurities formed during heat treatment, resulting in a clean, corrosion-resistant surface.",
+  "learningObjectives": [
+    "Understand the purpose of Pickling.",
+    "Learn the Pickling process flow.",
+    "Identify the chemicals used during Pickling.",
+    "Understand safety requirements while handling acids.",
+    "Recognize quality checks after Pickling."
+  ],
+  "prerequisites": [
+    "Manufacturing Overview",
+    "Cold Rolling",
+    "Annealing"
+  ],
+  "content": {
+    "introduction": "During Annealing, oxide layers form on the surface of stainless steel. The Pickling process removes these oxide scales using controlled acid treatment, producing a clean and uniform surface ready for finishing operations.",
+    "purpose": "The primary objective of Pickling is to remove oxide scale, improve surface quality, restore corrosion resistance, and prepare stainless steel for further processing or dispatch.",
+    "workingPrinciple": "The stainless steel strip passes through acid tanks where the oxide layer reacts with the acid solution. The strip is then washed, neutralized, dried, and inspected before moving to the next process.",
+    "majorEquipment": [
+      "Entry Section",
+      "Acid Pickling Tanks",
+      "Acid Circulation System",
+      "Water Rinse Tanks",
+      "Neutralization Section",
+      "Drying Unit",
+      "Fume Extraction System",
+      "Exit Coiler"
+    ],
+    "chemicalsUsed": [
+      "Nitric Acid",
+      "Hydrofluoric Acid",
+      "Water",
+      "Neutralizing Chemicals"
+    ],
+    "processSteps": [
+      "Receive annealed coil.",
+      "Feed strip into Pickling Line.",
+      "Remove oxide scale using acid solution.",
+      "Wash strip with clean water.",
+      "Neutralize residual acid.",
+      "Dry the strip.",
+      "Inspect surface quality.",
+      "Coil finished strip."
+    ],
+    "importantParameters": [
+      "Acid Concentration",
+      "Bath Temperature",
+      "Strip Speed",
+      "Pickling Time",
+      "Rinse Water Quality",
+      "Surface Cleanliness"
+    ],
+    "advantages": [
+      "Removes oxide scale.",
+      "Improves corrosion resistance.",
+      "Provides clean surface finish.",
+      "Improves product appearance.",
+      "Prepares material for finishing."
+    ],
+    "qualityChecks": [
+      "Surface Cleanliness Inspection",
+      "Residual Scale Check",
+      "Surface Finish Inspection",
+      "Coil Identification",
+      "Visual Inspection"
+    ],
+    "safetyPrecautions": [
+      "Wear acid-resistant PPE.",
+      "Use face shield and chemical-resistant gloves.",
+      "Ensure proper ventilation.",
+      "Handle acids according to safety procedures.",
+      "Know emergency eye wash and shower locations.",
+      "Follow chemical spill response procedures."
+    ],
+    "commonProblems": [
+      "Incomplete Pickling",
+      "Over Pickling",
+      "Acid Stains",
+      "Surface Discoloration",
+      "Chemical Concentration Variations"
+    ],
+    "summary": "Pickling is an important surface treatment process that removes oxide scales and contaminants from stainless steel, ensuring a clean surface with excellent corrosion resistance and appearance."
+  },
+  "resources": {
+    "images": [
+      "manufacturing/pickling/pickling_line.jpg",
+      "manufacturing/pickling/acid_tank.jpg",
+      "manufacturing/pickling/rinse_section.jpg",
+      "manufacturing/pickling/finished_surface.jpg"
+    ],
+    "videos": [
+      "pickling_process.mp4",
+      "pickling_line_operation.mp4"
+    ],
+    "documents": [
+      "pickling_manual.pdf"
+    ],
+    "diagrams": [
+      "pickling_process_flow.svg",
+      "pickling_line_layout.svg"
+    ]
+  },
+  "quiz": "pickling-quiz",
+  "assessment": "manufacturing-assessment",
+  "status": "Published"
+}
