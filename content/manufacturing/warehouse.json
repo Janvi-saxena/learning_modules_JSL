@@ -1,1 +1,107 @@
-#abc
+{
+  "id": "warehouse",
+  "title": "Warehouse Management",
+  "category": "Manufacturing",
+  "difficulty": "Beginner",
+  "estimatedDuration": "15 Minutes",
+  "author": "JSL EKOS",
+  "version": "1.0.0",
+  "description": "This module explains warehouse operations in stainless steel manufacturing, including material receiving, storage, inventory management, material handling, and dispatch preparation.",
+  "learningObjectives": [
+    "Understand the role of the warehouse in manufacturing.",
+    "Learn warehouse receiving and storage procedures.",
+    "Understand inventory management principles.",
+    "Identify warehouse equipment and material handling methods.",
+    "Recognize warehouse safety and quality practices."
+  ],
+  "prerequisites": [
+    "Manufacturing Overview",
+    "Quality Assurance and Quality Control"
+  ],
+  "content": {
+    "introduction": "The warehouse acts as the central storage and distribution point for raw materials, semi-finished products, finished goods, consumables, and spare parts. Efficient warehouse operations ensure uninterrupted production and timely customer deliveries.",
+    "purpose": "The primary objective of warehouse management is to store materials safely, maintain accurate inventory records, and ensure the right material reaches the right location at the right time.",
+    "warehouseFunctions": [
+      "Material Receiving",
+      "Material Inspection",
+      "Storage Management",
+      "Inventory Control",
+      "Material Identification",
+      "Material Issuing",
+      "Finished Goods Storage",
+      "Dispatch Preparation"
+    ],
+    "majorEquipment": [
+      "Forklift",
+      "Overhead Crane",
+      "Pallet Truck",
+      "Storage Racks",
+      "Barcode Scanner",
+      "Weighing System",
+      "Computerized Inventory System"
+    ],
+    "processSteps": [
+      "Receive incoming material.",
+      "Verify purchase or production documents.",
+      "Inspect material condition.",
+      "Assign storage location.",
+      "Update inventory records.",
+      "Store material safely.",
+      "Issue material as per production requirement.",
+      "Prepare finished goods for dispatch."
+    ],
+    "inventoryMethods": [
+      "FIFO (First In First Out)",
+      "Batch Identification",
+      "Barcode Tracking",
+      "Material Coding",
+      "Cycle Counting"
+    ],
+    "qualityChecks": [
+      "Material Identification",
+      "Quantity Verification",
+      "Physical Condition Inspection",
+      "Storage Condition Monitoring",
+      "Inventory Accuracy Verification"
+    ],
+    "safetyPrecautions": [
+      "Wear mandatory PPE.",
+      "Follow forklift safety rules.",
+      "Do not overload storage racks.",
+      "Keep warehouse aisles clear.",
+      "Follow safe lifting procedures.",
+      "Store hazardous materials separately."
+    ],
+    "commonProblems": [
+      "Inventory Mismatch",
+      "Material Damage",
+      "Improper Storage",
+      "Wrong Material Issue",
+      "Poor Material Identification",
+      "Delayed Material Availability"
+    ],
+    "summary": "Warehouse management plays an important role in supporting manufacturing by ensuring proper storage, inventory control, material availability, and efficient movement of goods throughout the production process."
+  },
+  "resources": {
+    "images": [
+      "manufacturing/warehouse/warehouse_layout.jpg",
+      "manufacturing/warehouse/storage_racks.jpg",
+      "manufacturing/warehouse/forklift_operation.jpg",
+      "manufacturing/warehouse/barcode_scanner.jpg"
+    ],
+    "videos": [
+      "warehouse_operations.mp4",
+      "inventory_management.mp4"
+    ],
+    "documents": [
+      "warehouse_manual.pdf"
+    ],
+    "diagrams": [
+      "warehouse_workflow.svg",
+      "inventory_flow.svg"
+    ]
+  },
+  "quiz": "warehouse-quiz",
+  "assessment": "manufacturing-assessment",
+  "status": "Published"
+}
