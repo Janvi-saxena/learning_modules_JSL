@@ -1,1 +1,303 @@
-
+{
+  "assessmentId": "company-overview-set-2",
+  "title": "Company Overview Assessment - Set 2",
+  "description": "Assessment covering company history, culture, products, values, certifications, leadership, manufacturing facilities and workplace practices.",
+  "duration": "20 Minutes",
+  "passingScore": 80,
+  "totalQuestions": 25,
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "What does JSL primarily manufacture?",
+      "options": [
+        "Aluminium",
+        "Copper",
+        "Stainless Steel",
+        "Plastic"
+      ],
+      "correctAnswer": "Stainless Steel",
+      "explanation": "JSL is a stainless steel manufacturing company."
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "Which factor contributes most to customer satisfaction?",
+      "options": [
+        "Poor communication",
+        "Consistent product quality",
+        "Ignoring feedback",
+        "Late delivery"
+      ],
+      "correctAnswer": "Consistent product quality",
+      "explanation": "Quality products improve customer satisfaction."
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "Which department is responsible for employee welfare?",
+      "options": [
+        "HR",
+        "Production",
+        "Quality",
+        "Dispatch"
+      ],
+      "correctAnswer": "HR",
+      "explanation": "Human Resources manages employee welfare."
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "Which of these best describes workplace ethics?",
+      "options": [
+        "Ignoring company rules",
+        "Honest and responsible behaviour",
+        "Avoiding teamwork",
+        "Working without documentation"
+      ],
+      "correctAnswer": "Honest and responsible behaviour",
+      "explanation": "Ethics involve honesty, responsibility and integrity."
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "Continuous improvement mainly focuses on:",
+      "options": [
+        "Stopping innovation",
+        "Improving processes regularly",
+        "Reducing documentation",
+        "Ignoring customer feedback"
+      ],
+      "correctAnswer": "Improving processes regularly",
+      "explanation": "Continuous improvement is an ongoing effort to improve products and processes."
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "Why are company policies important?",
+      "options": [
+        "To create confusion",
+        "To provide consistent guidelines",
+        "To reduce quality",
+        "To avoid responsibility"
+      ],
+      "correctAnswer": "To provide consistent guidelines",
+      "explanation": "Policies help employees follow standard procedures."
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "Which of the following best represents teamwork?",
+      "options": [
+        "Working alone",
+        "Departments collaborating to achieve common goals",
+        "Ignoring communication",
+        "Avoiding meetings"
+      ],
+      "correctAnswer": "Departments collaborating to achieve common goals",
+      "explanation": "Teamwork improves efficiency and productivity."
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "Which document introduces new employees to company rules?",
+      "options": [
+        "Employee Handbook",
+        "Invoice",
+        "Packing List",
+        "Purchase Order"
+      ],
+      "correctAnswer": "Employee Handbook",
+      "explanation": "The handbook explains company policies and procedures."
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "Which of these supports a positive workplace culture?",
+      "options": [
+        "Ignoring safety",
+        "Respect and teamwork",
+        "Poor communication",
+        "Breaking SOPs"
+      ],
+      "correctAnswer": "Respect and teamwork",
+      "explanation": "Respectful collaboration strengthens workplace culture."
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "Which area is most important during employee onboarding?",
+      "options": [
+        "Lottery allocation",
+        "Company introduction and workplace orientation",
+        "Annual bonus calculation",
+        "Stock market training"
+      ],
+      "correctAnswer": "Company introduction and workplace orientation",
+      "explanation": "Onboarding familiarizes employees with the organization."
+    },
+    {
+      "id": 11,
+      "type": "true_false",
+      "question": "Safety rules should be followed only inside production areas.",
+      "correctAnswer": false,
+      "explanation": "Safety applies across the entire workplace."
+    },
+    {
+      "id": 12,
+      "type": "true_false",
+      "question": "Quality is everyone's responsibility.",
+      "correctAnswer": true,
+      "explanation": "Every employee contributes to quality."
+    },
+    {
+      "id": 13,
+      "type": "true_false",
+      "question": "Ignoring SOPs can increase operational risks.",
+      "correctAnswer": true,
+      "explanation": "Standard procedures reduce errors and accidents."
+    },
+    {
+      "id": 14,
+      "type": "true_false",
+      "question": "Company values are only relevant for senior management.",
+      "correctAnswer": false,
+      "explanation": "Values apply to every employee."
+    },
+    {
+      "id": 15,
+      "type": "true_false",
+      "question": "Customer satisfaction is an important business objective.",
+      "correctAnswer": true,
+      "explanation": "Meeting customer expectations is a key goal."
+    },
+    {
+      "id": 16,
+      "type": "short_answer",
+      "question": "Why is teamwork important in an organization?",
+      "keywords": [
+        "collaboration",
+        "productivity",
+        "coordination",
+        "communication"
+      ],
+      "sampleAnswer": "Teamwork improves collaboration, communication and productivity."
+    },
+    {
+      "id": 17,
+      "type": "short_answer",
+      "question": "Name two company values that employees should follow.",
+      "keywords": [
+        "integrity",
+        "quality",
+        "safety",
+        "teamwork",
+        "respect"
+      ],
+      "sampleAnswer": "Examples include Integrity, Safety, Quality, Respect and Teamwork."
+    },
+    {
+      "id": 18,
+      "type": "short_answer",
+      "question": "Why is quality important for customers?",
+      "keywords": [
+        "customer satisfaction",
+        "reliability",
+        "consistency"
+      ],
+      "sampleAnswer": "Quality ensures reliable products and improves customer satisfaction."
+    },
+    {
+      "id": 19,
+      "type": "short_answer",
+      "question": "What is the purpose of employee onboarding?",
+      "keywords": [
+        "orientation",
+        "training",
+        "company",
+        "introduction"
+      ],
+      "sampleAnswer": "It helps employees understand the company, workplace and policies."
+    },
+    {
+      "id": 20,
+      "type": "short_answer",
+      "question": "Name any two major departments in a manufacturing company.",
+      "keywords": [
+        "HR",
+        "Finance",
+        "Manufacturing",
+        "Quality",
+        "IT",
+        "Maintenance"
+      ],
+      "sampleAnswer": "Manufacturing and HR are examples."
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "Which department ensures products meet specifications?",
+      "options": [
+        "Quality",
+        "Accounts",
+        "HR",
+        "Administration"
+      ],
+      "correctAnswer": "Quality",
+      "explanation": "Quality departments inspect and verify products."
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "Why are certifications valuable for a manufacturing company?",
+      "options": [
+        "They replace inspections.",
+        "They demonstrate compliance with recognized standards.",
+        "They eliminate quality checks.",
+        "They reduce production automatically."
+      ],
+      "correctAnswer": "They demonstrate compliance with recognized standards.",
+      "explanation": "Certifications build customer confidence."
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "Which behaviour should every employee demonstrate?",
+      "options": [
+        "Professionalism",
+        "Negligence",
+        "Carelessness",
+        "Ignoring procedures"
+      ],
+      "correctAnswer": "Professionalism",
+      "explanation": "Professional behaviour supports organizational success."
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "What is one benefit of following Standard Operating Procedures (SOPs)?",
+      "options": [
+        "Reduced consistency",
+        "Improved safety and quality",
+        "More operational errors",
+        "Lower accountability"
+      ],
+      "correctAnswer": "Improved safety and quality",
+      "explanation": "SOPs help standardize work and reduce errors."
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "What should an employee do after noticing an unsafe condition?",
+      "options": [
+        "Ignore it",
+        "Report it immediately",
+        "Wait for someone else",
+        "Continue working without informing anyone"
+      ],
+      "correctAnswer": "Report it immediately",
+      "explanation": "Unsafe conditions should always be reported promptly."
+    }
+  ],
+  "status": "Published"
+}
