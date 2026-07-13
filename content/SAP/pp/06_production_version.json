@@ -1,1 +1,196 @@
+{
+  "id": "production_version",
+  "title": "Production Version",
+  "module": "SAP PP",
+  "order": 6,
+  "duration": "40 minutes",
+  "difficulty": "Intermediate",
 
+  "learning_objectives": [
+    "Understand the purpose of Production Version.",
+    "Learn how Production Version links BOM and Routing.",
+    "Identify important Production Version fields.",
+    "Understand Production Version selection during MRP.",
+    "Learn the standard SAP Transaction Code used for Production Version."
+  ],
+
+  "introduction": {
+    "title": "What is Production Version?",
+    "content": "A Production Version is a master data object in SAP PP that links a Material Master with a specific Bill of Material (BOM) and Routing. It tells SAP which manufacturing process should be used to produce a material."
+  },
+
+  "business_purpose": {
+    "title": "Why is Production Version Important?",
+    "content": "A material may have multiple BOMs or Routings due to different manufacturing methods, plants or engineering revisions. Production Version ensures SAP selects the correct BOM and Routing during Material Requirements Planning (MRP) and Production Order creation."
+  },
+
+  "key_components": [
+    {
+      "component": "Production Version Number",
+      "description": "Unique identifier for the production version."
+    },
+    {
+      "component": "Material",
+      "description": "Material for which the Production Version is created."
+    },
+    {
+      "component": "Plant",
+      "description": "Manufacturing plant."
+    },
+    {
+      "component": "Bill of Material",
+      "description": "BOM assigned to the Production Version."
+    },
+    {
+      "component": "Routing",
+      "description": "Routing assigned to the Production Version."
+    },
+    {
+      "component": "Validity Period",
+      "description": "Specifies the date range during which the Production Version is active."
+    },
+    {
+      "component": "Lot Size",
+      "description": "Defines the production quantity range for which the Production Version is applicable."
+    }
+  ],
+
+  "important_fields": [
+    "Production Version",
+    "Material Number",
+    "Plant",
+    "Alternative BOM",
+    "Routing Group",
+    "Routing Group Counter",
+    "Validity From",
+    "Validity To",
+    "Minimum Lot Size",
+    "Maximum Lot Size",
+    "Status"
+  ],
+
+  "business_functions": [
+    "BOM Selection",
+    "Routing Selection",
+    "MRP Planning",
+    "Production Order Creation",
+    "Manufacturing Process Control",
+    "Engineering Change Support"
+  ],
+
+  "transaction_codes": [
+    {
+      "code": "C223",
+      "name": "Maintain Production Version"
+    },
+    {
+      "code": "MM03",
+      "name": "Display Material Master"
+    },
+    {
+      "code": "CS03",
+      "name": "Display BOM"
+    },
+    {
+      "code": "CA03",
+      "name": "Display Routing"
+    }
+  ],
+
+  "sap_menu_path": [
+    "SAP Easy Access",
+    "Logistics",
+    "Production",
+    "Master Data",
+    "Production Version"
+  ],
+
+  "step_by_step_procedure": [
+    "Execute Transaction C223.",
+    "Enter Material Number.",
+    "Enter Plant.",
+    "Create a new Production Version.",
+    "Assign the Alternative BOM.",
+    "Assign the Routing Group and Group Counter.",
+    "Enter the Validity Period.",
+    "Maintain Minimum and Maximum Lot Size.",
+    "Save the Production Version."
+  ],
+
+  "selection_logic": [
+    "SAP first checks whether a valid Production Version exists.",
+    "It verifies the production date falls within the validity period.",
+    "It checks whether the order quantity falls within the lot size range.",
+    "The corresponding BOM and Routing are selected automatically."
+  ],
+
+  "integration": [
+    {
+      "module": "Material Master",
+      "purpose": "Production Version is maintained for each material."
+    },
+    {
+      "module": "Bill of Material",
+      "purpose": "Selects the correct BOM."
+    },
+    {
+      "module": "Routing",
+      "purpose": "Selects the correct manufacturing process."
+    },
+    {
+      "module": "MRP",
+      "purpose": "Uses Production Version while planning materials."
+    },
+    {
+      "module": "Production Orders",
+      "purpose": "Automatically copies BOM and Routing into Production Orders."
+    }
+  ],
+
+  "business_example": {
+    "title": "Example",
+    "content": "A stainless steel coil can be manufactured using two different production lines. Each production line has a different Routing and BOM. Two Production Versions are maintained in SAP, allowing the planner to select the appropriate manufacturing process based on capacity or production requirements."
+  },
+
+  "best_practices": [
+    "Maintain only valid Production Versions.",
+    "Review validity periods regularly.",
+    "Ensure BOM and Routing are released before assignment.",
+    "Maintain appropriate lot size ranges.",
+    "Deactivate obsolete Production Versions."
+  ],
+
+  "common_errors": [
+    "Missing Production Version.",
+    "Incorrect BOM assignment.",
+    "Wrong Routing assignment.",
+    "Expired validity period.",
+    "Overlapping lot size ranges."
+  ],
+
+  "important_notes": [
+    "Production Version is mandatory in many SAP S/4HANA production planning scenarios.",
+    "MRP cannot correctly determine the manufacturing process without a valid Production Version.",
+    "Every Production Version should reference a released BOM and Routing."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/sap/pp/production_version/c223_screen.png",
+      "assets/images/sap/pp/production_version/version_details.png",
+      "assets/images/sap/pp/production_version/bom_routing_link.png"
+    ],
+    "videos": [
+      "assets/videos/sap/pp/production_version.mp4"
+    ],
+    "documents": [
+      "assets/documents/sap/pp/production_version.pdf"
+    ]
+  },
+
+  "next_module": "07_mrp.json",
+
+  "assessment": {
+    "quiz": "assessment/sap/set_3.json"
+  }
+}
