@@ -1,1 +1,173 @@
+{
+  "id": "qm_overview",
+  "title": "Quality Management (QM) Overview",
+  "module": "SAP QM",
+  "order": 1,
+  "duration": "35 minutes",
+  "difficulty": "Intermediate",
 
+  "learning_objectives": [
+    "Understand the purpose of SAP Quality Management.",
+    "Learn the role of Quality Management in manufacturing.",
+    "Understand the quality lifecycle in SAP.",
+    "Identify the integration of QM with other SAP modules.",
+    "Learn commonly used SAP QM transaction codes."
+  ],
+
+  "introduction": {
+    "title": "What is SAP Quality Management?",
+    "content": "SAP Quality Management (QM) is the module used to plan, execute, monitor and improve quality throughout the manufacturing process. It helps ensure that raw materials, semi-finished products and finished goods meet predefined quality standards before they are accepted or delivered to customers."
+  },
+
+  "business_purpose": {
+    "title": "Why is SAP QM Used?",
+    "content": "Quality Management ensures that products meet customer requirements and industry standards. It helps reduce defects, improve production quality, minimize rework, support regulatory compliance and increase customer satisfaction."
+  },
+
+  "quality_objectives": [
+    "Improve product quality.",
+    "Reduce manufacturing defects.",
+    "Ensure process consistency.",
+    "Support continuous improvement.",
+    "Increase customer satisfaction.",
+    "Maintain product traceability."
+  ],
+
+  "quality_lifecycle": [
+    "Raw Material Inspection",
+    "Production Process Inspection",
+    "Finished Goods Inspection",
+    "Result Recording",
+    "Usage Decision",
+    "Quality Reporting",
+    "Continuous Improvement"
+  ],
+
+  "quality_functions": [
+    "Inspection Planning",
+    "Inspection Lot Processing",
+    "Quality Result Recording",
+    "Usage Decision",
+    "Defect Recording",
+    "Quality Reporting",
+    "Quality Certificates"
+  ],
+
+  "integration": [
+    {
+      "module": "MM",
+      "purpose": "Incoming material inspection after Goods Receipt."
+    },
+    {
+      "module": "PP",
+      "purpose": "Quality inspection during and after production."
+    },
+    {
+      "module": "SD",
+      "purpose": "Quality checks before customer delivery."
+    },
+    {
+      "module": "PM",
+      "purpose": "Equipment calibration and maintenance quality."
+    },
+    {
+      "module": "FI",
+      "purpose": "Quality costs and inventory valuation."
+    }
+  ],
+
+  "important_transaction_codes": [
+    {
+      "code": "QA32",
+      "name": "Inspection Lot Processing"
+    },
+    {
+      "code": "QA33",
+      "name": "Display Inspection Lot"
+    },
+    {
+      "code": "QP01",
+      "name": "Create Inspection Plan"
+    },
+    {
+      "code": "QP02",
+      "name": "Change Inspection Plan"
+    },
+    {
+      "code": "QP03",
+      "name": "Display Inspection Plan"
+    }
+  ],
+
+  "sap_menu_path": [
+    "SAP Easy Access",
+    "Logistics",
+    "Quality Management"
+  ],
+
+  "inspection_process": [
+    "Material Receipt",
+    "Inspection Lot Creation",
+    "Sample Collection",
+    "Quality Inspection",
+    "Result Recording",
+    "Usage Decision",
+    "Stock Posting"
+  ],
+
+  "business_example": {
+    "title": "Example",
+    "content": "After production of stainless steel coils is completed, SAP automatically creates an Inspection Lot. The Quality team performs inspections, records test results, takes a Usage Decision and finally releases the material for warehouse storage or customer dispatch."
+  },
+
+  "benefits": [
+    "Improved product quality.",
+    "Reduced rejection rate.",
+    "Lower production losses.",
+    "Better customer satisfaction.",
+    "Improved regulatory compliance.",
+    "Real-time quality monitoring."
+  ],
+
+  "best_practices": [
+    "Maintain accurate Inspection Plans.",
+    "Record inspection results immediately.",
+    "Perform Usage Decisions without delay.",
+    "Investigate quality deviations promptly.",
+    "Review quality reports regularly."
+  ],
+
+  "common_errors": [
+    "Skipping inspection recording.",
+    "Incorrect inspection values.",
+    "Late Usage Decisions.",
+    "Ignoring failed inspection characteristics.",
+    "Incomplete quality documentation."
+  ],
+
+  "important_notes": [
+    "Quality Management is integrated with every stage of production.",
+    "Inspection results directly affect inventory availability.",
+    "Proper Quality Management reduces customer complaints and production losses."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/sap/qm/qm_overview.png",
+      "assets/images/sap/qm/quality_process.png",
+      "assets/images/sap/qm/qm_modules.png"
+    ],
+    "videos": [
+      "assets/videos/sap/qm/qm_overview.mp4"
+    ],
+    "documents": [
+      "assets/documents/sap/qm/qm_overview.pdf"
+    ]
+  },
+
+  "next_module": "02_qm_master_data.json",
+
+  "assessment": {
+    "quiz": "assessment/sap/set_3.json"
+  }
+}
