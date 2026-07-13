@@ -1,1 +1,215 @@
+ {
+  "id": "bill_of_material",
+  "title": "Bill of Material (BOM)",
+  "module": "SAP PP",
+  "order": 3,
+  "duration": "50 minutes",
+  "difficulty": "Intermediate",
 
+  "learning_objectives": [
+    "Understand the purpose of a Bill of Material (BOM).",
+    "Learn different BOM types used in SAP.",
+    "Understand BOM components and structure.",
+    "Learn BOM creation process.",
+    "Understand BOM usage in Production Planning and MRP."
+  ],
+
+  "introduction": {
+    "title": "What is a Bill of Material (BOM)?",
+    "content": "A Bill of Material (BOM) is a structured list of all raw materials, semi-finished materials, assemblies, subassemblies and components required to manufacture a finished product. It acts as the recipe of a product and is one of the most important master data objects in SAP Production Planning."
+  },
+
+  "business_purpose": {
+    "title": "Why is BOM Important?",
+    "content": "SAP uses the BOM during Material Requirements Planning (MRP), Production Orders and Cost Estimation. Without an accurate BOM, SAP cannot calculate the correct material requirements for manufacturing."
+  },
+
+  "bom_types": [
+    {
+      "type": "Material BOM",
+      "description": "Defines components required for manufacturing a material."
+    },
+    {
+      "type": "Equipment BOM",
+      "description": "Lists spare parts and components used for equipment maintenance."
+    },
+    {
+      "type": "Functional Location BOM",
+      "description": "Maintains components installed at a functional location."
+    },
+    {
+      "type": "Sales BOM",
+      "description": "Defines components sold together as one product."
+    }
+  ],
+
+  "bom_components": [
+    {
+      "field": "Header Material",
+      "description": "Finished or Semi-Finished Product."
+    },
+    {
+      "field": "Component",
+      "description": "Raw material required."
+    },
+    {
+      "field": "Quantity",
+      "description": "Required quantity of each component."
+    },
+    {
+      "field": "Unit of Measure",
+      "description": "Measurement unit of component."
+    },
+    {
+      "field": "Item Category",
+      "description": "Defines the usage of the component."
+    },
+    {
+      "field": "Validity Dates",
+      "description": "Specifies the period for which the BOM is valid."
+    }
+  ],
+
+  "bom_usage": [
+    "Production Planning",
+    "Material Requirements Planning (MRP)",
+    "Production Orders",
+    "Product Costing",
+    "Material Consumption",
+    "Engineering Change Management"
+  ],
+
+  "transaction_codes": [
+    {
+      "code": "CS01",
+      "name": "Create BOM"
+    },
+    {
+      "code": "CS02",
+      "name": "Change BOM"
+    },
+    {
+      "code": "CS03",
+      "name": "Display BOM"
+    },
+    {
+      "code": "CS11",
+      "name": "Display BOM Level by Level"
+    },
+    {
+      "code": "CS12",
+      "name": "Display Multi-Level BOM"
+    },
+    {
+      "code": "CS13",
+      "name": "Display BOM Summarized"
+    },
+    {
+      "code": "CS15",
+      "name": "Where-Used List"
+    }
+  ],
+
+  "sap_menu_path": [
+    "SAP Easy Access",
+    "Logistics",
+    "Production",
+    "Master Data",
+    "Bills of Material",
+    "Material BOM"
+  ],
+
+  "step_by_step_procedure": [
+    "Execute Transaction CS01.",
+    "Enter Material Number.",
+    "Enter Plant.",
+    "Select BOM Usage.",
+    "Enter Alternative BOM if applicable.",
+    "Maintain Header Data.",
+    "Enter Component Materials.",
+    "Enter Required Quantities.",
+    "Save the BOM."
+  ],
+
+  "important_fields": [
+    "Material",
+    "Plant",
+    "BOM Usage",
+    "Alternative BOM",
+    "Base Quantity",
+    "Component",
+    "Component Quantity",
+    "Item Category",
+    "Validity From"
+  ],
+
+  "integration": [
+    {
+      "module": "Material Master",
+      "purpose": "Every BOM component must exist as a Material Master."
+    },
+    {
+      "module": "MRP",
+      "purpose": "MRP explodes the BOM to calculate material requirements."
+    },
+    {
+      "module": "Production Orders",
+      "purpose": "Production Orders automatically copy BOM components."
+    },
+    {
+      "module": "Costing",
+      "purpose": "Calculates production cost based on BOM."
+    },
+    {
+      "module": "Warehouse",
+      "purpose": "Issues components during production."
+    }
+  ],
+
+  "business_example": {
+    "title": "Example",
+    "content": "A stainless steel sink requires a steel sheet, welding wire, polishing compound and packaging material. These components are maintained in the BOM. When a Production Order is created, SAP automatically determines the required quantities of all components from the BOM."
+  },
+
+  "best_practices": [
+    "Keep BOM updated whenever engineering changes occur.",
+    "Use correct component quantities.",
+    "Verify Material Numbers before saving.",
+    "Review BOM before production release.",
+    "Maintain validity dates correctly."
+  ],
+
+  "common_errors": [
+    "Missing component materials.",
+    "Incorrect component quantity.",
+    "Wrong BOM usage.",
+    "Duplicate components.",
+    "Expired validity dates."
+  ],
+
+  "important_notes": [
+    "Every component must have a valid Material Master.",
+    "A material can have multiple Alternative BOMs.",
+    "BOM directly affects MRP and Production Orders."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/sap/pp/bom/cs01_screen.png",
+      "assets/images/sap/pp/bom/bom_structure.png",
+      "assets/images/sap/pp/bom/component_list.png"
+    ],
+    "videos": [
+      "assets/videos/sap/pp/bom_creation.mp4"
+    ],
+    "documents": [
+      "assets/documents/sap/pp/bill_of_material.pdf"
+    ]
+  },
+
+  "next_module": "04_work_center.json",
+
+  "assessment": {
+    "quiz": "assessment/sap/set_3.json"
+  }
+}
