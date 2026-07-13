@@ -1,1 +1,196 @@
+{
+  "id": "production_confirmation",
+  "title": "Production Confirmation",
+  "module": "SAP PP",
+  "order": 9,
+  "duration": "55 minutes",
+  "difficulty": "Intermediate",
 
+  "learning_objectives": [
+    "Understand Production Confirmation in SAP PP.",
+    "Learn why Production Confirmation is performed.",
+    "Understand operation confirmation and final confirmation.",
+    "Learn important Production Confirmation transaction codes.",
+    "Understand how Production Confirmation updates SAP."
+  ],
+
+  "introduction": {
+    "title": "What is Production Confirmation?",
+    "content": "Production Confirmation is the process of recording manufacturing activities after production operations are completed. It informs SAP about the quantity produced, processing time consumed, labor hours, machine hours and production status. Confirmation provides real-time visibility of production progress."
+  },
+
+  "business_purpose": {
+    "title": "Why is Production Confirmation Important?",
+    "content": "Production Confirmation updates production progress, consumes planned capacities, records actual production time, supports production costing and prepares the order for Goods Receipt. Without confirmation, SAP cannot accurately monitor shop floor execution."
+  },
+
+  "confirmation_types": [
+    {
+      "type": "Operation Confirmation",
+      "description": "Confirmation for a single manufacturing operation."
+    },
+    {
+      "type": "Partial Confirmation",
+      "description": "Only part of the planned production quantity is confirmed."
+    },
+    {
+      "type": "Final Confirmation",
+      "description": "Confirms completion of all production operations."
+    },
+    {
+      "type": "Automatic Confirmation",
+      "description": "Confirmation generated automatically based on system configuration."
+    }
+  ],
+
+  "business_functions": [
+    "Record Production Quantity",
+    "Record Scrap Quantity",
+    "Update Machine Time",
+    "Update Labor Time",
+    "Monitor Production Progress",
+    "Support Production Costing",
+    "Update Capacity Utilization"
+  ],
+
+  "important_fields": [
+    "Production Order Number",
+    "Operation Number",
+    "Yield Quantity",
+    "Scrap Quantity",
+    "Rework Quantity",
+    "Confirmation Date",
+    "Posting Date",
+    "Work Center",
+    "Personnel Number",
+    "Machine Hours",
+    "Labor Hours",
+    "Final Confirmation Indicator"
+  ],
+
+  "transaction_codes": [
+    {
+      "code": "CO11N",
+      "name": "Enter Time Ticket (Production Confirmation)"
+    },
+    {
+      "code": "CO14",
+      "name": "Display Production Confirmation"
+    },
+    {
+      "code": "CO13",
+      "name": "Cancel Production Confirmation"
+    },
+    {
+      "code": "CO15",
+      "name": "Production Order Confirmation"
+    }
+  ],
+
+  "sap_menu_path": [
+    "SAP Easy Access",
+    "Logistics",
+    "Production",
+    "Shop Floor Control",
+    "Confirmation"
+  ],
+
+  "step_by_step_procedure": [
+    "Execute Transaction CO11N.",
+    "Enter the Production Order Number.",
+    "Select the Operation to confirm.",
+    "Enter Yield Quantity.",
+    "Enter Scrap Quantity (if applicable).",
+    "Enter Confirmation Date and Posting Date.",
+    "Record Machine Time and Labor Time.",
+    "Select Final Confirmation if production is complete.",
+    "Save the confirmation."
+  ],
+
+  "system_updates": [
+    "Production Order status is updated.",
+    "Capacity utilization is updated.",
+    "Actual production quantities are recorded.",
+    "Machine and labor hours are recorded.",
+    "Production costing is updated.",
+    "Production progress becomes visible in SAP."
+  ],
+
+  "integration": [
+    {
+      "module": "Production Orders",
+      "purpose": "Updates order execution status."
+    },
+    {
+      "module": "CO",
+      "purpose": "Records actual production costs."
+    },
+    {
+      "module": "PM",
+      "purpose": "Updates equipment utilization."
+    },
+    {
+      "module": "QM",
+      "purpose": "Production completion may trigger quality inspection."
+    },
+    {
+      "module": "MM",
+      "purpose": "Supports subsequent Goods Receipt."
+    }
+  ],
+
+  "business_example": {
+    "title": "Example",
+    "content": "A Production Order for 1,000 stainless steel coils has completed the rolling operation. The production supervisor uses CO11N to confirm the completed quantity, records machine hours and labor hours, updates scrap quantity if any, and performs Final Confirmation after production is completed."
+  },
+
+  "best_practices": [
+    "Confirm production immediately after completion.",
+    "Record actual production quantities accurately.",
+    "Record scrap separately.",
+    "Verify Production Order before confirmation.",
+    "Use Final Confirmation only after all operations are complete."
+  ],
+
+  "common_errors": [
+    "Incorrect Production Order Number.",
+    "Wrong operation selected.",
+    "Incorrect yield quantity.",
+    "Failure to record scrap.",
+    "Duplicate confirmation.",
+    "Incorrect posting date."
+  ],
+
+  "important_notes": [
+    "Production Confirmation records actual shop floor activity.",
+    "Final Confirmation indicates that all planned operations are complete.",
+    "Cancelled confirmations should be processed using CO13 before re-confirmation."
+  ],
+
+  "jsl_notes": [
+    "Production Confirmation should be completed immediately after shop floor execution.",
+    "Verify production quantities before posting confirmations.",
+    "Follow plant-specific approval procedures before Final Confirmation."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/sap/pp/production_confirmation/co11n_screen.png",
+      "assets/images/sap/pp/production_confirmation/confirmation_entry.png",
+      "assets/images/sap/pp/production_confirmation/co14_display.png",
+      "assets/images/sap/pp/production_confirmation/process_flow.png"
+    ],
+    "videos": [
+      "assets/videos/sap/pp/production_confirmation.mp4"
+    ],
+    "documents": [
+      "assets/documents/sap/pp/production_confirmation.pdf"
+    ]
+  },
+
+  "next_module": "10_goods_movement.json",
+
+  "assessment": {
+    "quiz": "assessment/sap/set_3.json"
+  }
+}
