@@ -1,0 +1,180 @@
+{
+  "id": "hcm",
+  "title": "Human Capital Management (HCM)",
+  "module": "SAP",
+  "order": 8,
+  "duration": "35 minutes",
+  "difficulty": "Beginner",
+
+  "learning_objectives": [
+    "Understand the purpose of SAP Human Capital Management (HCM).",
+    "Learn the key functions of HCM.",
+    "Understand employee lifecycle management in SAP.",
+    "Identify commonly used SAP HCM Transaction Codes.",
+    "Learn how HCM integrates with other SAP modules."
+  ],
+
+  "introduction": {
+    "title": "What is SAP HCM?",
+    "content": "SAP Human Capital Management (HCM), also known as SAP Human Resources (HR), is used to manage employee information, organizational structure, attendance, payroll, recruitment, training and performance. It enables organizations to efficiently manage their workforce throughout the employee lifecycle."
+  },
+
+  "business_purpose": {
+    "title": "Why is SAP HCM Used?",
+    "content": "Employees are one of the most valuable assets of an organization. SAP HCM helps maintain employee records, automate HR processes, ensure accurate payroll, monitor attendance, and support employee development."
+  },
+
+  "key_functions": [
+    "Employee Master Data",
+    "Organizational Management",
+    "Personnel Administration",
+    "Time Management",
+    "Payroll Processing",
+    "Recruitment",
+    "Training and Development",
+    "Performance Management",
+    "Employee Self-Service"
+  ],
+
+  "major_components": [
+    {
+      "name": "Personnel Administration",
+      "description": "Maintains employee personal and employment information."
+    },
+    {
+      "name": "Organizational Management",
+      "description": "Defines company structure, departments and reporting hierarchy."
+    },
+    {
+      "name": "Time Management",
+      "description": "Records attendance, leave, overtime and work schedules."
+    },
+    {
+      "name": "Payroll",
+      "description": "Calculates salaries, deductions, taxes and benefits."
+    },
+    {
+      "name": "Training & Event Management",
+      "description": "Manages employee learning and development activities."
+    },
+    {
+      "name": "Performance Management",
+      "description": "Tracks employee goals, appraisals and performance reviews."
+    }
+  ],
+
+  "employee_lifecycle": [
+    "Recruitment",
+    "Hiring",
+    "Employee Master Record Creation",
+    "Attendance & Leave Management",
+    "Training",
+    "Performance Evaluation",
+    "Payroll Processing",
+    "Promotion or Transfer",
+    "Retirement / Separation"
+  ],
+
+  "integration": [
+    {
+      "module": "FI",
+      "purpose": "Payroll expenses are posted to Financial Accounting."
+    },
+    {
+      "module": "CO",
+      "purpose": "Employee costs are allocated to Cost Centers."
+    },
+    {
+      "module": "PM",
+      "purpose": "Maintenance technicians are assigned to maintenance orders."
+    },
+    {
+      "module": "PP",
+      "purpose": "Production workforce planning."
+    }
+  ],
+
+  "transaction_codes": [
+    {
+      "code": "PA20",
+      "name": "Display Employee Master Data"
+    },
+    {
+      "code": "PA30",
+      "name": "Maintain Employee Master Data"
+    },
+    {
+      "code": "PA40",
+      "name": "Personnel Actions (Hiring, Transfer, Promotion)"
+    },
+    {
+      "code": "PPOME",
+      "name": "Organization and Staffing"
+    },
+    {
+      "code": "PT50",
+      "name": "Attendance Overview"
+    },
+    {
+      "code": "PT60",
+      "name": "Time Evaluation"
+    },
+    {
+      "code": "PC00_M40_CALC",
+      "name": "Payroll Run"
+    },
+    {
+      "code": "PPOSE",
+      "name": "Display Organization Structure"
+    }
+  ],
+
+  "business_example": {
+    "title": "Example",
+    "content": "A new engineer joins the manufacturing plant. HR creates the employee master record, assigns the employee to the Production department, records attendance, schedules mandatory training, processes monthly payroll and maintains performance records using SAP HCM."
+  },
+
+  "benefits": [
+    "Centralized employee records",
+    "Accurate payroll processing",
+    "Efficient attendance management",
+    "Improved workforce planning",
+    "Better employee development",
+    "Compliance with HR policies"
+  ],
+
+  "best_practices": [
+    "Keep employee information updated.",
+    "Record attendance accurately.",
+    "Maintain training records.",
+    "Process payroll on schedule.",
+    "Protect confidential employee information."
+  ],
+
+  "common_mistakes": [
+    "Incorrect employee master data.",
+    "Missing attendance entries.",
+    "Delayed payroll processing.",
+    "Incorrect organizational assignment.",
+    "Unauthorized access to employee records."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/sap/hcm/employee_master.png",
+      "assets/images/sap/hcm/organization_structure.png",
+      "assets/images/sap/hcm/payroll.png",
+      "assets/images/sap/hcm/time_management.png"
+    ],
+    "videos": [
+      "assets/videos/sap/hcm_overview.mp4"
+    ],
+    "documents": [
+      "assets/documents/sap/hcm_module.pdf"
+    ]
+  },
+
+  "assessment": {
+    "quiz": "assessment/sap/set_2.json"
+  }
+}
