@@ -1,0 +1,219 @@
+{
+  "id": "pm",
+  "title": "Plant Maintenance (PM)",
+  "module": "SAP",
+  "order": 5,
+  "duration": "35 minutes",
+  "difficulty": "Beginner",
+
+  "learning_objectives": [
+    "Understand the purpose of SAP Plant Maintenance.",
+    "Learn the maintenance lifecycle in SAP.",
+    "Understand equipment and functional locations.",
+    "Learn preventive and corrective maintenance.",
+    "Identify commonly used PM transaction codes."
+  ],
+
+  "introduction": {
+    "title": "What is SAP PM?",
+    "content": "SAP Plant Maintenance (PM) is used to manage, monitor and maintain equipment, machines and technical systems throughout their lifecycle. It helps organizations reduce equipment failures, improve asset reliability and optimize maintenance costs."
+  },
+
+  "business_purpose": {
+    "title": "Why is SAP PM Used?",
+    "content": "Manufacturing plants depend on machines operating efficiently. SAP PM helps schedule preventive maintenance, record breakdowns, manage repair activities and maintain equipment history, reducing downtime and increasing productivity."
+  },
+
+  "key_functions": [
+    "Equipment Management",
+    "Functional Location Management",
+    "Preventive Maintenance",
+    "Corrective Maintenance",
+    "Maintenance Notifications",
+    "Maintenance Orders",
+    "Work Scheduling",
+    "Maintenance History",
+    "Spare Parts Management"
+  ],
+
+  "master_data": [
+    {
+      "name": "Equipment",
+      "description": "Individual machines or assets that require maintenance."
+    },
+    {
+      "name": "Functional Location",
+      "description": "Physical location where equipment is installed."
+    },
+    {
+      "name": "Maintenance Task List",
+      "description": "Standard maintenance procedures."
+    },
+    {
+      "name": "Maintenance Plan",
+      "description": "Defines maintenance schedules."
+    }
+  ],
+
+  "maintenance_types": [
+    {
+      "type": "Preventive Maintenance",
+      "description": "Scheduled maintenance performed before failures occur."
+    },
+    {
+      "type": "Corrective Maintenance",
+      "description": "Repairs performed after equipment failure."
+    },
+    {
+      "type": "Predictive Maintenance",
+      "description": "Maintenance based on equipment condition and monitoring data."
+    },
+    {
+      "type": "Breakdown Maintenance",
+      "description": "Emergency maintenance carried out after unexpected machine breakdown."
+    }
+  ],
+
+  "maintenance_process": [
+    "Equipment Inspection",
+    "Maintenance Notification",
+    "Maintenance Planning",
+    "Maintenance Order Creation",
+    "Technician Assignment",
+    "Repair Execution",
+    "Testing",
+    "Order Completion",
+    "Maintenance History Update"
+  ],
+
+  "integration": [
+    {
+      "module": "MM",
+      "purpose": "Procures spare parts required for maintenance."
+    },
+    {
+      "module": "FI",
+      "purpose": "Records maintenance expenses."
+    },
+    {
+      "module": "CO",
+      "purpose": "Tracks maintenance costs."
+    },
+    {
+      "module": "PP",
+      "purpose": "Coordinates maintenance schedules with production."
+    }
+  ],
+
+  "transaction_codes": [
+    {
+      "code": "IL01",
+      "name": "Create Functional Location"
+    },
+    {
+      "code": "IL02",
+      "name": "Change Functional Location"
+    },
+    {
+      "code": "IL03",
+      "name": "Display Functional Location"
+    },
+    {
+      "code": "IE01",
+      "name": "Create Equipment"
+    },
+    {
+      "code": "IE02",
+      "name": "Change Equipment"
+    },
+    {
+      "code": "IE03",
+      "name": "Display Equipment"
+    },
+    {
+      "code": "IW21",
+      "name": "Create Maintenance Notification"
+    },
+    {
+      "code": "IW22",
+      "name": "Change Maintenance Notification"
+    },
+    {
+      "code": "IW23",
+      "name": "Display Maintenance Notification"
+    },
+    {
+      "code": "IW31",
+      "name": "Create Maintenance Order"
+    },
+    {
+      "code": "IW32",
+      "name": "Change Maintenance Order"
+    },
+    {
+      "code": "IW33",
+      "name": "Display Maintenance Order"
+    },
+    {
+      "code": "IP41",
+      "name": "Create Maintenance Plan"
+    },
+    {
+      "code": "IP42",
+      "name": "Change Maintenance Plan"
+    },
+    {
+      "code": "IP43",
+      "name": "Display Maintenance Plan"
+    }
+  ],
+
+  "business_example": {
+    "title": "Example",
+    "content": "A rolling mill motor develops excessive vibration. A maintenance notification is created in SAP, converted into a maintenance order, technicians perform repairs, spare parts are issued from inventory, testing is completed, and the maintenance history is updated for future reference."
+  },
+
+  "benefits": [
+    "Reduced equipment downtime",
+    "Improved asset reliability",
+    "Longer equipment life",
+    "Better maintenance planning",
+    "Lower repair costs",
+    "Improved production efficiency"
+  ],
+
+  "best_practices": [
+    "Schedule preventive maintenance regularly.",
+    "Record every equipment breakdown.",
+    "Maintain complete equipment history.",
+    "Use genuine spare parts.",
+    "Close maintenance orders after completion."
+  ],
+
+  "common_mistakes": [
+    "Ignoring preventive maintenance schedules.",
+    "Incomplete maintenance notifications.",
+    "Incorrect equipment master data.",
+    "Delayed maintenance order closure.",
+    "Failure to record maintenance history."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/sap/pm/equipment_master.png",
+      "assets/images/sap/pm/maintenance_order.png",
+      "assets/images/sap/pm/functional_location.png",
+      "assets/images/sap/pm/preventive_maintenance.png"
+    ],
+    "videos": [
+      "assets/videos/sap/pm_overview.mp4"
+    ],
+    "documents": [
+      "assets/documents/sap/pm_module.pdf"
+    ]
+  },
+
+  "assessment": {
+    "quiz": "assessment/sap/set_1.json"
+  }
+}
