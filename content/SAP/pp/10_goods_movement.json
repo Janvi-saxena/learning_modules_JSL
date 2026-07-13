@@ -1,1 +1,221 @@
+{
+  "id": "goods_movement",
+  "title": "Goods Movement",
+  "module": "SAP PP",
+  "order": 10,
+  "duration": "50 minutes",
+  "difficulty": "Intermediate",
 
+  "learning_objectives": [
+    "Understand Goods Movement in SAP PP.",
+    "Learn different movement types used during production.",
+    "Understand Goods Issue and Goods Receipt.",
+    "Learn standard SAP Goods Movement Transaction Codes.",
+    "Understand inventory updates during production."
+  ],
+
+  "introduction": {
+    "title": "What is Goods Movement?",
+    "content": "Goods Movement is the process of recording the physical movement of materials in SAP. During production, raw materials are issued from inventory to the Production Order, and after manufacturing, finished goods are received back into inventory. Every Goods Movement automatically updates stock quantities and creates accounting documents."
+  },
+
+  "business_purpose": {
+    "title": "Why is Goods Movement Important?",
+    "content": "Goods Movement ensures inventory accuracy, records material consumption, updates production costs and maintains traceability of materials throughout the manufacturing process."
+  },
+
+  "goods_movement_types": [
+    {
+      "type": "Goods Issue (GI)",
+      "description": "Raw materials are issued from inventory to the Production Order."
+    },
+    {
+      "type": "Goods Receipt (GR)",
+      "description": "Finished goods are received into inventory after production."
+    },
+    {
+      "type": "Transfer Posting",
+      "description": "Material is transferred between storage locations or plants."
+    },
+    {
+      "type": "Stock Adjustment",
+      "description": "Corrects inventory differences identified during stock verification."
+    }
+  ],
+
+  "movement_types": [
+    {
+      "movement": "101",
+      "purpose": "Goods Receipt for Production Order"
+    },
+    {
+      "movement": "261",
+      "purpose": "Goods Issue to Production Order"
+    },
+    {
+      "movement": "262",
+      "purpose": "Reversal of Goods Issue"
+    },
+    {
+      "movement": "102",
+      "purpose": "Reversal of Goods Receipt"
+    },
+    {
+      "movement": "311",
+      "purpose": "Storage Location Transfer"
+    }
+  ],
+
+  "important_fields": [
+    "Material Number",
+    "Plant",
+    "Storage Location",
+    "Production Order Number",
+    "Movement Type",
+    "Batch Number",
+    "Quantity",
+    "Unit of Measure",
+    "Posting Date",
+    "Document Date"
+  ],
+
+  "transaction_codes": [
+    {
+      "code": "MIGO",
+      "name": "Goods Movement"
+    },
+    {
+      "code": "MB51",
+      "name": "Material Document List"
+    },
+    {
+      "code": "MB52",
+      "name": "Warehouse Stock Report"
+    },
+    {
+      "code": "MMBE",
+      "name": "Stock Overview"
+    },
+    {
+      "code": "COGI",
+      "name": "Post Process Goods Movements"
+    }
+  ],
+
+  "sap_menu_path": [
+    "SAP Easy Access",
+    "Logistics",
+    "Materials Management",
+    "Inventory Management",
+    "Goods Movement"
+  ],
+
+  "goods_issue_process": [
+    "Production Order is released.",
+    "Execute MIGO.",
+    "Select Goods Issue.",
+    "Choose Movement Type 261.",
+    "Enter Production Order Number.",
+    "Verify component materials.",
+    "Post Goods Issue.",
+    "Raw material inventory is reduced."
+  ],
+
+  "goods_receipt_process": [
+    "Production is completed.",
+    "Execute MIGO.",
+    "Select Goods Receipt.",
+    "Choose Movement Type 101.",
+    "Enter Production Order Number.",
+    "Verify finished quantity.",
+    "Post Goods Receipt.",
+    "Finished goods inventory is increased."
+  ],
+
+  "system_updates": [
+    "Inventory quantities are updated.",
+    "Material Documents are created.",
+    "Accounting Documents are generated.",
+    "Production Order costs are updated.",
+    "Warehouse stock is refreshed.",
+    "Production status is updated."
+  ],
+
+  "integration": [
+    {
+      "module": "MM",
+      "purpose": "Updates inventory records."
+    },
+    {
+      "module": "FI",
+      "purpose": "Creates accounting entries."
+    },
+    {
+      "module": "CO",
+      "purpose": "Updates production costs."
+    },
+    {
+      "module": "Production Orders",
+      "purpose": "Records component consumption and finished goods."
+    },
+    {
+      "module": "QM",
+      "purpose": "Goods Receipt may trigger quality inspection."
+    }
+  ],
+
+  "business_example": {
+    "title": "Example",
+    "content": "A Production Order requires stainless steel scrap, ferro alloys and fluxes. Goods Issue (Movement Type 261) posts these materials to production. After manufacturing is completed, 1,000 stainless steel coils are received into inventory using Goods Receipt (Movement Type 101), updating warehouse stock and financial records."
+  },
+
+  "best_practices": [
+    "Verify Production Order before posting.",
+    "Check movement type carefully.",
+    "Confirm material quantities before posting.",
+    "Review Material Documents after posting.",
+    "Reconcile physical stock with SAP inventory regularly."
+  ],
+
+  "common_errors": [
+    "Incorrect Movement Type.",
+    "Wrong Production Order Number.",
+    "Posting incorrect quantity.",
+    "Incorrect Storage Location.",
+    "Duplicate Goods Movement postings."
+  ],
+
+  "important_notes": [
+    "Every Goods Movement creates a Material Document.",
+    "Most Goods Movements also generate Accounting Documents.",
+    "Movement Type determines how SAP updates inventory.",
+    "Goods Issue should normally occur before Production Confirmation is finalized."
+  ],
+
+  "jsl_notes": [
+    "Production teams should verify material availability before posting Goods Issue.",
+    "Goods Receipt should be posted only after production and quality verification, as per plant procedures.",
+    "Monitor failed Goods Movements using COGI and resolve errors promptly."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/sap/pp/goods_movement/migo_screen.png",
+      "assets/images/sap/pp/goods_movement/goods_issue.png",
+      "assets/images/sap/pp/goods_movement/goods_receipt.png",
+      "assets/images/sap/pp/goods_movement/material_document.png"
+    ],
+    "videos": [
+      "assets/videos/sap/pp/goods_movement.mp4"
+    ],
+    "documents": [
+      "assets/documents/sap/pp/goods_movement.pdf"
+    ]
+  },
+
+  "next_module": "11_reports.json",
+
+  "assessment": {
+    "quiz": "assessment/sap/set_3.json"
+  }
+}
