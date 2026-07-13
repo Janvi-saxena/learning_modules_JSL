@@ -1,1 +1,178 @@
-#abc
+{
+  "id": "personal_protective_equipment",
+  "title": "Personal Protective Equipment (PPE)",
+  "module": "Safety",
+  "order": 2,
+  "duration": "40 minutes",
+  "difficulty": "Beginner",
+
+  "learning_objectives": [
+    "Understand the importance of Personal Protective Equipment (PPE).",
+    "Identify different types of PPE used in industries.",
+    "Learn when and how PPE should be used.",
+    "Understand PPE maintenance and inspection.",
+    "Recognize the limitations of PPE."
+  ],
+
+  "introduction": {
+    "title": "What is PPE?",
+    "content": "Personal Protective Equipment (PPE) consists of protective clothing and equipment designed to minimize exposure to workplace hazards. PPE acts as the last line of defense when engineering controls and administrative controls cannot completely eliminate risks."
+  },
+
+  "business_purpose": {
+    "title": "Why is PPE Important?",
+    "content": "PPE protects employees from injuries caused by mechanical, chemical, electrical, thermal and environmental hazards. Proper use of PPE significantly reduces workplace accidents and supports a strong safety culture."
+  },
+
+  "ppe_categories": [
+    {
+      "equipment": "Safety Helmet",
+      "purpose": "Protects the head from falling or moving objects."
+    },
+    {
+      "equipment": "Safety Glasses / Goggles",
+      "purpose": "Protect the eyes from dust, sparks, chemicals and flying particles."
+    },
+    {
+      "equipment": "Face Shield",
+      "purpose": "Provides additional protection against chemical splashes and hot metal."
+    },
+    {
+      "equipment": "Hearing Protection",
+      "purpose": "Protects hearing in high-noise environments."
+    },
+    {
+      "equipment": "Respiratory Protection",
+      "purpose": "Prevents inhalation of harmful dust, fumes and gases."
+    },
+    {
+      "equipment": "Safety Gloves",
+      "purpose": "Protect hands from cuts, chemicals, burns and abrasions."
+    },
+    {
+      "equipment": "Protective Clothing",
+      "purpose": "Protects the body from heat, chemicals and sharp objects."
+    },
+    {
+      "equipment": "Safety Shoes",
+      "purpose": "Protect feet from heavy objects, slips and punctures."
+    },
+    {
+      "equipment": "Safety Harness",
+      "purpose": "Prevents falls while working at heights."
+    }
+  ],
+
+  "selection_guidelines": [
+    "Identify workplace hazards.",
+    "Choose PPE appropriate for the task.",
+    "Ensure proper fit and comfort.",
+    "Verify certification and quality standards.",
+    "Inspect PPE before every use."
+  ],
+
+  "inspection_checklist": [
+    "Check for cracks or damage.",
+    "Inspect straps and fasteners.",
+    "Ensure cleanliness.",
+    "Verify expiry dates where applicable.",
+    "Replace damaged PPE immediately."
+  ],
+
+  "maintenance_guidelines": [
+    "Clean PPE after use.",
+    "Store in a dry and clean location.",
+    "Avoid exposure to direct sunlight if not recommended.",
+    "Follow manufacturer maintenance instructions.",
+    "Replace worn or damaged equipment."
+  ],
+
+  "limitations": [
+    "PPE does not eliminate hazards.",
+    "Incorrect usage reduces effectiveness.",
+    "Damaged PPE provides inadequate protection.",
+    "Regular inspection and replacement are essential."
+  ],
+
+  "daily_workflow": [
+    "Inspect PPE before starting work.",
+    "Wear the required PPE correctly.",
+    "Report damaged PPE immediately.",
+    "Use PPE throughout the assigned task.",
+    "Remove PPE safely after work.",
+    "Clean and store PPE properly."
+  ],
+
+  "integration": [
+    {
+      "module": "Production",
+      "purpose": "Mandatory PPE protects operators during manufacturing."
+    },
+    {
+      "module": "Maintenance",
+      "purpose": "Technicians use specialized PPE during repair activities."
+    },
+    {
+      "module": "Quality",
+      "purpose": "Inspectors wear PPE while performing inspections."
+    },
+    {
+      "module": "Warehouse",
+      "purpose": "Warehouse personnel wear PPE while handling materials."
+    },
+    {
+      "module": "Emergency Response",
+      "purpose": "Emergency teams require specialized protective equipment."
+    }
+  ],
+
+  "business_example": {
+    "title": "PPE at JSL",
+    "content": "Before entering the production area, employees wear safety helmets, safety shoes, protective clothing and eye protection. Personnel working near furnaces additionally wear heat-resistant gloves, face shields and protective clothing designed for high-temperature environments."
+  },
+
+  "best_practices": [
+    "Always wear mandatory PPE.",
+    "Use task-specific protective equipment.",
+    "Inspect PPE before every shift.",
+    "Replace damaged PPE immediately.",
+    "Attend PPE training regularly.",
+    "Report missing PPE to supervisors."
+  ],
+
+  "common_errors": [
+    "Not wearing PPE correctly.",
+    "Using damaged equipment.",
+    "Sharing PPE without proper cleaning.",
+    "Ignoring mandatory PPE signs.",
+    "Removing PPE while still in hazardous areas."
+  ],
+
+  "important_notes": [
+    "PPE is the last line of defense against workplace hazards.",
+    "Engineering controls should always be implemented before relying solely on PPE.",
+    "Every employee is responsible for maintaining their assigned PPE.",
+    "Failure to wear PPE may result in serious injuries."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/safety/ppe/ppe_kit.png",
+      "assets/images/safety/ppe/helmet_and_shoes.png",
+      "assets/images/safety/ppe/fall_protection.png",
+      "assets/images/safety/ppe/ppe_inspection.png"
+    ],
+    "videos": [
+      "assets/videos/safety/ppe_training.mp4"
+    ],
+    "documents": [
+      "assets/documents/safety/ppe_guide.pdf"
+    ]
+  },
+
+  "next_module": "environment.json",
+
+  "assessment": {
+    "quiz": "assessment/safety/set_2.json"
+  }
+}
