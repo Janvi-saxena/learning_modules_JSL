@@ -1,1 +1,241 @@
+{
+  "assessment_id": "sap_set_3",
+  "title": "SAP Assessment - Set 3",
+  "module": "SAP",
+  "difficulty": "Advanced",
+  "total_questions": 25,
+  "passing_marks": 18,
+  "time_limit": "35 minutes",
 
+  "questions": [
+
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "A production planner runs MD02. SAP generates Planned Orders instead of Production Orders. Why?",
+      "options": [
+        "This is the standard behavior of MRP.",
+        "The BOM is missing.",
+        "The Work Center is inactive.",
+        "The Routing is incorrect."
+      ],
+      "correct_answer": "This is the standard behavior of MRP."
+    },
+
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "Which master data object connects a Material Master with both a BOM and a Routing?",
+      "options": [
+        "Inspection Plan",
+        "Production Version",
+        "Work Center",
+        "Cost Center"
+      ],
+      "correct_answer": "Production Version"
+    },
+
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "During Production Order creation, SAP automatically copies component materials from which master data?",
+      "options": [
+        "Routing",
+        "Work Center",
+        "Bill of Material (BOM)",
+        "Inspection Plan"
+      ],
+      "correct_answer": "Bill of Material (BOM)"
+    },
+
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "After inspection results have been recorded, what is the next step in the SAP QM process?",
+      "options": [
+        "Production Confirmation",
+        "Usage Decision",
+        "Goods Issue",
+        "MRP Run"
+      ],
+      "correct_answer": "Usage Decision"
+    },
+
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "Which movement type is normally used for Goods Issue to a Production Order?",
+      "options": [
+        "101",
+        "261",
+        "311",
+        "102"
+      ],
+      "correct_answer": "261"
+    },
+
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "Which transaction code is used to record inspection results?",
+      "options": [
+        "QA11",
+        "QE51N",
+        "CO11N",
+        "QP01"
+      ],
+      "correct_answer": "QE51N"
+    },
+
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "Which SAP module provides the technical foundation for all SAP applications?",
+      "options": [
+        "FI",
+        "CO",
+        "BASIS",
+        "PM"
+      ],
+      "correct_answer": "BASIS"
+    },
+
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "Which transaction code is commonly used to maintain SAP user accounts?",
+      "options": [
+        "PFCG",
+        "SU01",
+        "SM37",
+        "ST22"
+      ],
+      "correct_answer": "SU01"
+    },
+
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "A warehouse operator needs real-time visibility of inventory and warehouse tasks. Which SAP module is primarily used?",
+      "options": [
+        "EWM",
+        "QM",
+        "CO",
+        "FI"
+      ],
+      "correct_answer": "EWM"
+    },
+
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "Which document officially authorizes manufacturing of a product?",
+      "options": [
+        "Purchase Requisition",
+        "Production Order",
+        "Sales Order",
+        "Inspection Lot"
+      ],
+      "correct_answer": "Production Order"
+    },
+
+    {
+      "id": 11,
+      "type": "true_false",
+      "question": "MRP uses BOM data to calculate dependent material requirements.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 12,
+      "type": "true_false",
+      "question": "Goods Receipt normally reduces warehouse inventory.",
+      "correct_answer": false
+    },
+
+    {
+      "id": 13,
+      "type": "true_false",
+      "question": "Production Confirmation records actual shop floor activities.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 14,
+      "type": "true_false",
+      "question": "Inspection Plans define the inspection characteristics to be checked.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 15,
+      "type": "true_false",
+      "question": "SAP Security allows every user unrestricted access to all transactions.",
+      "correct_answer": false
+    },
+
+    {
+      "id": 16,
+      "type": "true_false",
+      "question": "Work Centers are assigned to Routing operations.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 17,
+      "type": "true_false",
+      "question": "A Usage Decision can release accepted material to unrestricted stock.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 18,
+      "type": "true_false",
+      "question": "SAP FI is responsible for Production Planning.",
+      "correct_answer": false
+    },
+
+    {
+      "id": 19,
+      "type": "short_answer",
+      "question": "Explain the purpose of Material Requirements Planning (MRP)."
+    },
+
+    {
+      "id": 20,
+      "type": "short_answer",
+      "question": "What is the difference between a Bill of Material (BOM) and a Routing?"
+    },
+
+    {
+      "id": 21,
+      "type": "short_answer",
+      "question": "Name any two Production Order statuses."
+    },
+
+    {
+      "id": 22,
+      "type": "short_answer",
+      "question": "Why is a Production Version required in SAP PP?"
+    },
+
+    {
+      "id": 23,
+      "type": "short_answer",
+      "question": "What is the purpose of a Usage Decision in SAP QM?"
+    },
+
+    {
+      "id": 24,
+      "type": "short_answer",
+      "question": "Name any two responsibilities of SAP BASIS."
+    },
+
+    {
+      "id": 25,
+      "type": "short_answer",
+      "question": "How does SAP Security help protect business data?"
+    }
+
+  ]
+}
