@@ -1,1 +1,208 @@
-#abc
+{
+  "id": "sales_department",
+  "title": "Sales Department",
+  "module": "Departments",
+  "order": 9,
+  "duration": "45 minutes",
+  "difficulty": "Beginner",
+
+  "learning_objectives": [
+    "Understand the role of the Sales Department.",
+    "Learn the sales process in a manufacturing organization.",
+    "Understand customer relationship management.",
+    "Recognize coordination between Sales and other departments.",
+    "Understand the use of SAP SD in sales operations."
+  ],
+
+  "introduction": {
+    "title": "What is the Sales Department?",
+    "content": "The Sales Department is responsible for understanding customer requirements, generating business opportunities, processing customer orders and ensuring products are delivered according to agreed specifications and timelines. It serves as the primary communication channel between customers and the organization."
+  },
+
+  "business_purpose": {
+    "title": "Why is the Sales Department Important?",
+    "content": "The Sales Department generates revenue by securing customer orders and maintaining strong customer relationships. It communicates market demand to internal departments, helping the organization plan production, inventory and delivery efficiently."
+  },
+
+  "department_objectives": [
+    "Increase customer satisfaction.",
+    "Achieve sales targets.",
+    "Build long-term customer relationships.",
+    "Ensure timely order fulfillment.",
+    "Expand market opportunities.",
+    "Support sustainable business growth."
+  ],
+
+  "sales_workflow": [
+    "Receive customer inquiry.",
+    "Understand customer requirements.",
+    "Prepare and submit quotation.",
+    "Negotiate commercial terms.",
+    "Receive customer purchase order.",
+    "Create Sales Order in SAP SD.",
+    "Coordinate production planning.",
+    "Track manufacturing progress.",
+    "Coordinate dispatch and delivery.",
+    "Collect customer feedback."
+  ],
+
+  "key_responsibilities": [
+    {
+      "responsibility": "Customer Relationship Management",
+      "description": "Develop and maintain long-term relationships with customers."
+    },
+    {
+      "responsibility": "Sales Order Management",
+      "description": "Create, monitor and manage customer orders."
+    },
+    {
+      "responsibility": "Quotation Preparation",
+      "description": "Prepare commercial quotations based on customer requirements."
+    },
+    {
+      "responsibility": "Market Analysis",
+      "description": "Monitor customer demand and market trends."
+    },
+    {
+      "responsibility": "Sales Forecasting",
+      "description": "Estimate future sales to support production planning."
+    },
+    {
+      "responsibility": "Customer Support",
+      "description": "Handle customer inquiries, complaints and after-sales communication."
+    }
+  ],
+
+  "daily_activities": [
+    "Respond to customer inquiries.",
+    "Prepare quotations.",
+    "Create and monitor sales orders.",
+    "Coordinate with Production for delivery schedules.",
+    "Track order status.",
+    "Communicate with customers.",
+    "Review sales performance reports."
+  ],
+
+  "documents_used": [
+    "Customer Inquiry",
+    "Quotation",
+    "Sales Order",
+    "Purchase Order (Customer)",
+    "Delivery Note",
+    "Invoice",
+    "Customer Feedback Report"
+  ],
+
+  "software_and_systems": [
+    "SAP SD",
+    "Customer Relationship Management (CRM)",
+    "Microsoft Office",
+    "Business Intelligence Dashboards",
+    "Email & Communication Tools"
+  ],
+
+  "key_sales_concepts": [
+    {
+      "concept": "Customer Relationship Management (CRM)",
+      "description": "Managing customer interactions to improve satisfaction and retention."
+    },
+    {
+      "concept": "Sales Forecasting",
+      "description": "Predicting future customer demand to support planning."
+    },
+    {
+      "concept": "Order Fulfillment",
+      "description": "Completing customer orders accurately and on time."
+    },
+    {
+      "concept": "After-Sales Support",
+      "description": "Providing assistance after product delivery to ensure customer satisfaction."
+    }
+  ],
+
+  "key_performance_indicators": [
+    "Sales Revenue",
+    "Sales Target Achievement",
+    "Customer Satisfaction Score",
+    "Order Fulfillment Rate",
+    "On-Time Delivery Performance",
+    "Customer Retention Rate",
+    "Quotation Conversion Rate"
+  ],
+
+  "coordination_with_departments": [
+    {
+      "department": "Production",
+      "purpose": "Plans manufacturing based on confirmed customer orders."
+    },
+    {
+      "department": "Warehouse",
+      "purpose": "Coordinates finished goods availability."
+    },
+    {
+      "department": "Dispatch",
+      "purpose": "Schedules shipment and delivery."
+    },
+    {
+      "department": "Finance",
+      "purpose": "Coordinates invoicing and payment processing."
+    },
+    {
+      "department": "Quality",
+      "purpose": "Addresses customer quality concerns and product specifications."
+    },
+    {
+      "department": "SAP SD",
+      "purpose": "Processes customer orders, deliveries and billing."
+    }
+  ],
+
+  "business_example": {
+    "title": "Sales Operations at JSL",
+    "content": "A customer places an order for stainless steel coils with specific dimensions and delivery requirements. The Sales Department creates a Sales Order in SAP SD and coordinates with Production to schedule manufacturing. Warehouse confirms finished goods availability, Dispatch arranges transportation and Finance generates the customer invoice. After delivery, Sales collects customer feedback to strengthen future business relationships."
+  },
+
+  "best_practices": [
+    "Understand customer requirements thoroughly.",
+    "Communicate realistic delivery commitments.",
+    "Maintain accurate sales documentation.",
+    "Monitor order progress regularly.",
+    "Respond to customer queries promptly.",
+    "Build long-term customer relationships."
+  ],
+
+  "common_errors": [
+    "Incorrect order entry.",
+    "Overpromising delivery dates.",
+    "Poor communication with Production.",
+    "Delayed customer responses.",
+    "Incomplete customer documentation.",
+    "Failure to follow up after delivery."
+  ],
+
+  "important_notes": [
+    "Customer satisfaction is a shared responsibility across all departments.",
+    "Accurate communication reduces order-related errors.",
+    "Sales forecasts help optimize production planning.",
+    "Long-term customer relationships are built through reliability and service quality."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/departments/sales/sales_process.png",
+      "assets/images/departments/sales/customer_relationship.png",
+      "assets/images/departments/sales/order_fulfillment.png",
+      "assets/images/departments/sales/sap_sd_dashboard.png"
+    ],
+    "videos": [
+      "assets/videos/departments/sales_overview.mp4"
+    ],
+    "documents": [
+      "assets/documents/departments/sales_manual.pdf"
+    ]
+  },
+
+  "assessment": {
+    "quiz": "assessment/department/set_3.json"
+  }
+}
