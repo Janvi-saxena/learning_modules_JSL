@@ -1,0 +1,185 @@
+{
+  "id": "security",
+  "title": "SAP Security",
+  "module": "SAP",
+  "order": 11,
+  "duration": "30 minutes",
+  "difficulty": "Beginner",
+
+  "learning_objectives": [
+    "Understand the importance of SAP Security.",
+    "Learn how SAP protects business data.",
+    "Understand user authentication and authorization.",
+    "Learn SAP security best practices.",
+    "Identify common SAP Security Transaction Codes."
+  ],
+
+  "introduction": {
+    "title": "What is SAP Security?",
+    "content": "SAP Security is responsible for protecting business data, controlling user access and ensuring that only authorized users can perform specific activities within the SAP system. It safeguards sensitive business information while maintaining system integrity and compliance."
+  },
+
+  "business_purpose": {
+    "title": "Why is SAP Security Important?",
+    "content": "Organizations store confidential financial, production, customer and employee information in SAP. SAP Security prevents unauthorized access, protects critical business data and ensures compliance with organizational security policies."
+  },
+
+  "key_functions": [
+    "User Authentication",
+    "Role-Based Authorization",
+    "Password Management",
+    "Access Control",
+    "Segregation of Duties (SoD)",
+    "Audit Logging",
+    "Security Monitoring",
+    "Compliance Management"
+  ],
+
+  "security_components": [
+    {
+      "name": "User Master Record",
+      "description": "Stores login credentials and user-specific information."
+    },
+    {
+      "name": "Roles",
+      "description": "Defines the activities a user is allowed to perform."
+    },
+    {
+      "name": "Authorization Objects",
+      "description": "Control access to transactions and business data."
+    },
+    {
+      "name": "Profiles",
+      "description": "Collection of authorization settings assigned to users."
+    }
+  ],
+
+  "security_process": [
+    "User Creation",
+    "Role Assignment",
+    "Authorization Check",
+    "Transaction Execution",
+    "Activity Logging",
+    "Audit Review",
+    "Periodic Access Review"
+  ],
+
+  "integration": [
+    {
+      "module": "BASIS",
+      "purpose": "Provides user administration and technical security."
+    },
+    {
+      "module": "FI",
+      "purpose": "Protects financial records."
+    },
+    {
+      "module": "HCM",
+      "purpose": "Protects employee information."
+    },
+    {
+      "module": "MM",
+      "purpose": "Restricts procurement activities."
+    },
+    {
+      "module": "PP",
+      "purpose": "Controls production planning access."
+    }
+  ],
+
+  "transaction_codes": [
+    {
+      "code": "SU01",
+      "name": "User Maintenance"
+    },
+    {
+      "code": "SU10",
+      "name": "Mass User Maintenance"
+    },
+    {
+      "code": "PFCG",
+      "name": "Role Maintenance"
+    },
+    {
+      "code": "SU53",
+      "name": "Display Authorization Check"
+    },
+    {
+      "code": "SUIM",
+      "name": "User Information System"
+    },
+    {
+      "code": "SM20",
+      "name": "Security Audit Log"
+    },
+    {
+      "code": "SM19",
+      "name": "Audit Log Configuration"
+    },
+    {
+      "code": "AL08",
+      "name": "Display Logged-on Users"
+    },
+    {
+      "code": "SM04",
+      "name": "User Sessions"
+    }
+  ],
+
+  "password_policy": [
+    "Use strong passwords.",
+    "Change passwords periodically.",
+    "Never share login credentials.",
+    "Lock your workstation when unattended.",
+    "Log out after completing work."
+  ],
+
+  "best_practices": [
+    "Assign users the minimum required access.",
+    "Review user roles regularly.",
+    "Monitor failed login attempts.",
+    "Enable audit logging.",
+    "Report suspicious activities immediately."
+  ],
+
+  "common_security_risks": [
+    "Weak passwords",
+    "Shared user accounts",
+    "Unauthorized role assignments",
+    "Inactive user accounts",
+    "Phishing attacks",
+    "Improper access control"
+  ],
+
+  "business_example": {
+    "title": "Example",
+    "content": "A Production Planning executive receives access only to PP transactions, while a Finance executive receives access to FI transactions. This role-based authorization ensures employees can perform only the tasks relevant to their responsibilities."
+  },
+
+  "benefits": [
+    "Protects confidential business data.",
+    "Ensures regulatory compliance.",
+    "Reduces unauthorized access.",
+    "Improves system reliability.",
+    "Enhances business continuity."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/sap/security/user_roles.png",
+      "assets/images/sap/security/access_control.png",
+      "assets/images/sap/security/security_audit.png",
+      "assets/images/sap/security/password_policy.png"
+    ],
+    "videos": [
+      "assets/videos/sap/security_overview.mp4"
+    ],
+    "documents": [
+      "assets/documents/sap/security_module.pdf"
+    ]
+  },
+
+  "assessment": {
+    "quiz": "assessment/sap/set_2.json"
+  }
+}
