@@ -1,0 +1,194 @@
+{
+  "id": "mm",
+  "title": "Materials Management (MM)",
+  "module": "SAP",
+  "order": 3,
+  "duration": "35 minutes",
+  "difficulty": "Beginner",
+
+  "learning_objectives": [
+    "Understand the purpose of the SAP MM module.",
+    "Learn the material procurement process.",
+    "Understand inventory and warehouse management.",
+    "Identify important master data used in MM.",
+    "Learn commonly used MM transaction codes."
+  ],
+
+  "introduction": {
+    "title": "What is SAP MM?",
+    "content": "SAP Materials Management (MM) is the module responsible for procurement, inventory management, material storage, and goods movement. It ensures that the right material is available at the right place and at the right time while maintaining optimal inventory levels."
+  },
+
+  "business_purpose": {
+    "title": "Why is SAP MM Used?",
+    "content": "Every manufacturing organization depends on raw materials, consumables, and spare parts. SAP MM helps manage purchasing, inventory, vendors, and material movements efficiently while reducing shortages and excess stock."
+  },
+
+  "key_functions": [
+    "Material Master Management",
+    "Vendor Management",
+    "Purchase Requisition",
+    "Purchase Order Processing",
+    "Goods Receipt",
+    "Goods Issue",
+    "Inventory Management",
+    "Stock Transfer",
+    "Invoice Verification"
+  ],
+
+  "master_data": [
+    {
+      "name": "Material Master",
+      "description": "Stores complete information about a material."
+    },
+    {
+      "name": "Vendor Master",
+      "description": "Stores supplier information."
+    },
+    {
+      "name": "Purchasing Info Record",
+      "description": "Maintains purchasing conditions between vendor and material."
+    },
+    {
+      "name": "Source List",
+      "description": "Specifies approved vendors for a material."
+    }
+  ],
+
+  "procurement_process": [
+    "Requirement Identification",
+    "Purchase Requisition",
+    "Vendor Selection",
+    "Purchase Order",
+    "Goods Receipt",
+    "Invoice Verification",
+    "Vendor Payment"
+  ],
+
+  "inventory_functions": [
+    "Goods Receipt",
+    "Goods Issue",
+    "Stock Transfer",
+    "Physical Inventory",
+    "Batch Management",
+    "Warehouse Stock Monitoring"
+  ],
+
+  "integration": [
+    {
+      "module": "PP",
+      "purpose": "Supplies raw materials for production."
+    },
+    {
+      "module": "QM",
+      "purpose": "Incoming material inspection."
+    },
+    {
+      "module": "FI",
+      "purpose": "Automatic accounting entries."
+    },
+    {
+      "module": "SD",
+      "purpose": "Material availability during sales."
+    }
+  ],
+
+  "transaction_codes": [
+    {
+      "code": "MM01",
+      "name": "Create Material Master"
+    },
+    {
+      "code": "MM02",
+      "name": "Change Material Master"
+    },
+    {
+      "code": "MM03",
+      "name": "Display Material Master"
+    },
+    {
+      "code": "ME51N",
+      "name": "Create Purchase Requisition"
+    },
+    {
+      "code": "ME52N",
+      "name": "Change Purchase Requisition"
+    },
+    {
+      "code": "ME53N",
+      "name": "Display Purchase Requisition"
+    },
+    {
+      "code": "ME21N",
+      "name": "Create Purchase Order"
+    },
+    {
+      "code": "ME22N",
+      "name": "Change Purchase Order"
+    },
+    {
+      "code": "ME23N",
+      "name": "Display Purchase Order"
+    },
+    {
+      "code": "MIGO",
+      "name": "Goods Receipt / Goods Issue"
+    },
+    {
+      "code": "MIRO",
+      "name": "Invoice Verification"
+    },
+    {
+      "code": "MB51",
+      "name": "Material Document List"
+    },
+    {
+      "code": "MB52",
+      "name": "Warehouse Stock"
+    },
+    {
+      "code": "MMBE",
+      "name": "Stock Overview"
+    }
+  ],
+
+  "business_example": {
+    "title": "Example",
+    "content": "A production department requires stainless steel scrap. A Purchase Requisition is created, converted into a Purchase Order, materials are received through Goods Receipt, inspected by Quality Management, and then stored in inventory for production use."
+  },
+
+  "best_practices": [
+    "Maintain accurate Material Master data.",
+    "Verify vendor information before creating Purchase Orders.",
+    "Record Goods Receipt immediately after material arrival.",
+    "Perform regular inventory reconciliation.",
+    "Monitor stock levels to avoid shortages."
+  ],
+
+  "common_mistakes": [
+    "Creating duplicate material masters.",
+    "Incorrect unit of measure.",
+    "Posting Goods Receipt for the wrong material.",
+    "Ignoring inventory discrepancies.",
+    "Incorrect storage location selection."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/sap/mm/material_master.png",
+      "assets/images/sap/mm/purchase_order.png",
+      "assets/images/sap/mm/migo_screen.png",
+      "assets/images/sap/mm/inventory_management.png"
+    ],
+    "videos": [
+      "assets/videos/sap/mm_overview.mp4"
+    ],
+    "documents": [
+      "assets/documents/sap/mm_module.pdf"
+    ]
+  },
+
+  "assessment": {
+    "quiz": "assessment/sap/set_1.json"
+  }
+}
