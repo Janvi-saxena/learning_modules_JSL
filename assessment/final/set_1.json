@@ -1,1 +1,241 @@
+{
+  "assessment_id": "final_set_1",
+  "title": "Final Assessment - Set 1",
+  "module": "JSL Learning Platform",
+  "difficulty": "Advanced",
+  "total_questions": 25,
+  "passing_marks": 18,
+  "time_limit": "40 minutes",
 
+  "questions": [
+
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "What is the primary objective of the JSL Learning Platform?",
+      "options": [
+        "Employee entertainment",
+        "Provide structured learning and skill development",
+        "Online shopping",
+        "Payroll processing"
+      ],
+      "correct_answer": "Provide structured learning and skill development"
+    },
+
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "Which manufacturing process converts molten steel into solid slabs?",
+      "options": [
+        "Pickling",
+        "Continuous Casting",
+        "Cold Rolling",
+        "Annealing"
+      ],
+      "correct_answer": "Continuous Casting"
+    },
+
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "Which department is responsible for inspecting finished products before dispatch?",
+      "options": [
+        "Finance",
+        "Quality",
+        "HR",
+        "Maintenance"
+      ],
+      "correct_answer": "Quality"
+    },
+
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "Which SAP module manages Production Planning?",
+      "options": [
+        "QM",
+        "PP",
+        "FI",
+        "SD"
+      ],
+      "correct_answer": "PP"
+    },
+
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "Which document contains the list of materials required to manufacture a product?",
+      "options": [
+        "Routing",
+        "Bill of Material",
+        "Inspection Plan",
+        "Production Version"
+      ],
+      "correct_answer": "Bill of Material"
+    },
+
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "Which PPE item is mandatory for protecting the head in industrial areas?",
+      "options": [
+        "Safety Helmet",
+        "Safety Shoes",
+        "Gloves",
+        "Face Mask"
+      ],
+      "correct_answer": "Safety Helmet"
+    },
+
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "Which automation system supervises industrial processes in real time?",
+      "options": [
+        "PLC",
+        "SCADA",
+        "SAP FI",
+        "HCM"
+      ],
+      "correct_answer": "SCADA"
+    },
+
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "Which transaction code is commonly used to create a Production Order?",
+      "options": [
+        "CO01",
+        "MM01",
+        "QA11",
+        "MD04"
+      ],
+      "correct_answer": "CO01"
+    },
+
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "After Result Recording in SAP QM, what is the next major step?",
+      "options": [
+        "MRP",
+        "Usage Decision",
+        "Goods Issue",
+        "Maintenance"
+      ],
+      "correct_answer": "Usage Decision"
+    },
+
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "Which department ensures raw materials are purchased on time?",
+      "options": [
+        "Finance",
+        "Procurement",
+        "Dispatch",
+        "Quality"
+      ],
+      "correct_answer": "Procurement"
+    },
+
+    {
+      "id": 11,
+      "type": "true_false",
+      "question": "Safety is the responsibility of every employee in the organization.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 12,
+      "type": "true_false",
+      "question": "MRP directly creates Production Orders in every scenario.",
+      "correct_answer": false
+    },
+
+    {
+      "id": 13,
+      "type": "true_false",
+      "question": "Continuous improvement is an important objective of Quality Management.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 14,
+      "type": "true_false",
+      "question": "A Work Center represents the location where manufacturing operations are performed.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 15,
+      "type": "true_false",
+      "question": "Finance is responsible for preventive maintenance scheduling.",
+      "correct_answer": false
+    },
+
+    {
+      "id": 16,
+      "type": "true_false",
+      "question": "SCADA systems collect and display real-time process data.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 17,
+      "type": "true_false",
+      "question": "A Usage Decision can move material to unrestricted stock.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 18,
+      "type": "true_false",
+      "question": "Warehouse inventory has no impact on production planning.",
+      "correct_answer": false
+    },
+
+    {
+      "id": 19,
+      "type": "short_answer",
+      "question": "Why is PPE important in an industrial workplace?"
+    },
+
+    {
+      "id": 20,
+      "type": "short_answer",
+      "question": "What is the purpose of Material Requirements Planning (MRP)?"
+    },
+
+    {
+      "id": 21,
+      "type": "short_answer",
+      "question": "Explain the role of the Quality department in manufacturing."
+    },
+
+    {
+      "id": 22,
+      "type": "short_answer",
+      "question": "What is the purpose of a Production Order?"
+    },
+
+    {
+      "id": 23,
+      "type": "short_answer",
+      "question": "Name any two benefits of industrial automation."
+    },
+
+    {
+      "id": 24,
+      "type": "short_answer",
+      "question": "Why is communication between departments important in manufacturing?"
+    },
+
+    {
+      "id": 25,
+      "type": "short_answer",
+      "question": "How does SAP help integrate different business departments?"
+    }
+
+  ]
+}
