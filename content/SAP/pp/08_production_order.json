@@ -1,1 +1,235 @@
+{
+  "id": "production_order",
+  "title": "Production Order",
+  "module": "SAP PP",
+  "order": 8,
+  "duration": "60 minutes",
+  "difficulty": "Intermediate",
 
+  "learning_objectives": [
+    "Understand the purpose of Production Orders.",
+    "Learn the Production Order lifecycle.",
+    "Understand Production Order components.",
+    "Learn Production Order processing in SAP.",
+    "Identify important SAP Production Order Transaction Codes."
+  ],
+
+  "introduction": {
+    "title": "What is a Production Order?",
+    "content": "A Production Order is an execution document in SAP Production Planning that authorizes the manufacturing of a specific quantity of a material. It contains all the information required for production including materials, operations, work centers, production dates, costs and confirmations."
+  },
+
+  "business_purpose": {
+    "title": "Why is a Production Order Important?",
+    "content": "A Production Order acts as the official instruction to manufacture a product. It brings together the Bill of Material (BOM), Routing, Work Centers and scheduling information, ensuring production is carried out according to the defined manufacturing process."
+  },
+
+  "production_order_lifecycle": [
+    "Planned Order Creation",
+    "Planned Order Review",
+    "Conversion to Production Order",
+    "Order Release",
+    "Material Availability Check",
+    "Goods Issue",
+    "Production Execution",
+    "Production Confirmation",
+    "Goods Receipt",
+    "Order Settlement",
+    "Order Completion"
+  ],
+
+  "important_information": [
+    "Production Order Number",
+    "Material Number",
+    "Plant",
+    "Order Quantity",
+    "Basic Start Date",
+    "Basic Finish Date",
+    "Production Version",
+    "BOM",
+    "Routing",
+    "Work Centers",
+    "Status"
+  ],
+
+  "order_statuses": [
+    {
+      "status": "CRTD",
+      "description": "Production Order Created."
+    },
+    {
+      "status": "REL",
+      "description": "Order Released for Production."
+    },
+    {
+      "status": "PCNF",
+      "description": "Partially Confirmed."
+    },
+    {
+      "status": "CNF",
+      "description": "Fully Confirmed."
+    },
+    {
+      "status": "DLV",
+      "description": "Goods Receipt Completed."
+    },
+    {
+      "status": "TECO",
+      "description": "Technically Completed."
+    },
+    {
+      "status": "CLSD",
+      "description": "Production Order Closed."
+    }
+  ],
+
+  "transaction_codes": [
+    {
+      "code": "CO01",
+      "name": "Create Production Order"
+    },
+    {
+      "code": "CO02",
+      "name": "Change Production Order"
+    },
+    {
+      "code": "CO03",
+      "name": "Display Production Order"
+    },
+    {
+      "code": "COHV",
+      "name": "Mass Processing of Production Orders"
+    },
+    {
+      "code": "COGI",
+      "name": "Post Process Goods Movements"
+    },
+    {
+      "code": "COOIS",
+      "name": "Production Order Information System"
+    }
+  ],
+
+  "sap_menu_path": [
+    "SAP Easy Access",
+    "Logistics",
+    "Production",
+    "Shop Floor Control",
+    "Order",
+    "Create"
+  ],
+
+  "step_by_step_procedure": [
+    "Execute Transaction CO01.",
+    "Enter Material Number.",
+    "Enter Plant.",
+    "Enter Production Order Quantity.",
+    "Select Production Version.",
+    "Generate Production Order.",
+    "Review copied BOM and Routing.",
+    "Check scheduling dates.",
+    "Release the Production Order.",
+    "Execute Goods Issue.",
+    "Perform Production Confirmation.",
+    "Post Goods Receipt.",
+    "Complete and settle the order."
+  ],
+
+  "order_components": [
+    "Header Data",
+    "Operations",
+    "Component List",
+    "Production Scheduling",
+    "Capacity Requirements",
+    "Settlement Rule",
+    "Status Management"
+  ],
+
+  "integration": [
+    {
+      "module": "MRP",
+      "purpose": "Creates Planned Orders that are converted into Production Orders."
+    },
+    {
+      "module": "BOM",
+      "purpose": "Provides component requirements."
+    },
+    {
+      "module": "Routing",
+      "purpose": "Provides manufacturing operations."
+    },
+    {
+      "module": "MM",
+      "purpose": "Issues raw materials to production."
+    },
+    {
+      "module": "QM",
+      "purpose": "Initiates quality inspection after production."
+    },
+    {
+      "module": "CO",
+      "purpose": "Collects production costs."
+    },
+    {
+      "module": "FI",
+      "purpose": "Posts accounting entries."
+    }
+  ],
+
+  "business_example": {
+    "title": "Example",
+    "content": "A Production Planner creates a Production Order for manufacturing 1,000 stainless steel coils. SAP automatically copies the BOM and Routing, assigns the appropriate Work Centers, schedules production, issues raw materials, records confirmations and posts Goods Receipt after production is completed."
+  },
+
+  "best_practices": [
+    "Review BOM before releasing the order.",
+    "Verify Routing and Work Centers.",
+    "Ensure material availability before production.",
+    "Release only validated Production Orders.",
+    "Monitor Production Order status regularly.",
+    "Close completed orders promptly."
+  ],
+
+  "common_errors": [
+    "Missing Production Version.",
+    "Insufficient stock.",
+    "Incorrect production quantity.",
+    "Production Order not released.",
+    "Routing inconsistencies.",
+    "Incomplete confirmations."
+  ],
+
+  "important_notes": [
+    "Production Orders are usually generated from Planned Orders created by MRP.",
+    "Goods Issue should normally occur before production begins.",
+    "Goods Receipt is posted after manufacturing is completed.",
+    "Order status should be monitored throughout the production lifecycle."
+  ],
+
+  "jsl_notes": [
+    "Production Orders should be monitored regularly using Production Order reporting tools.",
+    "Manufacturing teams should verify production quantities and order status before confirmation.",
+    "Follow organization-specific production approval and execution procedures."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/sap/pp/production_order/co01_screen.png",
+      "assets/images/sap/pp/production_order/order_header.png",
+      "assets/images/sap/pp/production_order/order_operations.png",
+      "assets/images/sap/pp/production_order/order_lifecycle.png"
+    ],
+    "videos": [
+      "assets/videos/sap/pp/production_order.mp4"
+    ],
+    "documents": [
+      "assets/documents/sap/pp/production_order.pdf"
+    ]
+  },
+
+  "next_module": "09_production_confirmation.json",
+
+  "assessment": {
+    "quiz": "assessment/sap/set_3.json"
+  }
+}
