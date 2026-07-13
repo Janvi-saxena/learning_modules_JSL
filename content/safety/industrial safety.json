@@ -1,85 +1,191 @@
 {
-  "id": "industrial-safety",
+  "id": "industrial_safety",
   "title": "Industrial Safety",
-  "category": "Safety",
+  "module": "Safety",
+  "order": 1,
+  "duration": "45 minutes",
   "difficulty": "Beginner",
-  "estimatedDuration": "20 Minutes",
-  "author": "JSL EKOS",
-  "version": "1.0.0",
-  "description": "This module introduces employees to industrial safety practices followed at Jindal Stainless Limited. It covers workplace hazards, safe work practices, emergency procedures, and employee responsibilities.",
-  "learningObjectives": [
-    "Understand the importance of workplace safety.",
-    "Identify common industrial hazards.",
-    "Recognize employee safety responsibilities.",
-    "Learn safe working practices.",
-    "Understand emergency response procedures."
+
+  "learning_objectives": [
+    "Understand the importance of industrial safety.",
+    "Recognize common workplace hazards.",
+    "Learn the responsibilities of employees and employers in maintaining a safe workplace.",
+    "Understand basic safety rules followed in manufacturing industries.",
+    "Develop a safety-first mindset."
   ],
-  "prerequisites": [],
-  "content": {
-    "introduction": "Safety is the highest priority in every manufacturing facility. Every employee is responsible for maintaining a safe workplace by following established safety procedures and reporting unsafe conditions.",
-    "purpose": "Industrial Safety aims to prevent accidents, protect employees, safeguard company assets, and ensure uninterrupted manufacturing operations.",
-    "safetyObjectives": [
-      "Prevent workplace accidents.",
-      "Protect employees from injuries.",
-      "Ensure compliance with safety regulations.",
-      "Promote a strong safety culture.",
-      "Reduce operational risks."
-    ],
-    "commonHazards": [
-      "Moving Machinery",
-      "Molten Metal",
-      "High Temperature Equipment",
-      "Electrical Systems",
-      "Chemical Exposure",
-      "Noise",
-      "Dust",
-      "Slippery Floors",
-      "Working at Heights",
-      "Confined Spaces"
-    ],
-    "employeeResponsibilities": [
-      "Follow all safety procedures.",
-      "Wear required PPE.",
-      "Report unsafe conditions.",
-      "Participate in safety training.",
-      "Immediately report accidents and near misses."
-    ],
-    "safeWorkPractices": [
-      "Follow Standard Operating Procedures (SOPs).",
-      "Use approved tools and equipment.",
-      "Maintain good housekeeping.",
-      "Follow permit-to-work procedures.",
-      "Never bypass safety devices."
-    ],
-    "emergencyResponse": [
-      "Raise the alarm.",
-      "Inform the supervisor.",
-      "Move to the designated assembly point.",
-      "Follow emergency response team instructions.",
-      "Do not panic."
-    ],
-    "summary": "Industrial Safety is everyone's responsibility. Following safety procedures, using PPE correctly, and reporting hazards help create a safe and productive workplace."
+
+  "introduction": {
+    "title": "What is Industrial Safety?",
+    "content": "Industrial Safety refers to the policies, procedures and practices implemented to protect employees, equipment, property and the environment from accidents, injuries and occupational hazards. A safe workplace not only prevents incidents but also improves productivity, morale and operational efficiency."
   },
+
+  "business_purpose": {
+    "title": "Why is Industrial Safety Important?",
+    "content": "Industrial safety helps organizations reduce workplace accidents, protect employees, minimize equipment damage and comply with legal regulations. In manufacturing industries like JSL, safety is a shared responsibility that supports uninterrupted production and sustainable business operations."
+  },
+
+  "safety_objectives": [
+    "Prevent workplace accidents.",
+    "Protect employees from injuries.",
+    "Reduce equipment damage.",
+    "Maintain continuous production.",
+    "Ensure compliance with safety regulations.",
+    "Promote a culture of safety awareness."
+  ],
+
+  "fundamental_principles": [
+    "Safety First",
+    "Follow Standard Operating Procedures (SOPs)",
+    "Report unsafe conditions immediately",
+    "Use Personal Protective Equipment (PPE)",
+    "Never bypass safety devices",
+    "Participate in safety training"
+  ],
+
+  "common_workplace_hazards": [
+    {
+      "hazard": "Mechanical Hazards",
+      "description": "Moving machinery, rotating equipment and conveyors can cause serious injuries."
+    },
+    {
+      "hazard": "Electrical Hazards",
+      "description": "Faulty wiring, exposed cables and energized equipment may lead to electric shock."
+    },
+    {
+      "hazard": "Chemical Hazards",
+      "description": "Exposure to hazardous chemicals can cause burns, poisoning or respiratory issues."
+    },
+    {
+      "hazard": "Fire Hazards",
+      "description": "Improper storage of flammable materials increases fire risk."
+    },
+    {
+      "hazard": "Noise Hazards",
+      "description": "Long-term exposure to high noise levels may damage hearing."
+    },
+    {
+      "hazard": "Ergonomic Hazards",
+      "description": "Poor posture and repetitive work can lead to musculoskeletal disorders."
+    }
+  ],
+
+  "employee_responsibilities": [
+    "Follow all safety procedures.",
+    "Wear appropriate PPE.",
+    "Report unsafe conditions immediately.",
+    "Attend mandatory safety training.",
+    "Use equipment only after proper authorization.",
+    "Maintain good housekeeping practices."
+  ],
+
+  "employer_responsibilities": [
+    "Provide a safe working environment.",
+    "Conduct regular safety inspections.",
+    "Provide safety training.",
+    "Maintain emergency equipment.",
+    "Ensure machinery is properly maintained.",
+    "Promote continuous safety improvement."
+  ],
+
+  "safety_signs": [
+    {
+      "type": "Mandatory Signs",
+      "purpose": "Indicate actions that must be followed, such as wearing PPE."
+    },
+    {
+      "type": "Warning Signs",
+      "purpose": "Alert employees to potential hazards."
+    },
+    {
+      "type": "Prohibition Signs",
+      "purpose": "Indicate actions that are not allowed."
+    },
+    {
+      "type": "Emergency Information Signs",
+      "purpose": "Identify exits, first aid stations and emergency equipment."
+    }
+  ],
+
+  "daily_safety_workflow": [
+    "Attend toolbox talk or safety briefing.",
+    "Inspect PPE before use.",
+    "Check work area for hazards.",
+    "Perform assigned work according to SOPs.",
+    "Report unsafe conditions immediately.",
+    "Maintain housekeeping during and after work.",
+    "Report incidents or near misses."
+  ],
+
+  "integration": [
+    {
+      "module": "Production",
+      "purpose": "Ensures manufacturing activities are performed safely."
+    },
+    {
+      "module": "Maintenance",
+      "purpose": "Supports safe repair and maintenance of equipment."
+    },
+    {
+      "module": "Quality",
+      "purpose": "Maintains safe inspection practices."
+    },
+    {
+      "module": "Automation",
+      "purpose": "Safety interlocks and automated monitoring improve operational safety."
+    },
+    {
+      "module": "Human Resources",
+      "purpose": "Coordinates safety training and awareness programs."
+    }
+  ],
+
+  "business_example": {
+    "title": "Industrial Safety at JSL",
+    "content": "Before entering a production area, employees wear mandatory PPE, attend safety briefings and inspect their work area. Machine guards, emergency stop buttons and warning signs help reduce operational risks. Any unsafe condition is immediately reported to supervisors to prevent accidents."
+  },
+
+  "best_practices": [
+    "Think Safety Before Starting Work.",
+    "Follow Lockout/Tagout procedures when applicable.",
+    "Maintain good housekeeping.",
+    "Report near misses immediately.",
+    "Participate in safety drills.",
+    "Never ignore warning alarms."
+  ],
+
+  "common_errors": [
+    "Ignoring safety instructions.",
+    "Not wearing PPE.",
+    "Using damaged equipment.",
+    "Blocking emergency exits.",
+    "Working without proper authorization."
+  ],
+
+  "important_notes": [
+    "Safety is everyone's responsibility.",
+    "All accidents are preventable with proper planning and awareness.",
+    "Near-miss incidents should always be reported.",
+    "A strong safety culture improves productivity and employee well-being."
+  ],
+
   "resources": {
     "images": [
-      "safety/workplace_safety.jpg",
-      "safety/hazard_identification.png",
-      "safety/safety_signs.jpg",
-      "safety/emergency_exit_map.png"
+      "assets/images/safety/industrial_safety/workplace_safety.png",
+      "assets/images/safety/industrial_safety/safety_signs.png",
+      "assets/images/safety/industrial_safety/hazard_identification.png",
+      "assets/images/safety/industrial_safety/toolbox_talk.png"
     ],
     "videos": [
-      "industrial_safety.mp4",
-      "workplace_safety_induction.mp4"
+      "assets/videos/safety/industrial_safety.mp4"
     ],
     "documents": [
-      "industrial_safety_manual.pdf"
-    ],
-    "diagrams": [
-      "hazard_identification_flow.svg",
-      "emergency_response_flow.svg"
+      "assets/documents/safety/industrial_safety_reference.pdf"
     ]
   },
-  "quiz": "industrial-safety-quiz",
-  "assessment": "safety-assessment",
-  "status": "Published"
+
+  "next_module": "ppe.json",
+
+  "assessment": {
+    "quiz": "assessment/safety/set_1.json"
+  }
 }
