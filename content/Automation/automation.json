@@ -1,1 +1,175 @@
-#abc
+{
+  "id": "automation_overview",
+  "title": "Industrial Automation",
+  "module": "Automation",
+  "order": 1,
+  "duration": "45 minutes",
+  "difficulty": "Beginner",
+
+  "learning_objectives": [
+    "Understand the concept of industrial automation.",
+    "Learn why automation is important in modern manufacturing.",
+    "Identify different automation technologies used in industries.",
+    "Understand the role of automation in improving productivity and quality.",
+    "Recognize how automation integrates with Industry 4.0 initiatives."
+  ],
+
+  "introduction": {
+    "title": "What is Industrial Automation?",
+    "content": "Industrial Automation is the use of control systems, computers, sensors, software and machines to operate industrial processes with minimal human intervention. Automation improves efficiency, consistency, safety and productivity by reducing manual work and enabling continuous monitoring and control of manufacturing operations."
+  },
+
+  "business_purpose": {
+    "title": "Why is Automation Important?",
+    "content": "Automation enables industries to produce high-quality products consistently while reducing operational costs, improving worker safety and increasing production speed. In manufacturing organizations like Jindal Stainless Limited (JSL), automation supports continuous production, accurate process control and better decision-making through real-time monitoring."
+  },
+
+  "types_of_automation": [
+    {
+      "type": "Fixed Automation",
+      "description": "Designed for high-volume production with dedicated equipment performing repetitive tasks."
+    },
+    {
+      "type": "Programmable Automation",
+      "description": "Allows production processes to be modified through software programs, suitable for batch manufacturing."
+    },
+    {
+      "type": "Flexible Automation",
+      "description": "Supports quick product changes with minimal downtime, making it suitable for modern manufacturing environments."
+    }
+  ],
+
+  "key_components": [
+    {
+      "component": "PLC (Programmable Logic Controller)",
+      "purpose": "Controls machines and industrial equipment using programmed logic."
+    },
+    {
+      "component": "SCADA",
+      "purpose": "Provides real-time monitoring, control and data acquisition."
+    },
+    {
+      "component": "Sensors",
+      "purpose": "Detect physical conditions such as temperature, pressure, level and proximity."
+    },
+    {
+      "component": "Actuators",
+      "purpose": "Convert control signals into mechanical movement."
+    },
+    {
+      "component": "Human Machine Interface (HMI)",
+      "purpose": "Allows operators to monitor and control industrial processes."
+    }
+  ],
+
+  "applications": [
+    "Steel Manufacturing",
+    "Rolling Mills",
+    "Material Handling Systems",
+    "Warehouse Automation",
+    "Packaging Lines",
+    "Quality Inspection Systems",
+    "Process Monitoring",
+    "Energy Management"
+  ],
+
+  "benefits": [
+    "Higher productivity",
+    "Improved product quality",
+    "Reduced human error",
+    "Enhanced workplace safety",
+    "Lower operational costs",
+    "Real-time process monitoring",
+    "Faster production cycles",
+    "Better resource utilization"
+  ],
+
+  "automation_workflow": [
+    "Sensors collect process data.",
+    "PLC receives input signals.",
+    "PLC executes programmed logic.",
+    "Control signals are sent to actuators.",
+    "Machines perform the required operation.",
+    "SCADA displays real-time process information.",
+    "Operators monitor system performance through HMI.",
+    "Production data is stored for analysis."
+  ],
+
+  "industry_4_0": {
+    "title": "Automation and Industry 4.0",
+    "content": "Industry 4.0 combines automation with digital technologies such as the Industrial Internet of Things (IIoT), Artificial Intelligence (AI), Cloud Computing and Data Analytics. These technologies enable smart factories where machines communicate with each other, predict failures and optimize production automatically."
+  },
+
+  "integration": [
+    {
+      "module": "Production",
+      "purpose": "Automates manufacturing operations."
+    },
+    {
+      "module": "Maintenance",
+      "purpose": "Supports predictive and preventive maintenance."
+    },
+    {
+      "module": "Quality",
+      "purpose": "Enables automated inspection and monitoring."
+    },
+    {
+      "module": "Warehouse",
+      "purpose": "Supports automated storage and material movement."
+    },
+    {
+      "module": "SAP",
+      "purpose": "Production and machine data can be integrated with enterprise systems for planning and reporting."
+    }
+  ],
+
+  "business_example": {
+    "title": "JSL Example",
+    "content": "During stainless steel coil production, sensors continuously measure parameters such as temperature, speed and pressure. PLCs automatically control equipment based on predefined programs, while SCADA provides operators with a live view of the process. Any abnormal condition generates alarms, enabling quick corrective action and reducing downtime."
+  },
+
+  "best_practices": [
+    "Regularly maintain automation equipment.",
+    "Keep PLC programs properly documented.",
+    "Monitor SCADA alarms continuously.",
+    "Calibrate sensors periodically.",
+    "Maintain secure access to automation systems.",
+    "Back up automation programs regularly."
+  ],
+
+  "common_errors": [
+    "Ignoring alarm notifications.",
+    "Using outdated PLC programs.",
+    "Poor sensor calibration.",
+    "Lack of preventive maintenance.",
+    "Unauthorized system modifications."
+  ],
+
+  "important_notes": [
+    "Automation supports operators but does not completely replace human decision-making.",
+    "Proper maintenance is essential for reliable automation systems.",
+    "Safety procedures must always be followed while working with automated equipment.",
+    "Automation improves consistency but requires trained personnel for operation and troubleshooting."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/automation/automation_overview/automation_system.png",
+      "assets/images/automation/automation_overview/plc_scada_architecture.png",
+      "assets/images/automation/automation_overview/industry4_workflow.png",
+      "assets/images/automation/automation_overview/smart_factory.png"
+    ],
+    "videos": [
+      "assets/videos/automation/industrial_automation.mp4"
+    ],
+    "documents": [
+      "assets/documents/automation/industrial_automation.pdf"
+    ]
+  },
+
+  "next_module": "plc.json",
+
+  "assessment": {
+    "quiz": "assessment/automation/set_1.json"
+  }
+}
