@@ -1,1 +1,243 @@
+{
+  "assessment_id": "final_set_3",
+  "title": "Final Assessment - Set 3 (Certification Assessment)",
+  "module": "JSL Learning Platform",
+  "difficulty": "Advanced",
+  "total_questions": 25,
+  "passing_marks": 18,
+  "time_limit": "45 minutes",
 
+  "scenario": "JSL has received a customer order for stainless steel coils. The company must procure raw materials, manufacture the product, maintain equipment, ensure workplace safety, perform quality inspections, update SAP records and dispatch the finished goods to the customer. Answer the following questions based on this business process.",
+
+  "questions": [
+
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "After receiving the customer order, which department should ensure the required raw materials are available?",
+      "options": [
+        "Procurement",
+        "Finance",
+        "HR",
+        "Dispatch"
+      ],
+      "correct_answer": "Procurement"
+    },
+
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "Before starting production, which SAP PP activity is commonly executed to calculate material requirements?",
+      "options": [
+        "Usage Decision",
+        "MRP",
+        "Payroll",
+        "Billing"
+      ],
+      "correct_answer": "MRP"
+    },
+
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "Which document contains the complete list of raw materials required for manufacturing?",
+      "options": [
+        "Inspection Plan",
+        "Routing",
+        "Bill of Material (BOM)",
+        "Cost Center"
+      ],
+      "correct_answer": "Bill of Material (BOM)"
+    },
+
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "Which SAP master data defines the sequence of manufacturing operations?",
+      "options": [
+        "Material Master",
+        "Routing",
+        "Inspection Lot",
+        "Purchase Order"
+      ],
+      "correct_answer": "Routing"
+    },
+
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "During production, sensors continuously send data to operators. Which automation system primarily provides this monitoring capability?",
+      "options": [
+        "PLC",
+        "SCADA",
+        "SAP FI",
+        "Firewall"
+      ],
+      "correct_answer": "SCADA"
+    },
+
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "A machine suddenly stops due to a bearing failure. Which department should respond first?",
+      "options": [
+        "Finance",
+        "Maintenance",
+        "Quality",
+        "Dispatch"
+      ],
+      "correct_answer": "Maintenance"
+    },
+
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "Before maintenance work begins on industrial equipment, what should be done first?",
+      "options": [
+        "Continue production",
+        "Follow safety procedures and isolate the equipment",
+        "Create a Sales Order",
+        "Record a Usage Decision"
+      ],
+      "correct_answer": "Follow safety procedures and isolate the equipment"
+    },
+
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "After manufacturing is completed, which SAP QM activity records the measured inspection values?",
+      "options": [
+        "Result Recording",
+        "Goods Issue",
+        "Production Version",
+        "Material Master"
+      ],
+      "correct_answer": "Result Recording"
+    },
+
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "Once all inspection characteristics meet specifications, what should be performed next?",
+      "options": [
+        "Usage Decision",
+        "Material Requirement Planning",
+        "Purchase Requisition",
+        "Machine Calibration"
+      ],
+      "correct_answer": "Usage Decision"
+    },
+
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "After the Usage Decision releases the material, which department normally handles shipment to the customer?",
+      "options": [
+        "Dispatch",
+        "HR",
+        "Maintenance",
+        "Finance"
+      ],
+      "correct_answer": "Dispatch"
+    },
+
+    {
+      "id": 11,
+      "type": "true_false",
+      "question": "Production cannot begin efficiently without proper coordination between Procurement and Warehouse.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 12,
+      "type": "true_false",
+      "question": "Every employee is responsible for following workplace safety procedures.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 13,
+      "type": "true_false",
+      "question": "Goods Issue generally decreases raw material inventory.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 14,
+      "type": "true_false",
+      "question": "A Production Order authorizes manufacturing activities.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 15,
+      "type": "true_false",
+      "question": "Quality inspections can be skipped if production is completed on time.",
+      "correct_answer": false
+    },
+
+    {
+      "id": 16,
+      "type": "true_false",
+      "question": "SCADA only controls employee attendance.",
+      "correct_answer": false
+    },
+
+    {
+      "id": 17,
+      "type": "true_false",
+      "question": "Preventive maintenance helps improve equipment reliability.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 18,
+      "type": "true_false",
+      "question": "SAP integrates information across multiple business departments.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 19,
+      "type": "short_answer",
+      "question": "Explain why MRP is important before starting production."
+    },
+
+    {
+      "id": 20,
+      "type": "short_answer",
+      "question": "Why should Production and Maintenance coordinate closely during manufacturing?"
+    },
+
+    {
+      "id": 21,
+      "type": "short_answer",
+      "question": "What is the purpose of Result Recording in SAP QM?"
+    },
+
+    {
+      "id": 22,
+      "type": "short_answer",
+      "question": "How does SCADA improve industrial operations?"
+    },
+
+    {
+      "id": 23,
+      "type": "short_answer",
+      "question": "Name two safety practices that should be followed before operating industrial machinery."
+    },
+
+    {
+      "id": 24,
+      "type": "short_answer",
+      "question": "Why is communication between departments essential for successful manufacturing?"
+    },
+
+    {
+      "id": 25,
+      "type": "short_answer",
+      "question": "Describe the complete workflow from customer order to product dispatch using the departments and SAP modules covered in this learning platform."
+    }
+
+  ]
+}
