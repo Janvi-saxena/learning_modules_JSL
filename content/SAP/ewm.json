@@ -1,0 +1,174 @@
+{
+  "id": "ewm",
+  "title": "Extended Warehouse Management (EWM)",
+  "module": "SAP",
+  "order": 9,
+  "duration": "40 minutes",
+  "difficulty": "Intermediate",
+
+  "learning_objectives": [
+    "Understand the purpose of SAP Extended Warehouse Management (EWM).",
+    "Learn how warehouse operations are managed in SAP.",
+    "Understand warehouse structure and storage concepts.",
+    "Identify common SAP EWM transaction codes.",
+    "Learn how EWM integrates with manufacturing and logistics."
+  ],
+
+  "introduction": {
+    "title": "What is SAP EWM?",
+    "content": "SAP Extended Warehouse Management (EWM) is a warehouse management solution used to control and optimize warehouse operations. It manages inventory movement, storage, picking, packing, shipping and warehouse resources while providing real-time inventory visibility."
+  },
+
+  "business_purpose": {
+    "title": "Why is SAP EWM Used?",
+    "content": "Warehouses receive raw materials, store inventory and dispatch finished goods. SAP EWM helps improve warehouse efficiency, inventory accuracy and order fulfillment while reducing manual work and operational delays."
+  },
+
+  "key_functions": [
+    "Inbound Processing",
+    "Outbound Processing",
+    "Inventory Management",
+    "Warehouse Structure Management",
+    "Storage Bin Management",
+    "Picking",
+    "Packing",
+    "Shipping",
+    "Physical Inventory",
+    "Warehouse Monitoring"
+  ],
+
+  "warehouse_structure": [
+    {
+      "name": "Warehouse Number",
+      "description": "Represents an individual warehouse."
+    },
+    {
+      "name": "Storage Type",
+      "description": "Logical division of warehouse storage."
+    },
+    {
+      "name": "Storage Section",
+      "description": "Subdivision within a storage type."
+    },
+    {
+      "name": "Storage Bin",
+      "description": "The exact physical location where inventory is stored."
+    }
+  ],
+
+  "warehouse_process": [
+    "Inbound Delivery",
+    "Goods Receipt",
+    "Put-away",
+    "Storage",
+    "Inventory Monitoring",
+    "Picking",
+    "Packing",
+    "Goods Issue",
+    "Outbound Delivery",
+    "Dispatch"
+  ],
+
+  "integration": [
+    {
+      "module": "MM",
+      "purpose": "Receives purchased materials into inventory."
+    },
+    {
+      "module": "PP",
+      "purpose": "Supplies raw materials for production."
+    },
+    {
+      "module": "SD",
+      "purpose": "Dispatches finished goods to customers."
+    },
+    {
+      "module": "QM",
+      "purpose": "Stores materials after quality inspection."
+    },
+    {
+      "module": "FI",
+      "purpose": "Updates inventory valuation."
+    }
+  ],
+
+  "transaction_codes": [
+    {
+      "code": "/SCWM/MON",
+      "name": "Warehouse Monitor"
+    },
+    {
+      "code": "/SCWM/PRDI",
+      "name": "Process Inbound Delivery"
+    },
+    {
+      "code": "/SCWM/PRDO",
+      "name": "Process Outbound Delivery"
+    },
+    {
+      "code": "/SCWM/PACK",
+      "name": "Packing"
+    },
+    {
+      "code": "/SCWM/STOCK",
+      "name": "Stock Overview"
+    },
+    {
+      "code": "/SCWM/PI",
+      "name": "Physical Inventory"
+    },
+    {
+      "code": "/SCWM/RFUI",
+      "name": "RF Mobile Transactions"
+    }
+  ],
+
+  "business_example": {
+    "title": "Example",
+    "content": "Raw materials received from suppliers are recorded through an inbound delivery, inspected by Quality Management, and stored in designated storage bins. When production requires materials, EWM generates warehouse tasks for picking and supplies them to the production line. Finished products are later packed, loaded and dispatched to customers."
+  },
+
+  "benefits": [
+    "Real-time inventory visibility",
+    "Optimized warehouse operations",
+    "Improved storage utilization",
+    "Accurate stock management",
+    "Faster order fulfillment",
+    "Reduced warehouse errors"
+  ],
+
+  "best_practices": [
+    "Maintain accurate storage bin information.",
+    "Perform regular physical inventory counts.",
+    "Use barcode or RF devices where available.",
+    "Monitor warehouse tasks regularly.",
+    "Ensure timely goods receipt and goods issue postings."
+  ],
+
+  "common_mistakes": [
+    "Incorrect storage bin assignment.",
+    "Delayed goods receipt posting.",
+    "Inventory mismatches.",
+    "Picking the wrong material.",
+    "Ignoring warehouse monitor alerts."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/sap/ewm/warehouse_monitor.png",
+      "assets/images/sap/ewm/storage_bins.png",
+      "assets/images/sap/ewm/picking_process.png",
+      "assets/images/sap/ewm/packing_station.png"
+    ],
+    "videos": [
+      "assets/videos/sap/ewm_overview.mp4"
+    ],
+    "documents": [
+      "assets/documents/sap/ewm_module.pdf"
+    ]
+  },
+
+  "assessment": {
+    "quiz": "assessment/sap/set_2.json"
+  }
+}
