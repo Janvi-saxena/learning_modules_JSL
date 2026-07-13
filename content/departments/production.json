@@ -1,1 +1,197 @@
-#abc
+{
+  "id": "production_department",
+  "title": "Production Department",
+  "module": "Departments",
+  "order": 1,
+  "duration": "50 minutes",
+  "difficulty": "Beginner",
+
+  "learning_objectives": [
+    "Understand the role of the Production Department.",
+    "Learn the major responsibilities of production personnel.",
+    "Understand the complete production workflow.",
+    "Identify how Production collaborates with other departments.",
+    "Recognize the importance of quality, safety and efficiency during manufacturing."
+  ],
+
+  "introduction": {
+    "title": "What is the Production Department?",
+    "content": "The Production Department is the core operational unit of a manufacturing organization. It is responsible for converting raw materials into finished products using machines, equipment, manpower and standardized manufacturing processes. The department ensures that production targets are achieved while maintaining quality, safety and operational efficiency."
+  },
+
+  "business_purpose": {
+    "title": "Why is the Production Department Important?",
+    "content": "Production directly contributes to the organization's business objectives by manufacturing products that meet customer requirements. Efficient production minimizes waste, optimizes resource utilization, improves product quality and ensures timely delivery to customers."
+  },
+
+  "department_objectives": [
+    "Achieve daily production targets.",
+    "Maintain consistent product quality.",
+    "Ensure safe manufacturing practices.",
+    "Optimize machine utilization.",
+    "Reduce production losses and downtime.",
+    "Improve productivity through continuous improvement."
+  ],
+
+  "key_responsibilities": [
+    {
+      "responsibility": "Production Planning",
+      "description": "Execute production according to approved production schedules."
+    },
+    {
+      "responsibility": "Machine Operation",
+      "description": "Operate manufacturing equipment safely and efficiently."
+    },
+    {
+      "responsibility": "Quality Compliance",
+      "description": "Produce products according to quality standards."
+    },
+    {
+      "responsibility": "Resource Utilization",
+      "description": "Use raw materials, manpower and machinery efficiently."
+    },
+    {
+      "responsibility": "Safety Compliance",
+      "description": "Follow all workplace safety procedures."
+    },
+    {
+      "responsibility": "Production Reporting",
+      "description": "Maintain accurate production records and reports."
+    }
+  ],
+
+  "production_workflow": [
+    "Receive approved production schedule.",
+    "Verify raw material availability.",
+    "Inspect machines before operation.",
+    "Set up equipment and process parameters.",
+    "Start production according to SOPs.",
+    "Monitor production continuously.",
+    "Perform in-process quality checks.",
+    "Transfer finished goods for inspection.",
+    "Record production data in SAP.",
+    "Complete housekeeping after production."
+  ],
+
+  "daily_activities": [
+    "Attend shift handover meeting.",
+    "Review production targets.",
+    "Inspect equipment before operation.",
+    "Monitor production performance.",
+    "Report machine abnormalities.",
+    "Coordinate with Quality and Maintenance.",
+    "Update production records."
+  ],
+
+  "documents_used": [
+    "Production Plan",
+    "Production Order",
+    "Work Instructions",
+    "Standard Operating Procedures (SOPs)",
+    "Quality Inspection Records",
+    "Production Reports"
+  ],
+
+  "software_and_systems": [
+    "SAP PP",
+    "SCADA",
+    "PLC Systems",
+    "HMI",
+    "Production Dashboards"
+  ],
+
+  "key_performance_indicators": [
+    "Production Output",
+    "Machine Utilization",
+    "Overall Equipment Effectiveness (OEE)",
+    "Production Efficiency",
+    "Rejection Rate",
+    "Downtime",
+    "Safety Performance"
+  ],
+
+  "coordination_with_departments": [
+    {
+      "department": "Procurement",
+      "purpose": "Ensures timely availability of raw materials."
+    },
+    {
+      "department": "Warehouse",
+      "purpose": "Receives raw materials and stores finished goods."
+    },
+    {
+      "department": "Maintenance",
+      "purpose": "Maintains equipment reliability and minimizes downtime."
+    },
+    {
+      "department": "Quality",
+      "purpose": "Conducts inspections and ensures product quality."
+    },
+    {
+      "department": "Finance",
+      "purpose": "Tracks production costs and resource utilization."
+    },
+    {
+      "department": "HR",
+      "purpose": "Provides trained manpower and coordinates workforce requirements."
+    },
+    {
+      "department": "IT",
+      "purpose": "Supports SAP and automation systems."
+    },
+    {
+      "department": "Sales",
+      "purpose": "Aligns production with customer demand."
+    }
+  ],
+
+  "business_example": {
+    "title": "Production Process at JSL",
+    "content": "The Production Department receives a manufacturing schedule for stainless steel coils. After confirming material availability, operators configure rolling mills and production equipment. Throughout manufacturing, production data is monitored using PLCs and SCADA, while SAP PP records production orders and confirmations. Finished coils are then transferred to the Quality Department for inspection before dispatch."
+  },
+
+  "best_practices": [
+    "Follow Standard Operating Procedures.",
+    "Monitor equipment continuously.",
+    "Report abnormalities immediately.",
+    "Maintain workplace cleanliness.",
+    "Coordinate effectively with supporting departments.",
+    "Prioritize safety over production speed."
+  ],
+
+  "common_errors": [
+    "Ignoring equipment warnings.",
+    "Skipping production checks.",
+    "Poor communication during shift handover.",
+    "Improper machine settings.",
+    "Incomplete production documentation."
+  ],
+
+  "important_notes": [
+    "Production quality begins with proper process control.",
+    "Safety and quality should never be compromised to meet production targets.",
+    "Continuous monitoring improves productivity and reduces defects.",
+    "Teamwork between departments is essential for successful manufacturing."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/departments/production/production_line.png",
+      "assets/images/departments/production/rolling_mill.png",
+      "assets/images/departments/production/production_workflow.png",
+      "assets/images/departments/production/control_room.png"
+    ],
+    "videos": [
+      "assets/videos/departments/production_overview.mp4"
+    ],
+    "documents": [
+      "assets/documents/departments/production_manual.pdf"
+    ]
+  },
+
+  "next_module": "maintenance.json",
+
+  "assessment": {
+    "quiz": "assessment/department/set_1.json"
+  }
+}
