@@ -1,1 +1,219 @@
+{
+  "id": "usage_decision",
+  "title": "Usage Decision",
+  "module": "SAP QM",
+  "order": 5,
+  "duration": "40 minutes",
+  "difficulty": "Intermediate",
 
+  "learning_objectives": [
+    "Understand the purpose of Usage Decision in SAP QM.",
+    "Learn different Usage Decision outcomes.",
+    "Understand stock posting after Usage Decision.",
+    "Learn important SAP Usage Decision transaction codes.",
+    "Understand the impact of Usage Decision on inventory and production."
+  ],
+
+  "introduction": {
+    "title": "What is Usage Decision?",
+    "content": "Usage Decision (UD) is the final step of the quality inspection process in SAP QM. After inspection results have been recorded and evaluated, the quality inspector decides whether the inspected material should be accepted, rejected, sent for rework or scrapped. This decision determines the future status of the material in inventory."
+  },
+
+  "business_purpose": {
+    "title": "Why is Usage Decision Important?",
+    "content": "Usage Decision ensures that only materials meeting quality standards are released for production, storage or customer delivery. It prevents defective materials from entering the manufacturing process or reaching customers."
+  },
+
+  "usage_decision_types": [
+    {
+      "decision": "Accepted",
+      "description": "Material meets all quality requirements and is released for unrestricted use."
+    },
+    {
+      "decision": "Rejected",
+      "description": "Material fails inspection and cannot be used."
+    },
+    {
+      "decision": "Rework",
+      "description": "Material requires additional processing before it can be accepted."
+    },
+    {
+      "decision": "Scrap",
+      "description": "Material is unsuitable for use and must be scrapped."
+    },
+    {
+      "decision": "Return to Vendor",
+      "description": "Incoming material is returned to the supplier due to quality issues."
+    }
+  ],
+
+  "important_fields": [
+    "Inspection Lot Number",
+    "Usage Decision Code",
+    "Selected Set",
+    "Decision Date",
+    "Inspector Name",
+    "Accepted Quantity",
+    "Rejected Quantity",
+    "Rework Quantity",
+    "Stock Posting",
+    "Remarks"
+  ],
+
+  "business_functions": [
+    "Approve Materials",
+    "Reject Defective Materials",
+    "Trigger Stock Posting",
+    "Maintain Inspection History",
+    "Support Quality Reporting",
+    "Ensure Product Quality"
+  ],
+
+  "transaction_codes": [
+    {
+      "code": "QA11",
+      "name": "Record Usage Decision"
+    },
+    {
+      "code": "QA12",
+      "name": "Change Usage Decision"
+    },
+    {
+      "code": "QA13",
+      "name": "Display Usage Decision"
+    },
+    {
+      "code": "QA32",
+      "name": "Inspection Lot Processing"
+    },
+    {
+      "code": "QA33",
+      "name": "Display Inspection Lot"
+    }
+  ],
+
+  "sap_menu_path": [
+    "SAP Easy Access",
+    "Logistics",
+    "Quality Management",
+    "Quality Inspection",
+    "Inspection Processing",
+    "Usage Decision"
+  ],
+
+  "step_by_step_procedure": [
+    "Execute Transaction QA11.",
+    "Enter the Inspection Lot Number.",
+    "Review recorded inspection results.",
+    "Select the appropriate Usage Decision code.",
+    "Enter accepted, rejected or rework quantity if applicable.",
+    "Select the required stock posting.",
+    "Enter remarks if necessary.",
+    "Save the Usage Decision."
+  ],
+
+  "stock_postings": [
+    {
+      "stock_type": "Unrestricted Use",
+      "description": "Accepted material becomes available for production or sales."
+    },
+    {
+      "stock_type": "Quality Inspection",
+      "description": "Material remains under inspection."
+    },
+    {
+      "stock_type": "Blocked Stock",
+      "description": "Rejected material is blocked from use."
+    },
+    {
+      "stock_type": "Scrap",
+      "description": "Material is removed from usable inventory."
+    },
+    {
+      "stock_type": "Return to Vendor",
+      "description": "Material is prepared for return to the supplier."
+    }
+  ],
+
+  "system_updates": [
+    "Inspection Lot status is updated.",
+    "Inventory stock type is changed.",
+    "Inspection process is completed.",
+    "Quality history is updated.",
+    "Material availability is updated.",
+    "Quality reports reflect the final decision."
+  ],
+
+  "integration": [
+    {
+      "module": "MM",
+      "purpose": "Updates inventory stock after the Usage Decision."
+    },
+    {
+      "module": "PP",
+      "purpose": "Accepted materials become available for production or storage."
+    },
+    {
+      "module": "SD",
+      "purpose": "Accepted finished goods become available for customer delivery."
+    },
+    {
+      "module": "FI",
+      "purpose": "Inventory valuation is updated based on stock movements."
+    }
+  ],
+
+  "business_example": {
+    "title": "Example",
+    "content": "A batch of stainless steel coils completes inspection. Thickness, width, hardness and surface finish all meet the required specifications. The quality engineer records an 'Accepted' Usage Decision in QA11, and SAP automatically moves the material from Quality Inspection stock to Unrestricted Use stock, making it available for warehouse storage or customer dispatch."
+  },
+
+  "best_practices": [
+    "Review all inspection results before making the Usage Decision.",
+    "Record decisions immediately after inspection completion.",
+    "Document reasons for rejection or rework.",
+    "Use standardized Usage Decision codes.",
+    "Verify stock posting before saving."
+  ],
+
+  "common_errors": [
+    "Selecting the wrong Usage Decision code.",
+    "Posting accepted material as blocked stock.",
+    "Incomplete inspection results before Usage Decision.",
+    "Incorrect stock posting.",
+    "Missing remarks for rejected materials."
+  ],
+
+  "important_notes": [
+    "A Usage Decision should only be made after all mandatory inspection characteristics have been recorded.",
+    "The Usage Decision directly affects inventory availability.",
+    "Rejected materials should follow the organization's non-conformance process."
+  ],
+
+  "jsl_notes": [
+    "Only authorized quality personnel should record the Usage Decision.",
+    "Rejected materials must be handled according to JSL quality procedures.",
+    "Review plant-specific approval requirements before releasing critical materials."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/sap/qm/usage_decision/qa11_screen.png",
+      "assets/images/sap/qm/usage_decision/decision_codes.png",
+      "assets/images/sap/qm/usage_decision/stock_posting.png",
+      "assets/images/sap/qm/usage_decision/process_flow.png"
+    ],
+    "videos": [
+      "assets/videos/sap/qm/usage_decision.mp4"
+    ],
+    "documents": [
+      "assets/documents/sap/qm/usage_decision.pdf"
+    ]
+  },
+
+  "next_module": "06_reports.json",
+
+  "assessment": {
+    "quiz": "assessment/sap/set_3.json"
+  }
+}
