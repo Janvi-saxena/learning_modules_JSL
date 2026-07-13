@@ -1,1 +1,208 @@
+{
+  "id": "qm_master_data",
+  "title": "QM Master Data",
+  "module": "SAP QM",
+  "order": 2,
+  "duration": "45 minutes",
+  "difficulty": "Intermediate",
 
+  "learning_objectives": [
+    "Understand the purpose of QM Master Data.",
+    "Identify the master data objects used in SAP QM.",
+    "Understand how master data supports quality inspections.",
+    "Learn commonly used SAP QM transaction codes.",
+    "Understand integration of QM Master Data with other SAP modules."
+  ],
+
+  "introduction": {
+    "title": "What is QM Master Data?",
+    "content": "QM Master Data consists of all the information required to perform quality inspections and quality control activities in SAP. It defines inspection methods, inspection characteristics, sampling procedures, inspection plans and quality specifications that are reused during production and procurement."
+  },
+
+  "business_purpose": {
+    "title": "Why is QM Master Data Important?",
+    "content": "Well-maintained master data ensures consistent inspections, standardized quality processes and accurate inspection results. It allows SAP to automatically determine inspection requirements whenever an inspection lot is created."
+  },
+
+  "master_data_objects": [
+    {
+      "name": "Material Master",
+      "purpose": "Stores quality inspection settings for each material."
+    },
+    {
+      "name": "Inspection Type",
+      "purpose": "Defines when and why inspections are performed."
+    },
+    {
+      "name": "Inspection Plan",
+      "purpose": "Defines inspection operations and characteristics."
+    },
+    {
+      "name": "Master Inspection Characteristics (MIC)",
+      "purpose": "Stores reusable inspection characteristics."
+    },
+    {
+      "name": "Sampling Procedure",
+      "purpose": "Defines sample size and inspection methodology."
+    },
+    {
+      "name": "Catalogs and Code Groups",
+      "purpose": "Standardizes defect recording and usage decisions."
+    }
+  ],
+
+  "inspection_types": [
+    {
+      "type": "01",
+      "description": "Goods Receipt Inspection for Purchase Orders."
+    },
+    {
+      "type": "03",
+      "description": "In-Process Production Inspection."
+    },
+    {
+      "type": "04",
+      "description": "Goods Receipt Inspection from Production."
+    },
+    {
+      "type": "08",
+      "description": "Stock Transfer Inspection."
+    },
+    {
+      "type": "89",
+      "description": "Miscellaneous Inspection."
+    }
+  ],
+
+  "master_inspection_characteristics": [
+    "Length",
+    "Width",
+    "Thickness",
+    "Weight",
+    "Chemical Composition",
+    "Surface Finish",
+    "Hardness",
+    "Tensile Strength",
+    "Visual Appearance"
+  ],
+
+  "sampling_information": {
+    "title": "Sampling Procedures",
+    "content": "Sampling procedures determine how many units or samples are inspected from a batch. Instead of inspecting every item, SAP can calculate statistically valid sample sizes based on predefined rules."
+  },
+
+  "transaction_codes": [
+    {
+      "code": "QS21",
+      "name": "Create Master Inspection Characteristic"
+    },
+    {
+      "code": "QS22",
+      "name": "Change Master Inspection Characteristic"
+    },
+    {
+      "code": "QS23",
+      "name": "Display Master Inspection Characteristic"
+    },
+    {
+      "code": "QDV1",
+      "name": "Create Sampling Procedure"
+    },
+    {
+      "code": "QDV2",
+      "name": "Change Sampling Procedure"
+    },
+    {
+      "code": "QDV3",
+      "name": "Display Sampling Procedure"
+    },
+    {
+      "code": "MM02",
+      "name": "Maintain Material Master Quality View"
+    }
+  ],
+
+  "sap_menu_path": [
+    "SAP Easy Access",
+    "Logistics",
+    "Quality Management",
+    "Quality Planning",
+    "Master Data"
+  ],
+
+  "step_by_step_procedure": [
+    "Create Master Inspection Characteristics.",
+    "Create Sampling Procedures.",
+    "Maintain Material Master Quality View.",
+    "Assign Inspection Types.",
+    "Create Inspection Plan.",
+    "Assign Inspection Characteristics.",
+    "Save the master data."
+  ],
+
+  "integration": [
+    {
+      "module": "MM",
+      "purpose": "Incoming material inspection."
+    },
+    {
+      "module": "PP",
+      "purpose": "Production inspection."
+    },
+    {
+      "module": "Inspection Plan",
+      "purpose": "Uses Master Inspection Characteristics."
+    },
+    {
+      "module": "Result Recording",
+      "purpose": "Records values against defined characteristics."
+    }
+  ],
+
+  "business_example": {
+    "title": "Example",
+    "content": "A stainless steel coil requires testing for thickness, width, surface finish and hardness. These inspection characteristics are created once as Master Inspection Characteristics and reused across multiple Inspection Plans, ensuring consistent quality inspections."
+  },
+
+  "best_practices": [
+    "Standardize Master Inspection Characteristics.",
+    "Reuse inspection characteristics wherever possible.",
+    "Maintain correct inspection types.",
+    "Review sampling procedures regularly.",
+    "Keep master data synchronized with engineering specifications."
+  ],
+
+  "common_errors": [
+    "Missing inspection types.",
+    "Duplicate inspection characteristics.",
+    "Incorrect sampling procedure.",
+    "Incomplete Material Master Quality View.",
+    "Outdated inspection specifications."
+  ],
+
+  "important_notes": [
+    "Inspection characteristics should be standardized across the organization.",
+    "Master data should be reviewed whenever product specifications change.",
+    "Accurate master data improves inspection consistency and reporting."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/sap/qm/master_data/material_quality_view.png",
+      "assets/images/sap/qm/master_data/master_characteristics.png",
+      "assets/images/sap/qm/master_data/sampling_procedure.png"
+    ],
+    "videos": [
+      "assets/videos/sap/qm/qm_master_data.mp4"
+    ],
+    "documents": [
+      "assets/documents/sap/qm/qm_master_data.pdf"
+    ]
+  },
+
+  "next_module": "03_inspection_plan.json",
+
+  "assessment": {
+    "quiz": "assessment/sap/set_3.json"
+  }
+}
