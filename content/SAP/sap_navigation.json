@@ -1,0 +1,172 @@
+{
+  "id": "sap_navigation",
+  "title": "SAP Navigation",
+  "module": "SAP",
+  "order": 2,
+  "duration": "25 minutes",
+  "difficulty": "Beginner",
+
+  "learning_objectives": [
+    "Understand the SAP user interface.",
+    "Learn how to navigate within SAP.",
+    "Understand Transaction Codes (T-Codes).",
+    "Learn different screen components.",
+    "Use search help and favorites."
+  ],
+
+  "introduction": {
+    "title": "Introduction",
+    "content": "SAP Navigation refers to moving through different SAP screens, menus, and transactions to perform business activities. A good understanding of navigation helps users work efficiently and reduces errors."
+  },
+
+  "components": [
+    {
+      "name": "SAP Logon",
+      "description": "The application used to connect to SAP systems."
+    },
+    {
+      "name": "SAP Easy Access Screen",
+      "description": "The main home screen after logging into SAP."
+    },
+    {
+      "name": "Menu Bar",
+      "description": "Provides access to all SAP menus and functions."
+    },
+    {
+      "name": "Standard Toolbar",
+      "description": "Contains commonly used functions like Save, Back, Exit, Cancel, Print and Find."
+    },
+    {
+      "name": "Application Toolbar",
+      "description": "Displays functions specific to the current transaction."
+    },
+    {
+      "name": "Command Field",
+      "description": "Allows users to directly enter Transaction Codes."
+    },
+    {
+      "name": "Status Bar",
+      "description": "Displays system messages, warnings and processing status."
+    }
+  ],
+
+  "navigation_steps": [
+    "Open SAP Logon.",
+    "Select the required SAP System.",
+    "Enter User ID.",
+    "Enter Password.",
+    "Choose Language.",
+    "Click Log On.",
+    "SAP Easy Access screen appears."
+  ],
+
+  "transaction_codes": {
+    "title": "What are Transaction Codes (T-Codes)?",
+    "content": "Transaction Codes are short commands used to directly open SAP transactions without navigating through menus.",
+    "examples": [
+      {
+        "code": "MM01",
+        "purpose": "Create Material Master"
+      },
+      {
+        "code": "MM03",
+        "purpose": "Display Material Master"
+      },
+      {
+        "code": "CS01",
+        "purpose": "Create Bill of Material"
+      },
+      {
+        "code": "CO01",
+        "purpose": "Create Production Order"
+      },
+      {
+        "code": "QA32",
+        "purpose": "Inspection Lot Processing"
+      }
+    ]
+  },
+
+  "toolbar_icons": [
+    {
+      "icon": "Save",
+      "purpose": "Save entered data."
+    },
+    {
+      "icon": "Back",
+      "purpose": "Return to previous screen."
+    },
+    {
+      "icon": "Exit",
+      "purpose": "Exit current transaction."
+    },
+    {
+      "icon": "Cancel",
+      "purpose": "Cancel current action."
+    },
+    {
+      "icon": "Find",
+      "purpose": "Search within the current screen."
+    },
+    {
+      "icon": "Print",
+      "purpose": "Print current document."
+    },
+    {
+      "icon": "Help",
+      "purpose": "Open SAP Help."
+    }
+  ],
+
+  "search_help": {
+    "title": "Search Help (F4)",
+    "content": "SAP provides Search Help (F4) to search and select valid values instead of manually typing them. This reduces data entry errors."
+  },
+
+  "favorites": {
+    "title": "Favorites",
+    "content": "Frequently used transactions can be added to Favorites for quick access."
+  },
+
+  "best_practices": [
+    "Always use F4 Search Help whenever available.",
+    "Avoid memorizing all T-Codes initially.",
+    "Verify Plant and Company Code before saving transactions.",
+    "Log out properly after completing work.",
+    "Do not share your SAP password."
+  ],
+
+  "common_mistakes": [
+    "Entering incorrect T-Codes.",
+    "Saving incomplete data.",
+    "Working in the wrong Plant.",
+    "Ignoring system warning messages.",
+    "Using another employee's login credentials."
+  ],
+
+  "security_guidelines": [
+    "Keep your password confidential.",
+    "Lock your system when away from your workstation.",
+    "Do not perform unauthorized transactions.",
+    "Follow company IT security policies."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/sap/sap_logon.png",
+      "assets/images/sap/sap_easy_access.png",
+      "assets/images/sap/sap_toolbar.png",
+      "assets/images/sap/sap_navigation.png"
+    ],
+    "videos": [
+      "assets/videos/sap/sap_navigation.mp4"
+    ],
+    "documents": [
+      "assets/documents/sap/sap_navigation.pdf"
+    ]
+  },
+
+  "assessment": {
+    "quiz": "assessment/sap/set_1.json"
+  }
+}
