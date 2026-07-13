@@ -1,1 +1,240 @@
+{
+  "assessment_id": "department_set_1",
+  "title": "Department Assessment - Set 1",
+  "module": "Departments",
+  "total_questions": 25,
+  "passing_marks": 18,
+  "time_limit": "30 minutes",
 
+  "questions": [
+
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "Which department is primarily responsible for manufacturing products?",
+      "options": [
+        "Finance",
+        "Production",
+        "Human Resources",
+        "IT"
+      ],
+      "correct_answer": "Production"
+    },
+
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "Which department recruits, trains and manages employees?",
+      "options": [
+        "Quality",
+        "Finance",
+        "Human Resources",
+        "Production"
+      ],
+      "correct_answer": "Human Resources"
+    },
+
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "Which department is responsible for purchasing raw materials?",
+      "options": [
+        "Procurement",
+        "Dispatch",
+        "Quality",
+        "Sales"
+      ],
+      "correct_answer": "Procurement"
+    },
+
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "Which department verifies product quality before release?",
+      "options": [
+        "Warehouse",
+        "Quality",
+        "Finance",
+        "Maintenance"
+      ],
+      "correct_answer": "Quality"
+    },
+
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "Which department manages company accounts and financial records?",
+      "options": [
+        "Finance",
+        "Production",
+        "Procurement",
+        "Safety"
+      ],
+      "correct_answer": "Finance"
+    },
+
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "Which department stores raw materials and finished goods?",
+      "options": [
+        "Warehouse",
+        "HR",
+        "Quality",
+        "Sales"
+      ],
+      "correct_answer": "Warehouse"
+    },
+
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "Which department ensures finished products reach customers?",
+      "options": [
+        "Dispatch",
+        "Production",
+        "Finance",
+        "HR"
+      ],
+      "correct_answer": "Dispatch"
+    },
+
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "Which department is responsible for machine maintenance?",
+      "options": [
+        "Maintenance",
+        "Quality",
+        "HR",
+        "Finance"
+      ],
+      "correct_answer": "Maintenance"
+    },
+
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "Which department works closely with Production to prevent defective products?",
+      "options": [
+        "Quality",
+        "Finance",
+        "Administration",
+        "IT"
+      ],
+      "correct_answer": "Quality"
+    },
+
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "Which department issues purchase orders to suppliers?",
+      "options": [
+        "Procurement",
+        "Dispatch",
+        "Production",
+        "Finance"
+      ],
+      "correct_answer": "Procurement"
+    },
+
+    {
+      "id": 11,
+      "type": "true_false",
+      "question": "The HR department is responsible for employee recruitment.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 12,
+      "type": "true_false",
+      "question": "The Finance department is responsible for machine repairs.",
+      "correct_answer": false
+    },
+
+    {
+      "id": 13,
+      "type": "true_false",
+      "question": "Quality inspectors verify products before approval.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 14,
+      "type": "true_false",
+      "question": "Production and Maintenance departments work independently and never interact.",
+      "correct_answer": false
+    },
+
+    {
+      "id": 15,
+      "type": "true_false",
+      "question": "Warehouse staff maintain inventory records.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 16,
+      "type": "true_false",
+      "question": "Dispatch is responsible for employee payroll.",
+      "correct_answer": false
+    },
+
+    {
+      "id": 17,
+      "type": "true_false",
+      "question": "Procurement ensures materials are available when required.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 18,
+      "type": "true_false",
+      "question": "Finance prepares financial statements and reports.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 19,
+      "type": "short_answer",
+      "question": "What is the primary responsibility of the Production department?"
+    },
+
+    {
+      "id": 20,
+      "type": "short_answer",
+      "question": "Name one responsibility of the Human Resources department."
+    },
+
+    {
+      "id": 21,
+      "type": "short_answer",
+      "question": "Why is the Quality department important in manufacturing?"
+    },
+
+    {
+      "id": 22,
+      "type": "short_answer",
+      "question": "What is the role of the Procurement department?"
+    },
+
+    {
+      "id": 23,
+      "type": "short_answer",
+      "question": "Which department manages inventory?"
+    },
+
+    {
+      "id": 24,
+      "type": "short_answer",
+      "question": "Name one responsibility of the Finance department."
+    },
+
+    {
+      "id": 25,
+      "type": "short_answer",
+      "question": "What is the purpose of the Dispatch department?"
+    }
+
+  ]
+}
