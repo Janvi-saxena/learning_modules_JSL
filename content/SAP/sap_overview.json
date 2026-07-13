@@ -1,0 +1,140 @@
+{
+  "id": "sap_overview",
+  "title": "SAP Overview",
+  "module": "SAP",
+  "order": 1,
+  "duration": "20 minutes",
+  "difficulty": "Beginner",
+
+  "learning_objectives": [
+    "Understand the concept of Enterprise Resource Planning (ERP).",
+    "Learn what SAP is and why organizations use it.",
+    "Understand how SAP integrates different business departments.",
+    "Identify the major SAP modules used in manufacturing industries.",
+    "Understand SAP's role in digital transformation."
+  ],
+
+  "introduction": {
+    "title": "What is SAP?",
+    "content": "SAP (Systems, Applications and Products in Data Processing) is one of the world's leading Enterprise Resource Planning (ERP) software solutions. It enables organizations to manage their business operations by integrating departments such as Production, Finance, Materials Management, Sales, Human Resources, Quality, and Maintenance into a single system."
+  },
+
+  "what_is_erp": {
+    "title": "What is ERP?",
+    "content": "Enterprise Resource Planning (ERP) is a software system that connects different departments of an organization into a unified platform. Instead of maintaining separate systems for production, inventory, finance, purchasing, and sales, ERP allows all departments to work with a common database, ensuring accurate and real-time information across the organization."
+  },
+
+  "why_sap": {
+    "title": "Why SAP?",
+    "points": [
+      "Integrates all business functions into one system.",
+      "Provides real-time business data.",
+      "Improves operational efficiency.",
+      "Reduces manual work and duplicate data entry.",
+      "Supports informed business decision-making.",
+      "Improves communication between departments.",
+      "Enhances productivity and process transparency."
+    ]
+  },
+
+  "business_process": [
+    "Sales Order",
+    "Material Planning",
+    "Procurement",
+    "Production",
+    "Quality Inspection",
+    "Warehouse Management",
+    "Dispatch",
+    "Finance & Reporting"
+  ],
+
+  "key_features": [
+    "Centralized Database",
+    "Real-Time Reporting",
+    "Business Process Automation",
+    "Data Accuracy",
+    "Role-Based Access",
+    "Scalability",
+    "Process Integration",
+    "Security and Authorization"
+  ],
+
+  "major_modules": [
+    {
+      "module": "PP",
+      "name": "Production Planning",
+      "purpose": "Plans and controls manufacturing operations."
+    },
+    {
+      "module": "MM",
+      "name": "Materials Management",
+      "purpose": "Procurement and inventory management."
+    },
+    {
+      "module": "QM",
+      "name": "Quality Management",
+      "purpose": "Quality planning, inspection and control."
+    },
+    {
+      "module": "SD",
+      "name": "Sales and Distribution",
+      "purpose": "Sales orders, delivery and billing."
+    },
+    {
+      "module": "PM",
+      "name": "Plant Maintenance",
+      "purpose": "Equipment maintenance and preventive maintenance."
+    },
+    {
+      "module": "FI",
+      "name": "Financial Accounting",
+      "purpose": "Financial transactions and reporting."
+    },
+    {
+      "module": "CO",
+      "name": "Controlling",
+      "purpose": "Cost planning and profitability analysis."
+    },
+    {
+      "module": "HCM",
+      "name": "Human Capital Management",
+      "purpose": "Employee and payroll management."
+    }
+  ],
+
+  "sap_at_jsl": {
+    "title": "SAP at Jindal Stainless",
+    "content": "Jindal Stainless uses SAP as its enterprise platform to integrate manufacturing, production planning, quality management, inventory, procurement, finance, sales and other business processes. SAP enables seamless information flow between departments, ensuring efficient operations, improved productivity and data-driven decision making."
+  },
+
+  "benefits": [
+    "Improved planning",
+    "Reduced operational cost",
+    "Better inventory control",
+    "Higher production efficiency",
+    "Enhanced quality control",
+    "Faster reporting",
+    "Real-time business visibility",
+    "Better customer satisfaction"
+  ],
+
+  "important_note": "Every transaction performed in SAP updates a centralized database. This ensures that all authorized departments work with the same real-time information.",
+
+  "resources": {
+    "images": [
+      "assets/images/sap/sap_logo.png",
+      "assets/images/sap/erp_concept.png",
+      "assets/images/sap/sap_modules.png"
+    ],
+    "videos": [
+      "assets/videos/sap/sap_overview.mp4"
+    ],
+    "documents": [
+      "assets/documents/sap/sap_overview.pdf"
+    ]
+  },
+
+  "assessment": {
+    "quiz": "assessment/sap/set_1.json"
+  }
+}
