@@ -1,1 +1,209 @@
-#abc
+{
+  "id": "finance_department",
+  "title": "Finance Department",
+  "module": "Departments",
+  "order": 6,
+  "duration": "45 minutes",
+  "difficulty": "Beginner",
+
+  "learning_objectives": [
+    "Understand the role of the Finance Department.",
+    "Learn the major financial activities performed in manufacturing organizations.",
+    "Understand budgeting, cost control and financial reporting.",
+    "Recognize how Finance supports business decisions.",
+    "Understand the use of SAP FI in financial management."
+  ],
+
+  "introduction": {
+    "title": "What is the Finance Department?",
+    "content": "The Finance Department is responsible for managing the organization's financial resources. It plans budgets, records financial transactions, controls costs, manages payments and prepares financial reports that support strategic business decisions. In a manufacturing organization, Finance ensures that operations remain financially sustainable while supporting business growth."
+  },
+
+  "business_purpose": {
+    "title": "Why is the Finance Department Important?",
+    "content": "Every manufacturing activity has a financial impact. The Finance Department ensures that funds are used efficiently, expenses are monitored and accurate financial information is available for decision-making. It helps the organization remain profitable while complying with financial regulations."
+  },
+
+  "department_objectives": [
+    "Maintain accurate financial records.",
+    "Manage company budgets.",
+    "Control operational costs.",
+    "Ensure timely payments and collections.",
+    "Support business planning and investment decisions.",
+    "Ensure compliance with financial regulations."
+  ],
+
+  "finance_workflow": [
+    "Receive financial documents from departments.",
+    "Verify supporting documents and approvals.",
+    "Record transactions in SAP FI.",
+    "Process supplier and employee payments.",
+    "Monitor budgets and expenses.",
+    "Prepare monthly financial reports.",
+    "Review financial performance.",
+    "Support management with financial analysis."
+  ],
+
+  "key_responsibilities": [
+    {
+      "responsibility": "Financial Accounting",
+      "description": "Maintain records of all financial transactions."
+    },
+    {
+      "responsibility": "Budget Planning",
+      "description": "Prepare and monitor departmental and organizational budgets."
+    },
+    {
+      "responsibility": "Cost Control",
+      "description": "Monitor manufacturing and operational costs to improve profitability."
+    },
+    {
+      "responsibility": "Accounts Payable",
+      "description": "Process payments to suppliers and service providers."
+    },
+    {
+      "responsibility": "Accounts Receivable",
+      "description": "Track customer payments and outstanding invoices."
+    },
+    {
+      "responsibility": "Financial Reporting",
+      "description": "Prepare financial statements and management reports."
+    }
+  ],
+
+  "daily_activities": [
+    "Verify invoices and supporting documents.",
+    "Record financial transactions.",
+    "Process supplier payments.",
+    "Monitor departmental budgets.",
+    "Review production costs.",
+    "Generate financial reports.",
+    "Coordinate with auditors when required."
+  ],
+
+  "documents_used": [
+    "Purchase Invoice",
+    "Sales Invoice",
+    "Payment Voucher",
+    "Receipt Voucher",
+    "Journal Voucher",
+    "Expense Report",
+    "Budget Report",
+    "Financial Statement"
+  ],
+
+  "software_and_systems": [
+    "SAP FI",
+    "SAP CO",
+    "Microsoft Excel",
+    "Business Intelligence Dashboards",
+    "Banking Portals"
+  ],
+
+  "key_financial_concepts": [
+    {
+      "concept": "Budgeting",
+      "description": "Planning expected income and expenses."
+    },
+    {
+      "concept": "Cost Control",
+      "description": "Monitoring and reducing unnecessary expenses."
+    },
+    {
+      "concept": "Cash Flow",
+      "description": "Managing the movement of money into and out of the organization."
+    },
+    {
+      "concept": "Profitability",
+      "description": "Measuring the organization's ability to generate profit."
+    }
+  ],
+
+  "key_performance_indicators": [
+    "Budget Variance",
+    "Cost per Unit Produced",
+    "Accounts Payable Turnaround Time",
+    "Accounts Receivable Collection Period",
+    "Cash Flow Position",
+    "Operating Margin",
+    "Return on Investment (ROI)"
+  ],
+
+  "coordination_with_departments": [
+    {
+      "department": "Purchase",
+      "purpose": "Processes supplier invoices and payments."
+    },
+    {
+      "department": "Production",
+      "purpose": "Analyzes manufacturing costs and production expenses."
+    },
+    {
+      "department": "Warehouse",
+      "purpose": "Values inventory and stock."
+    },
+    {
+      "department": "Sales",
+      "purpose": "Records customer invoices and revenue."
+    },
+    {
+      "department": "HR",
+      "purpose": "Processes employee salaries and reimbursements."
+    },
+    {
+      "department": "SAP FI/CO",
+      "purpose": "Maintains financial and controlling records."
+    }
+  ],
+
+  "business_example": {
+    "title": "Finance Operations at JSL",
+    "content": "The Purchase Department procures raw materials for production. After the materials are received and verified, Finance processes the supplier invoice in SAP FI. During the month, production costs are monitored and compared against the approved budget. At month-end, Finance prepares financial reports that help management evaluate profitability and make future investment decisions."
+  },
+
+  "best_practices": [
+    "Verify documents before processing payments.",
+    "Monitor budgets regularly.",
+    "Maintain accurate financial records.",
+    "Ensure timely supplier payments.",
+    "Protect confidential financial information.",
+    "Comply with accounting standards and company policies."
+  ],
+
+  "common_errors": [
+    "Incorrect data entry.",
+    "Delayed invoice processing.",
+    "Poor document verification.",
+    "Budget overruns without approval.",
+    "Failure to reconcile accounts regularly.",
+    "Weak financial record management."
+  ],
+
+  "important_notes": [
+    "Accurate financial information supports better business decisions.",
+    "Cost control contributes directly to organizational profitability.",
+    "Financial records must be complete, accurate and auditable.",
+    "Confidentiality of financial information must always be maintained."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/departments/finance/budget_planning.png",
+      "assets/images/departments/finance/financial_reporting.png",
+      "assets/images/departments/finance/sap_fi_dashboard.png",
+      "assets/images/departments/finance/cost_analysis.png"
+    ],
+    "videos": [
+      "assets/videos/departments/finance_overview.mp4"
+    ],
+    "documents": [
+      "assets/documents/departments/finance_manual.pdf"
+    ]
+  },
+
+  "next_module": "HR.json",
+
+  "assessment": {
+    "quiz": "assessment/department/set_3.json"
+  }
+}
