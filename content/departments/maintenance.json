@@ -1,1 +1,212 @@
-#abc
+{
+  "id": "maintenance_department",
+  "title": "Maintenance Department",
+  "module": "Departments",
+  "order": 2,
+  "duration": "50 minutes",
+  "difficulty": "Beginner",
+
+  "learning_objectives": [
+    "Understand the role of the Maintenance Department.",
+    "Learn different types of industrial maintenance.",
+    "Understand preventive and predictive maintenance.",
+    "Identify how maintenance supports production.",
+    "Understand the use of SAP PM in maintenance activities."
+  ],
+
+  "introduction": {
+    "title": "What is the Maintenance Department?",
+    "content": "The Maintenance Department is responsible for ensuring that all plant machinery, equipment and utilities remain in safe and efficient working condition. The department performs inspections, preventive maintenance, repairs and equipment improvements to minimize downtime and maximize production efficiency."
+  },
+
+  "business_purpose": {
+    "title": "Why is Maintenance Important?",
+    "content": "Reliable equipment is essential for uninterrupted production. The Maintenance Department helps prevent unexpected machine failures, improves equipment life, reduces repair costs and ensures safe working conditions throughout the plant."
+  },
+
+  "department_objectives": [
+    "Maximize equipment availability.",
+    "Reduce machine downtime.",
+    "Improve equipment reliability.",
+    "Increase production efficiency.",
+    "Ensure workplace safety.",
+    "Support continuous improvement."
+  ],
+
+  "types_of_maintenance": [
+    {
+      "type": "Preventive Maintenance",
+      "description": "Scheduled maintenance performed before equipment failure to prevent breakdowns."
+    },
+    {
+      "type": "Predictive Maintenance",
+      "description": "Uses sensor data and condition monitoring to predict failures before they occur."
+    },
+    {
+      "type": "Corrective Maintenance",
+      "description": "Repairs equipment after a fault is identified."
+    },
+    {
+      "type": "Breakdown Maintenance",
+      "description": "Emergency repair performed after equipment has failed."
+    },
+    {
+      "type": "Condition-Based Maintenance",
+      "description": "Maintenance performed based on the actual condition of equipment."
+    }
+  ],
+
+  "key_responsibilities": [
+    {
+      "responsibility": "Machine Inspection",
+      "description": "Inspect equipment regularly for wear, damage and abnormalities."
+    },
+    {
+      "responsibility": "Preventive Maintenance",
+      "description": "Execute scheduled maintenance activities."
+    },
+    {
+      "responsibility": "Equipment Repair",
+      "description": "Repair faulty machinery quickly and safely."
+    },
+    {
+      "responsibility": "Spare Parts Management",
+      "description": "Coordinate spare part availability with Stores."
+    },
+    {
+      "responsibility": "Maintenance Documentation",
+      "description": "Maintain accurate maintenance records."
+    },
+    {
+      "responsibility": "Safety Compliance",
+      "description": "Ensure maintenance activities follow all safety procedures."
+    }
+  ],
+
+  "maintenance_workflow": [
+    "Receive maintenance request.",
+    "Inspect the equipment.",
+    "Identify the root cause.",
+    "Plan maintenance activity.",
+    "Obtain work permit if required.",
+    "Isolate equipment safely.",
+    "Repair or replace faulty components.",
+    "Test equipment functionality.",
+    "Record maintenance details in SAP PM.",
+    "Return equipment to production."
+  ],
+
+  "daily_activities": [
+    "Conduct routine equipment inspections.",
+    "Respond to breakdown calls.",
+    "Execute preventive maintenance schedules.",
+    "Monitor machine performance.",
+    "Coordinate with Production during maintenance.",
+    "Update maintenance records.",
+    "Inspect critical spare parts."
+  ],
+
+  "documents_used": [
+    "Maintenance Work Order",
+    "Preventive Maintenance Schedule",
+    "Equipment Inspection Checklist",
+    "Permit to Work",
+    "Breakdown Report",
+    "Maintenance History Record"
+  ],
+
+  "software_and_systems": [
+    "SAP PM",
+    "SCADA",
+    "PLC Diagnostics",
+    "Condition Monitoring Systems",
+    "Maintenance Dashboards"
+  ],
+
+  "key_performance_indicators": [
+    "Machine Availability",
+    "Mean Time Between Failures (MTBF)",
+    "Mean Time To Repair (MTTR)",
+    "Preventive Maintenance Compliance",
+    "Equipment Reliability",
+    "Maintenance Cost",
+    "Downtime Reduction"
+  ],
+
+  "coordination_with_departments": [
+    {
+      "department": "Production",
+      "purpose": "Plans maintenance activities without affecting production schedules."
+    },
+    {
+      "department": "Warehouse",
+      "purpose": "Obtains required spare parts and consumables."
+    },
+    {
+      "department": "Purchase",
+      "purpose": "Procures replacement parts and maintenance materials."
+    },
+    {
+      "department": "Quality",
+      "purpose": "Ensures repaired equipment maintains product quality."
+    },
+    {
+      "department": "Safety",
+      "purpose": "Implements Lockout/Tagout and other safe maintenance practices."
+    },
+    {
+      "department": "IT",
+      "purpose": "Supports computerized maintenance systems."
+    }
+  ],
+
+  "business_example": {
+    "title": "Maintenance at JSL",
+    "content": "During stainless steel production, vibration sensors detect abnormal bearing movement in a rolling mill motor. The Maintenance Department receives the alert through the monitoring system, schedules maintenance during planned downtime, replaces the damaged bearing and updates the maintenance history in SAP PM. This prevents an unexpected breakdown and avoids production losses."
+  },
+
+  "best_practices": [
+    "Perform preventive maintenance on schedule.",
+    "Analyze root causes of repeated failures.",
+    "Maintain accurate maintenance records.",
+    "Use genuine spare parts.",
+    "Follow Lockout/Tagout procedures.",
+    "Communicate maintenance schedules with Production."
+  ],
+
+  "common_errors": [
+    "Ignoring early warning signs.",
+    "Skipping preventive maintenance.",
+    "Poor documentation.",
+    "Using incorrect spare parts.",
+    "Restarting equipment without proper testing."
+  ],
+
+  "important_notes": [
+    "Preventive maintenance is more cost-effective than breakdown maintenance.",
+    "Proper documentation helps improve future maintenance planning.",
+    "Maintenance activities should always prioritize employee safety.",
+    "Reliable equipment contributes directly to production efficiency."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/departments/maintenance/preventive_maintenance.png",
+      "assets/images/departments/maintenance/equipment_inspection.png",
+      "assets/images/departments/maintenance/maintenance_workflow.png",
+      "assets/images/departments/maintenance/sap_pm.png"
+    ],
+    "videos": [
+      "assets/videos/departments/maintenance_overview.mp4"
+    ],
+    "documents": [
+      "assets/documents/departments/maintenance_manual.pdf"
+    ]
+  },
+
+  "next_module": "purchase.json",
+
+  "assessment": {
+    "quiz": "assessment/department/set_1.json"
+  }
+}
