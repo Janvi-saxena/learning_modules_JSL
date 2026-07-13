@@ -1,0 +1,193 @@
+{
+  "id": "fi",
+  "title": "Financial Accounting (FI)",
+  "module": "SAP",
+  "order": 6,
+  "duration": "40 minutes",
+  "difficulty": "Beginner",
+
+  "learning_objectives": [
+    "Understand the purpose of SAP Financial Accounting (FI).",
+    "Learn how financial transactions are managed in SAP.",
+    "Understand the key components of the FI module.",
+    "Identify common SAP FI Transaction Codes.",
+    "Learn how FI integrates with other SAP modules."
+  ],
+
+  "introduction": {
+    "title": "What is SAP FI?",
+    "content": "SAP Financial Accounting (FI) is the module responsible for recording, processing and reporting all financial transactions within an organization. It ensures that financial records are accurate, compliant with accounting standards, and available for business decision-making."
+  },
+
+  "business_purpose": {
+    "title": "Why is SAP FI Used?",
+    "content": "Every business performs financial transactions such as purchases, sales, payments and receipts. SAP FI records these transactions automatically, generates financial statements, and provides real-time financial information for management."
+  },
+
+  "key_functions": [
+    "General Ledger Accounting",
+    "Accounts Payable",
+    "Accounts Receivable",
+    "Asset Accounting",
+    "Bank Accounting",
+    "Financial Reporting",
+    "Tax Accounting",
+    "Financial Closing"
+  ],
+
+  "major_components": [
+    {
+      "name": "General Ledger (GL)",
+      "description": "Central repository for all financial transactions."
+    },
+    {
+      "name": "Accounts Payable (AP)",
+      "description": "Manages payments made to vendors and suppliers."
+    },
+    {
+      "name": "Accounts Receivable (AR)",
+      "description": "Manages payments received from customers."
+    },
+    {
+      "name": "Asset Accounting (AA)",
+      "description": "Maintains fixed asset records such as machinery and equipment."
+    },
+    {
+      "name": "Bank Accounting",
+      "description": "Records bank transactions and reconciliations."
+    }
+  ],
+
+  "financial_process": [
+    "Business Transaction",
+    "Accounting Document Creation",
+    "General Ledger Posting",
+    "Vendor / Customer Posting",
+    "Payment Processing",
+    "Financial Reporting",
+    "Period Closing"
+  ],
+
+  "integration": [
+    {
+      "module": "MM",
+      "purpose": "Automatically records accounting entries for purchases."
+    },
+    {
+      "module": "SD",
+      "purpose": "Creates accounting documents after customer billing."
+    },
+    {
+      "module": "PP",
+      "purpose": "Records production costs."
+    },
+    {
+      "module": "CO",
+      "purpose": "Shares financial data for cost analysis."
+    },
+    {
+      "module": "PM",
+      "purpose": "Captures maintenance-related expenses."
+    }
+  ],
+
+  "transaction_codes": [
+    {
+      "code": "FS00",
+      "name": "Create/Change General Ledger Account"
+    },
+    {
+      "code": "FB50",
+      "name": "General Ledger Posting"
+    },
+    {
+      "code": "F-02",
+      "name": "General Ledger Document Entry"
+    },
+    {
+      "code": "FB03",
+      "name": "Display Accounting Document"
+    },
+    {
+      "code": "FBL1N",
+      "name": "Vendor Line Item Display"
+    },
+    {
+      "code": "FBL5N",
+      "name": "Customer Line Item Display"
+    },
+    {
+      "code": "F110",
+      "name": "Automatic Payment Program"
+    },
+    {
+      "code": "F-53",
+      "name": "Post Outgoing Payment"
+    },
+    {
+      "code": "F-28",
+      "name": "Post Incoming Payment"
+    },
+    {
+      "code": "OB52",
+      "name": "Open and Close Posting Periods"
+    },
+    {
+      "code": "S_ALR_87012284",
+      "name": "Balance Sheet"
+    },
+    {
+      "code": "S_ALR_87012301",
+      "name": "Profit and Loss Statement"
+    }
+  ],
+
+  "business_example": {
+    "title": "Example",
+    "content": "A supplier delivers raw materials to the company. After Goods Receipt is posted in SAP MM, an accounting document is automatically generated in SAP FI. When the invoice is received and payment is made, FI records the complete financial transaction, ensuring accurate accounting."
+  },
+
+  "benefits": [
+    "Accurate financial records",
+    "Real-time financial reporting",
+    "Compliance with accounting standards",
+    "Automated financial postings",
+    "Improved financial transparency",
+    "Better cash flow management"
+  ],
+
+  "best_practices": [
+    "Maintain accurate General Ledger accounts.",
+    "Perform bank reconciliations regularly.",
+    "Verify accounting entries before posting.",
+    "Close accounting periods on time.",
+    "Maintain proper documentation for every financial transaction."
+  ],
+
+  "common_mistakes": [
+    "Posting to the wrong General Ledger account.",
+    "Incorrect vendor or customer selection.",
+    "Duplicate invoice postings.",
+    "Ignoring posting period restrictions.",
+    "Incomplete financial documentation."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/sap/fi/general_ledger.png",
+      "assets/images/sap/fi/accounts_payable.png",
+      "assets/images/sap/fi/accounts_receivable.png",
+      "assets/images/sap/fi/financial_reports.png"
+    ],
+    "videos": [
+      "assets/videos/sap/fi_overview.mp4"
+    ],
+    "documents": [
+      "assets/documents/sap/fi_module.pdf"
+    ]
+  },
+
+  "assessment": {
+    "quiz": "assessment/sap/set_1.json"
+  }
+}
