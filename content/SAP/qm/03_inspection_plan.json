@@ -1,1 +1,199 @@
+{
+  "id": "inspection_plan",
+  "title": "Inspection Plan",
+  "module": "SAP QM",
+  "order": 3,
+  "duration": "50 minutes",
+  "difficulty": "Intermediate",
 
+  "learning_objectives": [
+    "Understand the purpose of an Inspection Plan.",
+    "Learn the components of an Inspection Plan.",
+    "Understand inspection characteristics and sampling procedures.",
+    "Learn standard SAP Inspection Plan transaction codes.",
+    "Understand how Inspection Plans are used during quality inspections."
+  ],
+
+  "introduction": {
+    "title": "What is an Inspection Plan?",
+    "content": "An Inspection Plan is a Quality Management master data object that defines how quality inspections should be performed. It specifies the inspection operations, characteristics to be checked, sampling procedures, inspection methods and acceptance criteria used during quality inspections."
+  },
+
+  "business_purpose": {
+    "title": "Why is an Inspection Plan Important?",
+    "content": "Inspection Plans standardize quality inspection procedures across the organization. They ensure every inspector follows the same inspection process, reducing variation and improving product quality."
+  },
+
+  "inspection_plan_components": [
+    {
+      "component": "Plan Header",
+      "description": "Contains general information about the Inspection Plan."
+    },
+    {
+      "component": "Operations",
+      "description": "Defines inspection steps to be performed."
+    },
+    {
+      "component": "Master Inspection Characteristics",
+      "description": "Characteristics that need to be inspected."
+    },
+    {
+      "component": "Sampling Procedure",
+      "description": "Determines how many samples are inspected."
+    },
+    {
+      "component": "Inspection Method",
+      "description": "Defines how inspection should be carried out."
+    }
+  ],
+
+  "important_fields": [
+    "Inspection Plan Group",
+    "Group Counter",
+    "Material Number",
+    "Plant",
+    "Usage",
+    "Status",
+    "Inspection Operation",
+    "Master Inspection Characteristic",
+    "Sampling Procedure",
+    "Inspection Method",
+    "Inspection Duration"
+  ],
+
+  "business_functions": [
+    "Inspection Standardization",
+    "Inspection Characteristic Assignment",
+    "Sampling Definition",
+    "Inspection Execution",
+    "Quality Documentation",
+    "Quality Compliance"
+  ],
+
+  "transaction_codes": [
+    {
+      "code": "QP01",
+      "name": "Create Inspection Plan"
+    },
+    {
+      "code": "QP02",
+      "name": "Change Inspection Plan"
+    },
+    {
+      "code": "QP03",
+      "name": "Display Inspection Plan"
+    },
+    {
+      "code": "QP60",
+      "name": "Inspection Plan Overview"
+    }
+  ],
+
+  "sap_menu_path": [
+    "SAP Easy Access",
+    "Logistics",
+    "Quality Management",
+    "Quality Planning",
+    "Inspection Planning",
+    "Inspection Plan"
+  ],
+
+  "step_by_step_procedure": [
+    "Execute Transaction QP01.",
+    "Enter Material Number.",
+    "Enter Plant.",
+    "Create Inspection Plan Header.",
+    "Maintain Inspection Operations.",
+    "Assign Master Inspection Characteristics.",
+    "Assign Sampling Procedure.",
+    "Maintain Inspection Method if applicable.",
+    "Save the Inspection Plan."
+  ],
+
+  "inspection_flow": [
+    "Material Receipt or Production Completion",
+    "Inspection Lot Creation",
+    "Inspection Plan Selection",
+    "Sample Collection",
+    "Characteristic Inspection",
+    "Result Recording",
+    "Usage Decision"
+  ],
+
+  "integration": [
+    {
+      "module": "Material Master",
+      "purpose": "Inspection Plan is assigned to the material."
+    },
+    {
+      "module": "Master Inspection Characteristics",
+      "purpose": "Characteristics are reused within Inspection Plans."
+    },
+    {
+      "module": "Result Recording",
+      "purpose": "Inspection results are entered against the defined characteristics."
+    },
+    {
+      "module": "Usage Decision",
+      "purpose": "Inspection Plan provides the basis for quality acceptance."
+    },
+    {
+      "module": "PP",
+      "purpose": "Supports inspection after production."
+    }
+  ],
+
+  "business_example": {
+    "title": "Example",
+    "content": "For a stainless steel coil, the Inspection Plan defines that inspectors must check thickness, width, surface finish and hardness. The plan specifies the sampling procedure, inspection sequence and acceptance limits to ensure every batch is inspected consistently."
+  },
+
+  "best_practices": [
+    "Use standardized Inspection Plans.",
+    "Reuse Master Inspection Characteristics whenever possible.",
+    "Maintain updated acceptance criteria.",
+    "Review Inspection Plans after engineering changes.",
+    "Periodically validate sampling procedures."
+  ],
+
+  "common_errors": [
+    "Missing inspection characteristics.",
+    "Incorrect sampling procedure.",
+    "Wrong material assignment.",
+    "Outdated Inspection Plan.",
+    "Incorrect inspection sequence."
+  ],
+
+  "important_notes": [
+    "Inspection Plans are reusable for multiple inspection lots.",
+    "Every inspection lot uses the Inspection Plan maintained for the material.",
+    "Inspection characteristics should reflect current product specifications."
+  ],
+
+  "jsl_notes": [
+    "Inspection Plans should follow approved JSL quality standards.",
+    "Inspectors must ensure the latest Inspection Plan version is used before recording results.",
+    "Engineering specification changes should be reflected in the Inspection Plan immediately."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/sap/qm/inspection_plan/qp01_screen.png",
+      "assets/images/sap/qm/inspection_plan/inspection_operations.png",
+      "assets/images/sap/qm/inspection_plan/master_characteristics.png",
+      "assets/images/sap/qm/inspection_plan/inspection_flow.png"
+    ],
+    "videos": [
+      "assets/videos/sap/qm/inspection_plan.mp4"
+    ],
+    "documents": [
+      "assets/documents/sap/qm/inspection_plan.pdf"
+    ]
+  },
+
+  "next_module": "04_result_recording.json",
+
+  "assessment": {
+    "quiz": "assessment/sap/set_3.json"
+  }
+}
