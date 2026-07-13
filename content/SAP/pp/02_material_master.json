@@ -1,1 +1,218 @@
+{
+  "id": "material_master",
+  "title": "Material Master",
+  "module": "SAP PP",
+  "order": 2,
+  "duration": "45 minutes",
+  "difficulty": "Intermediate",
 
+  "learning_objectives": [
+    "Understand the purpose of the Material Master.",
+    "Identify different material types.",
+    "Learn the important views maintained in SAP.",
+    "Understand how Material Master integrates with Production Planning.",
+    "Learn the standard SAP Transaction Codes used for Material Master."
+  ],
+
+  "introduction": {
+    "title": "What is Material Master?",
+    "content": "The Material Master is the central repository of information for every material used within an organization. It contains all the data required for purchasing, inventory management, production planning, sales, quality management and accounting. Every material used in SAP is represented by a unique Material Number."
+  },
+
+  "business_purpose": {
+    "title": "Why is Material Master Important?",
+    "content": "Production Planning depends on accurate Material Master data. It determines how materials are procured, planned, produced, stored and consumed throughout the manufacturing process."
+  },
+
+  "material_types": [
+    {
+      "type": "ROH",
+      "description": "Raw Materials purchased from vendors."
+    },
+    {
+      "type": "HALB",
+      "description": "Semi-finished products used in further manufacturing."
+    },
+    {
+      "type": "FERT",
+      "description": "Finished products ready for sale."
+    },
+    {
+      "type": "HIBE",
+      "description": "Operating supplies and consumables."
+    },
+    {
+      "type": "VERP",
+      "description": "Packaging materials."
+    }
+  ],
+
+  "important_views": [
+    {
+      "view": "Basic Data",
+      "purpose": "General information like description, unit of measure and weight."
+    },
+    {
+      "view": "MRP 1",
+      "purpose": "MRP Type, Reorder Point, Lot Size."
+    },
+    {
+      "view": "MRP 2",
+      "purpose": "Procurement Type, Scheduling Margin Key."
+    },
+    {
+      "view": "MRP 3",
+      "purpose": "Availability Check and Planning Strategy."
+    },
+    {
+      "view": "MRP 4",
+      "purpose": "Storage Location and BOM Explosion."
+    },
+    {
+      "view": "Work Scheduling",
+      "purpose": "Production Scheduling Parameters."
+    },
+    {
+      "view": "Accounting",
+      "purpose": "Valuation Class and Price Control."
+    },
+    {
+      "view": "Costing",
+      "purpose": "Product Cost Planning."
+    }
+  ],
+
+  "master_data_fields": [
+    "Material Number",
+    "Material Description",
+    "Plant",
+    "Storage Location",
+    "Base Unit of Measure",
+    "Material Group",
+    "MRP Type",
+    "Lot Size",
+    "Procurement Type",
+    "Production Scheduler",
+    "Availability Check",
+    "Price Control"
+  ],
+
+  "transaction_codes": [
+    {
+      "code": "MM01",
+      "name": "Create Material Master"
+    },
+    {
+      "code": "MM02",
+      "name": "Change Material Master"
+    },
+    {
+      "code": "MM03",
+      "name": "Display Material Master"
+    },
+    {
+      "code": "MM60",
+      "name": "Material List"
+    },
+    {
+      "code": "MMBE",
+      "name": "Stock Overview"
+    }
+  ],
+
+  "sap_menu_path": [
+    "SAP Easy Access",
+    "Logistics",
+    "Materials Management",
+    "Material Master",
+    "Material",
+    "Create / Change / Display"
+  ],
+
+  "step_by_step_procedure": [
+    "Open Transaction MM01.",
+    "Select the Material Type.",
+    "Select the Industry Sector.",
+    "Choose the required Material Master Views.",
+    "Enter Organizational Levels (Plant, Storage Location).",
+    "Maintain Basic Data.",
+    "Maintain MRP Views.",
+    "Maintain Work Scheduling View.",
+    "Maintain Accounting Data.",
+    "Save the Material Master."
+  ],
+
+  "integration": [
+    {
+      "module": "PP",
+      "purpose": "Used for MRP, Production Orders and Scheduling."
+    },
+    {
+      "module": "MM",
+      "purpose": "Purchasing and Inventory Management."
+    },
+    {
+      "module": "QM",
+      "purpose": "Quality Inspection Settings."
+    },
+    {
+      "module": "SD",
+      "purpose": "Sales and Delivery."
+    },
+    {
+      "module": "FI",
+      "purpose": "Material Valuation."
+    },
+    {
+      "module": "CO",
+      "purpose": "Product Costing."
+    }
+  ],
+
+  "business_example": {
+    "title": "Example",
+    "content": "A stainless steel coil is created as a Finished Material (FERT). The Material Master stores its planning data, production scheduling parameters, valuation information and inventory details. This information is then used by MRP, Production Planning, Warehouse Management and Sales."
+  },
+
+  "best_practices": [
+    "Use standard naming conventions.",
+    "Maintain all mandatory views.",
+    "Verify MRP settings before saving.",
+    "Keep valuation data accurate.",
+    "Avoid duplicate Material Masters."
+  ],
+
+  "common_errors": [
+    "Incorrect Material Type.",
+    "Wrong Base Unit of Measure.",
+    "Missing MRP Views.",
+    "Incorrect Plant Assignment.",
+    "Incomplete Accounting Data."
+  ],
+
+  "important_notes": [
+    "Every material has only one unique Material Number.",
+    "Material Master is shared across multiple SAP modules.",
+    "Incorrect Material Master data affects the entire production process."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/sap/pp/material_master/mm01_screen.png",
+      "assets/images/sap/pp/material_master/material_views.png",
+      "assets/images/sap/pp/material_master/material_creation.png"
+    ],
+    "videos": [
+      "assets/videos/sap/pp/material_master.mp4"
+    ],
+    "documents": [
+      "assets/documents/sap/pp/material_master.pdf"
+    ]
+  },
+
+  "next_module": "03_bill_of_material.json",
+
+  "assessment": {
+    "quiz": "assessment/sap/set_3.json"
+  }
+}
