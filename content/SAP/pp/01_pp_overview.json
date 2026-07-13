@@ -1,1 +1,200 @@
+{
+  "id": "pp_overview",
+  "title": "Production Planning (PP) Overview",
+  "module": "SAP PP",
+  "order": 1,
+  "duration": "30 minutes",
+  "difficulty": "Intermediate",
 
+  "learning_objectives": [
+    "Understand the purpose of SAP Production Planning.",
+    "Learn how SAP PP supports manufacturing operations.",
+    "Understand the complete production planning cycle.",
+    "Identify the master data required in SAP PP.",
+    "Understand how SAP PP integrates with other SAP modules."
+  ],
+
+  "introduction": {
+    "title": "What is SAP Production Planning?",
+    "content": "SAP Production Planning (PP) is the SAP module used to plan, schedule, execute and monitor manufacturing activities. It helps organizations ensure that the right products are manufactured in the right quantity, at the right time, while efficiently utilizing materials, machines and manpower."
+  },
+
+  "business_purpose": {
+    "title": "Why is SAP PP Used?",
+    "content": "Production Planning enables manufacturing companies to convert customer demand into production activities. It ensures material availability, efficient resource utilization, timely production and seamless integration with procurement, inventory, quality and finance."
+  },
+
+  "production_cycle": [
+    "Sales Forecast / Customer Requirement",
+    "Material Requirements Planning (MRP)",
+    "Procurement of Raw Materials",
+    "Production Planning",
+    "Production Order Creation",
+    "Production Execution",
+    "Production Confirmation",
+    "Goods Receipt",
+    "Quality Inspection",
+    "Finished Goods Storage",
+    "Dispatch"
+  ],
+
+  "master_data_required": [
+    "Material Master",
+    "Bill of Material (BOM)",
+    "Work Center",
+    "Routing",
+    "Production Version"
+  ],
+
+  "major_functions": [
+    "Demand Management",
+    "Material Requirements Planning (MRP)",
+    "Capacity Planning",
+    "Production Order Management",
+    "Production Scheduling",
+    "Production Confirmation",
+    "Goods Movement",
+    "Production Reporting"
+  ],
+
+  "integration": [
+    {
+      "module": "MM",
+      "purpose": "Procures and issues raw materials."
+    },
+    {
+      "module": "QM",
+      "purpose": "Performs quality inspection after production."
+    },
+    {
+      "module": "FI",
+      "purpose": "Records financial impact of production."
+    },
+    {
+      "module": "CO",
+      "purpose": "Calculates production costs and variances."
+    },
+    {
+      "module": "PM",
+      "purpose": "Ensures production equipment is maintained."
+    },
+    {
+      "module": "EWM",
+      "purpose": "Stores raw materials and finished goods."
+    }
+  ],
+
+  "pp_master_data": [
+    {
+      "name": "Material Master",
+      "purpose": "Stores information about raw materials, semi-finished and finished products."
+    },
+    {
+      "name": "Bill of Material (BOM)",
+      "purpose": "Defines the list of components required to manufacture a product."
+    },
+    {
+      "name": "Work Center",
+      "purpose": "Represents machines, equipment or production resources."
+    },
+    {
+      "name": "Routing",
+      "purpose": "Defines the sequence of manufacturing operations."
+    },
+    {
+      "name": "Production Version",
+      "purpose": "Links BOM and Routing for production execution."
+    }
+  ],
+
+  "important_transaction_codes": [
+    {
+      "code": "MD61",
+      "name": "Create Planned Independent Requirements"
+    },
+    {
+      "code": "MD02",
+      "name": "Single Item MRP Run"
+    },
+    {
+      "code": "MD04",
+      "name": "Stock / Requirements List"
+    },
+    {
+      "code": "CO01",
+      "name": "Create Production Order"
+    },
+    {
+      "code": "CO02",
+      "name": "Change Production Order"
+    },
+    {
+      "code": "CO03",
+      "name": "Display Production Order"
+    },
+    {
+      "code": "CO11N",
+      "name": "Production Confirmation"
+    },
+    {
+      "code": "CO14",
+      "name": "Display Confirmation"
+    },
+    {
+      "code": "CO13",
+      "name": "Cancel Confirmation"
+    },
+    {
+      "code": "COHV",
+      "name": "Mass Processing of Production Orders"
+    }
+  ],
+
+  "sap_menu_path": [
+    "SAP Easy Access",
+    "Logistics",
+    "Production",
+    "Production Planning"
+  ],
+
+  "business_example": {
+    "title": "Example",
+    "content": "A customer places an order for stainless steel coils. SAP PP calculates the material requirement through MRP, creates production orders, allocates work centers, schedules operations, confirms production completion and updates inventory after Goods Receipt."
+  },
+
+  "best_practices": [
+    "Maintain accurate master data.",
+    "Run MRP regularly.",
+    "Monitor production orders daily.",
+    "Confirm production immediately after completion.",
+    "Coordinate with MM and QM teams."
+  ],
+
+  "common_mistakes": [
+    "Incorrect BOM.",
+    "Incorrect Routing.",
+    "Missing Production Version.",
+    "Delayed Production Confirmation.",
+    "Ignoring MRP exception messages."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/sap/pp/pp_overview.png",
+      "assets/images/sap/pp/production_cycle.png",
+      "assets/images/sap/pp/master_data.png"
+    ],
+    "videos": [
+      "assets/videos/sap/pp_overview.mp4"
+    ],
+    "documents": [
+      "assets/documents/sap/pp_overview.pdf"
+    ]
+  },
+
+  "next_module": "02_material_master.json",
+
+  "assessment": {
+    "quiz": "assessment/sap/set_3.json"
+  }
+}
