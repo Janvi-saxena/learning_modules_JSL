@@ -1,1 +1,205 @@
-#abc
+{
+  "id": "emergency_response",
+  "title": "Emergency Response",
+  "module": "Safety",
+  "order": 4,
+  "duration": "45 minutes",
+  "difficulty": "Beginner",
+
+  "learning_objectives": [
+    "Understand different types of workplace emergencies.",
+    "Learn the standard emergency response procedure.",
+    "Recognize emergency equipment and evacuation routes.",
+    "Understand employee responsibilities during emergencies.",
+    "Learn basic first aid and incident reporting procedures."
+  ],
+
+  "introduction": {
+    "title": "What is Emergency Response?",
+    "content": "Emergency Response refers to the immediate actions taken to protect people, property and the environment during unexpected situations such as fires, chemical spills, electrical accidents, medical emergencies or natural disasters. A quick, organized and well-practiced response helps minimize injuries and damage."
+  },
+
+  "business_purpose": {
+    "title": "Why is Emergency Response Important?",
+    "content": "A well-defined emergency response system protects employees, reduces operational losses and ensures business continuity. Regular training, emergency drills and clear communication help employees respond confidently during emergencies."
+  },
+
+  "types_of_emergencies": [
+    {
+      "type": "Fire Emergency",
+      "description": "Fire caused by electrical faults, flammable materials or industrial processes."
+    },
+    {
+      "type": "Medical Emergency",
+      "description": "Injuries, illness or accidents requiring immediate medical attention."
+    },
+    {
+      "type": "Chemical Spill",
+      "description": "Accidental release of hazardous chemicals or gases."
+    },
+    {
+      "type": "Electrical Emergency",
+      "description": "Electric shock, short circuit or electrical fire."
+    },
+    {
+      "type": "Equipment Failure",
+      "description": "Unexpected breakdown of critical machinery creating unsafe conditions."
+    },
+    {
+      "type": "Natural Disaster",
+      "description": "Earthquake, flood, storm or other natural events affecting plant operations."
+    }
+  ],
+
+  "emergency_response_steps": [
+    "Remain calm and assess the situation.",
+    "Raise the alarm immediately.",
+    "Inform the supervisor or emergency control room.",
+    "Stop work safely if possible.",
+    "Follow evacuation instructions.",
+    "Move to the designated assembly point.",
+    "Do not use elevators during emergencies.",
+    "Wait for further instructions from emergency responders."
+  ],
+
+  "emergency_equipment": [
+    {
+      "equipment": "Fire Extinguisher",
+      "purpose": "Used to control small fires during the initial stage."
+    },
+    {
+      "equipment": "Fire Alarm System",
+      "purpose": "Alerts all personnel about an emergency."
+    },
+    {
+      "equipment": "Emergency Exit",
+      "purpose": "Provides a safe evacuation route."
+    },
+    {
+      "equipment": "First Aid Kit",
+      "purpose": "Provides immediate treatment for minor injuries."
+    },
+    {
+      "equipment": "Emergency Shower and Eyewash Station",
+      "purpose": "Used after exposure to hazardous chemicals."
+    },
+    {
+      "equipment": "Spill Control Kit",
+      "purpose": "Contains materials for controlling chemical spills."
+    }
+  ],
+
+  "employee_responsibilities": [
+    "Know emergency exit routes.",
+    "Know the assembly point location.",
+    "Report emergencies immediately.",
+    "Assist others only when it is safe.",
+    "Do not panic during emergencies.",
+    "Participate in emergency drills."
+  ],
+
+  "first_aid_guidelines": [
+    "Ensure the area is safe before assisting.",
+    "Call trained first aid personnel.",
+    "Do not move seriously injured persons unless necessary.",
+    "Control bleeding using clean dressings if trained.",
+    "Seek immediate medical assistance for serious injuries."
+  ],
+
+  "fire_safety_actions": [
+    "Activate the nearest fire alarm.",
+    "Call emergency response personnel.",
+    "Use the correct type of fire extinguisher only if trained.",
+    "Evacuate immediately if the fire cannot be controlled.",
+    "Never block emergency exits."
+  ],
+
+  "chemical_spill_response": [
+    "Avoid direct contact with spilled chemicals.",
+    "Wear appropriate PPE.",
+    "Isolate the affected area.",
+    "Report the spill immediately.",
+    "Use approved spill kits only if trained."
+  ],
+
+  "evacuation_procedure": [
+    "Stop work immediately.",
+    "Leave equipment in a safe condition if time permits.",
+    "Follow designated evacuation routes.",
+    "Proceed calmly to the assembly point.",
+    "Report your presence during headcount.",
+    "Wait for official clearance before re-entering."
+  ],
+
+  "integration": [
+    {
+      "module": "Production",
+      "purpose": "Safely shuts down production activities during emergencies."
+    },
+    {
+      "module": "Maintenance",
+      "purpose": "Isolates hazardous equipment and utilities."
+    },
+    {
+      "module": "HR",
+      "purpose": "Coordinates emergency communication and employee accountability."
+    },
+    {
+      "module": "Security",
+      "purpose": "Controls site access and supports evacuation."
+    },
+    {
+      "module": "Environment",
+      "purpose": "Responds to chemical spills and environmental incidents."
+    }
+  ],
+
+  "business_example": {
+    "title": "Emergency Response at JSL",
+    "content": "During routine production, a hydraulic oil leak catches fire near a rolling mill. The operator immediately activates the fire alarm, informs the control room and safely shuts down nearby equipment. Trained emergency responders use the correct fire extinguisher while employees evacuate to the designated assembly point. After the fire is extinguished, maintenance inspects the equipment before production resumes."
+  },
+
+  "best_practices": [
+    "Know emergency contact numbers.",
+    "Participate in mock drills.",
+    "Keep emergency exits unobstructed.",
+    "Report hazards before they become emergencies.",
+    "Inspect emergency equipment regularly.",
+    "Remain calm and follow instructions."
+  ],
+
+  "common_errors": [
+    "Ignoring emergency alarms.",
+    "Running during evacuation.",
+    "Using the wrong fire extinguisher.",
+    "Returning before official clearance.",
+    "Blocking emergency exits.",
+    "Failing to report incidents promptly."
+  ],
+
+  "important_notes": [
+    "Personal safety is always the highest priority.",
+    "Only trained personnel should respond to specialized emergencies.",
+    "Never attempt heroic actions that place yourself or others at risk.",
+    "Regular emergency drills improve preparedness and response time."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/safety/emergency/fire_extinguisher_types.png",
+      "assets/images/safety/emergency/evacuation_route.png",
+      "assets/images/safety/emergency/assembly_point.png",
+      "assets/images/safety/emergency/first_aid_kit.png"
+    ],
+    "videos": [
+      "assets/videos/safety/emergency_response.mp4"
+    ],
+    "documents": [
+      "assets/documents/safety/emergency_response_guide.pdf"
+    ]
+  },
+
+  "assessment": {
+    "quiz": "assessment/safety/final_assessment.json"
+  }
+}
