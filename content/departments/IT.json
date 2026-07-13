@@ -1,1 +1,209 @@
-#abc
+{
+  "id": "information_technology_department",
+  "title": "Information Technology (IT) Department",
+  "module": "Departments",
+  "order": 8,
+  "duration": "45 minutes",
+  "difficulty": "Beginner",
+
+  "learning_objectives": [
+    "Understand the role of the IT Department.",
+    "Learn how IT supports manufacturing and business operations.",
+    "Understand IT infrastructure, networking and cybersecurity basics.",
+    "Recognize how IT manages enterprise applications such as SAP.",
+    "Understand the importance of data security and system reliability."
+  ],
+
+  "introduction": {
+    "title": "What is the IT Department?",
+    "content": "The Information Technology (IT) Department is responsible for managing the organization's technology infrastructure, business applications, communication systems and cybersecurity. It ensures that employees have secure, reliable and efficient access to the digital tools required for daily operations."
+  },
+
+  "business_purpose": {
+    "title": "Why is the IT Department Important?",
+    "content": "Modern manufacturing relies heavily on digital systems. IT enables business continuity by maintaining servers, networks, SAP systems, databases and user devices. It also protects organizational data from cyber threats while supporting innovation and digital transformation."
+  },
+
+  "department_objectives": [
+    "Maintain reliable IT infrastructure.",
+    "Ensure uninterrupted operation of enterprise systems.",
+    "Protect organizational data.",
+    "Support digital transformation initiatives.",
+    "Provide technical support to employees.",
+    "Maintain cybersecurity and regulatory compliance."
+  ],
+
+  "it_service_workflow": [
+    "Receive IT support request.",
+    "Categorize and prioritize the issue.",
+    "Investigate the root cause.",
+    "Resolve the issue or escalate if required.",
+    "Verify solution with the user.",
+    "Document the resolution.",
+    "Close the support ticket."
+  ],
+
+  "key_responsibilities": [
+    {
+      "responsibility": "Infrastructure Management",
+      "description": "Maintain servers, networks, internet connectivity and communication systems."
+    },
+    {
+      "responsibility": "Enterprise Applications",
+      "description": "Support SAP, Learning Management Systems and other business applications."
+    },
+    {
+      "responsibility": "Cybersecurity",
+      "description": "Protect systems against unauthorized access, malware and cyber attacks."
+    },
+    {
+      "responsibility": "Technical Support",
+      "description": "Provide hardware and software support to employees."
+    },
+    {
+      "responsibility": "User Administration",
+      "description": "Create user accounts, assign permissions and manage system access."
+    },
+    {
+      "responsibility": "Data Backup and Recovery",
+      "description": "Ensure business data is securely backed up and recoverable."
+    }
+  ],
+
+  "daily_activities": [
+    "Monitor servers and network performance.",
+    "Respond to IT support requests.",
+    "Create and manage user accounts.",
+    "Install software updates and security patches.",
+    "Monitor cybersecurity alerts.",
+    "Perform scheduled data backups.",
+    "Support SAP and other enterprise applications."
+  ],
+
+  "documents_used": [
+    "IT Support Ticket",
+    "System Access Request",
+    "User Account Form",
+    "Asset Register",
+    "Backup Log",
+    "Incident Report",
+    "Change Request"
+  ],
+
+  "software_and_systems": [
+    "SAP",
+    "Active Directory",
+    "Microsoft 365",
+    "Antivirus and Endpoint Protection",
+    "Database Management Systems",
+    "Network Monitoring Tools",
+    "Help Desk System"
+  ],
+
+  "key_it_concepts": [
+    {
+      "concept": "Network Infrastructure",
+      "description": "Connects computers, servers and industrial systems for communication."
+    },
+    {
+      "concept": "Cybersecurity",
+      "description": "Protects systems, networks and information from digital threats."
+    },
+    {
+      "concept": "Cloud Computing",
+      "description": "Provides scalable storage and computing resources over the internet."
+    },
+    {
+      "concept": "Disaster Recovery",
+      "description": "Restores critical systems after unexpected failures."
+    }
+  ],
+
+  "key_performance_indicators": [
+    "System Availability",
+    "Network Uptime",
+    "Average Incident Resolution Time",
+    "First Call Resolution Rate",
+    "Backup Success Rate",
+    "Cybersecurity Incident Count",
+    "User Satisfaction Score"
+  ],
+
+  "coordination_with_departments": [
+    {
+      "department": "HR",
+      "purpose": "Creates user accounts and system access for new employees."
+    },
+    {
+      "department": "Finance",
+      "purpose": "Supports financial systems and data security."
+    },
+    {
+      "department": "Production",
+      "purpose": "Maintains SCADA, PLC communication and production applications."
+    },
+    {
+      "department": "Maintenance",
+      "purpose": "Supports computerized maintenance systems and equipment connectivity."
+    },
+    {
+      "department": "Quality",
+      "purpose": "Supports quality management applications and reporting."
+    },
+    {
+      "department": "SAP BASIS",
+      "purpose": "Ensures SAP system performance, availability and user administration."
+    }
+  ],
+
+  "business_example": {
+    "title": "IT Operations at JSL",
+    "content": "A new engineer joins the Production Department. HR sends a request to IT, which creates the employee's email account, SAP login and network access. During production, IT monitors SAP servers and SCADA connectivity to ensure uninterrupted plant operations. If a system issue occurs, the IT team investigates and restores services quickly to minimize operational impact."
+  },
+
+  "best_practices": [
+    "Use strong passwords and multi-factor authentication where available.",
+    "Keep systems updated with security patches.",
+    "Back up important business data regularly.",
+    "Restrict access based on job responsibilities.",
+    "Monitor systems proactively.",
+    "Educate employees about cybersecurity awareness."
+  ],
+
+  "common_errors": [
+    "Sharing login credentials.",
+    "Ignoring software updates.",
+    "Weak password management.",
+    "Failure to back up critical data.",
+    "Delayed response to security incidents.",
+    "Providing excessive user permissions."
+  ],
+
+  "important_notes": [
+    "Information security is the responsibility of every employee.",
+    "System downtime can directly affect manufacturing operations.",
+    "Regular backups help protect business continuity.",
+    "Cybersecurity awareness is as important as technical security controls."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/departments/it/network_infrastructure.png",
+      "assets/images/departments/it/server_room.png",
+      "assets/images/departments/it/cybersecurity.png",
+      "assets/images/departments/it/sap_systems.png"
+    ],
+    "videos": [
+      "assets/videos/departments/it_overview.mp4"
+    ],
+    "documents": [
+      "assets/documents/departments/it_manual.pdf"
+    ]
+  },
+
+  "next_module": "sales.json",
+
+  "assessment": {
+    "quiz": "assessment/department/set_3.json"
+  }
+}
