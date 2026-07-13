@@ -1,1 +1,211 @@
-#abc
+{
+  "id": "human_resources_department",
+  "title": "Human Resources (HR) Department",
+  "module": "Departments",
+  "order": 7,
+  "duration": "45 minutes",
+  "difficulty": "Beginner",
+
+  "learning_objectives": [
+    "Understand the role of the Human Resources Department.",
+    "Learn the employee lifecycle from recruitment to retirement.",
+    "Understand HR responsibilities in training, performance and employee welfare.",
+    "Recognize how HR supports organizational success.",
+    "Understand the use of SAP HCM in HR management."
+  ],
+
+  "introduction": {
+    "title": "What is the Human Resources Department?",
+    "content": "The Human Resources (HR) Department is responsible for managing the organization's workforce. It oversees recruitment, onboarding, training, attendance, payroll coordination, performance management, employee engagement and compliance with labor laws. HR ensures that the organization has skilled, motivated and productive employees."
+  },
+
+  "business_purpose": {
+    "title": "Why is HR Important?",
+    "content": "Employees are the foundation of every organization. HR ensures that the right people are hired, developed and retained while maintaining a positive work environment. Effective HR practices improve productivity, employee satisfaction and long-term organizational growth."
+  },
+
+  "department_objectives": [
+    "Recruit qualified employees.",
+    "Provide effective onboarding.",
+    "Support employee development.",
+    "Maintain employee records.",
+    "Promote workplace safety and well-being.",
+    "Ensure compliance with labor regulations."
+  ],
+
+  "employee_lifecycle": [
+    "Workforce planning",
+    "Recruitment",
+    "Selection",
+    "Hiring",
+    "Onboarding",
+    "Training and Development",
+    "Performance Evaluation",
+    "Career Development",
+    "Employee Retention",
+    "Retirement or Exit Process"
+  ],
+
+  "key_responsibilities": [
+    {
+      "responsibility": "Recruitment",
+      "description": "Identify hiring needs, advertise vacancies and conduct interviews."
+    },
+    {
+      "responsibility": "Onboarding",
+      "description": "Help new employees integrate into the organization."
+    },
+    {
+      "responsibility": "Training and Development",
+      "description": "Organize technical, safety and professional training programs."
+    },
+    {
+      "responsibility": "Performance Management",
+      "description": "Evaluate employee performance and support career development."
+    },
+    {
+      "responsibility": "Employee Relations",
+      "description": "Resolve workplace concerns and maintain a positive work culture."
+    },
+    {
+      "responsibility": "HR Administration",
+      "description": "Maintain employee records, attendance and policy documentation."
+    }
+  ],
+
+  "daily_activities": [
+    "Review recruitment requirements.",
+    "Coordinate interviews.",
+    "Conduct employee onboarding.",
+    "Maintain employee records.",
+    "Monitor attendance and leave requests.",
+    "Coordinate training programs.",
+    "Support employee engagement initiatives."
+  ],
+
+  "documents_used": [
+    "Job Description",
+    "Employment Application",
+    "Offer Letter",
+    "Joining Report",
+    "Attendance Record",
+    "Leave Application",
+    "Performance Appraisal Form",
+    "Training Attendance Record"
+  ],
+
+  "software_and_systems": [
+    "SAP HCM",
+    "Attendance Management System",
+    "Payroll System",
+    "Learning Management System (LMS)",
+    "Employee Self-Service Portal"
+  ],
+
+  "key_hr_concepts": [
+    {
+      "concept": "Recruitment",
+      "description": "The process of attracting and selecting suitable candidates."
+    },
+    {
+      "concept": "Onboarding",
+      "description": "Helping new employees become productive members of the organization."
+    },
+    {
+      "concept": "Performance Management",
+      "description": "Evaluating employee performance and setting development goals."
+    },
+    {
+      "concept": "Employee Engagement",
+      "description": "Building motivation, commitment and job satisfaction."
+    }
+  ],
+
+  "key_performance_indicators": [
+    "Time to Hire",
+    "Employee Turnover Rate",
+    "Training Completion Rate",
+    "Employee Satisfaction Score",
+    "Attendance Rate",
+    "Performance Review Completion",
+    "Retention Rate"
+  ],
+
+  "coordination_with_departments": [
+    {
+      "department": "Production",
+      "purpose": "Provides trained operators and production staff."
+    },
+    {
+      "department": "Maintenance",
+      "purpose": "Coordinates technical training and certifications."
+    },
+    {
+      "department": "Finance",
+      "purpose": "Supports payroll processing and employee benefits."
+    },
+    {
+      "department": "Safety",
+      "purpose": "Organizes mandatory safety training and awareness programs."
+    },
+    {
+      "department": "IT",
+      "purpose": "Creates employee system accounts and access permissions."
+    },
+    {
+      "department": "SAP HCM",
+      "purpose": "Maintains employee master data and HR processes."
+    }
+  ],
+
+  "business_example": {
+    "title": "HR Operations at JSL",
+    "content": "A new Graduate Engineer Trainee joins JSL. HR completes document verification, issues an employee ID, coordinates SAP HCM registration and schedules induction training. The employee attends safety training, department orientation and technical sessions before beginning work in the assigned department."
+  },
+
+  "best_practices": [
+    "Maintain confidential employee information.",
+    "Provide equal employment opportunities.",
+    "Encourage continuous learning.",
+    "Conduct regular performance reviews.",
+    "Promote open communication.",
+    "Ensure compliance with company policies."
+  ],
+
+  "common_errors": [
+    "Incomplete employee documentation.",
+    "Delayed onboarding activities.",
+    "Poor communication with employees.",
+    "Irregular performance evaluations.",
+    "Ignoring employee feedback.",
+    "Failure to update HR records."
+  ],
+
+  "important_notes": [
+    "Employees are the organization's most valuable resource.",
+    "Continuous learning improves both employee performance and business success.",
+    "HR policies should be applied fairly and consistently.",
+    "A positive work environment increases employee engagement and productivity."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/departments/hr/recruitment_process.png",
+      "assets/images/departments/hr/employee_lifecycle.png",
+      "assets/images/departments/hr/training_program.png",
+      "assets/images/departments/hr/sap_hcm_dashboard.png"
+    ],
+    "videos": [
+      "assets/videos/departments/hr_overview.mp4"
+    ],
+    "documents": [
+      "assets/documents/departments/hr_manual.pdf"
+    ]
+  },
+
+  "next_module": "IT.json",
+
+  "assessment": {
+    "quiz": "assessment/department/set_3.json"
+  }
+}
