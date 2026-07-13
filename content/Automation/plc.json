@@ -1,1 +1,191 @@
-#abc
+{
+  "id": "plc",
+  "title": "Programmable Logic Controller (PLC)",
+  "module": "Automation",
+  "order": 2,
+  "duration": "60 minutes",
+  "difficulty": "Intermediate",
+
+  "learning_objectives": [
+    "Understand the purpose of a Programmable Logic Controller (PLC).",
+    "Identify the major components of a PLC.",
+    "Understand the PLC scan cycle.",
+    "Learn the applications of PLCs in industrial automation.",
+    "Recognize how PLCs improve manufacturing efficiency and reliability."
+  ],
+
+  "introduction": {
+    "title": "What is a PLC?",
+    "content": "A Programmable Logic Controller (PLC) is an industrial computer designed to monitor inputs, execute control logic and control outputs in real time. PLCs replace traditional relay-based control systems and are widely used for automating industrial processes due to their reliability, flexibility and ease of programming."
+  },
+
+  "business_purpose": {
+    "title": "Why are PLCs Important?",
+    "content": "PLCs automate repetitive industrial tasks, improve production consistency, reduce human error and increase equipment reliability. They enable industries like JSL to achieve continuous production with minimal downtime while ensuring safe and efficient machine operation."
+  },
+
+  "plc_components": [
+    {
+      "component": "CPU (Central Processing Unit)",
+      "purpose": "Executes the PLC program and processes input/output data."
+    },
+    {
+      "component": "Power Supply",
+      "purpose": "Provides electrical power to the PLC system."
+    },
+    {
+      "component": "Input Module",
+      "purpose": "Receives signals from sensors, switches and field devices."
+    },
+    {
+      "component": "Output Module",
+      "purpose": "Sends control signals to actuators, motors, valves and relays."
+    },
+    {
+      "component": "Programming Device",
+      "purpose": "Used to create, edit and download PLC programs."
+    },
+    {
+      "component": "Communication Module",
+      "purpose": "Enables communication with SCADA, HMIs and other PLCs."
+    }
+  ],
+
+  "plc_scan_cycle": [
+    "Read input signals from field devices.",
+    "Execute the PLC program.",
+    "Update output devices.",
+    "Perform diagnostics and communication.",
+    "Repeat the cycle continuously."
+  ],
+
+  "programming_languages": [
+    {
+      "language": "Ladder Logic (LD)",
+      "description": "Most commonly used graphical programming language for PLCs."
+    },
+    {
+      "language": "Function Block Diagram (FBD)",
+      "description": "Uses interconnected function blocks to create logic."
+    },
+    {
+      "language": "Structured Text (ST)",
+      "description": "High-level programming language similar to Pascal."
+    },
+    {
+      "language": "Sequential Function Chart (SFC)",
+      "description": "Represents sequential process control."
+    }
+  ],
+
+  "industrial_applications": [
+    "Rolling Mill Automation",
+    "Conveyor Control",
+    "Pump Control Systems",
+    "Boiler Automation",
+    "Material Handling Systems",
+    "Packaging Lines",
+    "Water Treatment Plants",
+    "Motor Control"
+  ],
+
+  "advantages": [
+    "High reliability",
+    "Fast processing speed",
+    "Easy troubleshooting",
+    "Flexible programming",
+    "Reduced wiring",
+    "Low maintenance",
+    "Scalable for large systems",
+    "Supports remote monitoring"
+  ],
+
+  "limitations": [
+    "Higher initial investment compared to relay systems.",
+    "Requires trained personnel for programming and maintenance.",
+    "Dependent on stable power supply.",
+    "Complex systems require proper documentation."
+  ],
+
+  "workflow": [
+    "Sensor detects a process condition.",
+    "Input signal is sent to the PLC.",
+    "PLC evaluates the programmed logic.",
+    "Decision is made within milliseconds.",
+    "Output signal activates the required device.",
+    "The process continues until new input conditions are detected."
+  ],
+
+  "integration": [
+    {
+      "module": "SCADA",
+      "purpose": "SCADA monitors and supervises PLC-controlled equipment."
+    },
+    {
+      "module": "HMI",
+      "purpose": "Operators interact with PLC-controlled machines through HMI screens."
+    },
+    {
+      "module": "Sensors",
+      "purpose": "Provide real-time input data to the PLC."
+    },
+    {
+      "module": "Actuators",
+      "purpose": "Execute commands issued by the PLC."
+    },
+    {
+      "module": "SAP",
+      "purpose": "Production and machine data can be transferred to enterprise systems for reporting and analysis."
+    }
+  ],
+
+  "business_example": {
+    "title": "PLC in JSL",
+    "content": "In a stainless steel rolling mill, sensors continuously monitor strip thickness, motor speed and temperature. The PLC processes these inputs and automatically adjusts rolling speed, motor operation and cooling systems to maintain product quality and production efficiency."
+  },
+
+  "best_practices": [
+    "Document PLC programs properly.",
+    "Maintain regular program backups.",
+    "Protect PLC cabinets from dust and moisture.",
+    "Test logic changes before implementation.",
+    "Use secure passwords for PLC programming software.",
+    "Inspect wiring connections periodically."
+  ],
+
+  "common_errors": [
+    "Incorrect wiring of input/output devices.",
+    "Modifying PLC programs without documentation.",
+    "Ignoring PLC fault alarms.",
+    "Poor maintenance of communication modules.",
+    "Failure to back up PLC programs."
+  ],
+
+  "important_notes": [
+    "PLCs operate continuously and perform thousands of scan cycles every minute.",
+    "Modern PLCs can communicate with SCADA, HMIs and cloud platforms.",
+    "PLCs are designed to withstand harsh industrial environments.",
+    "Proper preventive maintenance improves PLC reliability and lifespan."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/automation/plc/plc_hardware.png",
+      "assets/images/automation/plc/plc_architecture.png",
+      "assets/images/automation/plc/plc_scan_cycle.png",
+      "assets/images/automation/plc/plc_programming.png"
+    ],
+    "videos": [
+      "assets/videos/automation/plc_overview.mp4"
+    ],
+    "documents": [
+      "assets/documents/automation/plc_reference.pdf"
+    ]
+  },
+
+  "next_module": "scada.json",
+
+  "assessment": {
+    "quiz": "assessment/automation/set_1.json"
+  }
+}
