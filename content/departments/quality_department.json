@@ -1,1 +1,236 @@
-#abc
+{
+  "id": "quality_department",
+  "title": "Quality Department",
+  "module": "Departments",
+  "order": 5,
+  "duration": "55 minutes",
+  "difficulty": "Beginner",
+
+  "learning_objectives": [
+    "Understand the role of the Quality Department.",
+    "Learn different stages of quality inspection.",
+    "Understand quality assurance and quality control concepts.",
+    "Recognize the importance of continuous improvement.",
+    "Understand the role of SAP QM in quality management."
+  ],
+
+  "introduction": {
+    "title": "What is the Quality Department?",
+    "content": "The Quality Department ensures that products meet customer expectations, company specifications and regulatory requirements. Through inspections, testing and continuous monitoring, the department prevents defects, improves manufacturing processes and supports customer satisfaction."
+  },
+
+  "business_purpose": {
+    "title": "Why is the Quality Department Important?",
+    "content": "Quality directly influences customer trust and business reputation. Effective quality management reduces defects, minimizes rework, lowers production costs and ensures that only products meeting required standards reach customers."
+  },
+
+  "department_objectives": [
+    "Deliver defect-free products.",
+    "Ensure compliance with quality standards.",
+    "Reduce product rejections and rework.",
+    "Support continuous process improvement.",
+    "Improve customer satisfaction.",
+    "Maintain complete quality documentation."
+  ],
+
+  "quality_workflow": [
+    "Review quality standards and specifications.",
+    "Inspect incoming raw materials.",
+    "Perform in-process inspections during manufacturing.",
+    "Record inspection results in SAP QM.",
+    "Identify and isolate non-conforming products.",
+    "Approve conforming products.",
+    "Conduct final inspection before dispatch.",
+    "Analyze quality data for continuous improvement."
+  ],
+
+  "types_of_quality_inspection": [
+    {
+      "inspection": "Incoming Inspection",
+      "description": "Checks raw materials received from suppliers before they enter production."
+    },
+    {
+      "inspection": "In-Process Inspection",
+      "description": "Monitors product quality during manufacturing."
+    },
+    {
+      "inspection": "Final Inspection",
+      "description": "Verifies finished products before shipment to customers."
+    },
+    {
+      "inspection": "Customer Complaint Investigation",
+      "description": "Analyzes customer feedback and identifies corrective actions."
+    }
+  ],
+
+  "key_responsibilities": [
+    {
+      "responsibility": "Inspection",
+      "description": "Inspect raw materials, work-in-progress and finished products."
+    },
+    {
+      "responsibility": "Testing",
+      "description": "Perform mechanical, dimensional and visual quality checks."
+    },
+    {
+      "responsibility": "Documentation",
+      "description": "Maintain inspection reports and quality records."
+    },
+    {
+      "responsibility": "Non-Conformance Control",
+      "description": "Identify, isolate and manage defective products."
+    },
+    {
+      "responsibility": "Continuous Improvement",
+      "description": "Recommend process improvements to reduce defects."
+    },
+    {
+      "responsibility": "Customer Quality Support",
+      "description": "Investigate customer complaints and implement corrective actions."
+    }
+  ],
+
+  "quality_tools": [
+    "5 Why Analysis",
+    "Fishbone (Ishikawa) Diagram",
+    "Pareto Analysis",
+    "Control Charts",
+    "Check Sheets",
+    "Process Flow Charts",
+    "Statistical Process Control (SPC)"
+  ],
+
+  "daily_activities": [
+    "Inspect incoming materials.",
+    "Conduct process inspections.",
+    "Record quality observations.",
+    "Approve or reject materials.",
+    "Investigate quality issues.",
+    "Coordinate with Production.",
+    "Prepare quality reports."
+  ],
+
+  "documents_used": [
+    "Inspection Plan",
+    "Inspection Report",
+    "Quality Checklist",
+    "Non-Conformance Report (NCR)",
+    "Corrective Action Report (CAR)",
+    "Quality Audit Report",
+    "Certificate of Analysis (COA)"
+  ],
+
+  "software_and_systems": [
+    "SAP QM",
+    "Laboratory Information Systems",
+    "Inspection Equipment",
+    "Digital Quality Dashboards"
+  ],
+
+  "quality_concepts": [
+    {
+      "concept": "Quality Assurance (QA)",
+      "description": "Focuses on preventing defects through systematic processes."
+    },
+    {
+      "concept": "Quality Control (QC)",
+      "description": "Focuses on detecting defects through inspections and testing."
+    },
+    {
+      "concept": "CAPA",
+      "description": "Corrective and Preventive Actions eliminate root causes of quality issues."
+    },
+    {
+      "concept": "Root Cause Analysis",
+      "description": "Identifies the actual reason behind recurring quality problems."
+    }
+  ],
+
+  "key_performance_indicators": [
+    "First Pass Yield (FPY)",
+    "Defect Rate",
+    "Customer Complaint Rate",
+    "Rework Percentage",
+    "Scrap Rate",
+    "Inspection Accuracy",
+    "Supplier Quality Performance"
+  ],
+
+  "coordination_with_departments": [
+    {
+      "department": "Production",
+      "purpose": "Ensures products meet specifications during manufacturing."
+    },
+    {
+      "department": "Purchase",
+      "purpose": "Verifies supplier material quality."
+    },
+    {
+      "department": "Warehouse",
+      "purpose": "Approves incoming and finished material storage."
+    },
+    {
+      "department": "Maintenance",
+      "purpose": "Reports equipment issues affecting product quality."
+    },
+    {
+      "department": "Sales",
+      "purpose": "Handles customer quality complaints."
+    },
+    {
+      "department": "SAP QM",
+      "purpose": "Records inspection lots, results and usage decisions."
+    }
+  ],
+
+  "business_example": {
+    "title": "Quality Operations at JSL",
+    "content": "A batch of stainless steel coils is received from production. Quality inspectors perform dimensional measurements, surface finish inspection and mechanical property testing. The inspection results are entered into SAP QM. Products meeting all specifications receive an acceptance decision and are released for dispatch, while non-conforming coils are isolated for corrective action."
+  },
+
+  "best_practices": [
+    "Follow approved inspection procedures.",
+    "Calibrate measuring instruments regularly.",
+    "Record inspection results accurately.",
+    "Investigate recurring quality issues.",
+    "Encourage continuous improvement.",
+    "Communicate quality concerns immediately."
+  ],
+
+  "common_errors": [
+    "Skipping inspection stages.",
+    "Incomplete quality documentation.",
+    "Ignoring minor defects.",
+    "Using uncalibrated measuring instruments.",
+    "Poor communication between Production and Quality.",
+    "Delaying corrective actions."
+  ],
+
+  "important_notes": [
+    "Quality should be built into the process, not only inspected at the end.",
+    "Every employee contributes to product quality.",
+    "Customer satisfaction depends on consistent product quality.",
+    "Continuous improvement is an ongoing process."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/departments/quality/incoming_inspection.png",
+      "assets/images/departments/quality/quality_testing.png",
+      "assets/images/departments/quality/sap_qm.png",
+      "assets/images/departments/quality/root_cause_analysis.png"
+    ],
+    "videos": [
+      "assets/videos/departments/quality_overview.mp4"
+    ],
+    "documents": [
+      "assets/documents/departments/quality_manual.pdf"
+    ]
+  },
+
+  "next_module": "finance.json",
+
+  "assessment": {
+    "quiz": "assessment/department/set_2.json"
+  }
+}
