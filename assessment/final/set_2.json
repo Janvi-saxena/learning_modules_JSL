@@ -1,1 +1,240 @@
+{
+  "assessment_id": "final_set_2",
+  "title": "Final Assessment - Set 2",
+  "module": "JSL Learning Platform",
+  "difficulty": "Advanced",
+  "total_questions": 25,
+  "passing_marks": 18,
+  "time_limit": "40 minutes",
 
+  "questions": [
+
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "A production planner notices that raw material stock is insufficient to meet today's production schedule. Which department should be contacted first?",
+      "options": [
+        "Finance",
+        "Procurement",
+        "HR",
+        "Dispatch"
+      ],
+      "correct_answer": "Procurement"
+    },
+
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "A production machine suddenly stops due to overheating. Which department should respond immediately?",
+      "options": [
+        "Maintenance",
+        "Finance",
+        "Quality",
+        "Warehouse"
+      ],
+      "correct_answer": "Maintenance"
+    },
+
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "Before starting maintenance work on electrical equipment, what should be the first priority?",
+      "options": [
+        "Begin repairs immediately",
+        "Follow safety procedures and isolate the equipment",
+        "Inform Finance",
+        "Move finished goods"
+      ],
+      "correct_answer": "Follow safety procedures and isolate the equipment"
+    },
+
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "Which SAP PP object contains the manufacturing sequence of operations?",
+      "options": [
+        "BOM",
+        "Routing",
+        "Inspection Plan",
+        "Production Version"
+      ],
+      "correct_answer": "Routing"
+    },
+
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "Which automation device directly controls industrial machines using programmed logic?",
+      "options": [
+        "PLC",
+        "SCADA",
+        "SAP",
+        "Firewall"
+      ],
+      "correct_answer": "PLC"
+    },
+
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "Inspection results have been entered into SAP. What should normally happen next?",
+      "options": [
+        "Create Purchase Order",
+        "Record Usage Decision",
+        "Run MRP",
+        "Create Material Master"
+      ],
+      "correct_answer": "Record Usage Decision"
+    },
+
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "Which movement type is generally used for Goods Receipt from a Production Order?",
+      "options": [
+        "261",
+        "101",
+        "311",
+        "102"
+      ],
+      "correct_answer": "101"
+    },
+
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "An employee needs access to an SAP transaction but receives an authorization error. Which team is primarily responsible for resolving access issues?",
+      "options": [
+        "SAP Security/BASIS",
+        "Production",
+        "Finance",
+        "Warehouse"
+      ],
+      "correct_answer": "SAP Security/BASIS"
+    },
+
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "A finished product has passed inspection and is ready for shipment. Which department performs the next operational activity?",
+      "options": [
+        "Dispatch",
+        "Maintenance",
+        "HR",
+        "Procurement"
+      ],
+      "correct_answer": "Dispatch"
+    },
+
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "What is the main purpose of predictive maintenance?",
+      "options": [
+        "Increase payroll accuracy",
+        "Predict equipment failures before they occur",
+        "Create sales orders",
+        "Inspect finished goods"
+      ],
+      "correct_answer": "Predict equipment failures before they occur"
+    },
+
+    {
+      "id": 11,
+      "type": "true_false",
+      "question": "A Production Version links a BOM with a Routing.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 12,
+      "type": "true_false",
+      "question": "Warehouse inventory has no relationship with MRP planning.",
+      "correct_answer": false
+    },
+
+    {
+      "id": 13,
+      "type": "true_false",
+      "question": "Safety procedures should always be followed, even during emergency maintenance.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 14,
+      "type": "true_false",
+      "question": "SCADA systems monitor industrial processes in real time.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 15,
+      "type": "true_false",
+      "question": "Only the Quality department is responsible for product quality.",
+      "correct_answer": false
+    },
+
+    {
+      "id": 16,
+      "type": "true_false",
+      "question": "Goods Issue reduces raw material inventory.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 17,
+      "type": "true_false",
+      "question": "Preventive maintenance helps reduce unexpected production downtime.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 18,
+      "type": "true_false",
+      "question": "SAP integrates business processes across multiple departments.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 19,
+      "type": "short_answer",
+      "question": "Why is preventive maintenance important in a manufacturing plant?"
+    },
+
+    {
+      "id": 20,
+      "type": "short_answer",
+      "question": "Explain the relationship between Production, Procurement and Warehouse."
+    },
+
+    {
+      "id": 21,
+      "type": "short_answer",
+      "question": "What is the purpose of an Inspection Plan in SAP QM?"
+    },
+
+    {
+      "id": 22,
+      "type": "short_answer",
+      "question": "Why should safety procedures be followed before starting maintenance work?"
+    },
+
+    {
+      "id": 23,
+      "type": "short_answer",
+      "question": "Name two advantages of industrial automation."
+    },
+
+    {
+      "id": 24,
+      "type": "short_answer",
+      "question": "Why is cross-department communication important in manufacturing?"
+    },
+
+    {
+      "id": 25,
+      "type": "short_answer",
+      "question": "Explain how SAP helps improve operational efficiency in a manufacturing organization."
+    ]
+
+}
