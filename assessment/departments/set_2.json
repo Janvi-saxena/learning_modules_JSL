@@ -1,1 +1,241 @@
+{
+  "assessment_id": "department_set_2",
+  "title": "Department Assessment - Set 2",
+  "module": "Departments",
+  "difficulty": "Intermediate",
+  "total_questions": 25,
+  "passing_marks": 18,
+  "time_limit": "30 minutes",
 
+  "questions": [
+
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "A production machine suddenly stops due to a mechanical fault. Which department should be contacted first?",
+      "options": [
+        "Finance",
+        "Maintenance",
+        "HR",
+        "Dispatch"
+      ],
+      "correct_answer": "Maintenance"
+    },
+
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "A supplier has delayed the delivery of raw materials. Which department should coordinate with the supplier?",
+      "options": [
+        "Quality",
+        "Production",
+        "Procurement",
+        "Warehouse"
+      ],
+      "correct_answer": "Procurement"
+    },
+
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "Finished coils are ready for shipment after quality approval. Which department takes responsibility next?",
+      "options": [
+        "Dispatch",
+        "Finance",
+        "Production",
+        "Maintenance"
+      ],
+      "correct_answer": "Dispatch"
+    },
+
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "An employee joins JSL today. Which department completes onboarding formalities?",
+      "options": [
+        "HR",
+        "Production",
+        "Quality",
+        "Warehouse"
+      ],
+      "correct_answer": "HR"
+    },
+
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "A finished product fails inspection due to surface defects. Which department decides whether it should be accepted or rejected?",
+      "options": [
+        "Finance",
+        "Quality",
+        "HR",
+        "Dispatch"
+      ],
+      "correct_answer": "Quality"
+    },
+
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "Raw material stock has fallen below the minimum level. Which department should initiate replenishment?",
+      "options": [
+        "Procurement",
+        "Finance",
+        "Production",
+        "Quality"
+      ],
+      "correct_answer": "Procurement"
+    },
+
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "An operator reports abnormal vibration in a production machine. Which department should inspect it?",
+      "options": [
+        "Maintenance",
+        "HR",
+        "Dispatch",
+        "Finance"
+      ],
+      "correct_answer": "Maintenance"
+    },
+
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "Monthly salary processing is about to begin. Which department performs this activity?",
+      "options": [
+        "Production",
+        "HR",
+        "Quality",
+        "Maintenance"
+      ],
+      "correct_answer": "HR"
+    },
+
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "Management requests a report on production costs for the previous month. Which department prepares this information?",
+      "options": [
+        "Finance",
+        "Warehouse",
+        "Quality",
+        "Dispatch"
+      ],
+      "correct_answer": "Finance"
+    },
+
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "Which department works most closely with both Production and Dispatch before products leave the plant?",
+      "options": [
+        "Quality",
+        "HR",
+        "Finance",
+        "Maintenance"
+      ],
+      "correct_answer": "Quality"
+    },
+
+    {
+      "id": 11,
+      "type": "true_false",
+      "question": "Maintenance helps reduce production downtime.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 12,
+      "type": "true_false",
+      "question": "Dispatch can ship products before Quality approval.",
+      "correct_answer": false
+    },
+
+    {
+      "id": 13,
+      "type": "true_false",
+      "question": "Procurement is responsible for selecting and coordinating with suppliers.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 14,
+      "type": "true_false",
+      "question": "Finance is responsible for recruiting employees.",
+      "correct_answer": false
+    },
+
+    {
+      "id": 15,
+      "type": "true_false",
+      "question": "Warehouse personnel maintain stock records.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 16,
+      "type": "true_false",
+      "question": "Production cannot function effectively without coordination with other departments.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 17,
+      "type": "true_false",
+      "question": "Quality inspections help prevent defective products from reaching customers.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 18,
+      "type": "true_false",
+      "question": "Maintenance is responsible for preparing financial statements.",
+      "correct_answer": false
+    },
+
+    {
+      "id": 19,
+      "type": "short_answer",
+      "question": "Why is coordination between Production and Maintenance important?"
+    },
+
+    {
+      "id": 20,
+      "type": "short_answer",
+      "question": "What action should the Quality department take if a product fails inspection?"
+    },
+
+    {
+      "id": 21,
+      "type": "short_answer",
+      "question": "How does Procurement support uninterrupted production?"
+    },
+
+    {
+      "id": 22,
+      "type": "short_answer",
+      "question": "Why is inventory management important for Warehouse operations?"
+    },
+
+    {
+      "id": 23,
+      "type": "short_answer",
+      "question": "Name two responsibilities of the Finance department."
+    },
+
+    {
+      "id": 24,
+      "type": "short_answer",
+      "question": "How does the HR department contribute to organizational success?"
+    },
+
+    {
+      "id": 25,
+      "type": "short_answer",
+      "question": "Why should Dispatch coordinate with the Quality department before shipping products?"
+    }
+
+  ]
+}
