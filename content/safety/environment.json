@@ -1,1 +1,186 @@
-#abc
+{
+  "id": "environmental_safety",
+  "title": "Environmental Safety and Sustainability",
+  "module": "Safety",
+  "order": 3,
+  "duration": "45 minutes",
+  "difficulty": "Beginner",
+
+  "learning_objectives": [
+    "Understand the importance of environmental protection in manufacturing industries.",
+    "Learn common environmental hazards in industrial operations.",
+    "Identify sustainable practices followed in industries.",
+    "Understand waste management and pollution control methods.",
+    "Recognize the role of employees in environmental conservation."
+  ],
+
+  "introduction": {
+    "title": "What is Environmental Safety?",
+    "content": "Environmental Safety focuses on protecting the environment by reducing pollution, conserving natural resources and ensuring that industrial operations comply with environmental regulations. Every employee plays an important role in maintaining a clean, safe and sustainable workplace."
+  },
+
+  "business_purpose": {
+    "title": "Why is Environmental Safety Important?",
+    "content": "Manufacturing industries consume large amounts of raw materials, water and energy. Environmental safety practices help reduce pollution, minimize waste, conserve resources and ensure compliance with environmental laws while supporting sustainable industrial growth."
+  },
+
+  "environmental_objectives": [
+    "Reduce air pollution.",
+    "Conserve water resources.",
+    "Improve energy efficiency.",
+    "Promote recycling and waste reduction.",
+    "Prevent soil and water contamination.",
+    "Support sustainable manufacturing."
+  ],
+
+  "key_environmental_aspects": [
+    {
+      "aspect": "Air Pollution",
+      "description": "Control emissions from furnaces, boilers and industrial equipment using filtration and pollution control systems."
+    },
+    {
+      "aspect": "Water Conservation",
+      "description": "Reduce water consumption through recycling and efficient process management."
+    },
+    {
+      "aspect": "Waste Management",
+      "description": "Segregate, recycle and dispose of industrial waste responsibly."
+    },
+    {
+      "aspect": "Noise Control",
+      "description": "Monitor and reduce excessive industrial noise to protect employees and nearby communities."
+    },
+    {
+      "aspect": "Energy Conservation",
+      "description": "Optimize equipment performance to reduce electricity and fuel consumption."
+    }
+  ],
+
+  "waste_management": [
+    {
+      "type": "Solid Waste",
+      "examples": "Scrap metal, packaging materials, damaged components."
+    },
+    {
+      "type": "Hazardous Waste",
+      "examples": "Used oils, chemicals, solvents and contaminated materials."
+    },
+    {
+      "type": "Liquid Waste",
+      "examples": "Industrial wastewater requiring treatment before discharge."
+    },
+    {
+      "type": "Recyclable Waste",
+      "examples": "Metal scrap, paper, plastic and cardboard."
+    }
+  ],
+
+  "pollution_control_measures": [
+    "Use dust collection systems.",
+    "Operate emission control equipment.",
+    "Treat wastewater before discharge.",
+    "Store hazardous chemicals safely.",
+    "Monitor emissions regularly.",
+    "Maintain pollution control equipment."
+  ],
+
+  "sustainability_practices": [
+    "Reduce, Reuse and Recycle (3R Principle).",
+    "Energy-efficient operations.",
+    "Water recycling systems.",
+    "Paperless documentation where possible.",
+    "Proper segregation of waste.",
+    "Use environmentally friendly technologies."
+  ],
+
+  "employee_responsibilities": [
+    "Dispose of waste in designated bins.",
+    "Report oil or chemical leaks immediately.",
+    "Avoid unnecessary energy consumption.",
+    "Use resources responsibly.",
+    "Follow environmental guidelines.",
+    "Participate in sustainability initiatives."
+  ],
+
+  "daily_environmental_workflow": [
+    "Inspect work area for spills or leaks.",
+    "Segregate waste correctly.",
+    "Switch off unused equipment.",
+    "Prevent unnecessary water wastage.",
+    "Maintain workplace cleanliness.",
+    "Report environmental incidents."
+  ],
+
+  "integration": [
+    {
+      "module": "Production",
+      "purpose": "Implements environmentally responsible manufacturing processes."
+    },
+    {
+      "module": "Maintenance",
+      "purpose": "Prevents leaks and ensures equipment efficiency."
+    },
+    {
+      "module": "Warehouse",
+      "purpose": "Ensures safe storage of chemicals and hazardous materials."
+    },
+    {
+      "module": "Quality",
+      "purpose": "Supports environmentally compliant manufacturing."
+    },
+    {
+      "module": "Automation",
+      "purpose": "Monitors energy consumption and environmental parameters."
+    }
+  ],
+
+  "business_example": {
+    "title": "Environmental Practices at JSL",
+    "content": "During stainless steel manufacturing, metal scrap generated during production is collected separately and recycled for future use. Dust extraction systems help reduce airborne particles, while wastewater is treated before discharge. Energy-efficient equipment and continuous monitoring support sustainable manufacturing practices."
+  },
+
+  "best_practices": [
+    "Follow waste segregation guidelines.",
+    "Reduce energy consumption wherever possible.",
+    "Report leaks immediately.",
+    "Use recycling facilities responsibly.",
+    "Handle hazardous materials carefully.",
+    "Support company sustainability initiatives."
+  ],
+
+  "common_errors": [
+    "Improper waste disposal.",
+    "Ignoring chemical spills.",
+    "Leaving equipment running unnecessarily.",
+    "Poor segregation of recyclable waste.",
+    "Improper storage of hazardous materials."
+  ],
+
+  "important_notes": [
+    "Environmental protection is everyone's responsibility.",
+    "Small daily actions contribute to long-term sustainability.",
+    "Industrial growth and environmental conservation must go hand in hand.",
+    "Compliance with environmental regulations protects both the organization and the community."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/safety/environment/waste_segregation.png",
+      "assets/images/safety/environment/recycling_process.png",
+      "assets/images/safety/environment/air_pollution_control.png",
+      "assets/images/safety/environment/water_treatment.png"
+    ],
+    "videos": [
+      "assets/videos/safety/environmental_safety.mp4"
+    ],
+    "documents": [
+      "assets/documents/safety/environmental_safety_guide.pdf"
+    ]
+  },
+
+  "next_module": "emergency_response.json",
+
+  "assessment": {
+    "quiz": "assessment/safety/set_3.json"
+  }
+}
