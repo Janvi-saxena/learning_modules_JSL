@@ -1,0 +1,211 @@
+{
+  "id": "basis",
+  "title": "SAP BASIS",
+  "module": "SAP",
+  "order": 10,
+  "duration": "30 minutes",
+  "difficulty": "Beginner",
+
+  "learning_objectives": [
+    "Understand the role of SAP BASIS.",
+    "Learn the responsibilities of a BASIS administrator.",
+    "Understand SAP system architecture.",
+    "Identify common BASIS transaction codes.",
+    "Understand how BASIS supports all SAP modules."
+  ],
+
+  "introduction": {
+    "title": "What is SAP BASIS?",
+    "content": "SAP BASIS (Business Application Software Integrated Solution) is the technical foundation of the SAP system. It manages the installation, configuration, administration, monitoring, security and performance of SAP applications. All SAP modules such as PP, MM, QM, SD and FI depend on SAP BASIS to function properly."
+  },
+
+  "business_purpose": {
+    "title": "Why is SAP BASIS Used?",
+    "content": "SAP BASIS ensures that the SAP system remains secure, available and performs efficiently. It manages users, system monitoring, database connectivity, backups and software updates while providing a stable environment for business operations."
+  },
+
+  "key_functions": [
+    "System Administration",
+    "User Management",
+    "Role & Authorization Management",
+    "System Monitoring",
+    "Performance Monitoring",
+    "Database Administration",
+    "Backup & Recovery",
+    "Transport Management",
+    "Client Administration",
+    "Software Updates"
+  ],
+
+  "major_components": [
+    {
+      "name": "Application Server",
+      "description": "Executes SAP business processes and transactions."
+    },
+    {
+      "name": "Database",
+      "description": "Stores all business and configuration data."
+    },
+    {
+      "name": "SAP GUI",
+      "description": "Provides the interface through which users access SAP."
+    },
+    {
+      "name": "Transport System",
+      "description": "Moves configuration and development changes between SAP systems."
+    }
+  ],
+
+  "system_landscape": [
+    {
+      "system": "Development (DEV)",
+      "purpose": "Used for creating and testing new developments."
+    },
+    {
+      "system": "Quality Assurance (QAS)",
+      "purpose": "Used for testing before production deployment."
+    },
+    {
+      "system": "Production (PRD)",
+      "purpose": "Live environment used by end users."
+    }
+  ],
+
+  "basis_activities": [
+    "Create User Accounts",
+    "Assign User Roles",
+    "Monitor System Performance",
+    "Monitor Background Jobs",
+    "Manage System Backups",
+    "Import Transport Requests",
+    "Perform Client Administration",
+    "Apply Software Updates"
+  ],
+
+  "integration": [
+    {
+      "module": "PP",
+      "purpose": "Provides technical support for production planning."
+    },
+    {
+      "module": "MM",
+      "purpose": "Maintains stable procurement operations."
+    },
+    {
+      "module": "QM",
+      "purpose": "Ensures uninterrupted quality management processes."
+    },
+    {
+      "module": "FI",
+      "purpose": "Supports financial transaction processing."
+    },
+    {
+      "module": "SD",
+      "purpose": "Maintains system availability for sales operations."
+    }
+  ],
+
+  "transaction_codes": [
+    {
+      "code": "SU01",
+      "name": "User Maintenance"
+    },
+    {
+      "code": "PFCG",
+      "name": "Role Maintenance"
+    },
+    {
+      "code": "SM37",
+      "name": "Background Job Monitoring"
+    },
+    {
+      "code": "SM50",
+      "name": "Work Process Overview"
+    },
+    {
+      "code": "SM51",
+      "name": "Application Servers"
+    },
+    {
+      "code": "SM66",
+      "name": "Global Work Process Overview"
+    },
+    {
+      "code": "ST22",
+      "name": "ABAP Dump Analysis"
+    },
+    {
+      "code": "SM21",
+      "name": "System Log"
+    },
+    {
+      "code": "DB02",
+      "name": "Database Performance"
+    },
+    {
+      "code": "RZ10",
+      "name": "Profile Maintenance"
+    },
+    {
+      "code": "RZ11",
+      "name": "Display Profile Parameters"
+    },
+    {
+      "code": "STMS",
+      "name": "Transport Management System"
+    },
+    {
+      "code": "SICK",
+      "name": "SAP System Installation Check"
+    }
+  ],
+
+  "business_example": {
+    "title": "Example",
+    "content": "A new employee joins the organization. The SAP BASIS administrator creates the user account, assigns the required roles, provides system access and ensures the employee can use the necessary SAP modules securely."
+  },
+
+  "benefits": [
+    "Stable SAP environment",
+    "Improved system availability",
+    "Better system security",
+    "Centralized user management",
+    "Reliable backup and recovery",
+    "Efficient performance monitoring"
+  ],
+
+  "best_practices": [
+    "Assign users only the required roles.",
+    "Monitor system performance regularly.",
+    "Schedule periodic system backups.",
+    "Review security logs frequently.",
+    "Test transports before moving them to Production."
+  ],
+
+  "common_mistakes": [
+    "Assigning excessive user authorizations.",
+    "Ignoring system performance alerts.",
+    "Skipping backup verification.",
+    "Moving untested transports to Production.",
+    "Using Production for testing purposes."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/sap/basis/system_landscape.png",
+      "assets/images/sap/basis/user_management.png",
+      "assets/images/sap/basis/transport_management.png",
+      "assets/images/sap/basis/system_monitoring.png"
+    ],
+    "videos": [
+      "assets/videos/sap/basis_overview.mp4"
+    ],
+    "documents": [
+      "assets/documents/sap/basis_module.pdf"
+    ]
+  },
+
+  "assessment": {
+    "quiz": "assessment/sap/set_2.json"
+  }
+}
