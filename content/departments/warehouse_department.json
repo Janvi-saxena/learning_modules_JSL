@@ -1,1 +1,199 @@
-#abc
+{
+  "id": "warehouse_department",
+  "title": "Warehouse Department",
+  "module": "Departments",
+  "order": 4,
+  "duration": "50 minutes",
+  "difficulty": "Beginner",
+
+  "learning_objectives": [
+    "Understand the role of the Warehouse Department.",
+    "Learn how materials are received, stored and issued.",
+    "Understand inventory management principles.",
+    "Recognize the importance of stock accuracy.",
+    "Learn how SAP supports warehouse operations."
+  ],
+
+  "introduction": {
+    "title": "What is the Warehouse Department?",
+    "content": "The Warehouse Department is responsible for receiving, storing, protecting and issuing raw materials, spare parts and finished goods. It ensures that materials are available in the right quantity, at the right place and at the right time to support uninterrupted business operations."
+  },
+
+  "business_purpose": {
+    "title": "Why is the Warehouse Department Important?",
+    "content": "An efficient warehouse minimizes production delays by maintaining accurate inventory, ensuring proper storage and enabling quick material movement. Good warehouse management reduces losses, improves inventory visibility and supports timely customer deliveries."
+  },
+
+  "department_objectives": [
+    "Maintain accurate inventory records.",
+    "Ensure safe storage of materials.",
+    "Support uninterrupted production.",
+    "Reduce inventory losses and damage.",
+    "Improve material traceability.",
+    "Optimize warehouse space utilization."
+  ],
+
+  "warehouse_workflow": [
+    "Receive materials from suppliers.",
+    "Verify delivery documents.",
+    "Inspect received materials with Quality (if required).",
+    "Record Goods Receipt in SAP.",
+    "Assign storage location.",
+    "Store materials safely.",
+    "Issue materials against authorized requests.",
+    "Update inventory records.",
+    "Dispatch finished goods when approved."
+  ],
+
+  "key_responsibilities": [
+    {
+      "responsibility": "Material Receiving",
+      "description": "Receive and verify incoming materials from suppliers."
+    },
+    {
+      "responsibility": "Storage Management",
+      "description": "Store materials safely using designated storage locations."
+    },
+    {
+      "responsibility": "Inventory Control",
+      "description": "Maintain accurate stock records and inventory levels."
+    },
+    {
+      "responsibility": "Material Issuing",
+      "description": "Issue materials to Production and Maintenance against approved requests."
+    },
+    {
+      "responsibility": "Finished Goods Storage",
+      "description": "Store approved finished products until dispatch."
+    },
+    {
+      "responsibility": "Stock Verification",
+      "description": "Conduct periodic physical stock verification and reconciliation."
+    }
+  ],
+
+  "daily_activities": [
+    "Receive incoming deliveries.",
+    "Check delivery documentation.",
+    "Record Goods Receipt transactions.",
+    "Store materials in assigned locations.",
+    "Issue materials to departments.",
+    "Perform inventory counting.",
+    "Maintain warehouse cleanliness and safety."
+  ],
+
+  "documents_used": [
+    "Goods Receipt Note (GRN)",
+    "Material Issue Slip",
+    "Stock Transfer Document",
+    "Inventory Report",
+    "Delivery Challan",
+    "Material Requisition",
+    "Physical Stock Verification Report"
+  ],
+
+  "software_and_systems": [
+    "SAP MM",
+    "SAP EWM (where implemented)",
+    "Barcode System",
+    "Inventory Management System",
+    "Warehouse Dashboards"
+  ],
+
+  "inventory_management_principles": [
+    "FIFO (First In, First Out)",
+    "FEFO (First Expired, First Out) where applicable",
+    "ABC Analysis",
+    "Cycle Counting",
+    "Stock Reconciliation",
+    "Bin Location Management"
+  ],
+
+  "key_performance_indicators": [
+    "Inventory Accuracy",
+    "Inventory Turnover",
+    "Stock Availability",
+    "Order Fulfilment Time",
+    "Material Damage Rate",
+    "Warehouse Space Utilization",
+    "Goods Receipt Processing Time"
+  ],
+
+  "coordination_with_departments": [
+    {
+      "department": "Purchase",
+      "purpose": "Receives purchased materials from suppliers."
+    },
+    {
+      "department": "Production",
+      "purpose": "Issues raw materials required for manufacturing."
+    },
+    {
+      "department": "Maintenance",
+      "purpose": "Supplies spare parts and maintenance materials."
+    },
+    {
+      "department": "Quality",
+      "purpose": "Coordinates inspection of incoming and finished goods."
+    },
+    {
+      "department": "Dispatch",
+      "purpose": "Transfers finished goods for customer shipment."
+    },
+    {
+      "department": "Finance",
+      "purpose": "Provides inventory valuation and stock reports."
+    }
+  ],
+
+  "business_example": {
+    "title": "Warehouse Operations at JSL",
+    "content": "A truck carrying stainless steel coils arrives at the plant. Warehouse personnel verify the delivery documents and record the Goods Receipt in SAP MM. After Quality approves the material, it is stored in the designated location. When Production raises a material request, Warehouse issues the required coils, updates inventory records and ensures stock accuracy. Finished coils are later stored until Dispatch arranges shipment."
+  },
+
+  "best_practices": [
+    "Maintain accurate inventory records.",
+    "Follow FIFO during material issuing.",
+    "Label all storage locations clearly.",
+    "Conduct regular cycle counts.",
+    "Store hazardous materials separately.",
+    "Keep warehouse aisles clean and unobstructed."
+  ],
+
+  "common_errors": [
+    "Incorrect inventory entries.",
+    "Improper storage of materials.",
+    "Failure to update SAP records.",
+    "Mixing different material batches.",
+    "Ignoring damaged inventory.",
+    "Delayed material issuing."
+  ],
+
+  "important_notes": [
+    "Inventory accuracy directly affects production planning.",
+    "Warehouse safety is as important as inventory management.",
+    "Every material movement should be properly documented.",
+    "Good housekeeping improves both safety and operational efficiency."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/departments/warehouse/material_receiving.png",
+      "assets/images/departments/warehouse/storage_racks.png",
+      "assets/images/departments/warehouse/barcode_scanning.png",
+      "assets/images/departments/warehouse/inventory_management.png"
+    ],
+    "videos": [
+      "assets/videos/departments/warehouse_overview.mp4"
+    ],
+    "documents": [
+      "assets/documents/departments/warehouse_manual.pdf"
+    ]
+  },
+
+  "next_module": "quality_department.json",
+
+  "assessment": {
+    "quiz": "assessment/department/set_2.json"
+  }
+}
