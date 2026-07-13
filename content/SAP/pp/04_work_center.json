@@ -1,1 +1,189 @@
+{
+  "id": "work_center",
+  "title": "Work Center",
+  "module": "SAP PP",
+  "order": 4,
+  "duration": "45 minutes",
+  "difficulty": "Intermediate",
 
+  "learning_objectives": [
+    "Understand the purpose of a Work Center.",
+    "Learn how Work Centers are used in production.",
+    "Identify important Work Center master data.",
+    "Understand capacity planning using Work Centers.",
+    "Learn standard SAP transaction codes for Work Centers."
+  ],
+
+  "introduction": {
+    "title": "What is a Work Center?",
+    "content": "A Work Center represents the physical location where manufacturing operations are performed. It may represent a machine, production line, department, workstation, or a group of employees. Work Centers are used to define where operations are executed, calculate production capacity, scheduling, labor requirements and production costs."
+  },
+
+  "business_purpose": {
+    "title": "Why is a Work Center Important?",
+    "content": "Every production operation must be assigned to a Work Center. SAP uses Work Centers for scheduling operations, calculating capacity requirements, determining production costs and assigning manufacturing activities to the appropriate resources."
+  },
+
+  "work_center_types": [
+    {
+      "type": "Machine Work Center",
+      "description": "Represents an individual production machine."
+    },
+    {
+      "type": "Production Line",
+      "description": "Represents an entire manufacturing line."
+    },
+    {
+      "type": "Assembly Work Center",
+      "description": "Used for assembly operations."
+    },
+    {
+      "type": "Inspection Work Center",
+      "description": "Used for quality inspection activities."
+    },
+    {
+      "type": "Packaging Work Center",
+      "description": "Used for packing and dispatch preparation."
+    }
+  ],
+
+  "important_data": [
+    "Work Center Code",
+    "Plant",
+    "Description",
+    "Person Responsible",
+    "Cost Center",
+    "Capacity",
+    "Operating Time",
+    "Formula Parameters",
+    "Scheduling Parameters",
+    "Available Capacity"
+  ],
+
+  "business_functions": [
+    "Production Scheduling",
+    "Capacity Planning",
+    "Operation Assignment",
+    "Cost Calculation",
+    "Machine Utilization",
+    "Production Monitoring"
+  ],
+
+  "transaction_codes": [
+    {
+      "code": "CR01",
+      "name": "Create Work Center"
+    },
+    {
+      "code": "CR02",
+      "name": "Change Work Center"
+    },
+    {
+      "code": "CR03",
+      "name": "Display Work Center"
+    },
+    {
+      "code": "CR05",
+      "name": "Work Center List"
+    },
+    {
+      "code": "CM01",
+      "name": "Capacity Evaluation"
+    },
+    {
+      "code": "CM21",
+      "name": "Capacity Planning Table"
+    }
+  ],
+
+  "sap_menu_path": [
+    "SAP Easy Access",
+    "Logistics",
+    "Production",
+    "Master Data",
+    "Work Centers"
+  ],
+
+  "step_by_step_procedure": [
+    "Execute Transaction CR01.",
+    "Enter Plant.",
+    "Enter Work Center Name.",
+    "Select Work Center Category.",
+    "Maintain Basic Data.",
+    "Assign Cost Center.",
+    "Maintain Capacity Information.",
+    "Configure Scheduling Parameters.",
+    "Save the Work Center."
+  ],
+
+  "capacity_planning": {
+    "title": "Capacity Planning",
+    "content": "Capacity Planning ensures that production workload is balanced with available machine and labor capacity. SAP compares required capacity from production orders with available capacity maintained in the Work Center."
+  },
+
+  "integration": [
+    {
+      "module": "Routing",
+      "purpose": "Every routing operation is assigned to a Work Center."
+    },
+    {
+      "module": "Production Orders",
+      "purpose": "Production Orders use Work Centers for scheduling."
+    },
+    {
+      "module": "Cost Center Accounting",
+      "purpose": "Work Centers are linked to Cost Centers for cost calculation."
+    },
+    {
+      "module": "MRP",
+      "purpose": "Supports production scheduling and capacity checks."
+    }
+  ],
+
+  "business_example": {
+    "title": "Example",
+    "content": "A Hot Rolling Mill in the manufacturing plant is maintained as a Work Center. During production planning, SAP assigns rolling operations to this Work Center, checks available machine capacity and schedules production accordingly."
+  },
+
+  "best_practices": [
+    "Assign every Work Center to the correct Cost Center.",
+    "Maintain accurate machine capacities.",
+    "Update available working hours regularly.",
+    "Review Work Center utilization periodically.",
+    "Use meaningful Work Center descriptions."
+  ],
+
+  "common_errors": [
+    "Incorrect Cost Center assignment.",
+    "Missing capacity information.",
+    "Wrong Work Center category.",
+    "Incorrect scheduling parameters.",
+    "Outdated available capacity."
+  ],
+
+  "important_notes": [
+    "A Work Center can be used in multiple Routings.",
+    "Production scheduling depends on accurate Work Center data.",
+    "Capacity planning cannot function correctly without properly maintained Work Centers."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/sap/pp/work_center/cr01_screen.png",
+      "assets/images/sap/pp/work_center/work_center_master.png",
+      "assets/images/sap/pp/work_center/capacity_planning.png"
+    ],
+    "videos": [
+      "assets/videos/sap/pp/work_center.mp4"
+    ],
+    "documents": [
+      "assets/documents/sap/pp/work_center.pdf"
+    ]
+  },
+
+  "next_module": "05_routing.json",
+
+  "assessment": {
+    "quiz": "assessment/sap/set_3.json"
+  }
+}
