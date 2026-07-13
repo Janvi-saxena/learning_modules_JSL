@@ -1,1 +1,187 @@
+{
+  "id": "qm_reports",
+  "title": "Quality Reports",
+  "module": "SAP QM",
+  "order": 6,
+  "duration": "40 minutes",
+  "difficulty": "Intermediate",
 
+  "learning_objectives": [
+    "Understand SAP Quality Management reporting.",
+    "Learn standard SAP QM reports.",
+    "Understand JSL custom quality reports.",
+    "Learn how reports support quality analysis.",
+    "Interpret inspection and quality performance reports."
+  ],
+
+  "introduction": {
+    "title": "What are Quality Reports?",
+    "content": "Quality Reports provide detailed information about inspection lots, inspection results, Usage Decisions, defects and quality performance. These reports help quality engineers, production teams and management monitor product quality, identify recurring issues and support continuous improvement."
+  },
+
+  "business_purpose": {
+    "title": "Why are Quality Reports Important?",
+    "content": "Quality reports provide visibility into inspection activities, defect trends and material quality. They help organizations identify quality problems early, improve manufacturing processes and ensure only quality products reach customers."
+  },
+
+  "standard_reports": [
+    {
+      "transaction_code": "QA32",
+      "report_name": "Inspection Lot Processing",
+      "purpose": "Monitor and process inspection lots."
+    },
+    {
+      "transaction_code": "QA33",
+      "report_name": "Display Inspection Lot",
+      "purpose": "View completed inspection lots."
+    },
+    {
+      "transaction_code": "QE51N",
+      "report_name": "Result Recording",
+      "purpose": "Display and record inspection results."
+    },
+    {
+      "transaction_code": "QA11",
+      "report_name": "Usage Decision",
+      "purpose": "Display Usage Decision details."
+    },
+    {
+      "transaction_code": "QP03",
+      "report_name": "Display Inspection Plan",
+      "purpose": "Review Inspection Plans."
+    },
+    {
+      "transaction_code": "QS23",
+      "report_name": "Display Master Inspection Characteristics",
+      "purpose": "View inspection characteristics."
+    }
+  ],
+
+  "jsl_reports": [
+    {
+      "transaction_code": "ZQM01",
+      "report_name": "Quality Inspection Summary",
+      "purpose": "Displays inspection summary according to JSL business requirements."
+    },
+    {
+      "transaction_code": "ZQM09",
+      "report_name": "Quality Performance Report",
+      "purpose": "Monitors inspection performance and quality trends."
+    },
+    {
+      "transaction_code": "ZQM34",
+      "report_name": "Inspection Status Report",
+      "purpose": "Tracks inspection lot status and pending inspections."
+    }
+  ],
+
+  "report_categories": [
+    "Inspection Reports",
+    "Result Recording Reports",
+    "Usage Decision Reports",
+    "Defect Analysis Reports",
+    "Material Quality Reports",
+    "Inspection Plan Reports",
+    "Quality Performance Reports",
+    "Management Reports"
+  ],
+
+  "important_information": [
+    "Inspection Lot Number",
+    "Material Number",
+    "Batch Number",
+    "Plant",
+    "Inspection Type",
+    "Inspection Date",
+    "Inspector",
+    "Inspection Result",
+    "Usage Decision",
+    "Stock Status"
+  ],
+
+  "business_users": [
+    {
+      "role": "Quality Inspector",
+      "purpose": "Reviews inspection results and pending inspections."
+    },
+    {
+      "role": "Quality Engineer",
+      "purpose": "Analyzes quality trends and defects."
+    },
+    {
+      "role": "Production Supervisor",
+      "purpose": "Monitors production quality."
+    },
+    {
+      "role": "Warehouse Team",
+      "purpose": "Verifies material release status."
+    },
+    {
+      "role": "Management",
+      "purpose": "Reviews overall quality performance."
+    }
+  ],
+
+  "step_by_step_procedure": [
+    "Open the required transaction code.",
+    "Enter Plant or Inspection Lot Number.",
+    "Specify required filters.",
+    "Execute the report.",
+    "Review report results.",
+    "Export or print if required.",
+    "Analyze findings and take corrective action if necessary."
+  ],
+
+  "report_outputs": [
+    "Inspection Lot Status",
+    "Inspection Results",
+    "Accepted Materials",
+    "Rejected Materials",
+    "Pending Usage Decisions",
+    "Defect Trends",
+    "Quality Performance Indicators",
+    "Inspection History"
+  ],
+
+  "best_practices": [
+    "Review quality reports daily.",
+    "Investigate repeated quality failures.",
+    "Monitor pending inspection lots.",
+    "Analyze defect trends regularly.",
+    "Use reports during quality review meetings."
+  ],
+
+  "common_errors": [
+    "Using incorrect report filters.",
+    "Ignoring pending inspection lots.",
+    "Misinterpreting Usage Decision data.",
+    "Reviewing outdated reports.",
+    "Not following up on recurring defects."
+  ],
+
+  "important_notes": [
+    "Standard SAP reports are available in every SAP system.",
+    "ZQM reports are custom developments specific to the organization.",
+    "Access to reports depends on assigned user roles and authorizations.",
+    "Quality reports support continuous improvement and audit readiness."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/sap/qm/reports/qa32_dashboard.png",
+      "assets/images/sap/qm/reports/inspection_lot_report.png",
+      "assets/images/sap/qm/reports/result_analysis.png",
+      "assets/images/sap/qm/reports/quality_dashboard.png"
+    ],
+    "videos": [
+      "assets/videos/sap/qm/quality_reports.mp4"
+    ],
+    "documents": [
+      "assets/documents/sap/qm/quality_reports.pdf"
+    ]
+  },
+
+  "assessment": {
+    "quiz": "assessment/sap/set_3.json"
+  }
+}
