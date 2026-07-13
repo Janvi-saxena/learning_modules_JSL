@@ -1,1 +1,183 @@
+{
+  "id": "result_recording",
+  "title": "Result Recording",
+  "module": "SAP QM",
+  "order": 4,
+  "duration": "45 minutes",
+  "difficulty": "Intermediate",
 
+  "learning_objectives": [
+    "Understand Result Recording in SAP QM.",
+    "Learn how inspection results are recorded.",
+    "Understand quantitative and qualitative characteristics.",
+    "Learn important SAP Result Recording transaction codes.",
+    "Understand how Result Recording affects the inspection process."
+  ],
+
+  "introduction": {
+    "title": "What is Result Recording?",
+    "content": "Result Recording is the process of entering inspection results into SAP after the quality inspection has been performed. The recorded results are compared with predefined specifications in the Inspection Plan to determine whether the inspected material meets quality standards."
+  },
+
+  "business_purpose": {
+    "title": "Why is Result Recording Important?",
+    "content": "Result Recording provides objective evidence of product quality. It ensures inspection results are documented, traceable and available for quality analysis, audits and decision-making."
+  },
+
+  "inspection_characteristics": [
+    {
+      "type": "Quantitative Characteristic",
+      "description": "Measured using numerical values such as thickness, width, weight or hardness."
+    },
+    {
+      "type": "Qualitative Characteristic",
+      "description": "Recorded as observations such as Pass/Fail, Accept/Reject or Visual OK/Not OK."
+    }
+  ],
+
+  "important_fields": [
+    "Inspection Lot Number",
+    "Operation Number",
+    "Inspection Characteristic",
+    "Sample Number",
+    "Measured Value",
+    "Result Code",
+    "Valuation",
+    "Inspector Name",
+    "Inspection Date",
+    "Remarks"
+  ],
+
+  "business_functions": [
+    "Record Inspection Results",
+    "Compare Actual vs Specification",
+    "Record Defects",
+    "Evaluate Inspection Characteristics",
+    "Support Usage Decision",
+    "Maintain Inspection History"
+  ],
+
+  "transaction_codes": [
+    {
+      "code": "QE51N",
+      "name": "Record Inspection Results"
+    },
+    {
+      "code": "QE01",
+      "name": "Record Results (Classic)"
+    },
+    {
+      "code": "QE03",
+      "name": "Display Inspection Results"
+    },
+    {
+      "code": "QA32",
+      "name": "Inspection Lot Processing"
+    },
+    {
+      "code": "QA33",
+      "name": "Display Inspection Lot"
+    }
+  ],
+
+  "sap_menu_path": [
+    "SAP Easy Access",
+    "Logistics",
+    "Quality Management",
+    "Quality Inspection",
+    "Inspection Processing",
+    "Result Recording"
+  ],
+
+  "step_by_step_procedure": [
+    "Execute Transaction QE51N.",
+    "Enter the Inspection Lot Number.",
+    "Open the Inspection Characteristics.",
+    "Select the characteristic to inspect.",
+    "Enter measured values or inspection results.",
+    "Record defects or remarks if required.",
+    "Save the inspection results.",
+    "Review characteristic valuation."
+  ],
+
+  "system_updates": [
+    "Inspection results are stored in SAP.",
+    "Inspection characteristics receive a valuation.",
+    "Inspection Lot status is updated.",
+    "Results become available for Usage Decision.",
+    "Inspection history is maintained for future analysis."
+  ],
+
+  "integration": [
+    {
+      "module": "Inspection Plan",
+      "purpose": "Provides characteristics to be inspected."
+    },
+    {
+      "module": "Material Master",
+      "purpose": "Identifies the material under inspection."
+    },
+    {
+      "module": "Usage Decision",
+      "purpose": "Uses recorded inspection results to determine acceptance or rejection."
+    },
+    {
+      "module": "PP",
+      "purpose": "Quality results are linked with production output."
+    }
+  ],
+
+  "business_example": {
+    "title": "Example",
+    "content": "After manufacturing a stainless steel coil, the inspector measures thickness (5.02 mm), width (1250 mm), hardness (195 HB) and visually checks the surface finish. These values are entered in QE51N. SAP compares them with the acceptance limits defined in the Inspection Plan before the material proceeds to the Usage Decision."
+  },
+
+  "best_practices": [
+    "Enter inspection results immediately after inspection.",
+    "Verify measured values before saving.",
+    "Record defects accurately.",
+    "Maintain complete inspection remarks.",
+    "Use calibrated measuring instruments."
+  ],
+
+  "common_errors": [
+    "Entering incorrect measured values.",
+    "Skipping mandatory characteristics.",
+    "Recording results for the wrong Inspection Lot.",
+    "Incorrect valuation.",
+    "Saving incomplete inspection data."
+  ],
+
+  "important_notes": [
+    "Inspection results should reflect actual measured values.",
+    "Every mandatory characteristic must be recorded before making the Usage Decision.",
+    "Inspection records provide traceability during quality audits."
+  ],
+
+  "jsl_notes": [
+    "Inspectors should follow the approved JSL inspection standards while recording results.",
+    "All mandatory inspection characteristics must be completed before forwarding the Inspection Lot for Usage Decision.",
+    "Any non-conformance should be documented according to plant procedures."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/sap/qm/result_recording/qe51n_screen.png",
+      "assets/images/sap/qm/result_recording/inspection_characteristics.png",
+      "assets/images/sap/qm/result_recording/result_entry.png",
+      "assets/images/sap/qm/result_recording/valuation_screen.png"
+    ],
+    "videos": [
+      "assets/videos/sap/qm/result_recording.mp4"
+    ],
+    "documents": [
+      "assets/documents/sap/qm/result_recording.pdf"
+    ]
+  },
+
+  "next_module": "05_usage_decision.json",
+
+  "assessment": {
+    "quiz": "assessment/sap/set_3.json"
+  }
+}
