@@ -1,1 +1,241 @@
+{
+  "assessment_id": "department_set_3",
+  "title": "Department Assessment - Set 3",
+  "module": "Departments",
+  "difficulty": "Advanced",
+  "total_questions": 25,
+  "passing_marks": 18,
+  "time_limit": "35 minutes",
 
+  "questions": [
+
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "A production line has stopped because raw material is unavailable. Which department should take immediate action?",
+      "options": [
+        "Finance",
+        "Procurement",
+        "HR",
+        "Dispatch"
+      ],
+      "correct_answer": "Procurement"
+    },
+
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "During final inspection, a batch is rejected due to quality issues. Which department should coordinate with Production to investigate the problem?",
+      "options": [
+        "Finance",
+        "Quality",
+        "HR",
+        "Dispatch"
+      ],
+      "correct_answer": "Quality"
+    },
+
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "A machine requires preventive maintenance during the production schedule. Which two departments should coordinate first?",
+      "options": [
+        "Production and Maintenance",
+        "Finance and HR",
+        "Quality and Dispatch",
+        "Warehouse and HR"
+      ],
+      "correct_answer": "Production and Maintenance"
+    },
+
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "Finished goods have passed quality inspection and are waiting for customer shipment. Which department is responsible for arranging transportation?",
+      "options": [
+        "Warehouse",
+        "Dispatch",
+        "Finance",
+        "Production"
+      ],
+      "correct_answer": "Dispatch"
+    },
+
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "Management wants to reduce manufacturing costs without affecting quality. Which departments should work together most closely?",
+      "options": [
+        "Production, Quality and Finance",
+        "HR and Dispatch",
+        "Warehouse and HR",
+        "Maintenance and Finance only"
+      ],
+      "correct_answer": "Production, Quality and Finance"
+    },
+
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "A new employee is joining the Quality department. Which department manages the joining process?",
+      "options": [
+        "Production",
+        "HR",
+        "Finance",
+        "Warehouse"
+      ],
+      "correct_answer": "HR"
+    },
+
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "Inventory records show fewer raw materials than physically available. Which department should investigate inventory accuracy?",
+      "options": [
+        "Warehouse",
+        "Dispatch",
+        "Production",
+        "Finance"
+      ],
+      "correct_answer": "Warehouse"
+    },
+
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "Which department is primarily responsible for ensuring machines remain available for production?",
+      "options": [
+        "Maintenance",
+        "HR",
+        "Finance",
+        "Quality"
+      ],
+      "correct_answer": "Maintenance"
+    },
+
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "Which department verifies supplier performance before approving future purchases?",
+      "options": [
+        "Procurement",
+        "Dispatch",
+        "Production",
+        "HR"
+      ],
+      "correct_answer": "Procurement"
+    },
+
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "Customer complaints about defective products should first be reviewed by which department?",
+      "options": [
+        "Quality",
+        "Finance",
+        "Warehouse",
+        "Maintenance"
+      ],
+      "correct_answer": "Quality"
+    },
+
+    {
+      "id": 11,
+      "type": "true_false",
+      "question": "Production and Quality departments must work together to maintain product standards.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 12,
+      "type": "true_false",
+      "question": "Dispatch can release products without verifying shipment documentation.",
+      "correct_answer": false
+    },
+
+    {
+      "id": 13,
+      "type": "true_false",
+      "question": "Warehouse operations directly affect production continuity.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 14,
+      "type": "true_false",
+      "question": "Preventive maintenance helps reduce unexpected machine breakdowns.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 15,
+      "type": "true_false",
+      "question": "HR is responsible for approving production schedules.",
+      "correct_answer": false
+    },
+
+    {
+      "id": 16,
+      "type": "true_false",
+      "question": "Finance provides information that supports business decision-making.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 17,
+      "type": "true_false",
+      "question": "Procurement only purchases materials and has no role in supplier management.",
+      "correct_answer": false
+    },
+
+    {
+      "id": 18,
+      "type": "true_false",
+      "question": "Quality inspections help improve customer satisfaction.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 19,
+      "type": "short_answer",
+      "question": "Why is communication between Production and Procurement important?"
+    },
+
+    {
+      "id": 20,
+      "type": "short_answer",
+      "question": "What could happen if Quality inspections are skipped before dispatch?"
+    },
+
+    {
+      "id": 21,
+      "type": "short_answer",
+      "question": "How does preventive maintenance improve production efficiency?"
+    },
+
+    {
+      "id": 22,
+      "type": "short_answer",
+      "question": "Why should Warehouse inventory records always be accurate?"
+    },
+
+    {
+      "id": 23,
+      "type": "short_answer",
+      "question": "How does Finance support operational departments?"
+    },
+
+    {
+      "id": 24,
+      "type": "short_answer",
+      "question": "Name any two departments that work closely with Production and explain why."
+    },
+
+    {
+      "id": 25,
+      "type": "short_answer",
+      "question": "Explain why coordination between all departments is essential for successful manufacturing operations."
+    }
+
+  ]
+}
