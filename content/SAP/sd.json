@@ -1,0 +1,183 @@
+{
+  "id": "sd",
+  "title": "Sales and Distribution (SD)",
+  "module": "SAP",
+  "order": 4,
+  "duration": "35 minutes",
+  "difficulty": "Beginner",
+
+  "learning_objectives": [
+    "Understand the purpose of the SAP SD module.",
+    "Learn the complete sales process in SAP.",
+    "Understand customer master data.",
+    "Identify key SD transaction codes.",
+    "Learn how SD integrates with other SAP modules."
+  ],
+
+  "introduction": {
+    "title": "What is SAP SD?",
+    "content": "SAP Sales and Distribution (SD) is responsible for managing the complete sales cycle of an organization. It handles customer inquiries, quotations, sales orders, deliveries, billing, shipping and customer returns while ensuring smooth coordination between sales and logistics."
+  },
+
+  "business_purpose": {
+    "title": "Why is SAP SD Used?",
+    "content": "SAP SD helps organizations manage customer orders efficiently, improve delivery performance, automate billing processes, and provide better customer service through integrated sales operations."
+  },
+
+  "key_functions": [
+    "Customer Master Management",
+    "Sales Order Processing",
+    "Pricing",
+    "Delivery Processing",
+    "Shipping",
+    "Billing",
+    "Returns Management",
+    "Credit Management"
+  ],
+
+  "master_data": [
+    {
+      "name": "Customer Master",
+      "description": "Stores complete customer information such as address, payment terms, shipping details and sales data."
+    },
+    {
+      "name": "Material Master",
+      "description": "Stores information about products available for sale."
+    },
+    {
+      "name": "Pricing Conditions",
+      "description": "Defines prices, discounts and taxes."
+    }
+  ],
+
+  "sales_process": [
+    "Customer Inquiry",
+    "Quotation",
+    "Sales Order Creation",
+    "Availability Check",
+    "Delivery Creation",
+    "Picking & Packing",
+    "Goods Issue",
+    "Billing",
+    "Customer Payment"
+  ],
+
+  "integration": [
+    {
+      "module": "MM",
+      "purpose": "Checks product availability."
+    },
+    {
+      "module": "PP",
+      "purpose": "Triggers production if stock is unavailable."
+    },
+    {
+      "module": "FI",
+      "purpose": "Creates accounting entries after billing."
+    },
+    {
+      "module": "CO",
+      "purpose": "Tracks sales profitability."
+    }
+  ],
+
+  "transaction_codes": [
+    {
+      "code": "VA01",
+      "name": "Create Sales Order"
+    },
+    {
+      "code": "VA02",
+      "name": "Change Sales Order"
+    },
+    {
+      "code": "VA03",
+      "name": "Display Sales Order"
+    },
+    {
+      "code": "VL01N",
+      "name": "Create Outbound Delivery"
+    },
+    {
+      "code": "VL02N",
+      "name": "Change Outbound Delivery"
+    },
+    {
+      "code": "VL03N",
+      "name": "Display Outbound Delivery"
+    },
+    {
+      "code": "VF01",
+      "name": "Create Billing Document"
+    },
+    {
+      "code": "VF02",
+      "name": "Change Billing Document"
+    },
+    {
+      "code": "VF03",
+      "name": "Display Billing Document"
+    },
+    {
+      "code": "XD01",
+      "name": "Create Customer Master"
+    },
+    {
+      "code": "XD02",
+      "name": "Change Customer Master"
+    },
+    {
+      "code": "XD03",
+      "name": "Display Customer Master"
+    }
+  ],
+
+  "business_example": {
+    "title": "Example",
+    "content": "A customer places an order for stainless steel coils. A Sales Order is created in SAP, stock availability is checked, a delivery is generated, goods are dispatched, and a billing document is created. The Finance module records the payment while inventory is updated automatically."
+  },
+
+  "benefits": [
+    "Faster order processing",
+    "Accurate pricing",
+    "Improved customer satisfaction",
+    "Real-time order tracking",
+    "Automated billing",
+    "Integrated logistics management"
+  ],
+
+  "best_practices": [
+    "Maintain accurate customer master data.",
+    "Verify pricing before confirming orders.",
+    "Check stock availability before delivery.",
+    "Monitor pending deliveries regularly.",
+    "Ensure timely billing."
+  ],
+
+  "common_mistakes": [
+    "Incorrect customer master data.",
+    "Wrong pricing conditions.",
+    "Delivery created for incorrect quantity.",
+    "Late billing.",
+    "Ignoring blocked orders."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/sap/sd/customer_master.png",
+      "assets/images/sap/sd/sales_order.png",
+      "assets/images/sap/sd/outbound_delivery.png",
+      "assets/images/sap/sd/billing_document.png"
+    ],
+    "videos": [
+      "assets/videos/sap/sd_overview.mp4"
+    ],
+    "documents": [
+      "assets/documents/sap/sd_module.pdf"
+    ]
+  },
+
+  "assessment": {
+    "quiz": "assessment/sap/set_1.json"
+  }
+}
