@@ -1,0 +1,212 @@
+{
+  "id": "routing",
+  "title": "Routing",
+  "module": "SAP PP",
+  "order": 5,
+  "duration": "50 minutes",
+  "difficulty": "Intermediate",
+
+  "learning_objectives": [
+    "Understand the purpose of Routing in SAP PP.",
+    "Learn how manufacturing operations are defined.",
+    "Understand Routing components and important fields.",
+    "Learn standard SAP Routing transaction codes.",
+    "Understand how Routing integrates with Work Centers and Production Orders."
+  ],
+
+  "introduction": {
+    "title": "What is Routing?",
+    "content": "Routing is a master data object in SAP Production Planning that defines the sequence of operations required to manufacture a product. It specifies the Work Centers where operations are performed, the processing time for each operation and the resources required during manufacturing."
+  },
+
+  "business_purpose": {
+    "title": "Why is Routing Important?",
+    "content": "Routing provides SAP with detailed manufacturing instructions. It enables accurate production scheduling, capacity planning, production costing and operation sequencing. Every Production Order refers to a Routing to determine how a product should be manufactured."
+  },
+
+  "routing_components": [
+    {
+      "component": "Header",
+      "description": "Contains general information about the Routing."
+    },
+    {
+      "component": "Operations",
+      "description": "Individual manufacturing steps."
+    },
+    {
+      "component": "Work Center",
+      "description": "Machine or resource where each operation is performed."
+    },
+    {
+      "component": "Control Key",
+      "description": "Defines how an operation is processed."
+    },
+    {
+      "component": "Standard Values",
+      "description": "Stores setup time, machine time and labor time."
+    }
+  ],
+
+  "important_fields": [
+    "Group",
+    "Group Counter",
+    "Plant",
+    "Usage",
+    "Status",
+    "Operation Number",
+    "Work Center",
+    "Control Key",
+    "Base Quantity",
+    "Setup Time",
+    "Machine Time",
+    "Labor Time",
+    "Processing Time"
+  ],
+
+  "business_functions": [
+    "Operation Sequencing",
+    "Production Scheduling",
+    "Capacity Planning",
+    "Cost Calculation",
+    "Work Center Assignment",
+    "Production Order Creation"
+  ],
+
+  "transaction_codes": [
+    {
+      "code": "CA01",
+      "name": "Create Routing"
+    },
+    {
+      "code": "CA02",
+      "name": "Change Routing"
+    },
+    {
+      "code": "CA03",
+      "name": "Display Routing"
+    },
+    {
+      "code": "CA85N",
+      "name": "Routing Mass Processing"
+    },
+    {
+      "code": "CA51",
+      "name": "Routing List"
+    }
+  ],
+
+  "sap_menu_path": [
+    "SAP Easy Access",
+    "Logistics",
+    "Production",
+    "Master Data",
+    "Routings"
+  ],
+
+  "step_by_step_procedure": [
+    "Execute Transaction CA01.",
+    "Enter Material Number.",
+    "Enter Plant.",
+    "Select Routing Usage.",
+    "Create Routing Header.",
+    "Enter Operations.",
+    "Assign Work Centers.",
+    "Maintain Control Keys.",
+    "Enter Standard Values.",
+    "Save the Routing."
+  ],
+
+  "control_keys": [
+    {
+      "name": "Scheduling",
+      "purpose": "Allows operation scheduling."
+    },
+    {
+      "name": "Costing",
+      "purpose": "Includes operation in product costing."
+    },
+    {
+      "name": "Confirmation",
+      "purpose": "Allows production confirmation."
+    },
+    {
+      "name": "External Processing",
+      "purpose": "Identifies outsourced operations."
+    }
+  ],
+
+  "standard_values": [
+    "Setup Time",
+    "Machine Time",
+    "Labor Time",
+    "Queue Time",
+    "Wait Time",
+    "Move Time"
+  ],
+
+  "integration": [
+    {
+      "module": "Work Center",
+      "purpose": "Every Routing operation is assigned to a Work Center."
+    },
+    {
+      "module": "Production Version",
+      "purpose": "Routing is linked with BOM through Production Version."
+    },
+    {
+      "module": "Production Orders",
+      "purpose": "Operations are copied into Production Orders."
+    },
+    {
+      "module": "CO",
+      "purpose": "Calculates operation costs."
+    }
+  ],
+
+  "business_example": {
+    "title": "Example",
+    "content": "During the production of a stainless steel sheet, Routing defines operations such as Cutting, Hot Rolling, Pickling, Annealing, Cold Rolling, Grinding and Final Inspection. Each operation is assigned to its respective Work Center with predefined processing times."
+  },
+
+  "best_practices": [
+    "Maintain operations in the correct sequence.",
+    "Assign the correct Work Center to every operation.",
+    "Review standard values periodically.",
+    "Update Routing after engineering changes.",
+    "Use consistent operation numbering."
+  ],
+
+  "common_errors": [
+    "Incorrect operation sequence.",
+    "Missing Work Center assignment.",
+    "Wrong Control Key.",
+    "Incorrect standard values.",
+    "Routing not linked with Production Version."
+  ],
+
+  "important_notes": [
+    "A Routing can contain multiple operations.",
+    "Operations are executed in the defined sequence.",
+    "Routing directly affects scheduling, costing and production execution."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/sap/pp/routing/ca01_screen.png",
+      "assets/images/sap/pp/routing/routing_operations.png",
+      "assets/images/sap/pp/routing/work_center_assignment.png"
+    ],
+    "videos": [
+      "assets/videos/sap/pp/routing.mp4"
+    ],
+    "documents": [
+      "assets/documents/sap/pp/routing.pdf"
+    ]
+  },
+
+  "next_module": "06_production_version.json",
+
+  "assessment": {
+    "quiz": "assessment/sap/set_3.json"
+  }
+}
