@@ -1,1 +1,195 @@
-#abc
+{
+  "id": "scada",
+  "title": "Supervisory Control and Data Acquisition (SCADA)",
+  "module": "Automation",
+  "order": 3,
+  "duration": "60 minutes",
+  "difficulty": "Intermediate",
+
+  "learning_objectives": [
+    "Understand the purpose of SCADA systems.",
+    "Identify the major components of a SCADA system.",
+    "Learn how SCADA communicates with PLCs and field devices.",
+    "Understand alarm management and data logging.",
+    "Recognize SCADA applications in industrial manufacturing."
+  ],
+
+  "introduction": {
+    "title": "What is SCADA?",
+    "content": "Supervisory Control and Data Acquisition (SCADA) is an industrial software system used to monitor, supervise and control manufacturing processes in real time. It collects data from PLCs, sensors and field devices, displays it on graphical screens and alerts operators whenever abnormal conditions occur."
+  },
+
+  "business_purpose": {
+    "title": "Why is SCADA Important?",
+    "content": "SCADA gives operators complete visibility of plant operations from a central control room. Instead of checking every machine individually, operators can monitor equipment status, production data, alarms and trends from one interface, enabling faster decision-making and improved operational efficiency."
+  },
+
+  "major_components": [
+    {
+      "component": "PLC",
+      "purpose": "Collects field data and controls industrial equipment."
+    },
+    {
+      "component": "HMI (Human Machine Interface)",
+      "purpose": "Displays real-time process information to operators."
+    },
+    {
+      "component": "SCADA Server",
+      "purpose": "Processes, stores and distributes plant data."
+    },
+    {
+      "component": "Communication Network",
+      "purpose": "Transfers information between PLCs, SCADA servers and HMIs."
+    },
+    {
+      "component": "Database (Historian)",
+      "purpose": "Stores historical process data for reporting and analysis."
+    },
+    {
+      "component": "Field Devices",
+      "purpose": "Includes sensors, transmitters, motors, valves and actuators."
+    }
+  ],
+
+  "working_principle": [
+    "Sensors measure process variables such as temperature, pressure and flow.",
+    "PLCs receive these signals and execute control logic.",
+    "The PLC sends process data to the SCADA server.",
+    "SCADA displays live information through HMI screens.",
+    "Operators monitor equipment performance and respond to alarms.",
+    "Historical data is stored for analysis and reporting."
+  ],
+
+  "features": [
+    "Real-time monitoring",
+    "Remote supervision",
+    "Alarm management",
+    "Trend analysis",
+    "Historical data logging",
+    "Production reporting",
+    "Equipment status monitoring",
+    "Process visualization"
+  ],
+
+  "alarm_management": {
+    "title": "Alarm Management",
+    "content": "SCADA continuously monitors equipment conditions. If any parameter exceeds predefined limits, such as high temperature, low pressure or motor failure, the system immediately generates an alarm. Operators acknowledge the alarm, investigate the cause and initiate corrective action to prevent production losses."
+  },
+
+  "data_logging": {
+    "title": "Historical Data Logging",
+    "content": "SCADA automatically records process data over time. Historical records help engineers analyze production trends, identify recurring problems, evaluate equipment performance and support preventive maintenance planning."
+  },
+
+  "industrial_applications": [
+    "Steel Manufacturing",
+    "Rolling Mills",
+    "Power Plants",
+    "Water Treatment",
+    "Oil and Gas",
+    "Chemical Processing",
+    "Food Processing",
+    "Material Handling Systems"
+  ],
+
+  "advantages": [
+    "Real-time visibility of plant operations.",
+    "Quick detection of abnormal conditions.",
+    "Improved production efficiency.",
+    "Reduced downtime.",
+    "Centralized monitoring.",
+    "Better decision-making through historical data.",
+    "Enhanced process safety.",
+    "Supports remote monitoring."
+  ],
+
+  "limitations": [
+    "High implementation cost.",
+    "Requires reliable communication networks.",
+    "Cybersecurity protection is essential.",
+    "Operators require proper training."
+  ],
+
+  "workflow": [
+    "Sensors detect process conditions.",
+    "PLC processes the input signals.",
+    "SCADA receives data from PLCs.",
+    "Information is displayed on HMI screens.",
+    "Operators monitor production.",
+    "SCADA generates alarms when abnormal conditions occur.",
+    "Historical data is stored for reporting and analysis."
+  ],
+
+  "integration": [
+    {
+      "module": "PLC",
+      "purpose": "Receives process data from PLCs."
+    },
+    {
+      "module": "HMI",
+      "purpose": "Provides graphical visualization of industrial processes."
+    },
+    {
+      "module": "Maintenance",
+      "purpose": "Supports preventive and predictive maintenance through alarms and trends."
+    },
+    {
+      "module": "Production",
+      "purpose": "Monitors production performance in real time."
+    },
+    {
+      "module": "SAP",
+      "purpose": "Production data can be integrated into enterprise reporting systems."
+    }
+  ],
+
+  "business_example": {
+    "title": "SCADA at JSL",
+    "content": "During stainless steel production, SCADA continuously displays furnace temperature, rolling mill speed, motor current, hydraulic pressure and cooling water flow. If the furnace temperature exceeds the safe operating limit, SCADA immediately generates an alarm, allowing operators to take corrective action before product quality is affected."
+  },
+
+  "best_practices": [
+    "Review alarms immediately.",
+    "Maintain communication networks regularly.",
+    "Archive historical production data.",
+    "Restrict user access through authentication.",
+    "Perform regular system backups.",
+    "Update SCADA software periodically."
+  ],
+
+  "common_errors": [
+    "Ignoring alarm notifications.",
+    "Poor communication network maintenance.",
+    "Failure to back up historical data.",
+    "Improper alarm configuration.",
+    "Weak cybersecurity controls."
+  ],
+
+  "important_notes": [
+    "SCADA supervises industrial processes but does not directly replace PLC logic.",
+    "Historical data helps improve production planning and maintenance.",
+    "Alarm management is critical for safe industrial operations.",
+    "Modern SCADA systems support cloud connectivity and remote monitoring."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/automation/scada/scada_architecture.png",
+      "assets/images/automation/scada/control_room.png",
+      "assets/images/automation/scada/hmi_dashboard.png",
+      "assets/images/automation/scada/alarm_management.png"
+    ],
+    "videos": [
+      "assets/videos/automation/scada_overview.mp4"
+    ],
+    "documents": [
+      "assets/documents/automation/scada_reference.pdf"
+    ]
+  },
+
+  "next_module": "future_ai.json",
+
+  "assessment": {
+    "quiz": "assessment/automation/set_2.json"
+  }
+}
