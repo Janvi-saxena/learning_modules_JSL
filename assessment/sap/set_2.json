@@ -1,1 +1,240 @@
+{
+  "assessment_id": "sap_set_2",
+  "title": "SAP Assessment - Set 2",
+  "module": "SAP",
+  "total_questions": 25,
+  "passing_marks": 18,
+  "time_limit": "30 minutes",
 
+  "questions": [
+
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "Which master data object contains the list of components required to manufacture a product?",
+      "options": [
+        "Routing",
+        "Work Center",
+        "Bill of Material (BOM)",
+        "Inspection Plan"
+      ],
+      "correct_answer": "Bill of Material (BOM)"
+    },
+
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "Which transaction code is commonly used to create a Production Order?",
+      "options": [
+        "CO01",
+        "MD04",
+        "MM01",
+        "QA11"
+      ],
+      "correct_answer": "CO01"
+    },
+
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "Which transaction code is used for Production Confirmation?",
+      "options": [
+        "CO11N",
+        "CO03",
+        "CS01",
+        "QP01"
+      ],
+      "correct_answer": "CO11N"
+    },
+
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "Which transaction code is used to record a Usage Decision?",
+      "options": [
+        "QA11",
+        "QE51N",
+        "QP01",
+        "QA33"
+      ],
+      "correct_answer": "QA11"
+    },
+
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "Which SAP module manages warehouse operations such as picking, packing and storage?",
+      "options": [
+        "PM",
+        "SD",
+        "EWM",
+        "FI"
+      ],
+      "correct_answer": "EWM"
+    },
+
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "Which SAP module manages employee information and payroll?",
+      "options": [
+        "HCM",
+        "PP",
+        "MM",
+        "CO"
+      ],
+      "correct_answer": "HCM"
+    },
+
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "Which transaction code is used to create an Inspection Plan?",
+      "options": [
+        "QP01",
+        "QA11",
+        "CO01",
+        "CR01"
+      ],
+      "correct_answer": "QP01"
+    },
+
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "Which SAP component is responsible for user administration and system monitoring?",
+      "options": [
+        "BASIS",
+        "SD",
+        "MM",
+        "QM"
+      ],
+      "correct_answer": "BASIS"
+    },
+
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "Which transaction code is used to maintain SAP users?",
+      "options": [
+        "SU01",
+        "SM37",
+        "CO01",
+        "QA32"
+      ],
+      "correct_answer": "SU01"
+    },
+
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "What is the primary objective of SAP Security?",
+      "options": [
+        "Increase production speed",
+        "Control user access and protect business data",
+        "Create Purchase Orders",
+        "Manage payroll"
+      ],
+      "correct_answer": "Control user access and protect business data"
+    },
+
+    {
+      "id": 11,
+      "type": "true_false",
+      "question": "A Routing defines the sequence of manufacturing operations.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 12,
+      "type": "true_false",
+      "question": "MRP directly creates Sales Orders.",
+      "correct_answer": false
+    },
+
+    {
+      "id": 13,
+      "type": "true_false",
+      "question": "Work Centers are used for capacity planning.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 14,
+      "type": "true_false",
+      "question": "Result Recording is performed after the Usage Decision.",
+      "correct_answer": false
+    },
+
+    {
+      "id": 15,
+      "type": "true_false",
+      "question": "Production Version links BOM and Routing.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 16,
+      "type": "true_false",
+      "question": "SAP BASIS is mainly responsible for technical administration of SAP systems.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 17,
+      "type": "true_false",
+      "question": "Inspection Plans define how quality inspections should be carried out.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 18,
+      "type": "true_false",
+      "question": "Anyone can access all SAP transactions without authorization.",
+      "correct_answer": false
+    },
+
+    {
+      "id": 19,
+      "type": "short_answer",
+      "question": "What is the purpose of a Bill of Material (BOM)?"
+    },
+
+    {
+      "id": 20,
+      "type": "short_answer",
+      "question": "Which transaction code is used to execute Material Requirements Planning for a single material?"
+    },
+
+    {
+      "id": 21,
+      "type": "short_answer",
+      "question": "What is the purpose of a Production Version?"
+    },
+
+    {
+      "id": 22,
+      "type": "short_answer",
+      "question": "Name one SAP transaction code used for Result Recording."
+    },
+
+    {
+      "id": 23,
+      "type": "short_answer",
+      "question": "Which SAP module is responsible for warehouse management?"
+    },
+
+    {
+      "id": 24,
+      "type": "short_answer",
+      "question": "What is the purpose of the Usage Decision in SAP QM?"
+    },
+
+    {
+      "id": 25,
+      "type": "short_answer",
+      "question": "Name one responsibility of SAP BASIS."
+    }
+
+  ]
+}
