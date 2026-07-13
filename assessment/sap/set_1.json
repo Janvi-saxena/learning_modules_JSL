@@ -1,1 +1,240 @@
+{
+  "assessment_id": "sap_set_1",
+  "title": "SAP Assessment - Set 1",
+  "module": "SAP",
+  "total_questions": 25,
+  "passing_marks": 18,
+  "time_limit": "30 minutes",
 
+  "questions": [
+
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "What is the primary purpose of SAP ERP?",
+      "options": [
+        "Game Development",
+        "Enterprise Resource Planning",
+        "Website Hosting",
+        "Cloud Storage"
+      ],
+      "correct_answer": "Enterprise Resource Planning"
+    },
+
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "Which SAP module manages procurement and inventory?",
+      "options": [
+        "SD",
+        "FI",
+        "MM",
+        "QM"
+      ],
+      "correct_answer": "MM"
+    },
+
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "Which transaction code is used to create a Material Master?",
+      "options": [
+        "MM01",
+        "MM02",
+        "MM03",
+        "ME21N"
+      ],
+      "correct_answer": "MM01"
+    },
+
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "Which SAP module manages customer sales and deliveries?",
+      "options": [
+        "PP",
+        "SD",
+        "PM",
+        "CO"
+      ],
+      "correct_answer": "SD"
+    },
+
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "A maintenance engineer wants to create a maintenance order. Which SAP module is primarily used?",
+      "options": [
+        "PM",
+        "MM",
+        "FI",
+        "HCM"
+      ],
+      "correct_answer": "PM"
+    },
+
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "Which SAP module records financial transactions?",
+      "options": [
+        "FI",
+        "SD",
+        "PP",
+        "QM"
+      ],
+      "correct_answer": "FI"
+    },
+
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "Which SAP module is mainly responsible for cost analysis and controlling?",
+      "options": [
+        "CO",
+        "MM",
+        "PM",
+        "SD"
+      ],
+      "correct_answer": "CO"
+    },
+
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "A buyer wants to create a Purchase Order in SAP. Which transaction code is commonly used?",
+      "options": [
+        "ME21N",
+        "MM01",
+        "FB50",
+        "CO01"
+      ],
+      "correct_answer": "ME21N"
+    },
+
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "Which document records the receipt of purchased materials into inventory?",
+      "options": [
+        "Goods Receipt",
+        "Invoice",
+        "Sales Order",
+        "Billing Document"
+      ],
+      "correct_answer": "Goods Receipt"
+    },
+
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "Which SAP screen provides access to different modules through a menu structure?",
+      "options": [
+        "SAP Easy Access",
+        "Command Prompt",
+        "Workbench",
+        "Control Center"
+      ],
+      "correct_answer": "SAP Easy Access"
+    },
+
+    {
+      "id": 11,
+      "type": "true_false",
+      "question": "SAP MM manages inventory and procurement activities.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 12,
+      "type": "true_false",
+      "question": "SAP SD is mainly used for employee payroll management.",
+      "correct_answer": false
+    },
+
+    {
+      "id": 13,
+      "type": "true_false",
+      "question": "Material Master data can be shared across multiple SAP modules.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 14,
+      "type": "true_false",
+      "question": "SAP PM is used for Production Planning.",
+      "correct_answer": false
+    },
+
+    {
+      "id": 15,
+      "type": "true_false",
+      "question": "FI and CO are closely integrated modules in SAP.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 16,
+      "type": "true_false",
+      "question": "Goods Receipt increases inventory stock.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 17,
+      "type": "true_false",
+      "question": "A Purchase Order is created after Goods Receipt.",
+      "correct_answer": false
+    },
+
+    {
+      "id": 18,
+      "type": "true_false",
+      "question": "SAP allows integration between different business modules.",
+      "correct_answer": true
+    },
+
+    {
+      "id": 19,
+      "type": "short_answer",
+      "question": "What does SAP stand for?"
+    },
+
+    {
+      "id": 20,
+      "type": "short_answer",
+      "question": "Name any two benefits of using SAP ERP."
+    },
+
+    {
+      "id": 21,
+      "type": "short_answer",
+      "question": "Which SAP module is responsible for Materials Management?"
+    },
+
+    {
+      "id": 22,
+      "type": "short_answer",
+      "question": "What is the purpose of the Material Master?"
+    },
+
+    {
+      "id": 23,
+      "type": "short_answer",
+      "question": "Name one transaction code used for creating a Material Master."
+    },
+
+    {
+      "id": 24,
+      "type": "short_answer",
+      "question": "Which SAP module manages Plant Maintenance activities?"
+    },
+
+    {
+      "id": 25,
+      "type": "short_answer",
+      "question": "What is the main purpose of SAP FI?"
+    }
+
+  ]
+}
