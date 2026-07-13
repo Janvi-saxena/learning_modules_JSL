@@ -1,1 +1,199 @@
-#abc
+{
+  "id": "purchase_department",
+  "title": "Purchase Department",
+  "module": "Departments",
+  "order": 3,
+  "duration": "50 minutes",
+  "difficulty": "Beginner",
+
+  "learning_objectives": [
+    "Understand the role of the Purchase Department.",
+    "Learn the complete procurement cycle.",
+    "Understand supplier selection and vendor management.",
+    "Recognize how purchasing supports uninterrupted production.",
+    "Understand the use of SAP MM in procurement activities."
+  ],
+
+  "introduction": {
+    "title": "What is the Purchase Department?",
+    "content": "The Purchase Department is responsible for procuring raw materials, spare parts, consumables, equipment and services required for business operations. It ensures that the right materials are purchased at the right quality, quantity, price and delivery time while maintaining strong supplier relationships."
+  },
+
+  "business_purpose": {
+    "title": "Why is the Purchase Department Important?",
+    "content": "Efficient procurement ensures uninterrupted production, controls costs and maintains product quality. Delays in purchasing or poor supplier management can directly impact manufacturing schedules and customer deliveries."
+  },
+
+  "department_objectives": [
+    "Ensure timely procurement of materials.",
+    "Maintain optimal inventory levels.",
+    "Develop reliable supplier relationships.",
+    "Control procurement costs.",
+    "Maintain material quality.",
+    "Support uninterrupted production."
+  ],
+
+  "procurement_cycle": [
+    "Receive Purchase Requisition (PR).",
+    "Review material specifications.",
+    "Identify suitable suppliers.",
+    "Request quotations (RFQ).",
+    "Evaluate supplier quotations.",
+    "Negotiate price and delivery terms.",
+    "Create Purchase Order (PO).",
+    "Receive materials from supplier.",
+    "Coordinate inspection with Quality.",
+    "Approve supplier invoice for payment."
+  ],
+
+  "key_responsibilities": [
+    {
+      "responsibility": "Material Procurement",
+      "description": "Purchase raw materials, spare parts and services."
+    },
+    {
+      "responsibility": "Vendor Management",
+      "description": "Evaluate and maintain relationships with suppliers."
+    },
+    {
+      "responsibility": "Cost Optimization",
+      "description": "Negotiate competitive pricing and favorable terms."
+    },
+    {
+      "responsibility": "Purchase Documentation",
+      "description": "Maintain procurement records and contracts."
+    },
+    {
+      "responsibility": "Inventory Support",
+      "description": "Coordinate with Warehouse to maintain stock availability."
+    },
+    {
+      "responsibility": "Compliance",
+      "description": "Ensure procurement follows company policies and regulations."
+    }
+  ],
+
+  "daily_activities": [
+    "Review purchase requisitions.",
+    "Communicate with suppliers.",
+    "Prepare purchase orders.",
+    "Track delivery schedules.",
+    "Monitor pending orders.",
+    "Resolve supplier issues.",
+    "Update procurement records."
+  ],
+
+  "documents_used": [
+    "Purchase Requisition (PR)",
+    "Request for Quotation (RFQ)",
+    "Purchase Order (PO)",
+    "Vendor Quotation",
+    "Goods Receipt Note (GRN)",
+    "Supplier Invoice",
+    "Vendor Master Record"
+  ],
+
+  "software_and_systems": [
+    "SAP MM",
+    "Vendor Management System",
+    "Inventory Management System",
+    "Email & Procurement Portal"
+  ],
+
+  "key_performance_indicators": [
+    "On-Time Delivery Rate",
+    "Purchase Cost Savings",
+    "Supplier Performance",
+    "Purchase Order Cycle Time",
+    "Procurement Accuracy",
+    "Inventory Availability"
+  ],
+
+  "supplier_selection_criteria": [
+    "Product Quality",
+    "Competitive Pricing",
+    "Delivery Reliability",
+    "Technical Capability",
+    "Financial Stability",
+    "After-Sales Support",
+    "Compliance with Standards"
+  ],
+
+  "coordination_with_departments": [
+    {
+      "department": "Production",
+      "purpose": "Procures raw materials based on production plans."
+    },
+    {
+      "department": "Warehouse",
+      "purpose": "Coordinates receipt and storage of purchased materials."
+    },
+    {
+      "department": "Quality",
+      "purpose": "Ensures purchased materials meet quality standards."
+    },
+    {
+      "department": "Finance",
+      "purpose": "Processes supplier payments and budget approvals."
+    },
+    {
+      "department": "Maintenance",
+      "purpose": "Purchases spare parts and maintenance materials."
+    },
+    {
+      "department": "SAP MM",
+      "purpose": "Records procurement transactions and inventory updates."
+    }
+  ],
+
+  "business_example": {
+    "title": "Purchase Department at JSL",
+    "content": "The Production Department plans a new manufacturing schedule and raises a Purchase Requisition for stainless steel raw material. The Purchase Department evaluates approved suppliers, compares quotations, creates a Purchase Order in SAP MM and tracks delivery. Once the material arrives, Warehouse receives it, Quality inspects it and Finance processes the supplier invoice."
+  },
+
+  "best_practices": [
+    "Maintain approved vendor lists.",
+    "Compare multiple quotations before purchasing.",
+    "Track supplier performance regularly.",
+    "Maintain complete procurement documentation.",
+    "Communicate delivery schedules proactively.",
+    "Review procurement costs periodically."
+  ],
+
+  "common_errors": [
+    "Delayed purchase order creation.",
+    "Selecting suppliers without evaluation.",
+    "Poor documentation.",
+    "Ignoring delivery commitments.",
+    "Ordering incorrect quantities.",
+    "Lack of coordination with Production."
+  ],
+
+  "important_notes": [
+    "Timely procurement directly affects production continuity.",
+    "Strong supplier relationships improve business reliability.",
+    "Cost should never compromise material quality.",
+    "Accurate procurement records support audits and compliance."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/departments/purchase/procurement_cycle.png",
+      "assets/images/departments/purchase/purchase_order.png",
+      "assets/images/departments/purchase/vendor_selection.png",
+      "assets/images/departments/purchase/sap_mm.png"
+    ],
+    "videos": [
+      "assets/videos/departments/purchase_overview.mp4"
+    ],
+    "documents": [
+      "assets/documents/departments/purchase_manual.pdf"
+    ]
+  },
+
+  "next_module": "warehouse_department.json",
+
+  "assessment": {
+    "quiz": "assessment/department/set_1.json"
+  }
+}
