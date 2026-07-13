@@ -1,0 +1,201 @@
+{
+  "id": "co",
+  "title": "Controlling (CO)",
+  "module": "SAP",
+  "order": 7,
+  "duration": "40 minutes",
+  "difficulty": "Beginner",
+
+  "learning_objectives": [
+    "Understand the purpose of SAP Controlling (CO).",
+    "Learn how costs are planned, monitored and analyzed.",
+    "Understand cost centers, profit centers and internal orders.",
+    "Identify commonly used SAP CO Transaction Codes.",
+    "Learn how CO integrates with other SAP modules."
+  ],
+
+  "introduction": {
+    "title": "What is SAP CO?",
+    "content": "SAP Controlling (CO) is the module used for planning, monitoring and controlling business costs. It provides management with detailed information about operational expenses, profitability and resource utilization to support better decision-making."
+  },
+
+  "business_purpose": {
+    "title": "Why is SAP CO Used?",
+    "content": "Organizations need to know where money is being spent and whether operations are profitable. SAP CO helps monitor production costs, departmental expenses, product profitability and overall business performance."
+  },
+
+  "key_functions": [
+    "Cost Center Accounting",
+    "Profit Center Accounting",
+    "Internal Orders",
+    "Product Costing",
+    "Profitability Analysis (CO-PA)",
+    "Cost Planning",
+    "Budget Monitoring",
+    "Variance Analysis"
+  ],
+
+  "major_components": [
+    {
+      "name": "Cost Center",
+      "description": "Represents a department or unit where costs are incurred."
+    },
+    {
+      "name": "Profit Center",
+      "description": "Represents a business unit whose profitability is measured."
+    },
+    {
+      "name": "Internal Order",
+      "description": "Tracks costs for a specific project, event or activity."
+    },
+    {
+      "name": "Product Costing",
+      "description": "Calculates the production cost of finished products."
+    },
+    {
+      "name": "Profitability Analysis (CO-PA)",
+      "description": "Analyzes profit earned from products, customers or markets."
+    }
+  ],
+
+  "controlling_process": [
+    "Cost Planning",
+    "Cost Allocation",
+    "Production Cost Collection",
+    "Cost Monitoring",
+    "Variance Analysis",
+    "Profitability Analysis",
+    "Management Reporting"
+  ],
+
+  "integration": [
+    {
+      "module": "FI",
+      "purpose": "Receives financial postings for cost analysis."
+    },
+    {
+      "module": "PP",
+      "purpose": "Calculates production costs."
+    },
+    {
+      "module": "MM",
+      "purpose": "Tracks material procurement costs."
+    },
+    {
+      "module": "PM",
+      "purpose": "Monitors maintenance expenses."
+    },
+    {
+      "module": "SD",
+      "purpose": "Evaluates sales profitability."
+    }
+  ],
+
+  "transaction_codes": [
+    {
+      "code": "KS01",
+      "name": "Create Cost Center"
+    },
+    {
+      "code": "KS02",
+      "name": "Change Cost Center"
+    },
+    {
+      "code": "KS03",
+      "name": "Display Cost Center"
+    },
+    {
+      "code": "KP06",
+      "name": "Cost Center Planning"
+    },
+    {
+      "code": "KSB1",
+      "name": "Cost Center Line Items"
+    },
+    {
+      "code": "KO01",
+      "name": "Create Internal Order"
+    },
+    {
+      "code": "KO02",
+      "name": "Change Internal Order"
+    },
+    {
+      "code": "KO03",
+      "name": "Display Internal Order"
+    },
+    {
+      "code": "KE51",
+      "name": "Create Profit Center"
+    },
+    {
+      "code": "KE52",
+      "name": "Change Profit Center"
+    },
+    {
+      "code": "KE53",
+      "name": "Display Profit Center"
+    },
+    {
+      "code": "KE30",
+      "name": "Profitability Report"
+    },
+    {
+      "code": "CK11N",
+      "name": "Create Product Cost Estimate"
+    },
+    {
+      "code": "CK13N",
+      "name": "Display Product Cost Estimate"
+    }
+  ],
+
+  "business_example": {
+    "title": "Example",
+    "content": "A stainless steel production order consumes raw materials, electricity and labor. SAP CO collects all associated costs, compares them with planned costs and generates reports showing cost variances and product profitability."
+  },
+
+  "benefits": [
+    "Better cost control",
+    "Improved budgeting",
+    "Accurate product costing",
+    "Enhanced profitability analysis",
+    "Improved managerial decision-making",
+    "Real-time cost monitoring"
+  ],
+
+  "best_practices": [
+    "Maintain accurate Cost Center structures.",
+    "Review cost reports regularly.",
+    "Monitor budget utilization.",
+    "Analyze cost variances promptly.",
+    "Integrate cost planning with production planning."
+  ],
+
+  "common_mistakes": [
+    "Posting expenses to incorrect Cost Centers.",
+    "Ignoring cost variances.",
+    "Improper budget planning.",
+    "Not updating Internal Orders.",
+    "Incomplete profitability analysis."
+  ],
+
+  "resources": {
+    "images": [
+      "assets/images/sap/co/cost_center.png",
+      "assets/images/sap/co/profit_center.png",
+      "assets/images/sap/co/internal_order.png",
+      "assets/images/sap/co/product_costing.png"
+    ],
+    "videos": [
+      "assets/videos/sap/co_overview.mp4"
+    ],
+    "documents": [
+      "assets/documents/sap/co_module.pdf"
+    ]
+  },
+
+  "assessment": {
+    "quiz": "assessment/sap/set_1.json"
+  }
+}
